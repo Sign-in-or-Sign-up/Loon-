@@ -1,12 +1,12 @@
 #!name = Mobile Legends Asia/E🇯🇵S
-#!desc = MLBB日本手动选择节点/禁入
+#!desc = MLBB日本东京SoftLayer手动选择节点/禁入
 #!openUrl = https://apps.apple.com/app/id1160056295
 #!author = Sign-in-or-sign-out
 #!homepage = 
 #!icon = 
 #!select = 
 #!input = 
-#!date = 2024-11-02 19:00:02
+#!date = 2024-11-02 19:00:00
 
 [Rule]
 #东亚日本SoftLayer东京机房
