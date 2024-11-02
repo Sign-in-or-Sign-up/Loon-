@@ -1,0 +1,32 @@
+#!name = Mobile Legends Asia/E🇯🇵Z
+#!desc = MLBB日本手动选择节点/禁入
+#!openUrl = https://apps.apple.com/app/id1160056295
+#!author = Sign-in-or-sign-out
+#!homepage = 
+#!icon = 
+#!select = 
+#!input = 
+#!date = 2024-11-02 19:00:03
+
+[Rule]
+#东亚日本Zenlayer东京机房
+#128.1.82.0/24
+AND,((IP-CIDR,128.1.82.35/32),(OR,((DEST-PORT,5001-5030),(DEST-PORT,5501-5530)))),PROXY
+AND,((IP-CIDR,128.1.82.36/32),(OR,((DEST-PORT,5001-5030),(DEST-PORT,5501-5530)))),PROXY
+
+#129.227.54.0/24
+AND,((IP-CIDR,129.227.54.74/32),(OR,((DEST-PORT,5001-5030),(DEST-PORT,5501-5530)))),PROXY
+AND,((IP-CIDR,129.227.54.234/32),(OR,((DEST-PORT,5001-5030),(DEST-PORT,5501-5530)))),PROXY
+AND,((IP-CIDR,129.227.54.242/32),(OR,((DEST-PORT,5001-5030),(DEST-PORT,5501-5530)))),PROXY
+
+#129.227.239.0/24
+AND,((IP-CIDR,129.227.239.186/32),(OR,((DEST-PORT,5001-5030),(DEST-PORT,5501-5530)))),PROXY
+#IP登入检测:0
+#UDP30190PORT
+#JP，日本东京
+AND,((IP-CIDR,128.1.82.35/32),(DEST-PORT,30190)),REJECT-DROP
+
+[MITM]
+hostname = 
+
+[Script]
