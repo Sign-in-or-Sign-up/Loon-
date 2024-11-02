@@ -1,0 +1,23 @@
+#!name = Mobile Legends Asia/E🇰🇷
+#!desc = MLBB韩国手动选择节点/禁入
+#!openUrl = https://apps.apple.com/app/id1160056295
+#!author = Sign-in-or-sign-out
+#!homepage = 
+#!icon = 
+#!select = 
+#!input = 
+#!date = 2024-11-02 19:00:00
+
+[Rule]
+#东亚韩国CDS云首尔机房
+# 164.52.43.0/24
+AND,((IP-CIDR,164.52.43.74/32),(OR,((DEST-PORT, 5001-5030),(DEST-PORT, 5501-5530)))),PROXY
+AND,((IP-CIDR,164.52.43.170/32),(OR,((DEST-PORT, 5001-5030),(DEST-PORT, 5501-5530)))),PROXY
+#IP登入检测:0
+#UDP30190PORT
+
+MITM]
+hostname = 
+
+[Script]
+
