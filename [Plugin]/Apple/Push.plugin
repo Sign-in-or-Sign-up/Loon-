@@ -1,5 +1,5 @@
 #!name = Apple通知推送(测试)
-#!desc = 还在因为消息推送不及时导致错过老板/客户/朋友的重要消息吗？那这插件就是为你准备的！(此为测试版，日后可能会与制作的wechat插件合并，敬请关注）
+#!desc = 还在因为消息推送不及时导致错过重要消息吗？那这插件就是为你准备的！(此为测试版，日后可能会与制作的wechat插件合并，敬请关注）
 #!openUrl = 
 #!author = Sign-in-or-sign-out
 #!homepage = 
@@ -7,6 +7,8 @@
 #!select = 
 #!input = 
 #!date = 2024-11-04 12:34:56
+
+#!select = 我已知晓推送服务IP位于美国加利福尼亚州库比蒂诺I have learned that the push service IP is located in Cupertino/California/USA.,ture/是
 
 [Rule]
 AND,((DOMAIN,courier.push.apple.com),(OR,((DEST-PORT,443),(DEST-PORT,5223))),(PROTOCOL,TCP)),PROXY
