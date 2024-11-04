@@ -1,5 +1,5 @@
 #!name = Mobile Legends 🏴‍☠️置底
-#!desc = MLBB未探明的服务器ip。至少需要在添加自己所在游戏区服&登陆大厅插件后。策略选reject类只在匹配到当地服时弹“开始游戏”，只可减少需要安装的插件数。也可安装全部MLBB插件后置底。发现新服务器ip后反馈给作者补充丰富各服名单。
+#!desc = MLBB未探明的服务器ip。可用于锁区稳定延迟，也可全安装帮作者丰富各服务器ip列表。
 #!openUrl = https://apps.apple.com/app/id1160056295
 #!author = Sign-in-or-sign-out
 #!homepage = 
@@ -8,9 +8,13 @@
 #!input = 
 #!date = 2024-11-02 19:00:00
 
-#!input = 锁单一个服先添加所在服在上，本插件策略选reject。
-#!input = 若丰富IP名单，MLBB插件全安装后置底推荐选reject，
+#!input = 如果是为了锁区，
+#!input = 先添加自己想去的服插件在上,
+#!input = 然后本插件策略选reject。
+#!input = 如果是为丰富服务器IP名单，
+#!input = MLBB插件全安装后置底，
 #!input = 请求记录搜0.0.0.0，有结果反馈。
+
 [Rule]
 #未知机房
 AND,((IP-CIDR,0.0.0.0/1,no-resolve),(OR,((DEST-PORT,5001-5030),(DEST-PORT,5501-5030))),(PROTOCOL,UDP)),PROXY
