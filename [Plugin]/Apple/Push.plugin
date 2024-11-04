@@ -8,10 +8,10 @@
 #!input = 
 #!date = 2024-11-04 12:34:56
 
-#!select = 我已知晓推送服务IP位于美国
-加利福尼亚州库比蒂诺,是
-#!select = I have learned that the push service 
-IP is located in Cupertino/California/USA.,ture
+#!desc = 推送服务IP位于美国加利福尼亚州库比蒂诺
+#!select = 我已知晓,是
+#!desc = the push service IP is located in Cupertino, California, USA.
+#!select = I already know.,ture
 
 [Rule]
 AND,((DOMAIN,courier.push.apple.com),(OR,((DEST-PORT,443),(DEST-PORT,5223))),(PROTOCOL,TCP)),PROXY
