@@ -86,6 +86,6 @@ AND,((IP-CIDR,17.57.145.150/32,no-resolve),(OR,((DEST-PORT,443),(DEST-PORT,5223)
 AND,((IP-CIDR,17.57.145.151/32,no-resolve),(OR,((DEST-PORT,443),(DEST-PORT,5223))),(PROTOCOL,TCP)),PROXY
 AND,((IP-CIDR,17.57.145.152/32,no-resolve),(OR,((DEST-PORT,443),(DEST-PORT,5223))),(PROTOCOL,TCP)),PROXY
 [MITM]
-hostname = *courier.push.apple.com
+hostname = 
 
 [Script]
