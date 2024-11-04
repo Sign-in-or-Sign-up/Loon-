@@ -9,8 +9,8 @@
 #!date = 2024-11-02 19:00:00
 
 #!input = 锁单一个服先添加所在服在上，本插件策略选reject。
-#!input = 丰富IP名单全安装后推荐选reject，
-#!input = 请求记录搜0.0.0.0反馈。
+#!input = 若丰富IP名单，MLBB插件全安装后置底推荐选reject，
+#!input = 请求记录搜0.0.0.0，有结果反馈。
 [Rule]
 #未知机房
 AND,((IP-CIDR,0.0.0.0/1,no-resolve),(OR,((DEST-PORT,5001-5030),(DEST-PORT,5501-5030))),(PROTOCOL,UDP)),PROXY
