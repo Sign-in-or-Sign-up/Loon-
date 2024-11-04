@@ -8,6 +8,7 @@
 #!input = 
 #!date = 2024-11-04 12:34:56
 
+[Rule]
 AND,((DOMAIN,courier.push.apple.com),(OR,((DEST-PORT,443),(DEST-PORT,5223))),(PROTOCOL,TCP)),PROXY
 AND,((DOMAIN,0-courier.push.apple.com),(OR,((DEST-PORT,443),(DEST-PORT,5223))),(PROTOCOL,TCP)),PROXY
 AND,((DOMAIN,1-courier.push.apple.com),(OR,((DEST-PORT,443),(DEST-PORT,5223))),(PROTOCOL,TCP)),PROXY
