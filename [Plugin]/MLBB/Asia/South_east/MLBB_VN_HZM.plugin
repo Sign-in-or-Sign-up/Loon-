@@ -1,0 +1,30 @@
+#!name = Mobile Legends Asia/SE🇻🇳胡志明市
+#!desc = MLBB东亚韩国CDS云首尔机房手动选择节点/禁入。用法说明：在游戏设置内（如点击大厅右上角，或对局内小地图旁的齿轮状⚙️图标，在“网络设置”一栏，第二行的“网络加速设置”栏目内的“网络加速”切换到关闭状态。
+#!openUrl = https://apps.apple.com/app/id1160056295
+#!author = Sign-in-or-sign-out
+#!homepage = 
+#!icon = 
+#!select = 
+#!input = 
+#!date = 2024-11-02 19:00:00
+
+[Rule]
+#东南亚越南Zenlayer胡志明市机房
+#107.155.6.0/24
+AND,((IP-CIDR,107.155.6.146/32),(OR,((DEST-PORT,5001-5030),(DEST-PORT,5501-5530))),(PROTOCOL,UDP)),PROXY
+#122.10.142.0/24
+AND,((IP-CIDR,122.10.142.18/32),(OR,((DEST-PORT,5001-5030),(DEST-PORT,5501-5530))),(PROTOCOL,UDP)),PROXY
+#IP登入检测:0
+#UDP30190PORT
+#VN，越南胡志明市Zenlayer
+AND,((IP-CIDR,107.155.6.146/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
+#TCP
+#107.155.6.0/24
+AND,((IP-CIDR,107.155.6.146/32),(OR,((DEST-PORT,5051-5080),(DEST-PORT,5551-5580))),(PROTOCOL,TCP)),REJECT-DROP
+#122.10.142.0/24
+AND,((IP-CIDR,122.10.142.18/32),(OR,((DEST-PORT,5051-5080),(DEST-PORT,5551-5580))),(PROTOCOL,TCP)),REJECT-DROP
+
+[MITM]
+hostname = 
+
+[Script]
