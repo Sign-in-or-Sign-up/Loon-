@@ -9,11 +9,6 @@
 #!tag = Apple
 #!date = 2024-11-04 12:34:56
 
-[Argument]
-arg1 = input,"default-placehodler-content",tag=参数1的标题,desc=这是一个输入参数的说明
-arg2 = select,"select1","select2","select2",tag=参数2的标题,desc=这是一个选择类型的参数说明
-arg3 = switch,true,tag=参数3的标题,desc=这是一个true、false的切换参数
-
 [Rule]
 AND,((DOMAIN,courier.push.apple.com),(OR,((DEST-PORT,443),(DEST-PORT,5223))),(PROTOCOL,TCP)),PROXY
 AND,((DOMAIN,0-courier.push.apple.com),(OR,((DEST-PORT,443),(DEST-PORT,5223))),(PROTOCOL,TCP)),PROXY
