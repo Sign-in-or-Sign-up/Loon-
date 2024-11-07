@@ -1,0 +1,30 @@
+#!name = Mobile Legends Asia/S🇳🇵K
+#!desc = MLBB南亚尼泊尔靠谱云巴格马蒂省加德满都机房手动选择节点/禁入。用法说明：在游戏设置内（如点击大厅右上角，或对局内小地图旁的齿轮状⚙️图标，在“网络设置”一栏，第二行的“网络加速设置”栏目内的“网络加速”切换到关闭状态。
+#!openUrl = https://apps.apple.com/app/id1160056295
+#!author = Sign-in-or-sign-out
+#!homepage = 
+#!icon = 
+#!select = 
+#!input = 
+#!tag = 无尽对决南亚
+#!date = 2024-11-02 19:00:00
+
+[Rule]
+#南亚尼泊尔靠谱云巴格马蒂省加德满都机房
+#38.54.70.0/24
+AND,((IP-CIDR,38.54.70.79/32),(OR,((DEST-PORT,5001-5030),(DEST-PORT,5501-5530))),(PROTOCOL,UDP)),PROXY
+AND,((IP-CIDR,38.54.70.80/32),(OR,((DEST-PORT,5001-5030),(DEST-PORT,5501-5530))),(PROTOCOL,UDP)),PROXY
+#IP登入检测:0
+#UDP30190PORT
+#NP，尼泊尔巴格马蒂省加德满都靠谱云
+AND,((IP-CIDR,38.54.70.73/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
+AND,((IP-CIDR,38.54.70.85/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
+#TCP
+#38.54.70.0/24
+AND,((IP-CIDR,38.54.70.79/32),(OR,((DEST-PORT,5051-5080),(DEST-PORT,5551-5580))),(PROTOCOL,TCP)),REJECT-DROP
+AND,((IP-CIDR,38.54.70.80/32),(OR,((DEST-PORT,5051-5080),(DEST-PORT,5551-5580))),(PROTOCOL,TCP)),REJECT-DROP
+
+[MITM]
+hostname = 
+
+[Script]
