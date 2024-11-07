@@ -182,7 +182,7 @@ hostname = akmstatic.ml.youngjoygame.com,
 
 [Rewrite]
 #开屏宣传图
-^https:\/\/akmstatic\.ml\.youngjoygame\.com\/mlbbpromo\/(6|23|49|128)\/(6|23|49|128)-2[4-9][0-1][0-9][0-3][0-9](\w{1,16})(-\w{2,3})?-(en|por|ru|jp|es|tr|id|vn|my|ar|mm|kh|ph)(_ios)?\.(unity3d|png|jpg|PNG|JPG) - reject-img
+^https:\/\/akmstatic\.ml\.youngjoygame\.com\/mlbbpromo\/(6|23|49|128)\/(6|23|49|128)-2[4-9][0-1][0-9][0-3][0-9](\w{1,16})(-\w{2,3})?-(en|por|ru|jp|es|tr|id|vn|my|ar|mm|kh|ph|\w{2})(_ios)?\.(unity3d|png|jpg|PNG|JPG) - reject-img
 #视频教程mp4
 ^https:\/\/akmstatic\.ml\.youngjoygame\.com\/(act|bpguide|emblem2023)\/.*?\.mp4 - reject-video
 #esport
