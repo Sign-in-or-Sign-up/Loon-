@@ -19,15 +19,6 @@ DOMAIN,newlogin.ml.youngjoygame.com,PROXY
 DOMAIN,akmpicture.youngjoygame.com,DIRECT
 DOMAIN,wsavatar.yuanzhanapp.com,DIRECT
 
-DOMAIN-SUFFIX,aihelp.net,DIRECT
-DOMAIN-SUFFIX,rtcplus.com,DIRECT
-
-DOMAIN-SUFFIX,ml.mlbangbang.com,DIRECT
-DOMAIN-SUFFIX,ml.youngjoygame.com,DIRECT
-DOMAIN-SUFFIX,mobilelegends.com,DIRECT
-DOMAIN-SUFFIX,moba5v5.com,DIRECT
-DOMAIN-SUFFIX,yuanzhanapp.com,DIRECT
-
 [MITM]
 hostname = akmstatic.ml.youngjoygame.com,
 
