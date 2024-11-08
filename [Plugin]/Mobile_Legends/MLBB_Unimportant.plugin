@@ -709,3 +709,13 @@ DOMAIN,analytics.adjust.com,REJECT-DROP
 DOMAIN,analytics.adjust.net.in,REJECT-DROP
 DOMAIN,analytics.adjust.world,REJECT-DROP
 DOMAIN,app-analytics-services.com,REJECT-DROP
+
+#保联网
+DOMAIN-KEYWORD,aihelp.net,DIRECT
+DOMAIN-SUFFIX,rtcplus.com,DIRECT
+
+DOMAIN-SUFFIX,ml.mlbangbang.com,DIRECT
+DOMAIN-SUFFIX,ml.youngjoygame.com,DIRECT
+DOMAIN-SUFFIX,mobilelegends.com,DIRECT
+DOMAIN-SUFFIX,moba5v5.com,DIRECT
+DOMAIN-SUFFIX,yuanzhanapp.com,DIRECT
