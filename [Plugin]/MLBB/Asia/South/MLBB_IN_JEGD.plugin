@@ -1,0 +1,34 @@
+#!name = Mobile Legends Asia/S🇮🇳加尔各答
+#!desc = MLBB南亚印度Zenlayer西孟加拉邦加尔各答机房手动选择节点/禁入。用法说明：在游戏设置内（如点击大厅右上角，或对局内小地图旁的齿轮状⚙️图标，在“网络设置”一栏，第二行的“网络加速设置”栏目内的“网络加速”切换到关闭状态。
+#!openUrl = https://apps.apple.com/app/id1160056295
+#!author = Sign-in-or-sign-out
+#!homepage = 
+#!icon = 
+#!select = 
+#!input = 
+#!tag = 无尽对决南亚
+#!date = 2024-11-02 19:00:00
+
+[Rule]
+#IP登入检测:2
+#UDP30190PORT
+#IN，印度西孟加拉邦加尔各答Zenlayer
+AND,((IP-CIDR,107.155.46.229/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
+AND,((IP-CIDR,107.155.46.234/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
+AND,((IP-CIDR,107.155.46.235/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
+AND,((IP-CIDR,107.155.46.236/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
+#南亚印度Zenlayer西孟加拉邦加尔各答机房
+#107.155.46.0/24
+IP-CIDR, 107.155.46.210/32, PROXY
+IP-CIDR, 107.155.46.211/32, PROXY
+IP-CIDR, 107.155.46.220/32, PROXY
+IP-CIDR, 107.155.46.221/32, PROXY
+IP-CIDR, 107.155.46.234/32, PROXY
+IP-CIDR, 107.155.46.235/32, PROXY
+IP-CIDR, 107.155.46.237/32, PROXY
+#107.155.47.0/24
+IP-CIDR, 107.155.47.67/32, PROXY
+IP-CIDR, 107.155.47.68/32, PROXY
+IP-CIDR, 107.155.47.156/32, PROXY
+IP-CIDR, 107.155.47.157/32, PROXY
+IP-CIDR, 107.155.47.158/32, PROXY
