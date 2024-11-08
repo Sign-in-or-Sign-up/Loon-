@@ -11,13 +11,13 @@
 
 [Rule]
 #登陆域名
-AND,((DOMAIN,login.ml.youngjoygame.com),(DEST-PORT,30021),(PROTOCOL,TCP)),PROXY
-AND,((DOMAIN,newlogin.ml.mlbangbang.com),(DEST-PORT,30021),(PROTOCOL,TCP)),PROXY
-AND,((DOMAIN,newlogin.ml.youngjoygame.com),(DEST-PORT,30021),(PROTOCOL,TCP)),PROXY
+DOMAIN,login.ml.youngjoygame.com,PROXY
+DOMAIN,newlogin.ml.mlbangbang.com,PROXY
+DOMAIN,newlogin.ml.youngjoygame.com,PROXY
 
 #影响登陆类
 #IP监测
-AND,((DOMAIN,ip.ml.youngjoygame.com),(DEST-PORT,30220),(PROTOCOL,TCP)),REJECT-DROP
+DOMAIN,ip.ml.youngjoygame.com,REJECT-DROP
 AND,((IP-CIDR,169.46.193.122/32),(DEST-PORT,30220),(PROTOCOL,TCP)),REJECT-DROP
 
 #login网络活动解析ip，美国德克萨斯州达拉斯。
@@ -162,17 +162,22 @@ AND,((IP-CIDR,169.46.193.230/32),(DEST-PORT,30021),(PROTOCOL,TCP)),REJECT-DROP
 AND,((IP-CIDR,169.46.193.236/32),(DEST-PORT,30021),(PROTOCOL,TCP)),REJECT-DROP
 
 #TCP
+AND,((IP-CIDR,0.0.0.0/0,no-resolve),(DEST-PORT,30021),(PROTOCOL,TCP)),REJECT-DROP
 AND,((OR,((DEST-PORT,5051-5080),(DEST-PORT,5551-5580))),(PROTOCOL,TCP)),REJECT-DROP
 
 #禁了也不影响使用的
 AND,((DOMAIN,report.ml.youngjoygame.com),(DEST-PORT,30071),(PROTOCOL,TCP)),REJECT-DROP
 #
-DOMAIN,analytics.adjust.net.in,REJECT-DROP
 DOMAIN-SUFFIX,bytegsdk.com,REJECT-DROP
-DOMAIN,app-analytics-services.com,REJECT-DROP
 DOMAIN,analytics.adjust.com,REJECT-DROP
+DOMAIN,analytics.adjust.net.in,REJECT-DROP
+DOMAIN,analytics.adjust.world,REJECT-DROP
+DOMAIN,app-analytics-services.com,REJECT-DROP
 
 #保联网
+DOMAIN,akmpicture.youngjoygame.com,DIRECT
+DOMAIN,wsavatar.yuanzhanapp.com,DIRECT
+
 DOMAIN-SUFFIX,aihelp.net,DIRECT
 DOMAIN-SUFFIX,rtcplus.com,DIRECT
 
@@ -180,6 +185,7 @@ DOMAIN-SUFFIX,ml.mlbangbang.com,DIRECT
 DOMAIN-SUFFIX,ml.youngjoygame.com,DIRECT
 DOMAIN-SUFFIX,mobilelegends.com,DIRECT
 DOMAIN-SUFFIX,moba5v5.com,DIRECT
+DOMAIN-SUFFIX,yuanzhanapp.com,DIRECT
 
 [MITM]
 hostname = akmstatic.ml.youngjoygame.com,
