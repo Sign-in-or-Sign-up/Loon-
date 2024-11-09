@@ -19,6 +19,9 @@ DOMAIN,newlogin.ml.youngjoygame.com,PROXY
 DOMAIN,akmpicture.youngjoygame.com,DIRECT
 DOMAIN,wsavatar.yuanzhanapp.com,DIRECT
 
+#TCP
+AND,((OR,((DEST-PORT,5051-5080),(DEST-PORT,5551-5580))),(PROTOCOL,TCP)),REJECT-DROP
+
 [MITM]
 hostname = akmstatic.ml.youngjoygame.com,
 
