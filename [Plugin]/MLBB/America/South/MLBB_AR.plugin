@@ -1,0 +1,23 @@
+#!name = Mobile Legends America/S🇦🇷
+#!desc = MLBB南美阿根廷华为云布宜诺斯艾利斯机房手动选择节点/禁入。用法说明：在游戏设置内（如点击大厅右上角，或对局内小地图旁的齿轮状⚙️图标，在“网络设置”一栏，第二行的“网络加速设置”栏目内的“网络加速”切换到关闭状态。
+#!openUrl = https://apps.apple.com/app/id1160056295
+#!author = Sign-in-or-sign-out
+#!homepage = 
+#!icon = 
+#!select = 
+#!input = 
+#!tag = 无尽对决南美
+#!date = 2024-11-02 19:00:00
+
+[Rule]
+#IP登入检测:
+#UDP30190PORT:
+
+#南美阿根廷华为云布宜诺斯艾利斯机房
+#119.8.74.0/24
+IP-CIDR,119.8.74.164/32,PROXY
+#119.8.75.0/24
+IP-CIDR,119.8.75.95/32,PROXY
+IP-CIDR,119.8.75.211/32,PROXY
+#119.8.76.0/24
+IP-CIDR,119.8.76.160/32,PROXY
