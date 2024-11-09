@@ -1,0 +1,26 @@
+#!name = Mobile Legends America/S🇵🇪
+#!desc = MLBB南美秘鲁拉丁美洲和加勒比地区IP地址区域注册利马机房手动选择节点/禁入。用法说明：在游戏设置内（如点击大厅右上角，或对局内小地图旁的齿轮状⚙️图标，在“网络设置”一栏，第二行的“网络加速设置”栏目内的“网络加速”切换到关闭状态。
+#!openUrl = https://apps.apple.com/app/id1160056295
+#!author = Sign-in-or-sign-out
+#!homepage = 
+#!icon = 
+#!select = 
+#!input = 
+#!tag = 无尽对决南美
+#!date = 2024-11-02 19:00:00
+
+[Rule]
+#IP登入检测:
+#UDP30190PORT:
+
+#南美秘鲁拉丁美洲和加勒比地区IP地址区域注册利马机房
+#200.60.109.0/24
+IP-CIDR,200.60.109.50/32,PROXY
+IP-CIDR,200.60.109.51/32,PROXY
+#200.107.154.0/24
+IP-CIDR,200.107.154.117/32,PROXY
+IP-CIDR,200.107.154.232/32,PROXY
+#200.121.128.0/24
+IP-CIDR,200.121.128.95/32,PROXY
+#200.121.226.0/24
+IP-CIDR,200.121.226.90/32,PROXY
