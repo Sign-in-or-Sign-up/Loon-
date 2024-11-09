@@ -11,7 +11,7 @@
 
 [Rule]
 #IP登入检测:0
-#UDP30190PORT
+#UDP30190PORT:1
 #VN，越南胡志明市Zenlayer
 AND,((IP-CIDR,107.155.6.146/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
 #东南亚越南Zenlayer胡志明市机房
