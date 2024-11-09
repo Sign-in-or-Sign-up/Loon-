@@ -10,7 +10,7 @@
 #!date = 2024-11-02 19:00:00
 
 [Rule]
-#IP登入检测:
+#IP登入检测:0
 #UDP30190PORT:2
 #US，美国佛罗里达州迈阿密Zenlayer
 AND,((IP-CIDR,128.1.75.130/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
