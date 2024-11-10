@@ -32,6 +32,8 @@ hostname = akmstatic.ml.youngjoygame.com,
 ^https:\/\/akmstatic\.ml\.youngjoygame\.com\/(act|bpguide|emblem2023)\/.*?\.mp4 - reject-video
 #esport
 ^httpss:\/\/akmstatic\.ml\.youngjoygame\.com\/esports\/^[0-9a-zA-Z_]{4,10}$\.(unity3d|png) - reject-img
+#赛季首充
+^https:\/\/akmstatic\.ml\.youngjoygame\.com\/act\/Season(\d{2,3})bgpop(\d{2,3})?(_ios)?\.(jpg|unity3d) - reject-img
 #开屏赛事youtu转播/直播
 ^https:\/\/www\.youtube\.com\/iframe_api url reject-200
 ^https:\/\/www\.youtube\.com\/embed\/WAgMuy7ZNEU\?start=0&autoplay=1&allowfullscreen=(0|1)&enablejsapi=1&fs=(0|1)&playsinline=1&rel=0&modestbranding=1&widgetid=1 url reject-video
