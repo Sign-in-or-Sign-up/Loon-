@@ -10,9 +10,8 @@
 #!date = 2024-11-04 12:34:56
 
 [Rule]
-AND,((DOMAIN,courier.push.apple.com),(OR,((DEST-PORT,443),(DEST-PORT,5223))),(PROTOCOL,TCP)),PROXY
-AND,((DOMAIN-KEYWORD,-courier.push.apple.com),(OR,((DEST-PORT,443),(DEST-PORT,5223))),(PROTOCOL,TCP)),PROXY
-
+DOMAIN,courier.push.apple.com,PROXY
+DOMAIN-KEYWORD,courier.push.apple.com,PROXY
 #
 AND,((IP-CIDR,17.57.145.25/32,no-resolve),(OR,((DEST-PORT,443),(DEST-PORT,5223))),(PROTOCOL,TCP)),PROXY
 AND,((IP-CIDR,17.57.145.26/32,no-resolve),(OR,((DEST-PORT,443),(DEST-PORT,5223))),(PROTOCOL,TCP)),PROXY
