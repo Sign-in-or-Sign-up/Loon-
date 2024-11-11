@@ -5,7 +5,7 @@ window.fetch = async function(...args) {
     
     // 获取请求的URL
     const url = new URL(args[0]);
-    const ip = '43.128.11.158';
+    const ip = '43.129.199.99';
     const port = url.port;
 
     // 检查IP和端口范围
