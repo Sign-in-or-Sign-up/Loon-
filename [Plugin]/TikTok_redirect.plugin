@@ -121,4 +121,4 @@ DOMAIN-KEYWORD, ttlivecdn.com., PROXY
 http-request https?:\/\/.+.(tiktokv|tiktokcdn).com\/.+(region\d?=CN|&mcc_mnc=\d+) script-path = https://kelee.one/Resource/Script/TikTok/TikTok_redirect.js, tag = TikTok解锁
 
 [MitM]
-hostname = *.byteoversea.com, *.tik-tokapi.com, *.tiktokv.com, *.tiktokcdn.com,-sf16-ies-music-sg.tiktokcdn.com
+hostname = *.byteoversea.com, *.tik-tokapi.com, *.tiktokv.com, *.tiktokcdn.com,-sf16-ies-music-sg.tiktokcdn.com,sf16-ies-music.tiktokcdn.com,sf16-ies-music*.tiktokcdn.com
