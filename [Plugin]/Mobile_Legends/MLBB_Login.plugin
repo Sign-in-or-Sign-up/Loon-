@@ -35,7 +35,7 @@ hostname = akmstatic.ml.youngjoygame.com,
 ^httpss:\/\/akmstatic\.ml\.youngjoygame\.com\/esports\/128-2[4-9][0-1][0-9][0-3][0-9](-^\w{4,8}$)(_ios)?\.(unity3d|png) - reject-img
 ^httpss:\/\/akmstatic\.ml\.youngjoygame\.com\/esports\/(^\w{3}$)(-^\w{5,8}$)(-^\w{5,8}$)\/(^\w{5-14}$)(_ios)?\.(unity3d|png) - reject-img
 #战队荣耀
-^https:\/\/akmstatic\.ml\.youngjoygame\.com\/act\/M (\d{1,2})_pic_FMVP_ios\.unity3d
+^https:\/\/akmstatic\.ml\.youngjoygame\.com\/act\/M (\d{1,2})_pic_FMVP_ios\.unity3d - reject-img
 ^https:\/\/akmstatic\.ml\.youngjoygame\.com\/esport\/(.*?)(_ios)?\.unity3d - reject-img
 #赛季首充
 ^https:\/\/akmstatic\.ml\.youngjoygame\.com\/act\/Season(\d{2,3})bgpop(\d{2,3})?(_ios)?\.(jpg|unity3d) - reject-img
@@ -43,9 +43,9 @@ hostname = akmstatic.ml.youngjoygame.com,
 ^https:\/\/www\.youtube\.com\/iframe_api url reject-200
 ^https:\/\/www\.youtube\.com\/embed\/WAgMuy7ZNEU\?start=0&autoplay=1&allowfullscreen=(0|1)&enablejsapi=1&fs=(0|1)&playsinline=1&rel=0&modestbranding=1&widgetid=1 url reject-video
 #公告
-^https:\/\/akmstatic\.ml\.youngjoygame\.com\/announcement\/(.*?)(_ios)\.unity3d
+^https:\/\/akmstatic\.ml\.youngjoygame\.com\/announcement\/(.*?)(_ios)\.unity3d - reject-img
 #直播主播banner
-^https:\/\/akmstatic\.ml\.youngjoygame\.com\/KOLBanner\/(\d{8,10})-(\d{4,5})_ios\.unity3d
+^https:\/\/akmstatic\.ml\.youngjoygame\.com\/KOLBanner\/(\d{8,10})-(\d{4,5})_ios\.unity3d - reject-img
 [Script]
 
 
