@@ -13,4 +13,4 @@
 hostname = 
 
 [Script]
-^https?:\/\/www\.wn(01|02|acg)\.c(c|om)\/themes\/weitu\/images\/bg\/shoucang\.jpg - reject-img
+^https:\/\/www\.wnacg\.com\/themes\/weitu\/images\/bg\/shoucang\.jpg - reject-img
