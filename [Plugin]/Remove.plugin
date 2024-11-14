@@ -1,0 +1,17 @@
+#!name = 瞎写的
+#!desc = 自用瞎写
+#!openUrl = 
+#!author = 乱写不留名
+#!homepage = 
+#!icon = 
+#!select = 
+#!input = 
+#!tag = 去广告
+#!date = 2345-06-07 08:09:10
+
+
+[MITM]
+hostname = 
+
+[Script]
+^https?:\/\/www\.wn(01|02|acg)\.c(c|om)\/themes\/weitu\/images\/bg\/shoucang\.jpg - reject-img
