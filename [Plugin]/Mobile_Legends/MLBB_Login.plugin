@@ -47,7 +47,7 @@ hostname = akmstatic.ml.youngjoygame.com,
 #直播主播banner
 ^https:\/\/akmstatic\.ml\.youngjoygame\.com\/(KOL)?(B|b)anner(\d{0,1}$)\/\d{8,10}$(-|_)\d{4,5}$_ios\.unity3d - reject-img
 ^https:\/\/akmcdn\.ml\.youngjoygame\.com\/banner\/live\/\d{7,10}$_ios\.unitv3d - reject-200
-^https:\/\/akmcdn\.ml\.youngjoygame\.com\/banner\/live\/\d{7,10}$(\d{4,6}$)(_ios)?\.(jpg|unity3d) - reject-200
+^https:\/\/akmcdn\.ml\.youngjoygame\.com\/banner\/live\/\d{7,10}($\d{4,6}$)(_ios)?\.(jpg|unity3d) - reject-200
 [Script]
 
 
