@@ -1,0 +1,24 @@
+#!name = Apple
+#!desc = 参考Apple技术支持做的，为方便分享做成插件形式，描述为中国大陆的服务固定为DIRECR，其他可手动选DIRECT或美国节点。主机都在美国。
+#!openUrl = https://support.apple.com/zh-cn/101555
+#!author = Apple🍎,Sign-in-or-sign-out
+#!homepage =  
+#!icon = 
+#!select = 
+#!input = 
+#!tag = Apple
+#!date = 2024-11-04 12:34:56
+
+[Rule]
+#设备设置
+##在设置期间或者在安装、更新或恢复操作系统时，Apple 设备需要访问以下主机。
+DOMAIN,albert.apple.com,PROXY//设备激活
+DOMAIN,captive.apple.com,PROXY//针对使用强制门户的网络进行互联网连接验证
+DOMAIN,gs.apple.com,PROXY
+DOMAIN,humb.apple.com,PROXY
+DOMAIN,static.ips.apple.com,PROXY
+DOMAIN,sq-device.apple.com,PROXY//eSIM 激活
+DOMAIN,tbsc.apple.com,PROXY
+DOMAIN,time-ios.apple.com,PROXY//供设备用来设置日期和时间
+DOMAIN,time.apple.com,PROXY//供设备用来设置日期和时间
+DOMAIN,time-macos.apple.com,PROXY//供设备用来设置日期和时间
