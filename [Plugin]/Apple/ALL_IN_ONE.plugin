@@ -1,5 +1,5 @@
 #!name = Apple
-#!desc = 参考Apple技术支持做的，为方便分享做成插件形式，描述为中国大陆的服务固定为DIRECR，其他可手动选DIRECT或美国节点。主机都在美国。
+#!desc = 参考Apple技术支持做的，为方便分享做成插件形式，描述为中国大陆的服务固定为DIRECR，其他可手动选DIRECT或美国节点。主机都在美国。原则上按文档顺序编写，实际带*省略的用suffix置后。
 #!openUrl = https://support.apple.com/zh-cn/101555
 #!author = Apple🍎技术支持,Sign-in-or-sign-out整理✍️
 #!homepage =  
@@ -100,8 +100,25 @@ DOMAIN,xp.apple.com,PROXY
 
 #App 和附加内容
 ###在安装和更新 App、使用某些 App 功能以及下载附加内容时，Apple 设备需要访问以下主机和域。一些附加内容也可能托管在第三方内容分发网络上。
+DOMAIN-SUFFIX,itunes.apple.com,PROXY//商店内容，如App、图书和音乐
+DOMAIN-SUFFIX,apps.apple.com,PROXY//商店内容，如App、图书和音乐
+DOMAIN-SUFFIX,mzstatic.com,PROXY//商店内容，如App、图书和音乐，以及来自网站和替代市场的App
+DOMAIN,itunes.apple.com,PROXY
+DOMAIN,ppq.apple.com,PROXY//企业App验证
+DOMAIN,api.apple-cloudkit.com,PROXY//App公证
+DOMAIN-SUFFIX,appattest.apple.com,PROXY//App验证，以及网站触控ID和面容ID认证
+DOMAIN-SUFFIX,apps-marketplace.apple.com,PROXY//安装来自网站和替代市场的App
+DOMAIN,token.safebrowsing.apple.com,PROXY//Safari浏览器欺骗性网站警告
+DOMAIN,audiocontentdownload.apple.com,PROXY//“库乐队”可下载的内容
+DOMAIN,devimages-cdn.apple.com,PROXY//Xcode可下载的组件
+DOMAIN,download.developer.apple.com,PROXY//Xcode可下载的组件
+DOMAIN,playgrounds-assets-cdn.apple.com,PROXY//Swift Playgrounds
+DOMAIN,playgrounds-cdn.apple.com,PROXY//Swift Playgrounds
+DOMAIN,sylvan.apple.com,PROXY//航拍屏幕保护程序和墙纸
+DOMAIN,gateway.icloud.com,PROXY//语音控制资源
 
-
+#运营商更新
+###蜂窝网络设备需要访问以下主机，才能安装运营商软件包更新。
 
 
 
