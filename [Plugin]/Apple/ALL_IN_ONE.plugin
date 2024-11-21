@@ -38,7 +38,32 @@ DOMAIN,setup.icloud.com,PROXY//需要在共享 iPad 上登录管理式 Apple 账
 DOMAIN,vpp.itunes.apple.com,PROXY//供 MDM 服务器用来执行与“App 和图书”有关的操作，例如在设备上分配或撤销许可证
 DOMAIN-SUFFIX,appattest.apple.com,PROXY//被管理设备证明
 
-#DOMAIN,,PROXY
+#Apple 商务管理和 Apple 校园教务管理
+##管理员和经理
+###管理员和管理人员需要访问以下主机和域，才能管理 Apple 商务管理和 Apple 校园教务管理。
+DOMAIN-SUFFIX,business.apple.com,PROXY//Apple商务管理
+DOMAIN-SUFFIX,school.apple.com,PROXY//Apple校园教务管理
+DOMAIN,appleid.cdn-apple.com,PROXY//登录认证
+DOMAIN,idmsa.apple.com,PROXY//登录认证
+DOMAIN-SUFFIX,itunes.apple.com,PROXY//App和图书
+DOMAIN-SUFFIX,mzstatic.com,PROXY//App 和图书
+DOMAIN,api.ent.apple.com,PROXY//App和图书 (ABM)
+DOMAIN,api.edu.apple.com,PROXY//App和图书 (ASM)
+DOMAIN,statici.icloud.com,PROXY//设备图标
+DOMAIN-SUFFIX,vertexsmb.com,PROXY//验证免税状态
+DOMAIN,www.apple.com.cn,DIRECT//某些语言的字体
+DOMAIN,upload.appleschoolcontent.com,PROXY//SFTP上传
+
+##员工和学生
+###使用管理式 Apple 账户的员工和学生需要访问以下主机，才能在编写信息或共享文稿时查询所属企业或学校中的其他人
+DOMAIN,ws-ee-maidsvc.icloud.com,PROXY//用户查询服务
+
+
+
+
+
+
+
 
 
 
