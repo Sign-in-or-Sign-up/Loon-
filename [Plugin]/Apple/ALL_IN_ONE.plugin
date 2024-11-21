@@ -58,6 +58,50 @@ DOMAIN,upload.appleschoolcontent.com,PROXY//SFTP上传
 ###使用管理式 Apple 账户的员工和学生需要访问以下主机，才能在编写信息或共享文稿时查询所属企业或学校中的其他人
 DOMAIN,ws-ee-maidsvc.icloud.com,PROXY//用户查询服务
 
+#Apple 商务必备设备管理
+###由 Apple 商务必备管理的管理员和设备需要访问以下主机和域，以及上文列出的用于 Apple 商务管理的主机和域。
+DOMAIN,axm-adm-enroll.apple.com,PROXY//DEP注册服务器
+DOMAIN,axm-adm-mdm.apple.com,PROXY//MDM服务器
+DOMAIN,axm-adm-scep.apple.com,PROXY//SCEP服务器
+DOMAIN,axm-app.apple.com,PROXY//查看和管理App及设备
+DOMAIN-SUFFIX,apple-mapkit.com,PROXY//在受管理丢失模式下查看设备的位置
+DOMAIN,icons.axm-usercontent-apple.com,PROXY//自定义软件包图标
+
+#“课堂”和“课业”
+###使用“课堂”或“课业”App 的学生和教师设备需要访问以下主机，以及在下文的 Apple 账户和 iCloud 部分中列出的主机。
+DOMAIN,s.mzstatic.com,PROXY//“课堂”和“课业”设备验证
+DOMAIN,play.itunes.apple.com,PROXY//“课堂”和“课业”设备验证
+DOMAIN,ws-ee-maidsvc.icloud.com,PROXY//“课堂”和“课业”班级花名册服务
+DOMAIN,ws.school.apple.com,PROXY//“课堂”和“课业”班级花名册服务
+DOMAIN,pg-bootstrap.itunes.apple.com,PROXY//“课业”作业服务
+DOMAIN,cls-iosclient.itunes.apple.com,PROXY//“课业”作业服务
+DOMAIN,cls-ingest.itunes.apple.com,PROXY//“课业”作业服务
+
+#软件更新
+###在安装、恢复和更新 iOS、iPadOS、macOS、watchOS、Apple tvOS 和 visionOS 时，Apple 设备需要访问以下主机。
+DOMAIN,appldnld.apple.com,PROXY//iOS、iPadOS和watchOS更新
+DOMAIN,configuration.apple.com,PROXY//Rosetta2更新
+DOMAIN,gdmf.apple.com,PROXY//软件更新目录
+DOMAIN,gg.apple.com,PROXY//iOS、iPadOS、Apple tvOS、watchOS和macOS更新
+DOMAIN,gs.apple.com,PROXY//iOS、iPadOS、Apple tvOS、watchOS和macOS 更新
+DOMAIN,ig.apple.com,PROXY//macOS更新
+DOMAIN,mesu.apple.com,PROXY//托管软件更新目录
+DOMAIN,ns.itunes.apple.com,PROXY
+DOMAIN,oscdn.apple.com,PROXY//macOS更新
+DOMAIN,osrecovery.apple.com,PROXY//macOS更新
+DOMAIN,skl.apple.com,PROXY//macOS更新
+DOMAIN,swcdn.apple.com,PROXY//macOS更新
+DOMAIN,swdist.apple.com,PROXY//macOS更新
+DOMAIN,swdownload.apple.com,PROXY//macOS更新
+DOMAIN,swscan.apple.com,PROXY//macOS更新
+DOMAIN,updates-http.cdn-apple.com,PROXY//软件更新下载
+DOMAIN,updates.cdn-apple.com,PROXY//软件更新下载
+DOMAIN,xp.apple.com,PROXY
+
+#App 和附加内容
+###在安装和更新 App、使用某些 App 功能以及下载附加内容时，Apple 设备需要访问以下主机和域。一些附加内容也可能托管在第三方内容分发网络上。
+
+
 
 
 
