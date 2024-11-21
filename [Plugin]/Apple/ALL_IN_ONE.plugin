@@ -11,7 +11,7 @@
 
 [Rule]
 #设备设置
-##在设置期间或者在安装、更新或恢复操作系统时，Apple 设备需要访问以下主机。
+###在设置期间或者在安装、更新或恢复操作系统时，Apple 设备需要访问以下主机。
 DOMAIN,albert.apple.com,PROXY//设备激活
 DOMAIN,captive.apple.com,PROXY//针对使用强制门户的网络进行互联网连接验证
 DOMAIN,gs.apple.com,PROXY
@@ -22,3 +22,26 @@ DOMAIN,tbsc.apple.com,PROXY
 DOMAIN,time-ios.apple.com,PROXY//供设备用来设置日期和时间
 DOMAIN,time.apple.com,PROXY//供设备用来设置日期和时间
 DOMAIN,time-macos.apple.com,PROXY//供设备用来设置日期和时间
+
+#设备管理
+###已在 MDM 中注册的 Apple 设备需要访问以下主机和域。
+DOMAIN,courier.push.apple.com,PROXY//推送通知
+DOMAIN,init.push.apple.com,PROXY//推送通知
+DOMAIN-KEYWORD,-courier.push.apple.com,PROXY//推送通知
+DOMAIN,deviceenrollment.apple.com,PROXY//DEP 暂时注册
+DOMAIN,deviceservices-external.apple.com,PROXY
+DOMAIN,gdmf.apple.com,PROXY//供 MDM 服务器用来识别使用“被管理的软件更新”的设备有哪些可用的软件更新
+DOMAIN,identity.apple.com,PROXY//APNs 证书请求门户
+DOMAIN,iprofiles.apple.com,PROXY//托管当设备通过设备注册过程在 Apple 校园教务管理或 Apple 商务管理中注册时使用的注册描述文件
+DOMAIN,mdmenrollment.apple.com,PROXY//当客户端通过设备注册过程在 Apple 校园教务管理或 Apple 商务管理中注册时，供 MDM 服务器用来上传客户端使用的注册描述文件，还可用来查找设备和账户
+DOMAIN,setup.icloud.com,PROXY//需要在共享 iPad 上登录管理式 Apple 账户
+DOMAIN,vpp.itunes.apple.com,PROXY//供 MDM 服务器用来执行与“App 和图书”有关的操作，例如在设备上分配或撤销许可证
+DOMAIN-SUFFIX,appattest.apple.com,PROXY//被管理设备证明
+
+#DOMAIN,,PROXY
+
+
+
+
+
+
