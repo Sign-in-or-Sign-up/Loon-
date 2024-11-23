@@ -119,15 +119,37 @@ DOMAIN,gateway.icloud.com,PROXY//语音控制资源
 
 #运营商更新
 ###蜂窝网络设备需要访问以下主机，才能安装运营商软件包更新。
+DOMAIN,appldnld.apple.com,PROXY//蜂窝网络运营商捆绑包更新
+DOMAIN,appldnld.apple.com.edgesuite.net,PROXY//蜂窝网络运营商捆绑包更新
+DOMAIN,itunes.com,PROXY//运营商捆绑包更新发现
+DOMAIN,itunes.apple.com,PROXY//运营商捆绑包更新发现
+DOMAIN,updates-http.cdn-apple.com,PROXY//蜂窝网络运营商捆绑包更新
+DOMAIN,updates.cdn-apple.com,PROXY//蜂窝网络运营商捆绑包更新
 
+#内容缓存
+###提供内容缓存的 Mac 需要访问以下主机，以及这篇文稿中列出的提供 Apple 内容（例如软件更新、App 和其他内容）的主机。
+DOMAIN,lcdn-registration.apple.com,PROXY//服务器注册
+DOMAIN,suconfig.apple.com,PROXY//配置
+DOMAIN,xp-cdn.apple.com,PROXY//举报
 
+###macOS 内容缓存的客户端需要访问以下主机。
+DOMAIN,lcdn-locator.apple.com,PROXY//内容缓存查找器服务
+DOMAIN,serverstatus.apple.com,PROXY//内容缓存客户端公共IP确定
 
+#Beta 版更新
+###Apple 设备需要访问以下主机，才能注册以获取 Beta 版更新，并使用“反馈助理”App 来报告反馈。
+DOMAIN,bpapi.apple.com,PROXY//Beta版更新注册
+DOMAIN,cssubmissions.apple.com,PROXY//供“反馈助理”用来上传文件
+DOMAIN,fba.apple.com,PROXY//供“反馈助理”用来归档和查看反馈
 
+#Apple 诊断
+###为了运行用于检测潜在硬件问题的诊断程序，Apple 设备可能会访问以下主机。
+DOMAIN,diagassets.apple.com,PROXY//供Apple设备用来协助检测可能的硬件问题
 
+#域名系统解析
+###iOS 14、iPadOS 14、Apple tvOS 14 和 macOS Big Sur 及更高版本中的加密域名系统 (DNS) 解析使用以下主机。
+DOMAIN,doh.dns.apple.com,REJECT-DROP//用于DNS over HTTPS(DoH)
 
-
-
-
-
-
+#证书验证
+###为了验证这篇文章列出的主机所使用的数字证书，Apple 设备必须能够连接到以下主机。
 
