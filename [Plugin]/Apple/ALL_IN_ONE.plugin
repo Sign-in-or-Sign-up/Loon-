@@ -152,4 +152,60 @@ DOMAIN,doh.dns.apple.com,REJECT-DROP//用于DNS over HTTPS(DoH)
 
 #证书验证
 ###为了验证这篇文章列出的主机所使用的数字证书，Apple 设备必须能够连接到以下主机。
+DOMAIN,certs.apple.com,PROXY//证书验证
+DOMAIN,crl.apple.com,PROXY//证书验证
+DOMAIN,crl3.digicert.com,PROXY//证书验证
+DOMAIN,crl4.digicert.com,PROXY//证书验证
+DOMAIN,ocsp.apple.com,PROXY//证书验证
+DOMAIN,ocsp.digicert.cn,DIRECT//中国大陆的证书验证
+DOMAIN,ocsp.digicert.com,PROXY//证书验证
+DOMAIN,ocsp2.apple.com,PROXY//证书验证
+DOMAIN,valid.apple.com,PROXY//证书验证
+
+#Apple账户
+###Apple 设备必须能够连接到以下主机才能验证 Apple 账户。所有使用 Apple 账户的服务（如 iCloud、App 安装和 Xcode）都需要满足这个条件。
+DOMAIN,account.apple.com,PROXY//“设置”和“系统偏好设置”中的Apple账户认证
+DOMAIN,appleid.cdn-apple.com,PROXY//“设置”和“系统偏好设置”中的Apple账户认证
+DOMAIN,idmsa.apple.com,PROXY//Apple账户认证
+DOMAIN,gsa.apple.com,PROXY//Apple账户认证
+
+#iCloud
+###除了上面列出的 Apple 账户主机外，Apple 设备必须能够连接到以下域的主机才能使用 iCloud 服务。
+
+#Apple Intelligence、Siri 和搜索
+###Apple 设备必须能够连接到以下主机，才能处理使用私有云计算的 Apple Intelligence 请求以及处理 Siri 请求，包括听写和在 Apple App 中搜索。
+
+#关联域
+###Apple 设备必须能够连接到以下主机，才能在 iOS 14、iPadOS 14 和 macOS Big Sur 及更高版本中使用关联域。关联域是通用链接的基础，通用链接功能允许在 App 中呈现内容，而不是在 App 的全部或部分网站中呈现内容。接力、轻 App 和单点登录扩展都使用关联域。
+DOMAIN,app-site-association.cdn-apple.com,PROXY//通用链接的关联域
+DOMAIN,app-site-association.networking.apple,PROXY//通用链接的关联域
+
+#Tap to Pay on iPhone
+###要通过收款 App 接受免接触式支付，iPhone 必须能够与以下主机通信。
+DOMAIN,pos-device.apple.com,PROXY//Tap to Pay on iPhone
+DOMAIN,humb.apple.com,PROXY//Tap to Pay on iPhone 设置
+DOMAIN,phonesubmissions.apple.com,PROXY//可选的分析共享
+
+#iPhone 上的证件校验器
+###要通过启用了证件校验器的 App 接受移动 ID，iPhone 必须能够与以下主机通信。
+DOMAIN,smp-device-content.apple.com,PROXY//iPhone上的证件校验器
+DOMAIN,idv.cdn-apple.com,PROXY//iPhone上的证件校验器
+DOMAIN,idv-prod1.apple.com,PROXY//iPhone上的证件校验器
+DOMAIN,humb.apple.com,PROXY//iPhone上的证件校验器
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
