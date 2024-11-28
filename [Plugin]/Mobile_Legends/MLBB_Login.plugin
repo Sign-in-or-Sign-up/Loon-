@@ -27,6 +27,10 @@ AND,((OR,((DEST-PORT,5051-5080),(DEST-PORT,5551-5580))),(PROTOCOL,TCP)),REJECT-D
 hostname = akmstatic.ml.youngjoygame.com,akmpicture.youngjoygame.com,wsavatar.yuanzhanapp.com,
 
 [Rewrite]
+#只放行美术资源
+^https:\/\/akmstatic\.ml\.youngjoygame\.com\/[^(^act$)]\/^[0-9a-zA-Z_-]{7,46}(_ios)?\.(jpg|png) - reject-img
+#赛季首充
+^https:\/\/akmstatic\.ml\.youngjoygame\.com\/act\/Season(\d{2,3})bgpop(\d{2,3})?(_ios)?\.(jpg|unity3d) - reject-img
 #开屏宣传图
 ^https:\/\/akmstatic\.ml\.youngjoygame\.com\/mlbbpromo\/(6|23|49|128)\/(6|23|49|128|666|6b)-2[4-9][0-1][0-9][0-3][0-9](\w{1,16})(-\w{2,3})?-(en|por|ru|jp|es|tr|id|vn|my|ar|mm|kh|ph|\w{2})(_ios)?\.(unity3d|png|jpg|PNG|JPG) - reject-img
 #视频教程mp4
@@ -38,8 +42,6 @@ hostname = akmstatic.ml.youngjoygame.com,akmpicture.youngjoygame.com,wsavatar.yu
 #战队荣耀
 ^https:\/\/akmstatic\.ml\.youngjoygame\.com\/act\/M (\d{1,2})_pic_FMVP_ios\.unity3d - reject-img
 ^https:\/\/akmstatic\.ml\.youngjoygame\.com\/esport\/(.*?)(_ios)?\.unity3d - reject-img
-#赛季首充
-^https:\/\/akmstatic\.ml\.youngjoygame\.com\/act\/Season(\d{2,3})bgpop(\d{2,3})?(_ios)?\.(jpg|unity3d) - reject-img
 #开屏赛事youtu转播/直播
 ^https:\/\/www\.youtube\.com\/iframe_api url reject-200
 ^https:\/\/www\.youtube\.com\/embed\/WAgMuy7ZNEU\?start=0&autoplay=1&allowfullscreen=(0|1)&enablejsapi=1&fs=(0|1)&playsinline=1&rel=0&modestbranding=1&widgetid=1 url reject-video
