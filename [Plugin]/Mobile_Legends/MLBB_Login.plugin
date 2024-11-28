@@ -23,7 +23,7 @@ DOMAIN,wsavatar.yuanzhanapp.com,DIRECT
 AND,((OR,((DEST-PORT,5051-5080),(DEST-PORT,5551-5580))),(PROTOCOL,TCP)),REJECT-DROP
 
 [MITM]
-hostname = akmstatic.ml.youngjoygame.com,akmpicture.youngjoygame.com，
+hostname = akmstatic.ml.youngjoygame.com,akmpicture.youngjoygame.com,
 
 [Rewrite]
 #开屏宣传图
