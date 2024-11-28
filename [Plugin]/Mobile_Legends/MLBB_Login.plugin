@@ -17,13 +17,14 @@ DOMAIN,newlogin.ml.youngjoygame.com,PROXY
 
 #保联网
 URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/\d{4,5}\/\d{1,2}\/\d{1,2}\/\d{7,10}_\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?(_hd)?\.jpg$",DIRECT
-DOMAIN,wsavatar.yuanzhanapp.com,DIRECT
+URL-REGEX,"^https:\/\/wsavatar\.yuanzhanapp\.com\/dist\/face\/\d{4,5}\/\d{1,2}\/\d{1,2}\/\d{7,10}_\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?(_hd)?\.jpg$",DIRECT
+#DOMAIN,wsavatar.yuanzhanapp.com,DIRECT
 
 #TCP
 AND,((OR,((DEST-PORT,5051-5080),(DEST-PORT,5551-5580))),(PROTOCOL,TCP)),REJECT-DROP
 
 [MITM]
-hostname = akmstatic.ml.youngjoygame.com,akmpicture.youngjoygame.com,
+hostname = akmstatic.ml.youngjoygame.com,akmpicture.youngjoygame.com,wsavatar.yuanzhanapp.com,
 
 [Rewrite]
 #开屏宣传图
