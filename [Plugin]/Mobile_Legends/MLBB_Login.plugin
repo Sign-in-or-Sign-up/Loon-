@@ -28,7 +28,7 @@ hostname = akmstatic.ml.youngjoygame.com,akmpicture.youngjoygame.com，
 
 [Rewrite]
 #头像#
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/\d{4,5}\/\d{2}\/\d{2}\/\d{8,10}(_\d{1,2})?_([a-z0-9]{8}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{12})_?(hd)?\.jpg$ - reject-img
+^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/\d{4,5}\/\d{2}\/\d{2}\/\d{8,10}(_\d{1,2})?(_new)?_([a-z0-9]{8}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{12})_?(hd)?\.jpg$ - reject-img
 #开屏宣传图
 ^https:\/\/akmstatic\.ml\.youngjoygame\.com\/mlbbpromo\/(6|23|49|128)\/(6|23|49|128|666|6b)-2[4-9][0-1][0-9][0-3][0-9](\w{1,16})(-\w{2,3})?-(en|por|ru|jp|es|tr|id|vn|my|ar|mm|kh|ph|\w{2})(_ios)?\.(unity3d|png|jpg|PNG|JPG) - reject-img
 #视频教程mp4
