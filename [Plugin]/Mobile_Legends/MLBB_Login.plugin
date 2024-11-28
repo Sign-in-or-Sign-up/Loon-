@@ -16,7 +16,7 @@ DOMAIN,newlogin.ml.mlbangbang.com,PROXY
 DOMAIN,newlogin.ml.youngjoygame.com,PROXY
 
 #保联网
-URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/\d{4,5}\/\d{2}\/\d{2}\/\d{8,10}(_\d{1,2})?_([a-z0-9]{8}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{12})_?(hd)?\.jpg$",DIRECT
+URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/\d{4,5}\/\d{2}\/\d{2}\/\d{8,10}(_\d{1,2})?_([a-z0-9]{8}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{12})_?(hd)?\.jpg",DIRECT
 #DOMAIN,akmpicture.youngjoygame.com,REJECT-DROP
 DOMAIN,wsavatar.yuanzhanapp.com,DIRECT
 
