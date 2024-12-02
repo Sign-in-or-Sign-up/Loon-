@@ -25,7 +25,7 @@ DOMAIN,wsavatar.yuanzhanapp.com,REJECT-DROP
 DOMAIN,akmstatic.ml.youngjoygame.com,REJECT-DROP
 
 #TCP
-AND,((OR,((DEST-PORT,5051-5080),(DEST-PORT,5551-5580))),(PROTOCOL,TCP)),REJECT-DROP
+AND,((OR,((DEST-PORT,5051-5079),(DEST-PORT,5551-5579),(DEST-PORT,5651-5679))),(PROTOCOL,TCP)),REJECT-DROP
 
 [MITM]
 hostname = akmstatic.ml.youngjoygame.com,akmpicture.youngjoygame.com,wsavatar.yuanzhanapp.com,
