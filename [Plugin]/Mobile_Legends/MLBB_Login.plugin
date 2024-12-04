@@ -32,7 +32,7 @@ hostname = akmstatic.ml.youngjoygame.com,akmpicture.youngjoygame.com,wsavatar.yu
 
 [Rewrite]
 #只放行美术资源
-^https:\/\/akmstatic\.ml\.youngjoygame\.com\/(?!act\/).*?\/[0-9a-zA-Z_-]{7,46}(_ios)?\.(jpg|png|unity3d)$ - reject-img
+#^https:\/\/akmstatic\.ml\.youngjoygame\.com\/(?!act\/).*?\/[0-9a-zA-Z_-]{7,46}(_ios)?\.(jpg|png|unity3d)$ - reject-img
 
 #赛季首充
 ^https:\/\/akmstatic\.ml\.youngjoygame\.com\/act\/Season(\d{2,3})bgpop(\d{2,3})?(_ios)?\.(jpg|unity3d) - reject-img
@@ -56,6 +56,9 @@ hostname = akmstatic.ml.youngjoygame.com,akmpicture.youngjoygame.com,wsavatar.yu
 ^https:\/\/akmstatic\.ml\.youngjoygame\.com\/(KOL)?(B|b)anner(\d{0,1}$)\/.*?.unity3d - reject-img
 ^https:\/\/akmcdn\.ml\.youngjoygame\.com\/banner\/live\/.*?.unitv3d - reject-200
 ^https:\/\/akmcdn\.ml\.youngjoygame\.com\/banner\/live\/.*?.(jpg|unity3d) - reject-200
+
+^https:\/\/akmstatic\.ml\.youngjoygame\.com\/(act|bpguide|emblem2023|mlbbpromo|esport|banner|KOLBanner|test|wb)\/.*? - reject-200
+^https:\/\/akmstatic\.ml\.youngjoygame\.com\/\/announcement\/security_knowledge\/.*?_ios\.unity3d -reject-img
 [Script]
 
 
