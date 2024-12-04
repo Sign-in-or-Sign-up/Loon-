@@ -33,6 +33,9 @@ hostname = akmstatic.ml.youngjoygame.com,akmpicture.youngjoygame.com,wsavatar.yu
 [Rewrite]
 #只放行美术资源
 ^https:\/\/akmstatic\.ml\.youngjoygame\.com\/(?!act\/)[0-9a-zA-Z_-]{7,46}(_ios)?\.(jpg|png|unity3d)$ - reject-img
+#排除法
+^https:\/\/akmstatic\.ml\.youngjoygame\.com\/(?!act\/)[0-9a-zA-Z_-]{7,46}(_ios)?\.(jpg|png|unity3d)$ - reject-img
+
 #赛季首充
 ^https:\/\/akmstatic\.ml\.youngjoygame\.com\/act\/Season(\d{2,3})bgpop(\d{2,3})?(_ios)?\.(jpg|unity3d) - reject-img
 #开屏宣传图
