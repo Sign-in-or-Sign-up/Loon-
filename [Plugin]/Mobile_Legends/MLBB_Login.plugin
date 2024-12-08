@@ -23,6 +23,9 @@ URL-REGEX,"^https:\/\/akmstatic\.ml\.youngjoygame\.com\/act\/[0-9a-zA-Z_-]{7,46}
 DOMAIN,akmpicture.youngjoygame.com,REJECT-DROP
 DOMAIN,wsavatar.yuanzhanapp.com,REJECT-DROP
 DOMAIN,akmstatic.ml.youngjoygame.com,REJECT-DROP
+DOMAIN,akmcdn.ml.youngjoygame.com,REJECT-DROP
+DOMAIN,pldtcdn.ml.youngjoygame.com,REJECT-DROP
+DOMAIN,wscdn.ml.youngjoygame.com,REJECT-DROP
 
 #TCP
 AND,((OR,((DEST-PORT,5051-5079),(DEST-PORT,5551-5579),(DEST-PORT,5651-5679))),(PROTOCOL,TCP)),REJECT-DROP
