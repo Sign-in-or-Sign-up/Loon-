@@ -28,7 +28,7 @@ DOMAIN,akmstatic.ml.youngjoygame.com,REJECT-DROP
 AND,((OR,((DEST-PORT,5051-5079),(DEST-PORT,5551-5579),(DEST-PORT,5651-5679))),(PROTOCOL,TCP)),REJECT-DROP
 
 [MITM]
-hostname = akmstatic.ml.youngjoygame.com,akmpicture.youngjoygame.com,wsavatar.yuanzhanapp.com,
+hostname = akmstatic.ml.youngjoygame.com,akmpicture.youngjoygame.com,wsavatar.yuanzhanapp.com,akmcdn.ml.youngjoygame.com
 
 [Rewrite]
 #只放行美术资源
@@ -45,7 +45,7 @@ hostname = akmstatic.ml.youngjoygame.com,akmpicture.youngjoygame.com,wsavatar.yu
 ^httpss:\/\/akmstatic\.ml\.youngjoygame\.com\/esports\/128-2[4-9][0-1][0-9][0-3][0-9](-^\w{4,8}$)(_ios)?\.(unity3d|png) - reject-img
 ^httpss:\/\/akmstatic\.ml\.youngjoygame\.com\/esports\/(^\w{3}$)(-^\w{5,8}$)(-^\w{5,8}$)\/(^\w{5-14}$)(_ios)?\.(unity3d|png) - reject-img
 #战队荣耀
-^https:\/\/akmstatic\.ml\.youngjoygame\.com\/act\/M (\d{1,2})_pic_FMVP_ios\.unity3d - reject-img
+^https:\/\/akmstatic\.ml\.youngjoygame\.com\/act\/M(\d{1,2})_pic_FMVP_ios\.unity3d - reject-img
 ^https:\/\/akmstatic\.ml\.youngjoygame\.com\/esport\/(.*?)(_ios)?\.unity3d - reject-img
 #开屏赛事youtu转播/直播
 ^https:\/\/www\.youtube\.com\/iframe_api url reject-200
@@ -59,6 +59,8 @@ hostname = akmstatic.ml.youngjoygame.com,akmpicture.youngjoygame.com,wsavatar.yu
 
 ^https:\/\/akmstatic\.ml\.youngjoygame\.com\/(act|bpguide|emblem2023|mlbbpromo|esport|banner|KOLBanner|test|wb)\/.*? - reject-200
 ^https:\/\/akmstatic\.ml\.youngjoygame\.com\/\/announcement\/security_knowledge\/.*?_ios\.unity3d -reject-img
+#akmcn下载
+^http:\/\/akmcdn\.ml\.youngjoygame\.com\/ios_res_version5\/.*?\/(\d{3})\.1\/ModeSize\.bytes$ - reject
 [Script]
 
 
