@@ -60,7 +60,7 @@ hostname = akmstatic.ml.youngjoygame.com,akmpicture.youngjoygame.com,wsavatar.yu
 ^https:\/\/akmstatic\.ml\.youngjoygame\.com\/(act|bpguide|emblem2023|mlbbpromo|esport|banner|KOLBanner|test|wb)\/.*? - reject-200
 ^https:\/\/akmstatic\.ml\.youngjoygame\.com\/\/announcement\/security_knowledge\/.*?_ios\.unity3d -reject-img
 #akmcn下载
-^http:\/\/akmcdn\.ml\.youngjoygame\.com\/ios_res_version5\/.*?\/(\d{3})\.1\/ModeSize\.bytes$ - reject
+^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/.*?\/(\d{3})\.1\/ModeSize\.bytes$ - reject
 [Script]
 
 
