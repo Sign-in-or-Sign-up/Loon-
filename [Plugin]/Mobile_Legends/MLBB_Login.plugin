@@ -48,8 +48,8 @@ hostname = akmstatic.ml.youngjoygame.com,akmpicture.youngjoygame.com,wsavatar.yu
 ^https:\/\/akmstatic\.ml\.youngjoygame\.com\/act\/M(\d{1,2})_pic_FMVP_ios\.unity3d - reject-img
 ^https:\/\/akmstatic\.ml\.youngjoygame\.com\/esport\/(.*?)(_ios)?\.unity3d - reject-img
 #开屏赛事youtu转播/直播
-^https:\/\/www\.youtube\.com\/iframe_api url reject-200
-^https:\/\/www\.youtube\.com\/embed\/WAgMuy7ZNEU\?start=0&autoplay=1&allowfullscreen=(0|1)&enablejsapi=1&fs=(0|1)&playsinline=1&rel=0&modestbranding=1&widgetid=1 url reject-video
+^https:\/\/www\.youtube\.com\/iframe_api reject-200
+^https:\/\/www\.youtube\.com\/embed\/WAgMuy7ZNEU\?start=0&autoplay=1&allowfullscreen=(0|1)&enablejsapi=1&fs=(0|1)&playsinline=1&rel=0&modestbranding=1&widgetid=1 reject-video
 #公告
 ^https:\/\/akmstatic\.ml\.youngjoygame\.com\/announcement\/(.*?)(_ios)\.unity3d - reject-img
 #直播主播banner
