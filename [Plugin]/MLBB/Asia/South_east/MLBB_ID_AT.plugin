@@ -1,0 +1,19 @@
+#!name = Mobile Legends Asia/Se🇮🇩A
+#!desc = MLBB东南亚印尼阿里科技雅加达机房手动选择节点/禁入。用法说明：在游戏设置内（如点击大厅右上角，或对局内小地图旁的齿轮状⚙️图标，在“网络设置”一栏，第二行的“网络加速设置”栏目内的“网络加速”切换到关闭状态。
+#!openUrl = https://apps.apple.com/app/id1160056295
+#!author = Sign-in-or-sign-out
+#!homepage = 
+#!icon = 
+#!select = 
+#!input = 
+#!tag = 无尽对决东南亚
+#!date = 2024-11-02 19:00:00
+
+[Rule]
+#IP登入检测:0
+#UDP30190PORT:0
+#东南亚印尼阿里科技雅加达机房
+#8.215.2.0/24
+IP-CIDR, 8.215.2.227/32, PROXY
+#8.215.78.0/24
+IP-CIDR, 8.215.78.10/32, PROXY
