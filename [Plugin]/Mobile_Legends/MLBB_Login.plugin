@@ -21,7 +21,7 @@ URL-REGEX,"^https:\/\/wsavatar\.yuanzhanapp\.com\/dist\/photo\/\d{4,5}\/\d{1,2}\
 URL-REGEX,"^https:\/\/akmstatic\.ml\.youngjoygame\.com\/LaylaWorkshop\/202\d{1}[a-zA-Z0-9]{4,12}\/[a-zA-Z0-9_-]{4,22}_ios\.unity3d$",DIRECT
 URL-REGEX,"^https:\/\/akmstatic\.ml\.youngjoygame\.com\/act\/[0-9a-zA-Z_-]{7,46}(_ios)?\.(jpg|png|unity3d)$",DIRECT
 URL-REGEX,"^http:\/\/akmcdn\.ml\.youngjoygame\.com\/ios_res_patch5\/983\.3--1011\.4armv7\.nodiff\.2019\.zip\?1",DIRECT
-URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/1011\.4\/.*?\.(unity3d|zip)$",DIRECT
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/.*?\.(unity3d|zip)$",DIRECT
 DOMAIN,akmpicture.youngjoygame.com,REJECT-DROP
 DOMAIN,wsavatar.yuanzhanapp.com,REJECT-DROP
 DOMAIN,akmstatic.ml.youngjoygame.com,REJECT-DROP
