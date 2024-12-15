@@ -66,6 +66,20 @@ hostname = akmstatic.ml.youngjoygame.com,akmpicture.youngjoygame.com,wsavatar.yu
 ^https:\/\/akmstatic\.ml\.youngjoygame\.com\/\/announcement\/security_knowledge\/.*?_ios\.unity3d -reject-img
 #akmcn下载
 #^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/.*?\/(\d{3})\.1\/ModeSize\.bytes$ - reject
+
+#黑名单十位数
+#黑名单九位数
+#黑名单八位数
+#1
+#2
+#3
+#4
+#5
+#6
+#7
+#8
+#9
+^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3104\/74\/62\/93356274_35_new_d4a59bdc-3919-43f0-995a-caf4ea889fcf\.jpg - reject-img
 [Script]
 
 
