@@ -12,7 +12,7 @@
 [Rule]
 #影响登陆类
 #IP监测
-DOMAIN,ip.ml.youngjoygame.com,REJECT-DROP
+#DOMAIN,ip.ml.youngjoygame.com,REJECT-DROP
 AND,((IP-CIDR,169.46.193.122/32),(DEST-PORT,30220),(PROTOCOL,TCP)),REJECT-DROP
 
 #login网络活动解析ip，剔除对局战斗支持的ip段
