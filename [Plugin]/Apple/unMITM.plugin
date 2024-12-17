@@ -1,0 +1,16 @@
+#!name = 禁止mitm主机名收集
+#!desc = 为方便迁移数据，列出了一些作者自己常用的禁止mitm的域名。
+#!openUrl = 
+#!author = Sign-in-or-sign-out
+#!homepage =  
+#!icon = 
+#!select = 
+#!input = 
+#!tag = 
+#!date = 2024-11-04 12:34:56
+
+[MITM]
+#DOMAIN
+hostname = 
+#DOMAIN-SUFFIX
+hostname = -app-measurement.com,-apple.com,-icloud.com,-itunes.com,
