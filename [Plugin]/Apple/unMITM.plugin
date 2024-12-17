@@ -11,6 +11,6 @@
 
 [MITM]
 #DOMAIN
-hostname = 
+hostname = -pbs.twimg.com
 #DOMAIN-SUFFIX
 hostname = -app-measurement.com,-apple.com,-icloud.com,-itunes.com,
