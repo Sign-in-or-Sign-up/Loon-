@@ -13,4 +13,4 @@
 #DOMAIN
 hostname = 
 #DOMAIN-SUFFIX
-hostname = -api.twitter.com,-*app-measurement.com,-*apple.com,-*icloud.com,-*itunes.com,*
+hostname = -api.twitter.com,-lf19-gecko-source.tiktokcdn-us.com,-*app-measurement.com,-*apple.com,-*icloud.com,-*itunes.com,*
