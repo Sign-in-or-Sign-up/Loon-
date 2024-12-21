@@ -60,7 +60,7 @@ hostname = akmstatic.ml.youngjoygame.com,akmpicture.youngjoygame.com,wsavatar.yu
 ^https:\/\/akmstatic\.ml\.youngjoygame\.com\/announcement\/(.*?)(_ios)\.unity3d - reject-img
 #直播主播banner
 ^https:\/\/akmstatic\.ml\.youngjoygame\.com\/(KOL)?(B|b)anner(\d{0,1}$)\/.*?.unity3d - reject-img
-^https:\/\/akmcdn\.ml\.youngjoygame\.com\/banner\/live\/.*?.unitv3d - reject-200
+#^https:\/\/akmcdn\.ml\.youngjoygame\.com\/banner\/live\/.*?.unitv3d - reject-200
 ^https:\/\/akmcdn\.ml\.youngjoygame\.com\/banner\/live\/.*?.(jpg|unity3d) - reject-200
 
 ^https:\/\/akmstatic\.ml\.youngjoygame\.com\/(act|bpguide|emblem2023|mlbbpromo|esport|banner|KOLBanner|test|wb)\/.*? - reject-200
