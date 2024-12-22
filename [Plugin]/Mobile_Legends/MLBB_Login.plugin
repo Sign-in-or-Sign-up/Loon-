@@ -80,7 +80,7 @@ hostname = akmstatic.ml.youngjoygame.com,akmpicture.youngjoygame.com,wsavatar.yu
 #7
 #8
 #9
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3104\/74\/62\/93356274_35_new_d4a59bdc-3919-43f0-995a-caf4ea889fcf\.jpg - reject-img
+^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3104\/74\/62\/93356274_35(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?(_hd)?\.jpg$ - reject-img
 [Script]
 
 
