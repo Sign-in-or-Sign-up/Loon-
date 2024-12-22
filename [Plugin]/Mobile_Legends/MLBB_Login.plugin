@@ -70,6 +70,16 @@ hostname = akmstatic.ml.youngjoygame.com,akmpicture.youngjoygame.com,wsavatar.yu
 
 #黑名单十位数
 #黑名单九位数
+#1
+#2
+#3
+#4
+#5
+#6
+#7
+#8
+#9
+^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/10018\/34\/26\/570872634_36(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?(_hd)?\.jpg$ - reject-img
 #黑名单八位数
 #1
 #2
