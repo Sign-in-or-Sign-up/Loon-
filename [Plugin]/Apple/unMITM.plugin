@@ -13,8 +13,8 @@
 #DOMAIN
 hostname = 
 #DOMAIN-SUFFIX
-hostname = -api.twitter.com,-api.snapkit.com,-pull-flv-w77-sg01.tiktokcdn-us.com,-marscdnbypass-wxapp.tc.qq.com,-*app-measurement.com,-*tiktokv.us,-*apple.com,-*icloud.com,-*itunes.com,*
+hostname = -api.twitter.com,-api.snapkit.com,-pull-flv-w77-sg01.tiktokcdn-us.com,-marscdnbypass-wxapp.tc.qq.com,-*app-measurement.com,-*tiktokcdn-us.com,-*tiktokv.us,-*apple.com,-*icloud.com,-*itunes.com,*
 
 
 #marscdnbypass-wxapp.tc.qq.com//微信上传图片
-#-*tiktokcdn-us.com
+#
