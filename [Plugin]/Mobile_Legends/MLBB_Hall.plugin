@@ -1,0 +1,26 @@
+#!name = Mobile Legends 大厅&网络加速
+#!desc = MLBB进入大厅，以及在设置⚙️-网络设置-开启网络加速，游戏对局将通过选择的策略连接。
+#!openUrl = https://apps.apple.com/app/id1160056295
+#!author = Sign-in-or-sign-out
+#!homepage = 
+#!icon = 
+#!select = 
+#!input = 
+#!tag = 无尽对决
+#!date = 2024-11-02 19:00:00
+
+[Rule]
+#7018
+AND,((IP-CIDR,162.133.97.122/32),(DEST-PORT,30104)),PROXY
+
+#7224
+AND,((IP-CIDR,162.133.97.126/32),(DEST-PORT,30103)),PROXY
+
+#7227
+AND,((IP-CIDR,162.133.97.123/32),(DEST-PORT,30105)),PROXY
+
+#7228
+AND,((IP-CIDR,162.133.97.123/32),(DEST-PORT,30106)),PROXY
+
+#兜底
+DEST-PORT,30101-30107,PROXY
