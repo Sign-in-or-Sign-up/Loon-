@@ -1,5 +1,5 @@
 #!name = Mobile Legends 大厅&网络加速
-#!desc = MLBB进入大厅，以及在设置⚙️-网络设置-开启网络加速，游戏对局将通过选择的策略连接。
+#!desc = MLBB进入大厅的必须网络进程，说明：在游戏设置内（如点击大厅右上角，或对局内小地图旁的齿轮状⚙️图标，在“网络设置”一栏，第二行的“网络加速设置”栏目内的“网络加速”切换到开启状态。开启网络加速后将导致后面判断区服的插件失效。
 #!openUrl = https://apps.apple.com/app/id1160056295
 #!author = Sign-in-or-sign-out
 #!homepage = 
