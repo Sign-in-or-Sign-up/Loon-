@@ -11,7 +11,7 @@
 
 [Rule]
 #IP登入检测:0
-#UDP30190PORT:2
+#UDP30190PORT:1
 #CA，加拿大安大略省多伦多Zenlayer
 AND,((IP-CIDR,128.1.253.174/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
 #北美加拿大Zenlayer安大略省多伦多机房
