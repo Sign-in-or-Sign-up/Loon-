@@ -17,7 +17,8 @@ DOMAIN,newlogin.ml.youngjoygame.com,PROXY
 DOMAIN,ip.ml.youngjoygame.com,PROXY
 
 #保联网
-URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/\d{4,5}\/\d{1,2}\/\d{1,2}\/\d{7,10}_\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?(_hd)?\.jpg$",DIRECT
+#URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/\d{4,5}\/\d{1,2}\/\d{1,2}\/\d{7,10}_\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?(_hd)?\.jpg$",DIRECT
+URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/\d{4,5}\/\d{1,2}\/\d{1,2}\/\d{7,10}_\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?_hd\.jpg$",DIRECT
 URL-REGEX,"^https:\/\/wsavatar\.yuanzhanapp\.com\/dist\/photo\/\d{4,5}\/\d{1,2}\/\d{1,2}\/\d{7,10}_\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?(_hd)?\.jpg$",DIRECT
 URL-REGEX,"^https:\/\/akmstatic\.ml\.youngjoygame\.com\/LaylaWorkshop\/202\d{1}[a-zA-Z0-9]{4,12}\/[a-zA-Z0-9_-]{4,22}_ios\.unity3d$",DIRECT
 URL-REGEX,"^https:\/\/akmstatic\.ml\.youngjoygame\.com\/act\/[0-9a-zA-Z_-]{7,46}(_ios)?\.(jpg|png|unity3d)$",DIRECT
@@ -79,7 +80,7 @@ hostname = akmstatic.ml.youngjoygame.com,akmpicture.youngjoygame.com,wsavatar.yu
 #7
 #8
 #9
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/10018\/34\/26\/570872634_36(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?(_hd)?\.jpg$ - reject-img
+^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/10018\/34\/26\/570872634_36(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?(_hd)?\.jpg$ - reject-img//郭董
 #黑名单八位数
 #1
 #2
@@ -90,7 +91,7 @@ hostname = akmstatic.ml.youngjoygame.com,akmpicture.youngjoygame.com,wsavatar.yu
 #7
 #8
 #9
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3104\/74\/62\/93356274_35(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?(_hd)?\.jpg$ - reject-img
+^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3104\/74\/62\/93356274_35(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?(_hd)?\.jpg$ - reject-img//RedRacer909
 #小头像不缓存
 ^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/\d{4,5}\/\d{1,2}\/\d{1,2}\/\d{7,10}_\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject
 [Script]
