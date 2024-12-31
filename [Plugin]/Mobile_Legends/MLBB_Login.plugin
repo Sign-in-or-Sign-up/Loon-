@@ -31,7 +31,7 @@ URL-REGEX,"^https:\/\/akmstatic\.ml\.youngjoygame\.com\/MedalCG\/Medal_[1-9]\.mp
 DOMAIN,akmstatic.ml.youngjoygame.com,REJECT-DROP
 
 URL-REGEX,"^http:\/\/akmcdn\.ml\.youngjoygame\.com\/ios_res_patch5\/983\.3--1011\.4armv7\.nodiff\.2019\.zip\?1",DIRECT
-URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/1034\.1\/module_combine_1000[06][09]\d{4}_0\.zip$",DIRECT
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/1034\.1\/module_combine_1000[06][01]\d{4}_0\.zip$",DIRECT
 #URL-REGEX,"^http:\/\/pldtcdn\.ml\.youngjoygame\.com\/ios_res_version5\/1034\.1\/module_combine_1000618931_0\.zip$",DIRECT
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/.*?\.(bnk|bytes|ini|unity3d)$",DIRECT
 DOMAIN,akmcdn.ml.youngjoygame.com,REJECT-DROP
