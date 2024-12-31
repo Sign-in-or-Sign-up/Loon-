@@ -36,7 +36,7 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DeathRacingMode\/424\.1\/Art\/ios\/DeathRacingMode_nanguatou_?[a-zA-Z]{0,1}[a-z]{0,10}_add\.unity3d$",DIRECT//创造营额外资源
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DeathRacingMode\/424\.1\/Art\/ios\/DeathRacing_yujing_add\.unity3d$",DIRECT//创造营额外资源
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DeathRacingMode\/424\.1\/Art\/ios\/FX_UI_KillReminder_Flash_?(Enemy|Me|Myteam)?\.unity3d$",DIRECT//创造营额外资源
-URL-REGEX,"^http:\/\/wscdn\.ml\.youngjoygame\.com\/ios_res_version5\/DeathRacingMode\/424\.1\/Art\/ios\/hero_lmpumpkin\.unity3d$",DIRECT//创造营额外资源
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DeathRacingMode\/424\.1\/Art\/ios\/hero_lmpumpkin\.unity3d$",DIRECT//创造营额外资源
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/.*?\.(bnk|bytes|ini)$",DIRECT
 DOMAIN,akmcdn.ml.youngjoygame.com,REJECT-DROP
 DOMAIN,pldtcdn.ml.youngjoygame.com,REJECT-DROP
