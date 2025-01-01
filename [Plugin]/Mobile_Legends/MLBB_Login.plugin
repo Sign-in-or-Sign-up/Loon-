@@ -34,7 +34,7 @@ URL-REGEX,"^http:\/\/akmcdn\.ml\.youngjoygame\.com\/ios_res_patch5\/983\.3--1011
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/1034\.1\/module_combine_[12]\d{9}_[01]\.zip$",DIRECT
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/1034\.1\/Art\/ios\/hero_[a-z][a-z]{2,13}_skin[01][0-9]_high_?(body|hair|weapon|weapon001)?(_Colour01)?_add\.unity3d$",DIRECT
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DeathRacingMode\/424\.1\/Art\/ios\/.*?\.unity3d$",DIRECT//创造营额外资源
-URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DeathRacingMode\/424\.1\/Document\/ios\/AddLanguageNEWEN_DRACE\.unity3d$",DIRECT//创造营额外资源
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DeathRacingMode\/424\.1\/Document\/ios\/AddLanguageNEW.*?_DRACE\.unity3d$",DIRECT//创造营额外资源
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/.*?\.(bnk|bytes|ini)$",DIRECT
 DOMAIN,akmcdn.ml.youngjoygame.com,REJECT-DROP
 DOMAIN,pldtcdn.ml.youngjoygame.com,REJECT-DROP
