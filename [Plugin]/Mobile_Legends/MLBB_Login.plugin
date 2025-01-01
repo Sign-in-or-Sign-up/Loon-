@@ -35,7 +35,7 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/1034\.1\/Art\/ios\/hero_[a-zA-Z][a-z]{2,14}_skin[01][0-9]_high_?(body|hair|weapon|baoshi)?(001)?(_Colour01)?_add\.unity3d$",DIRECT
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/1034\.1\/Art\/ios\/feilun_Cityaction_intercation01_skin10_add\.unity3d$",DIRECT
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/1034\.1\/module_combine_5\d{9}_0\.zip$",DIRECT//终极资源包
-URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/1034\.1\/Art\/ios\/tower61_01_red_add\.unity3d$",DIRECT//终极资源包
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/1034\.1\/Art\/ios\/tower[1-6][0-9]_01_red_add\.unity3d$",DIRECT//终极资源包
 
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DeathRacingMode\/424\.1\/Art\/ios\/.*?\.unity3d$",DIRECT//创造营额外资源
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DeathRacingMode\/424\.1\/Document\/ios\/(Add|All)Language.*?_DRACE\.unity3d$",DIRECT//创造营额外资源
