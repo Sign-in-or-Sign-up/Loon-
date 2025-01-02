@@ -52,6 +52,7 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/1034\.1\/fix_jinhuang_1733904701\/1\/etc\/Art\/ios\/Lukas_.*?_01_add\.unity3d$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/1034\.1\/fix_jinhuang_1733904701\/1\/etc\/Art\/ios\/ShaderVariants_add\.unity3d$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/1034\.1\/fix_jinhuang_1733904701\/1\/etc\/Art\/ios\/zzp[12]_Lukas_cityaction_.*?_01_add\.unity3d$",DIRECT//
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/1034\.1\/fix_jinhuang_1733904701\/1\/etc\/Audio\/ios\/bgm_maincity_hero_2271\.2021\.bnk$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/1034\.1\/fix_sherryqin_1733738804\/1\/etc\/gameres\/ios\/mlf\/modules\/CitizensLeague\/CitizensLeague_View_.*?\.bytes$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/1034\.1\/fix_sherryqin_1733738804\/1\/etc\/gameres\/ios\/ProtoGame\.bytes$",DIRECT//
 
