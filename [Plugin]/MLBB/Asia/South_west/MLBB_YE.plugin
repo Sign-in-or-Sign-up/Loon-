@@ -1,0 +1,26 @@
+#!name = Mobile Legends Asia/Sw🇾🇪
+#!desc = MLBB西亚阿联酋靠谱云迪拜机房手动选择节点/禁入。用法说明：在游戏设置内（如点击大厅右上角，或对局内小地图旁的齿轮状⚙️图标，在“网络设置”一栏，第二行的“网络加速设置”栏目内的“网络加速”切换到关闭状态。
+#!openUrl = https://apps.apple.com/app/id1160056295
+#!author = Sign-in-or-sign-out
+#!homepage = 
+#!icon = 
+#!select = 
+#!input = 
+#!tag = 无尽对决西亚
+#!date = 2024-11-02 19:00:00
+
+[Rule]
+#IP登入检测:0
+#UDP30190PORT
+#AE,阿联酋迪拜靠谱云
+AND,((IP-CIDR,103.152.14.27/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
+#西亚阿联酋靠谱云迪拜机房
+#103.152.14.0/24
+IP-CIDR,103.152.14.58/32,PROXY
+IP-CIDR,103.152.14.110/32,PROXY
+IP-CIDR,103.152.14.118/32,PROXY
+
+[MITM]
+hostname = 
+
+[Script]
