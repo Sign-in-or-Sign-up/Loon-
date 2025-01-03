@@ -45,8 +45,8 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/1034\.1\/Art\/ios\/zzp1_FX_UI_Returning2023_SignIn_V3_Bg_Glow\.unity3d$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/1034\.1\/Art\/ios\/zzp1_.*?\.unity3d$",DIRECT//
 
-URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/1034\.1\/fix_v?_?(blacklin|cocolinhuang|fuyy|jinhuang|junfengzhao|lindalin|sherryqin|syliu|xiangchenwu|yingtingcui)_173\d{7}\/[12]\/etc\/_load_res\.bytes$",DIRECT//终极资源包
-URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/1034\.1\/fix_v?_?(blacklin|fuyy|jinhuang|yingtingcui)_173\d{7}\/1\/etc\/Art\/ios\/.*?_add\.unity3d$",DIRECT//
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/1034\.1\/fix_v?_?[a-z]{4,11}_173\d{7}\/[12]\/etc\/_load_res\.bytes$",DIRECT//终极资源包
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/1034\.1\/fix_v?_?[a-z]{4,11}_173\d{7}\/1\/etc\/Art\/ios\/.*?_add\.unity3d$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/1034\.1\/fix_v_fuyy_173\d{7}\/1\/etc\/Art\/ios\/zzp1_uieff_YKS_0[12]_add\.unity3d$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/1034\.1\/fix_yingtingcui_173\d{7}\/1\/etc\/Art\/ios\/newcowboy_skill0[0-4].*?_skin11_add\.unity3d$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/1034\.1\/fix_jinhuang_173\d{7}\/1\/etc\/Art\/ios\/hero_Lukas_.*?_add\.unity3d$",DIRECT//
