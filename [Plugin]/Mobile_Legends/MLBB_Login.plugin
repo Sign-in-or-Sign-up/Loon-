@@ -47,14 +47,8 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/1034\.1\/fix_v?_?[a-z]{4,11}_173\d{7}\/[12]\/etc\/_load_res\.bytes$",DIRECT//终极资源包
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/1034\.1\/fix_v?_?[a-z]{4,11}_173\d{7}\/1\/etc\/Art\/ios\/.*?_add\.unity3d$",DIRECT//
-URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/1034\.1\/fix_v_fuyy_173\d{7}\/1\/etc\/Art\/ios\/zzp1_uieff_YKS_0[12]_add\.unity3d$",DIRECT//
-URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/1034\.1\/fix_yingtingcui_173\d{7}\/1\/etc\/Art\/ios\/newcowboy_skill0[0-4].*?_skin11_add\.unity3d$",DIRECT//
-URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/1034\.1\/fix_jinhuang_173\d{7}\/1\/etc\/Art\/ios\/hero_Lukas_.*?_add\.unity3d$",DIRECT//
-URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/1034\.1\/fix_jinhuang_173\d{7}\/1\/etc\/Art\/ios\/Lukas_.*?_01_add\.unity3d$",DIRECT//
-URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/1034\.1\/fix_jinhuang_173\d{7}\/1\/etc\/Art\/ios\/ShaderVariants_add\.unity3d$",DIRECT//
-URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/1034\.1\/fix_jinhuang_173\d{7}\/1\/etc\/Art\/ios\/zzp[12]_Lukas_cityaction_.*?_01_add\.unity3d$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/1034\.1\/fix_v?_?[a-z]{4,11}_173\d{7}\/1\/etc\/Audio\/ios\/.*?_\d{4,5}\.2021\.bnk$",DIRECT//
-URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/1034\.1\/fix_(cocolinhuang|sherryqin|xiangchenwu)_173\d{7}\/[12]\/etc\/gameres\/ios\/mlf\/modules\/CitizensLeague\/CitizensLeague_.*?\.bytes$",DIRECT//
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/1034\.1\/fix_v?_?[a-z]{4,11}_173\d{7}\/[12]\/etc\/gameres\/ios\/mlf\/modules\/CitizensLeague\/CitizensLeague_.*?\.bytes$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/1034\.1\/fix_v?_?[a-z]{4,11}_173\d{7}\/1\/etc\/Document\/ios\/.*?\.bytes$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/1034\.1\/fix_v_syliu_173\d{7}\/1\/etc\/gameres\/ios\/mlf\/modules\/ActivityNew\/ActCommon\/ActCommonHeroModel\.bytes$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/1034\.1\/fix_xiangchenwu_173\d{7}\/1\/etc\/gameres\/ios\/mlf\/modules\/CitizensLeague\/MatchingPromotionComp\.bytes$",DIRECT//
@@ -65,7 +59,7 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/1034\.1\/fix_junfengzhao_173\d{7}\/1\/etc\/gameres\/ios\/mlf\/ruledact\/Act_YearVipStar\/ShopNew_View_StarExclusiveExchange\.bytes$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/1034\.1\/fix_xiangchenwu_173\d{7}\/1\/etc\/gameres\/ios\/ui\/huodong\/PopUpConfig\.bytes$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/1034\.1\/fix_sherryqin_173\d{7}\/1\/etc\/gameres\/ios\/ProtoGame\.bytes$",DIRECT//
-URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/1034\.1\/fix_v?_?(cocolinhuang|junfengzhao|syliu|xiangchenwu)_173\d{7}\/[12]\/etc\/UI\/ios\/.*?\.unity3d$",DIRECT//
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/1034\.1\/fix_v?_?[a-z]{4,11}_173\d{7}\/[12]\/etc\/UI\/ios\/.*?\.unity3d$",DIRECT//
 
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DeathRacingMode\/424\.1\/Art\/ios\/.*?\.unity3d$",DIRECT//创造营额外资源
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DeathRacingMode\/424\.1\/Document\/ios\/(Add|All)Language.*?_DRACE\.unity3d$",DIRECT//创造营额外资源
