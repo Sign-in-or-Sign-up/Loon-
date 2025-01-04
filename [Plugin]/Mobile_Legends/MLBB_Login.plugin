@@ -44,6 +44,7 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/1034\.1\/module_combine_[12]\d{9}_[0123]\.zip$",DIRECT//造型展示动画
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/1034\.1\/module_combine_5\d{8}_0\.zip$",DIRECT//终极资源包
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/1034\.1\/module_combine_\d{2}_[0-3]\.zip$",DIRECT//终极资源包
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/1034\.1\/module_combine_283_[0-3]\.zip$",DIRECT//游戏内皮肤联动等小更新？
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/1034\.1\/module_combine_66000_1?[0-9]\.zip$",DIRECT//终极资源包
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/1034\.1\/module_combine_6700[0-9]_1?[0-9]\.zip$",DIRECT//高级特效补充资源
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/1034\.1\/Scenes\/ios\/PVP_0(32|49)_?(extlow|high|low)?_add\.unity3d$",DIRECT//终极资源包
