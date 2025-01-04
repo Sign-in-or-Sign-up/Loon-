@@ -154,6 +154,7 @@ hostname = akmstatic.ml.youngjoygame.com,akmpicture.youngjoygame.com,wsavatar.yu
 #9
 #黑名单九位数
 #1
+^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/2783\/26\/40\/155754026_24(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img//
 #2
 #3
 #4
