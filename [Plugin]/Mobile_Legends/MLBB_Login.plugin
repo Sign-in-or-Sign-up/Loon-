@@ -47,7 +47,7 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/1034\.1\/module_combine_66000_1?[0-9]\.zip$",DIRECT//终极资源包
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/1034\.1\/module_combine_6700[0-9]_1?[0-9]\.zip$",DIRECT//高级特效补充资源
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/1034\.1\/Scenes\/ios\/PVP_0(32|49)_?(extlow|high|low)?_add\.unity3d$",DIRECT//终极资源包
-URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/1034\.1\/UI\/ios\/[A-Z][a-z]{4}_HQHero[A-Z][a-z]{4}0[0-9]{2}_add\.unity3d$",DIRECT//高级造型原画
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/1034\.1\/UI\/ios\/[A-Z][a-z]{4}_HQHero[A-Z][a-z]{4}[0-9]{3}_add\.unity3d$",DIRECT//高级造型原画
 
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/1034\.1\/fix_v?_?[a-z]{4,11}_173\d{7}\/[12]\/etc\/_load_res\.bytes$",DIRECT//终极资源包
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/1034\.1\/fix_v?_?[a-z]{4,11}_173\d{7}\/1\/etc\/Art\/ios\/.*?_add\.unity3d$",DIRECT//
