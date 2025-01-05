@@ -449,6 +449,7 @@ AND,((DEST-PORT,30190),(PROTOCOL,UDP)),PROXY
 
 #禁了也不影响使用的
 DOMAIN,report.ml.youngjoygame.com,REJECT-DROP
+AND,((IP-CIDR,198.18.0.8/32),(DEST-PORT,30071)),REJECT-DROP
 #
 DOMAIN-SUFFIX,bytegsdk.com,REJECT-DROP
 DOMAIN,analytics.adjust.com,REJECT-DROP
