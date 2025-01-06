@@ -13,12 +13,13 @@
 #DOMAIN
 hostname = 
 #DOMAIN-SUFFIX
-hostname = -api.twitter.com,-api.snapkit.com,-discord.com,-pull-flv-w77-sg01.tiktokcdn-us.com,-marscdnbypass-wxapp.tc.qq.com,-www.google.com,-*.app-measurement.com,,-*.discord.gg,-*.discord.media,-*.tiktokcdn-us.com,-*tiktokv.us,-*.apple.com,-*.contabo.net,-*.icloud.com,-*.itunes.com,-*.fcbox.com,-*huami.com,-*amemv.com,-*snssdk.com,*
+hostname = -api.twitter.com,-api.snapkit.com,-discord.com,-gateway.discord.gg,-gateway-us-east1-c.discord.gg,-pull-flv-w77-sg01.tiktokcdn-us.com,-marscdnbypass-wxapp.tc.qq.com,-www.google.com,-*.app-measurement.com,-*.discord.media,-*.tiktokcdn-us.com,-*tiktokv.us,-*.apple.com,-*.contabo.net,-*.icloud.com,-*.itunes.com,-*.fcbox.com,-*huami.com,-*amemv.com,-*snssdk.com,*
 
 
 
 #-discord.com,
+#-gateway.discord.gg,
+#-gateway-us-east1-c.discord.gg,
 #-*discord.gg,
-#discord.gg//discord
 #marscdnbypass-wxapp.tc.qq.com//微信上传图片
 #-*.contabo.net//APPstore相关
