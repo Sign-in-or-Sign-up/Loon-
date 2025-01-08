@@ -147,6 +147,7 @@ hostname = akmstatic.ml.youngjoygame.com,akmpicture.youngjoygame.com,wsavatar.yu
 #黑名单十位数
 #1
 ^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/11177\/51\/26\/1086642651_5(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img//小翁退熱貼
+^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/14263\/11\/57\/1436525711_14(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img//实力过强，五排干他
 #2
 #3
 #4
