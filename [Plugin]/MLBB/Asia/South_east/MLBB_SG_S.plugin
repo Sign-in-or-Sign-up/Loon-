@@ -10,7 +10,7 @@
 #!date = 2024-11-02 19:00:00
 
 [Rule]
-#IP登入检测:16
+#IP登入检测:18
 #SG，新加坡SoftLayer
 AND,((IP-CIDR,119.81.63.237/32),(DEST-PORT,30021),(PROTOCOL,TCP)),REJECT-DROP
 
