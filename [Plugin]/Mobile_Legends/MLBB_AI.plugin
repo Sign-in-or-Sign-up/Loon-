@@ -37,7 +37,7 @@ hostname = akmpicture.youngjoygame.com
 #3204,八位
 ^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3204\/[01]\/\d{1,2}\/[12]\d{5}0[01]_[0-8]\.jpg$ - reject-img
 #3205,八位
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3205\/(0|1|10)\/\d{1,2}\/[12]\d{5}0[01]_1?[0-9]\.jpg$ - reject-img
+^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3205\/(0|1|10)\/\d{1,2}\/[12]\d{6}[01]_1?[0-9]\.jpg$ - reject-img
 #4001,七位
 ^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/4001\/0\/\d{1,2}\/[12]\d{4}00_[1-4]?[0-9]\.jpg$ - reject-img
 #5001,七位
