@@ -1,0 +1,57 @@
+#!name = Mobile Legends 黑名单
+#!desc = 标记大脑营养不良萎缩，脚本挂机，井🐸等拟人，避免同阵营，略微提高游戏体验。
+#!openUrl = https://apps.apple.com/app/id1160056295
+#!author = Sign-in-or-sign-out
+#!homepage = 
+#!icon = 
+#!select = 
+#!input = 
+#!tag = 无尽对决
+#!date = 2024-11-02 19:00:00
+
+[Rule]
+
+[MITM]
+hostname = akmpicture.youngjoygame.com
+
+[Rewrite]
+#黑名单十位数
+#1
+#小翁退熱貼//挂机狗
+^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/11177\/51\/26\/1086642651_5(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+#实力过强，五排干他
+^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/14263\/11\/57\/1436525711_14(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+#2
+#3
+#4
+#5
+#6
+#7
+#8
+#9
+#黑名单九位数
+#1
+#I D H A R O W E//ban队友常用角抢位
+^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/2783\/26\/40\/155754026_24(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+#2
+#3
+#4
+#5
+#6
+#7
+#8
+#9
+#郭董//傻逼
+^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/10018\/34\/26\/570872634_36(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+#黑名单八位数
+#1
+#2
+#3
+#4
+#5
+#6
+#7
+#8
+#9
+#RedRacer909//玻璃心挂机狗
+^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3104\/74\/62\/93356274_35(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
