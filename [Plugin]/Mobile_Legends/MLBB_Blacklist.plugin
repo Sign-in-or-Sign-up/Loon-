@@ -46,6 +46,8 @@ hostname = akmpicture.youngjoygame.com
 #黑名单八位数
 #1
 #2
+#诺曼·基尼托//傻逼恶意举报
+^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3038\/90\/49\/29624990_11(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 #3
 #4
 #5
