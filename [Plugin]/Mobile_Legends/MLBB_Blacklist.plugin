@@ -35,6 +35,8 @@ hostname = akmpicture.youngjoygame.com
 ^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/2783\/26\/40\/155754026_24(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 #2
 #3
+#浩霸贏贏//嘴臭
+^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3603\/81\/10\/301871081_8(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 #4
 #5
 #6
