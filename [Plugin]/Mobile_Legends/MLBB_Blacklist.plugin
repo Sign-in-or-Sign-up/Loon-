@@ -31,6 +31,7 @@ hostname = akmpicture.youngjoygame.com
 #9
 #黑名单九位数
 #1
+^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3222\/4\/26\/107742604_0(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 #I D H A R O W E//ban队友常用角抢位
 ^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/2783\/26\/40\/155754026_24(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 #2
