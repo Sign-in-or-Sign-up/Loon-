@@ -16,9 +16,9 @@ hostname = akmpicture.youngjoygame.com
 
 [Rewrite]
 #1001,五位六位七位
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/1001\/(0|1)\/\d{1,2}\/[1235678]\d{2}0[01]_1?[0-9]\.jpg$ - reject-img
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/1001\/(0|1)\/\d{1,2}\/\d{4}0[01]_1?[0-7]\.jpg$ - reject-img
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/1001\/(0|1)\/\d{1,2}\/[12]\d{4}0[01]_1?[0-7]\.jpg$ - reject-img
+^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/1001\/(0|1)\/\d{1,2}\/[1235678]\d{2}0[01]_[1-7]?[0-9]\.jpg$ - reject-img
+^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/1001\/(0|1)\/\d{1,2}\/\d{4}0[01]_[1-7]?[0-9]\.jpg$ - reject-img
+^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/1001\/(0|1)\/\d{1,2}\/[12]\d{4}0[01]_[1-7]?[0-9]\.jpg$ - reject-img
 #2001,六位七位
 ^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/2001\/0\/\d{1,2}\/[6-9]\d{3}00_1?[0-9]\.jpg$ - reject-img
 ^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/2001\/0\/\d{1,2}\/1\d{4}00_1?[0-9]\.jpg$ - reject-img
@@ -49,4 +49,4 @@ hostname = akmpicture.youngjoygame.com
 ^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/7001\/[01]\/\d{1,2}\/[89]\d{4}0[01]_[12]?[0-9]\.jpg$ - reject-img
 ^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/7001\/[01]\/\d{1,2}\/1\d{5}0[01]_[12]?[0-9]\.jpg$ - reject-img
 #疑似人机拦截
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/\d{4}\/(0|1|10|11|12|13)\/\d{1,2}\/\d{5,8}_[1-4]?[0-9]\.jpg$ - reject
+^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/\d{4}\/(0|1|10|11|12|13)\/\d{1,2}\/\d{5,8}_[1-7]?[0-9]\.jpg$ - reject
