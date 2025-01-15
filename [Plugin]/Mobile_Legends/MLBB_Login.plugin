@@ -72,6 +72,7 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/1034\.1\/fix_v?_?[a-z]{4,11}_173\d{7}\/1\/etc\/gameres\/ios\/mlf\/ruledact\/Act_SummerMain\/SummerMainDrawLine\.bytes$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/1034\.1\/fix_v?_?[a-z]{4,11}_173\d{7}\/1\/etc\/gameres\/ios\/mlf\/ruledact\/Act_YearVipStar\/ShopNew_View_StarExclusiveExchange\.bytes$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/1034\.1\/fix_v?_?[a-z]{4,11}_173\d{7}\/1\/etc\/gameres\/ios\/ui\/huodong\/PopUpConfig\.bytes$",DIRECT//
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/1034\.1\/fix_v?_?[a-z]{4,11}_173\d{7}\/1\/etc\/gameres\/ios\/ui\/huodong\/SnkLotteryActivity\.bytes$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/1034\.1\/fix_v?_?[a-z]{4,11}_173\d{7}\/1\/etc\/gameres\/ios\/ProtoGame\.bytes$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/1034\.1\/fix_v?_?[a-z]{4,11}_173\d{7}\/[12]\/etc\/UI\/ios\/.*?\.unity3d$",DIRECT//
 
