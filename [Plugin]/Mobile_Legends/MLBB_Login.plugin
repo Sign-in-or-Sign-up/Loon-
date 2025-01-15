@@ -55,7 +55,7 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/1034\.1\/fix_v?_?[a-z]{4,11}_173\d{7}\/[12]\/etc\/_load_res\.bytes$",DIRECT//终极资源包
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/1034\.1\/fix_v?_?[a-z]{4,11}_173\d{7}\/1\/etc\/Art\/ios\/.*?_add\.unity3d$",DIRECT//
-URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/1034\.1\/fix_v?_?[a-z]{4,11}_173\d{7}\/1\/etc\/Audio\/ios\/.*?_\d{4,5}\.2021\.bnk$",DIRECT//
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/1034\.1\/fix_v?_?[a-z]{4,11}_173\d{7}\/1\/etc\/Audio\/ios\/.*?\.2021\.bnk$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/1034\.1\/fix_v?_?[a-z]{4,11}_173\d{7}\/[12]\/etc\/gameres\/ios\/mlf\/modules\/CitizensLeague\/CitizensLeague_.*?\.bytes$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/1034\.1\/fix_v?_?[a-z]{4,11}_173\d{7}\/1\/etc\/Document\/ios\/.*?\.(bytes|unity3d)$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/1034\.1\/fix_v?_?[a-z]{4,11}_173\d{7}\/1\/etc\/gameres\/ios\/mlf\/modules\/ActivityNew\/ActCommon\/ActCommonHeroModel\.bytes$",DIRECT//
