@@ -1,0 +1,14 @@
+#!name = Mobile Legends 30001端口
+#!desc = 30001端口
+#!openUrl = https://apps.apple.com/app/id1160056295
+#!author = Sign-in-or-sign-out
+#!homepage = 
+#!icon = 
+#!select = 
+#!input = 
+#!tag = 无尽对决
+#!date = 2024-11-02 19:00:00
+
+[Rule]
+AND,((IP-CIDR,0.0.0.0/0,no-resolve),(DEST-PORT,30001),(PROTOCOL,UDP)),PROXY
+
