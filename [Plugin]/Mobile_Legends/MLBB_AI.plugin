@@ -58,6 +58,8 @@ hostname = akmpicture.youngjoygame.com
 ^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3109\/61\/76\/101187661_\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 #Viola
 ^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3215\/19\/73\/62007319_\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+#_GgG*OxO*GgG_
+^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/9323\/93\/77\/251057793_\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 
 
