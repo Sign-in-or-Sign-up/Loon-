@@ -50,3 +50,16 @@ hostname = akmpicture.youngjoygame.com
 ^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/7001\/[01]\/\d{1,2}\/1\d{5}0[01]_[12]?[0-9]\.jpg$ - reject-img
 #疑似人机拦截
 ^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/\d{4}\/(0|1|10|11|12|13)\/\d{1,2}\/\d{5,8}_[1-7]?[0-9]\.jpg$ - reject
+
+#高级人机拦截
+#挚爱隔山海
+^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3055\/83\/78\/41167883_\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+#胖了
+^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3109\/61\/76\/101187661_\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+#Viola
+^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3215\/19\/73\/62007319_\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+
+
+
+
+
