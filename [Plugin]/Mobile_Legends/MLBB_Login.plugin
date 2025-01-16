@@ -90,6 +90,7 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/CloneImbaOneRoadMode\/420\.1\/Art\/ios\/zzp[12]_zhanchang_liantiao_biaoji\.unity3d$",DIRECT//乱斗迷影
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/CloneImbaOneRoadMode\/420\.1\/Document\/ios\/CloneImbaOneRoad\.unity3d$",DIRECT//乱斗迷影
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/CloneImbaOneRoadMode\/420\.1\/Document\/ios\/CloneImbaOneRoadModeExtra\.unity3d$",DIRECT//乱斗迷影
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/CloneImbaOneRoadMode\/420\.1\/Document\/ios\/Muf_DisorderReportClone\.unity3d",DIRECT//乱斗迷影
 
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DisOrderMode\/328\.1\/ModeSize\.bytes$",DIRECT//其他模式
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/SurvivalMode\/360\.1\/ModeSize\.bytes$",DIRECT//其他模式
