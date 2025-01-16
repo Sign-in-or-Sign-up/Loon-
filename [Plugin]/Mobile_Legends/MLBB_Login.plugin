@@ -112,6 +112,7 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/CloneImbaOneRoadMode\/420\.1\/Art\/ios\/zhanchang_liantiao_lahui\.unity3d$",DIRECT//乱斗迷影
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/CloneImbaOneRoadMode\/420\.1\/Art\/ios\/zhanchang_liantiao_suolian\.unity3d$",DIRECT//乱斗迷影
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/CloneImbaOneRoadMode\/420\.1\/Art\/ios\/zzp1_disorder_yanhua01_add\.unity3d$",DIRECT//乱斗迷影
 
 #URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/.*?\.(bytes|ini)$",DIRECT
 DOMAIN,akmcdn.ml.youngjoygame.com,REJECT-DROP
