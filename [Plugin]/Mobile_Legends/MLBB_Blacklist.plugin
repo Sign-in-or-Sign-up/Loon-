@@ -19,7 +19,7 @@ hostname = akmpicture.youngjoygame.com
 #1
 #小翁退熱貼//挂机狗
 ^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/11177\/51\/26\/1086642651_\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
-#菜鸡
+#～曉實～//菜鸡
 ^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/11361\/58\/24\/1173372458_\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 #实力过强，五排干他
 ^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/14263\/11\/57\/1436525711_\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
@@ -33,7 +33,7 @@ hostname = akmpicture.youngjoygame.com
 #9
 #黑名单九位数
 #1
-#菜鸡
+#mattyy//菜鸡
 ^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3222\/4\/26\/107742604_\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 #I D H A R O W E//ban队友常用角抢位
 ^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/2783\/26\/40\/155754026_\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
