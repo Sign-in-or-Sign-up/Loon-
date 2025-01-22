@@ -13,17 +13,21 @@
 #DOMAIN
 hostname = 
 #DOMAIN-SUFFIX
-hostname = -api.twitter.com,-api.snapkit.com,-discord.com,-gateway.discord.gg,-gateway-us-east1-b.discord.gg,-gateway-us-east1-c.discord.gg,-gsdk-lq.dailygn.com,-pull-flv-w77-sg01.tiktokcdn-us.com,-marscdnbypass-wxapp.tc.qq.com,-www.google.com,-*.app-measurement.com,-*.discord.media,-*.tiktokcdn-us.com,-*tiktokv.us,-*.apple.com,-*.contabo.net,-*.icloud.com,-*.itunes.com,-*.fcbox.com,-*huami.com,-*amemv.com,-*.mzstatic.com,-*snssdk.com,*
+hostname = -api.twitter.com,-api.snapkit.com,-bsdk-lq.dailygn.com,-dig.zjurl.cn,-discord.com,-gateway.discord.gg,-gateway-us-east1-b.discord.gg,-gateway-us-east1-c.discord.gg,-gpm-mon.dailygn.com,-gsdk-lq.dailygn.com,-ichannel.dailygn.com,-pull-flv-w77-sg01.tiktokcdn-us.com,-marscdnbypass-wxapp.tc.qq.com,-www.google.com,-*.app-measurement.com,-*.discord.media,-*.tiktokcdn-us.com,-*tiktokv.us,-*.apple.com,-*.contabo.net,-*.icloud.com,-*.itunes.com,-*.fcbox.com,-*huami.com,-*amemv.com,-*.mzstatic.com,-*snssdk.com,*
 
 
 ###host###
 #-api.twitter.com//推特
 #-api.snapkit.com//tiktok
+#-bsdk-lq.dailygn.com//决胜巅峰
+#-dig.zjurl.cn//决胜巅峰字节系
 #-discord.com//discord
 #-gateway.discord.gg//discord
 #-gateway-us-east1-b.discord.gg//discord
 #-gateway-us-east1-c.discord.gg//discord
+#-gpm-mon.dailygn.com//决胜巅峰
 #-gsdk-lq.dailygn.com//决胜巅峰
+#-ichannel.dailygn.com//决胜巅峰
 #-pull-flv-w77-sg01.tiktokcdn-us.com//tiktok
 #-marscdnbypass-wxapp.tc.qq.com//wechat微信上传图片
 #-www.google.com//google
@@ -34,4 +38,4 @@ hostname = -api.twitter.com,-api.snapkit.com,-discord.com,-gateway.discord.gg,-g
 #-*tiktokv.us//tiktok
 #-*.apple.com//Apple
 #-*.mzstatic.com//appstore
-#-*.contabo.net//APPstore相关
+#-*.contabo.net//APPstore相关?
