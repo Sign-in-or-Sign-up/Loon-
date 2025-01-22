@@ -13,7 +13,7 @@
 #DOMAIN
 hostname = 
 #DOMAIN-SUFFIX
-hostname = -api.twitter.com,-api.snapkit.com,-bsdk-lq.dailygn.com,-dig.zjurl.cn,-discord.com,-gateway.discord.gg,-gateway-us-east1-b.discord.gg,-gateway-us-east1-c.discord.gg,-gpm-mon.dailygn.com,-gsdk-lq.dailygn.com,-ichannel.dailygn.com,-pull-flv-w77-sg01.tiktokcdn-us.com,-marscdnbypass-wxapp.tc.qq.com,-www.google.com,-*.app-measurement.com,-*.discord.media,-*.tiktokcdn-us.com,-*tiktokv.us,-*.apple.com,-*.contabo.net,-*.icloud.com,-*.itunes.com,-*.fcbox.com,-*huami.com,-*amemv.com,-*.mzstatic.com,-*snssdk.com,*
+hostname = -api.twitter.com,-api.snapkit.com,-bsdk-lq.dailygn.com,-dig.zjurl.cn,-discord.com,-gateway.discord.gg,-gateway-us-east1-b.discord.gg,-gateway-us-east1-c.discord.gg,-gpm-mon.dailygn.com,-gpsdk.dailygn.com,-gsdk-lq.dailygn.com,-ichannel.dailygn.com,-log.dailygn.com,-pull-flv-w77-sg01.tiktokcdn-us.com,-marscdnbypass-wxapp.tc.qq.com,-www.google.com,-*.app-measurement.com,-*.dailygn.com,-*.discord.media,-*.tiktokcdn-us.com,-*tiktokv.us,-*.apple.com,-*.contabo.net,-*.icloud.com,-*.itunes.com,-*.fcbox.com,-*huami.com,-*amemv.com,-*.mzstatic.com,-*snssdk.com,*
 
 
 ###host###
@@ -26,13 +26,16 @@ hostname = -api.twitter.com,-api.snapkit.com,-bsdk-lq.dailygn.com,-dig.zjurl.cn,
 #-gateway-us-east1-b.discord.gg//discord
 #-gateway-us-east1-c.discord.gg//discord
 #-gpm-mon.dailygn.com//决胜巅峰
+#-gpsdk.dailygn.com//决胜巅峰
 #-gsdk-lq.dailygn.com//决胜巅峰
 #-ichannel.dailygn.com//决胜巅峰
+#-log.dailygn.com//决胜巅峰
 #-pull-flv-w77-sg01.tiktokcdn-us.com//tiktok
 #-marscdnbypass-wxapp.tc.qq.com//wechat微信上传图片
 #-www.google.com//google
 ###***host stuffix***###
 #-*.app-measurement.com//appstore
+#-*.dailygn.com//决胜巅峰
 #-*.discord.media//discord
 #-*.tiktokcdn-us.com//tiktok
 #-*tiktokv.us//tiktok
