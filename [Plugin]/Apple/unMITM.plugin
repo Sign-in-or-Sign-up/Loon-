@@ -33,4 +33,5 @@ hostname = -api.twitter.com,-api.snapkit.com,-discord.com,-gateway.discord.gg,-g
 #-*.tiktokcdn-us.com//tiktok
 #-*tiktokv.us//tiktok
 #-*.apple.com//Apple
+#-*.mzstatic.com//appstore
 #-*.contabo.net//APPstore相关
