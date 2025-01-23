@@ -138,7 +138,7 @@ DOMAIN,akmcdn.ml.youngjoygame.com,REJECT-DROP
 DOMAIN,pldtcdn.ml.youngjoygame.com,REJECT-DROP
 DOMAIN,wscdn.ml.youngjoygame.com,REJECT-DROP
 #国内头像
-URL-REGEX,"^https:\/\/p26\.douyinpic\.com",REJECT
+URL-REGEX,"^https:\/\/p\d{1,2}\.douyinpic\.com",REJECT
 
 #TCP
 AND,((OR,((DEST-PORT,5051-5079),(DEST-PORT,5551-5579),(DEST-PORT,5651-5679))),(PROTOCOL,TCP)),REJECT-DROP
