@@ -154,27 +154,27 @@ hostname = akmstatic.ml.youngjoygame.com,akmpicture.youngjoygame.com,*.douyinpic
 #^https:\/\/akmstatic\.ml\.youngjoygame\.com\/(?!act\/).*?\/[0-9a-zA-Z_-]{7,46}(_ios)?\.(jpg|png|unity3d)$ - reject-img
 
 #赛季首充
-^https:\/\/akmstatic\.ml\.youngjoygame\.com\/act\/Season(\d{2,3})bgpop(\d{2,3})?(_ios)?\.(jpg|unity3d) - reject-img
+^https:\/\/akmstatic\.ml\.youngjoygame\.com\/act\/Season(\d{2,3})bgpop(\d{2,3})?(_ios)?\.(jpg|unity3d)$ - reject-img
 #开屏宣传图
-^https:\/\/akmstatic\.ml\.youngjoygame\.com\/mlbbpromo\/(6|23|49|128)\/(6|23|49|128|666|6b)-2[4-9][0-1][0-9][0-3][0-9](\w{1,16})(-\w{2,3})?-(en|por|ru|jp|es|tr|id|vn|my|ar|mm|kh|ph|\w{2})(_ios)?\.(unity3d|png|jpg|PNG|JPG) - reject-img
+^https:\/\/akmstatic\.ml\.youngjoygame\.com\/mlbbpromo\/(6|23|49|128)\/(6|23|49|128|666|6b)-2[4-9][0-1][0-9][0-3][0-9](\w{1,16})(-\w{2,3})?-(en|por|ru|jp|es|tr|id|vn|my|ar|mm|kh|ph|\w{2})(_ios)?\.(unity3d|png|jpg|PNG|JPG)$ - reject-img
 #视频教程mp4
-^https:\/\/akmstatic\.ml\.youngjoygame\.com\/(act|bpguide|emblem2023)\/.*?\.mp4 - reject-video
+^https:\/\/akmstatic\.ml\.youngjoygame\.com\/(act|bpguide|emblem2023)\/.*?\.mp4$ - reject-video
 #esport
-^httpss:\/\/akmstatic\.ml\.youngjoygame\.com\/esports\/MPLPHS(^\d{2}$)(^[A-Z]{3}$)(^\d{6}$)(_ios)?\.(unity3d|png) - reject-img
-^httpss:\/\/akmstatic\.ml\.youngjoygame\.com\/esports\/128-2[4-9][0-1][0-9][0-3][0-9](-^\w{4,8}$)(_ios)?\.(unity3d|png) - reject-img
-^httpss:\/\/akmstatic\.ml\.youngjoygame\.com\/esports\/(^\w{3}$)(-^\w{5,8}$)(-^\w{5,8}$)\/(^\w{5-14}$)(_ios)?\.(unity3d|png) - reject-img
+^httpss:\/\/akmstatic\.ml\.youngjoygame\.com\/esports\/MPLPHS(^\d{2}$)(^[A-Z]{3}$)(^\d{6}$)(_ios)?\.(unity3d|png)$ - reject-img
+^httpss:\/\/akmstatic\.ml\.youngjoygame\.com\/esports\/128-2[4-9][0-1][0-9][0-3][0-9](-^\w{4,8}$)(_ios)?\.(unity3d|png)$ - reject-img
+^httpss:\/\/akmstatic\.ml\.youngjoygame\.com\/esports\/(^\w{3}$)(-^\w{5,8}$)(-^\w{5,8}$)\/(^\w{5-14}$)(_ios)?\.(unity3d|png)$ - reject-img
 #战队荣耀
-^https:\/\/akmstatic\.ml\.youngjoygame\.com\/act\/M(\d{1,2})_pic_FMVP_ios\.unity3d - reject-img
-^https:\/\/akmstatic\.ml\.youngjoygame\.com\/esport\/(.*?)(_ios)?\.unity3d - reject-img
+^https:\/\/akmstatic\.ml\.youngjoygame\.com\/act\/M(\d{1,2})_pic_FMVP_ios\.unity3d$ - reject-img
+^https:\/\/akmstatic\.ml\.youngjoygame\.com\/esport\/(.*?)(_ios)?\.unity3d$ - reject-img
 #开屏赛事youtu转播/直播
 ^https:\/\/www\.youtube\.com\/iframe_api reject-200
 ^https:\/\/www\.youtube\.com\/embed\/WAgMuy7ZNEU\?start=0&autoplay=1&allowfullscreen=(0|1)&enablejsapi=1&fs=(0|1)&playsinline=1&rel=0&modestbranding=1&widgetid=1 reject-video
 #公告
-^https:\/\/akmstatic\.ml\.youngjoygame\.com\/announcement\/(.*?)(_ios)\.unity3d - reject-img
+^https:\/\/akmstatic\.ml\.youngjoygame\.com\/announcement\/(.*?)(_ios)\.unity3d$ - reject-img
 #直播主播banner
-^https:\/\/akmstatic\.ml\.youngjoygame\.com\/(KOL)?(B|b)anner(\d{0,1}$)\/.*?.unity3d - reject-img
-#^https:\/\/akmcdn\.ml\.youngjoygame\.com\/banner\/live\/.*?.unitv3d - reject-200
-^https:\/\/akmcdn\.ml\.youngjoygame\.com\/banner\/live\/.*?.(jpg|unity3d) - reject-200
+^https:\/\/akmstatic\.ml\.youngjoygame\.com\/(KOL)?(B|b)anner(\d{0,1}$)\/.*?.unity3d$ - reject-img
+#^https:\/\/akmcdn\.ml\.youngjoygame\.com\/banner\/live\/.*?.unitv3d$ - reject-200
+^https:\/\/akmcdn\.ml\.youngjoygame\.com\/banner\/live\/.*?.(jpg|unity3d)$ - reject-200
 
 ^https:\/\/akmstatic\.ml\.youngjoygame\.com\/(act|bpguide|emblem2023|mlbbpromo|esport|banner|KOLBanner|test|wb)\/.*? - reject-200
 ^https:\/\/akmstatic\.ml\.youngjoygame\.com\/\/announcement\/security_knowledge\/.*?_ios\.unity3d -reject-img
@@ -191,14 +191,14 @@ hostname = akmstatic.ml.youngjoygame.com,akmpicture.youngjoygame.com,*.douyinpic
 ^https:\/\/p\d{1,2}\.douyinpic\.com\/aweme\/100x100\/aweme-avatar\/tos-cn-i-0813_[0-9a-zA-Z]{38}\.jpeg\?from=4010531038$ - reject
 ^https:\/\/p\d{1,2}\.douyinpic\.com\/aweme\/100x100\/aweme-avatar\/tos-cn-i-0813_[0-9a-zA-Z]{37}\.jpeg\?from=4010531038$ - reject
 ^https:\/\/p\d{1,2}\.douyinpic\.com\/aweme\/100x100\/aweme-avatar\/tos-cn-i-0813_[0-9a-f]{32}\.jpeg\?from=4010531038$ - reject
-^https:\/\/p\d{1,2}\.douyinpic\.com\/aweme\/100x100\/aweme-avatar\/tos-cn-i-0813c001_[0-9a-zA-Z]{38}\.jpeg\?from=4010531038 - reject
-^https:\/\/p\d{1,2}\.douyinpic\.com\/aweme\/100x100\/aweme-avatar\/tos-cn-i-0813c001_[0-9a-zA-Z]{37}\.jpeg\?from=4010531038 - reject
+^https:\/\/p\d{1,2}\.douyinpic\.com\/aweme\/100x100\/aweme-avatar\/tos-cn-i-0813c001_[0-9a-zA-Z]{38}\.jpeg\?from=4010531038$ - reject
+^https:\/\/p\d{1,2}\.douyinpic\.com\/aweme\/100x100\/aweme-avatar\/tos-cn-i-0813c001_[0-9a-zA-Z]{37}\.jpeg\?from=4010531038$ - reject
 ^https:\/\/p\d{1,2}\.douyinpic\.com\/aweme\/100x100\/aweme-avatar\/tos-cn-i-0813c00[01]_ce_[0-9a-zA-Z]{36}\.jpeg\?from=4010531038$ - reject
 ^https:\/\/p\d{1,2}\.douyinpic\.com\/aweme\/100x100\/aweme-avatar\/tos-cn-i-0813c00[01]_ce_[0-9a-zA-Z]{38}\.jpeg\?from=4010531038$ - reject
 ^https:\/\/p\d{1,2}\.douyinpic\.com\/aweme\/100x100\/aweme-avatar\/tos-cn-i-0813c00[01]_[0-9a-f]{32}\.jpeg\?from=4010531038$ - reject
 ^https:\/\/p\d{1,2}\.douyinpic\.com\/aweme\/100x100\/aweme-avatar\/tos-cn-avt-0015_[0-9a-f]{32}\.jpeg\?from=4010531038$ - reject
 ^https:\/\/p\d{1,2}\.douyinpic\.com\/aweme\/100x100\/aweme-avatar\/mosaic-legacy_[0-9a-f]{21}\.jpeg\?from=4010531038$ - reject
-^https:\/\/p\d{1,2}\.douyinpic\.com\/aweme\/100x100\/aweme-avatar\/mosaic-legacy_\d{4,5}_\d{8,10}\.jpeg\?from=4010531038
+^https:\/\/p\d{1,2}\.douyinpic\.com\/aweme\/100x100\/aweme-avatar\/mosaic-legacy_\d{4,5}_\d{8,10}\.jpeg\?from=4010531038$ - reject
 [Script]
 
 
