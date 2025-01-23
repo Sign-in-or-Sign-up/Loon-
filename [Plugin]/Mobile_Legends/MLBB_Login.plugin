@@ -189,7 +189,10 @@ hostname = akmstatic.ml.youngjoygame.com,akmpicture.youngjoygame.com,*.douyinpic
 
 #国区头像
 ^https:\/\/p\d{1,2}\.douyinpic\.com\/aweme\/100x100\/aweme-avatar\/tos-cn-i-0813_[0-9a-zA-Z]{38}\.jpeg\?from=4010531038$ - reject
+^https:\/\/p\d{1,2}\.douyinpic\.com\/aweme\/100x100\/aweme-avatar\/tos-cn-i-0813_[0-9a-zA-Z]{37}\.jpeg\?from=4010531038$ - reject
+^https:\/\/p\d{1,2}\.douyinpic\.com\/aweme\/100x100\/aweme-avatar\/tos-cn-i-0813_[0-9a-f]{32}\.jpeg\?from=4010531038$ - reject
 ^https:\/\/p\d{1,2}\.douyinpic\.com\/aweme\/100x100\/aweme-avatar\/tos-cn-i-0813c001_[0-9a-zA-Z]{38}\.jpeg\?from=4010531038 - reject
+^https:\/\/p\d{1,2}\.douyinpic\.com\/aweme\/100x100\/aweme-avatar\/tos-cn-i-0813c001_[0-9a-zA-Z]{37}\.jpeg\?from=4010531038 - reject
 ^https:\/\/p\d{1,2}\.douyinpic\.com\/aweme\/100x100\/aweme-avatar\/tos-cn-i-0813c00[01]_ce_[0-9a-zA-Z]{36}\.jpeg\?from=4010531038$ - reject
 ^https:\/\/p\d{1,2}\.douyinpic\.com\/aweme\/100x100\/aweme-avatar\/tos-cn-i-0813c00[01]_ce_[0-9a-zA-Z]{38}\.jpeg\?from=4010531038$ - reject
 ^https:\/\/p\d{1,2}\.douyinpic\.com\/aweme\/100x100\/aweme-avatar\/tos-cn-i-0813c00[01]_[0-9a-f]{32}\.jpeg\?from=4010531038$ - reject
