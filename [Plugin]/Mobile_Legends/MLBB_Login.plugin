@@ -139,6 +139,7 @@ DOMAIN,pldtcdn.ml.youngjoygame.com,REJECT-DROP
 DOMAIN,wscdn.ml.youngjoygame.com,REJECT-DROP
 #国内头像
 URL-REGEX,"^https:\/\/p\d{1,2}\.douyinpic\.com\/aweme\/1080x1080\/aweme-avatar\/tos-cn-i-0813c001_[0-9a-zA-Z]{37}\.jpeg\?from=4010531038$",DIRECT//高清头像
+URL-REGEX,"^https:\/\/p\d{1,2}\.douyinpic\.com\/aweme\/1080x1080\/aweme-avatar\/tos-cn-i-0813_[0-9a-zA-Z]{37}\.jpeg\?from=4010531038$",DIRECT//高清头像
 URL-REGEX,"^https:\/\/p\d{1,2}\.douyinpic\.com\/aweme\/1080x1080\/aweme-avatar\/tos-cn-i-0813_[0-9a-f]{32}\.jpeg\?from=4010531038$",DIRECT//高清头像
 URL-REGEX,"^https:\/\/p\d{1,2}\.douyinpic\.com",REJECT
 
