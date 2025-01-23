@@ -138,9 +138,19 @@ DOMAIN,akmcdn.ml.youngjoygame.com,REJECT-DROP
 DOMAIN,pldtcdn.ml.youngjoygame.com,REJECT-DROP
 DOMAIN,wscdn.ml.youngjoygame.com,REJECT-DROP
 #国内头像
-URL-REGEX,"^https:\/\/p\d{1,2}\.douyinpic\.com\/aweme\/1080x1080\/aweme-avatar\/tos-cn-i-0813c001_[0-9a-zA-Z]{37}\.jpeg\?from=4010531038$",DIRECT//高清头像
-URL-REGEX,"^https:\/\/p\d{1,2}\.douyinpic\.com\/aweme\/1080x1080\/aweme-avatar\/tos-cn-i-0813_[0-9a-zA-Z]{37}\.jpeg\?from=4010531038$",DIRECT//高清头像
-URL-REGEX,"^https:\/\/p\d{1,2}\.douyinpic\.com\/aweme\/1080x1080\/aweme-avatar\/tos-cn-i-0813_[0-9a-f]{32}\.jpeg\?from=4010531038$",DIRECT//高清头像
+URL-REGEX,"^https:\/\/p\d{1,2}\.douyinpic\.com\/aweme\/1080x1080\/aweme-avatar\/tos-cn-i-0813_[0-9a-zA-Z]{38}\.jpeg\?from=4010531038$",DIRECT//高清头
+URL-REGEX,"^https:\/\/p\d{1,2}\.douyinpic\.com\/aweme\/1080x1080\/aweme-avatar\/tos-cn-i-0813_[0-9a-zA-Z]{37}\.jpeg\?from=4010531038$",DIRECT//高清头
+URL-REGEX,"^https:\/\/p\d{1,2}\.douyinpic\.com\/aweme\/1080x1080\/aweme-avatar\/tos-cn-i-0813_[0-9a-f]{32}\.jpeg\?from=4010531038$",DIRECT//高清头
+URL-REGEX,"^https:\/\/p\d{1,2}\.douyinpic\.com\/aweme\/1080x1080\/aweme-avatar\/tos-cn-i-0813c001_[0-9a-zA-Z]{38}\.jpeg\?from=4010531038$",DIRECT//高清头
+URL-REGEX,"^https:\/\/p\d{1,2}\.douyinpic\.com\/aweme\/1080x1080\/aweme-avatar\/tos-cn-i-0813c001_[0-9a-zA-Z]{37}\.jpeg\?from=4010531038$",DIRECT//高清头
+URL-REGEX,"^https:\/\/p\d{1,2}\.douyinpic\.com\/aweme\/1080x1080\/aweme-avatar\/tos-cn-i-0813c001_[0-9a-f]{32}\.jpeg\?from=4010531038$",DIRECT//高清头
+URL-REGEX,"^https:\/\/p\d{1,2}\.douyinpic\.com\/aweme\/1080x1080\/aweme-avatar\/tos-cn-i-0813c000-ce_[0-9a-zA-Z]{38}\.jpeg\?from=4010531038$",DIRECT//高清头
+URL-REGEX,"^https:\/\/p\d{1,2}\.douyinpic\.com\/aweme\/1080x1080\/aweme-avatar\/tos-cn-i-0813c000-ce_[0-9a-zA-Z]{37}\.jpeg\?from=4010531038$",DIRECT//高清头
+URL-REGEX,"^https:\/\/p\d{1,2}\.douyinpic\.com\/aweme\/1080x1080\/aweme-avatar\/tos-cn-i-0813c000-ce_[0-9a-zA-Z]{36}\.jpeg\?from=4010531038$",DIRECT//高清头
+URL-REGEX,"^https:\/\/p\d{1,2}\.douyinpic\.com\/aweme\/1080x1080\/aweme-avatar\/tos-cn-avt-0015_[0-9a-f]{32}\.jpeg\?from=4010531038$",DIRECT//高清头
+URL-REGEX,"^https:\/\/p\d{1,2}\.douyinpic\.com\/aweme\/1080x1080\/aweme-avatar\/mosaic-legacy_[0-9a-f]{21}\.jpeg\?from=4010531038$",DIRECT//高清头像
+URL-REGEX,"^https:\/\/p\d{1,2}\.douyinpic\.com\/aweme\/1080x1080\/aweme-avatar\/mosaic-legacy_[0-9a-f]{20}\.jpeg\?from=4010531038$",DIRECT//高清头
+URL-REGEX,"^https:\/\/p\d{1,2}\.douyinpic\.com\/aweme\/1080x1080\/aweme-avatar\/mosaic-legacy_\d{4,5}_\d{8,10}\.jpeg\?from=4010531038$",DIRECT//高清头像
 URL-REGEX,"^https:\/\/p\d{1,2}\.douyinpic\.com",REJECT
 
 #TCP
