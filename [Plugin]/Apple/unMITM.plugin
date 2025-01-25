@@ -13,7 +13,7 @@
 #DOMAIN
 hostname = 
 #DOMAIN-SUFFIX
-hostname = -api.twitter.com,-api.snapkit.com,-bsdk-lq.dailygn.com,-dig.zjurl.cn,-discord.com,-gateway.discord.gg,-gateway-us-east1-b.discord.gg,-gateway-us-east1-c.discord.gg,-gpm-mon.dailygn.com,-gpsdk.dailygn.com,-gsdk-lq.dailygn.com,hscdn.jsdf.moontonapp.com,-ichannel.dailygn.com,-log.dailygn.com,-pull-flv-w77-sg01.tiktokcdn-us.com,-marscdnbypass-wxapp.tc.qq.com,-www.google.com,-*.app-measurement.com,-*.dailygn.com,-*.discord.media,-*.tiktokcdn-us.com,-*tiktokv.us,-*.apple.com,-*.contabo.net,-*.icloud.com,-*.itunes.com,-*.fcbox.com,-*huami.com,-*amemv.com,-*.mzstatic.com,-*snssdk.com,*
+hostname = -api.twitter.com,-api.snapkit.com,-bsdk-lq.dailygn.com,-dig.zjurl.cn,-discord.com,-gateway.discord.gg,-gateway-us-east1-b.discord.gg,-gateway-us-east1-c.discord.gg,-gpm-mon.dailygn.com,-gpsdk.dailygn.com,-gsdk-lq.dailygn.com,hscdn.jsdf.moontonapp.com,-ichannel.dailygn.com,-lf3-gameprotect.bytecdntp.com,-log.dailygn.com,-marscdnbypass-wxapp.tc.qq.com,-pull-flv-w77-sg01.tiktokcdn-us.com,-tnc3-bjlgy.bytedance.com,-www.google.com,-*.app-measurement.com,-*.dailygn.com,-*.discord.media,-*.tiktokcdn-us.com,-*tiktokv.us,-*.apple.com,-*.contabo.net,-*.icloud.com,-*.itunes.com,-*.fcbox.com,-*huami.com,-*amemv.com,-*.mzstatic.com,-*snssdk.com,*
 
 
 ###host###
@@ -28,11 +28,13 @@ hostname = -api.twitter.com,-api.snapkit.com,-bsdk-lq.dailygn.com,-dig.zjurl.cn,
 #-gpm-mon.dailygn.com//决胜巅峰
 #-gpsdk.dailygn.com//决胜巅峰
 #-gsdk-lq.dailygn.com//决胜巅峰
-#-hscdn.jsdf.moontonapp.com//决胜巅峰cdn
+#-hscdn.jsdf.moontonapp.com//决胜巅峰cdn/删
 #-ichannel.dailygn.com//决胜巅峰
+#-lf3-gameprotect.bytecdntp.com//决胜巅峰下载？
 #-log.dailygn.com//决胜巅峰
-#-pull-flv-w77-sg01.tiktokcdn-us.com//tiktok
 #-marscdnbypass-wxapp.tc.qq.com//wechat微信上传图片
+#-pull-flv-w77-sg01.tiktokcdn-us.com//tiktok
+#//决胜巅峰下载？
 #-www.google.com//google
 ###***host stuffix***###
 #-*.app-measurement.com//appstore
