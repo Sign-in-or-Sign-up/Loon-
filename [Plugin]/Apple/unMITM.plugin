@@ -13,12 +13,13 @@
 #DOMAIN
 hostname = 
 #DOMAIN-SUFFIX
-hostname = -api.twitter.com,-api.snapkit.com,-bsdk-lq.dailygn.com,-dig.zjurl.cn,-discord.com,-gateway.discord.gg,-gateway-us-east1-b.discord.gg,-gateway-us-east1-c.discord.gg,-gpm-mon.dailygn.com,-gpsdk.dailygn.com,-gsdk-lq.dailygn.com,-ichannel.dailygn.com,-lf3-gameprotect.bytecdntp.com,-log.dailygn.com,-marscdnbypass-wxapp.tc.qq.com,-pull-flv-w77-sg01.tiktokcdn-us.com,-tnc3-alisc1.bytedance.com,-tnc3-alisc2.bytedance.com-tnc3-bjlgy.bytedance.com,-www.google.com,-*.app-measurement.com,-*.dailygn.com,-*.discord.media,-*.tiktokcdn-us.com,-*tiktokv.us,-*.apple.com,-*.contabo.net,-*.icloud.com,-*.itunes.com,-*.fcbox.com,-*huami.com,-*amemv.com,-*.mzstatic.com,-*snssdk.com,*
+hostname = -api.twitter.com,-api.snapkit.com,-bscdn.jsdf.moontonapp.com,-bsdk-lq.dailygn.com,-dig.zjurl.cn,-discord.com,-gateway.discord.gg,-gateway-us-east1-b.discord.gg,-gateway-us-east1-c.discord.gg,-gpm-mon.dailygn.com,-gpsdk.dailygn.com,-gsdk-lq.dailygn.com,-hscdn.jsdf.moontonapp.com,-ichannel.dailygn.com,-lf3-gameprotect.bytecdntp.com,-log.dailygn.com,-marscdnbypass-wxapp.tc.qq.com,-pull-flv-w77-sg01.tiktokcdn-us.com,-www.google.com,-*.app-measurement.com,-*.dailygn.com,-*.discord.media,-*.tiktokcdn-us.com,-*tiktokv.us,-*.apple.com,-*.contabo.net,-*.icloud.com,-*.itunes.com,-*.fcbox.com,-*huami.com,-*amemv.com,-*.mzstatic.com,-*snssdk.com,*
 
 
 ###host###
 #-api.twitter.com//推特
 #-api.snapkit.com//tiktok
+#-bscdn.jsdf.moontonapp.com//决胜巅峰cdn
 #-bsdk-lq.dailygn.com//决胜巅峰
 #-dig.zjurl.cn//决胜巅峰字节系
 #-discord.com//discord
@@ -28,7 +29,7 @@ hostname = -api.twitter.com,-api.snapkit.com,-bsdk-lq.dailygn.com,-dig.zjurl.cn,
 #-gpm-mon.dailygn.com//决胜巅峰
 #-gpsdk.dailygn.com//决胜巅峰
 #-gsdk-lq.dailygn.com//决胜巅峰
-#-hscdn.jsdf.moontonapp.com//决胜巅峰cdn/删
+#-hscdn.jsdf.moontonapp.com//决胜巅峰cdn
 #-ichannel.dailygn.com//决胜巅峰
 #-lf3-gameprotect.bytecdntp.com//决胜巅峰下载？
 #-log.dailygn.com//决胜巅峰
@@ -36,7 +37,7 @@ hostname = -api.twitter.com,-api.snapkit.com,-bsdk-lq.dailygn.com,-dig.zjurl.cn,
 #-pull-flv-w77-sg01.tiktokcdn-us.com//tiktok
 #-tnc3-bjlgy.bytedance.com//决胜巅峰下载？
 #-tnc3-alisc1.bytedance.com//决胜巅峰下载？
-#-tnc3-alisc2.bytedance.com//决胜巅峰下载？
+#-tnc3-aliec2.bytedance.com//决胜巅峰下载？
 #-www.google.com//google
 ###***host stuffix***###
 #-*.app-measurement.com//appstore
