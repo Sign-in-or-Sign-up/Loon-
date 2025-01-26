@@ -187,7 +187,7 @@ URL-REGEX,"^https:\/\/p\d{1,2}\.douyinpic\.com",REJECT
 AND,((OR,((DEST-PORT,5051-5079),(DEST-PORT,5551-5579),(DEST-PORT,5651-5679))),(PROTOCOL,TCP)),REJECT-DROP
 
 [MITM]
-hostname = akmcdn.ml.youngjoygame.com,akmstatic.ml.youngjoygame.com,akmpicture.youngjoygame.com,alicdn.jsdf.moontonapp.com,bscdn.jsdf.moontonapp.com,hsstatic.jsdf.moontonapp.com,wsavatar.yuanzhanapp.com,wscdn.ml.youngjoygame.com,*.douyinpic.com
+hostname = akmcdn.ml.youngjoygame.com,akmstatic.ml.youngjoygame.com,akmpicture.youngjoygame.com,alicdn.jsdf.moontonapp.com,wsavatar.yuanzhanapp.com,wscdn.ml.youngjoygame.com,*.douyinpic.com
 
 [Rewrite]
 #只放行美术资源
