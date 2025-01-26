@@ -157,6 +157,7 @@ URL-REGEX,"^https:\/\/wscdn\.ml\.youngjoygame\.com\/download\/IOSBackground\/Bac
 
 DOMAIN,akmcdn.ml.youngjoygame.com,REJECT-DROP
 DOMAIN,alicdn.jsdf.moontonapp.com,REJECT-DROP
+DOMAIN,alicdn.web.moontonapp.com,REJECT-DROP
 DOMAIN,bscdn.jsdf.moontonapp.com,REJECT-DROP
 DOMAIN,pldtcdn.ml.youngjoygame.com,REJECT-DROP
 DOMAIN,wscdn.ml.youngjoygame.com,REJECT
