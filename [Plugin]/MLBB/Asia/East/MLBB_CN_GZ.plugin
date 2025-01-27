@@ -1,0 +1,34 @@
+#!name = Mobile Legends Asia/E🇨🇳贵州贵阳
+#!desc = MLBB中国华为云贵州贵阳机房手动选择节点/禁入。
+#!openUrl = https://apps.apple.com/app/id1671108959
+#!author = Sign-in-or-sign-out
+#!homepage = 
+#!icon = 
+#!select = 
+#!input = 
+#!tag = 无尽对决东亚,无尽对决国服,决胜巅峰
+#!date = 2025-01-23 09:00:00
+
+[Rule]
+
+#UDP30190PORT:12
+#CN，中国华为云贵州贵阳机房
+AND,((IP-CIDR,1.95.33.205/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
+AND,((IP-CIDR,1.95.37.221/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
+AND,((IP-CIDR,1.95.45.19/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
+AND,((IP-CIDR,1.95.128.205/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
+AND,((IP-CIDR,1.95.150.72/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
+
+#东亚中国服华为云贵州贵阳
+
+#1.95.45.0/24
+AND,((IP-CIDR,1.95.45.19/32,no-resolve),(DEST-PORT,14501-14508),(PROTOCOL,UDP)),PROXY
+IP-CIDR,1.95.45.0/24,PROXY
+
+#兜底
+AND,((IP-ASN,4811,no-resolve),(DEST-PORT,14501-14508)),PROXY
+
+[MITM]
+hostname = 
+
+[Script]
