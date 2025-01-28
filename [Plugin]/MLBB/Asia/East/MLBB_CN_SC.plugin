@@ -1,0 +1,34 @@
+#!name = Mobile Legends Asia/E🇨🇳四川成都
+#!desc = MLBB中国阿里云四川成都机房手动选择节点/禁入。
+#!openUrl = https://apps.apple.com/app/id1671108959
+#!author = Sign-in-or-sign-out
+#!homepage = 
+#!icon = 
+#!select = 
+#!input = 
+#!tag = 无尽对决东亚,无尽对决国服,决胜巅峰
+#!date = 2025-01-23 09:00:00
+
+[Rule]
+
+#UDP30190PORT:5
+#CN，中国阿里云四川成都机房
+AND,((IP-CIDR,47.108.61.89/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
+AND,((IP-CIDR,47.108.220.2/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
+AND,((IP-CIDR,47.109.22.252/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
+AND,((IP-CIDR,47.109.28.247/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
+AND,((IP-CIDR,47.109.35.152/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
+
+#东亚中国服阿里云四川成都
+
+#47.108.249.0/24
+AND,((IP-CIDR,47.108.249.161/32,no-resolve),(DEST-PORT,14501-14508),(OR,((PROTOCOL,TCP),(PROTOCOL,UDP)))),PROXY
+IP-CIDR,47.108.249.0/24,PROXY
+
+#兜底
+AND,((IP-ASN,37963,no-resolve),(DEST-PORT,14501-14508),(OR,((PROTOCOL,TCP),(PROTOCOL,UDP)))),PROXY
+
+[MITM]
+hostname = 
+
+[Script]
