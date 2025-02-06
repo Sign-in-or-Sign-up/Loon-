@@ -167,6 +167,7 @@ DOMAIN,hscdn.jsdf.moontonapp.com,DIRECT
 DOMAIN,pldtcdn.ml.youngjoygame.com,REJECT-DROP
 DOMAIN,wscdn.ml.youngjoygame.com,REJECT
 #国内头像
+URL-REGEX,"^https:\/\/p\d{1,2}\.douyinpic\.com\/aweme\/1080x1080\/aweme-avatar\/douyin-user-file_[0-9a-f]{32}\.jpeg\?from=4010531038$$",DIRECT//高清头
 URL-REGEX,"^https:\/\/p\d{1,2}\.douyinpic\.com\/aweme\/1080x1080\/aweme-avatar\/tos-cn-i-0813_[0-9a-zA-Z]{38}\.jpeg\?from=4010531038$",DIRECT//高清头
 URL-REGEX,"^https:\/\/p\d{1,2}\.douyinpic\.com\/aweme\/1080x1080\/aweme-avatar\/tos-cn-i-0813_[0-9a-zA-Z]{37}\.jpeg\?from=4010531038$",DIRECT//高清头
 URL-REGEX,"^https:\/\/p\d{1,2}\.douyinpic\.com\/aweme\/1080x1080\/aweme-avatar\/tos-cn-i-0813_[0-9a-f]{32}\.jpeg\?from=4010531038$",DIRECT//高清头
@@ -229,6 +230,7 @@ hostname = akmcdn.ml.youngjoygame.com,akmstatic.ml.youngjoygame.com,akmpicture.y
 ^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/\d{4,5}\/\d{1,2}\/\d{1,2}\/\d{6,10}_\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject
 
 #国区头像
+^https:\/\/p\d{1,2}\.douyinpic\.com\/aweme\/100x100\/aweme-avatar\/douyin-user-file_[0-9a-f]{32}\.jpeg\?from=4010531038$ - reject-img
 ^https:\/\/p\d{1,2}\.douyinpic\.com\/aweme\/100x100\/aweme-avatar\/tos-cn-i-0813_[0-9a-zA-Z]{38}\.jpeg\?from=4010531038$ - reject-img
 ^https:\/\/p\d{1,2}\.douyinpic\.com\/aweme\/100x100\/aweme-avatar\/tos-cn-i-0813_[0-9a-zA-Z]{37}\.jpeg\?from=4010531038$ - reject-img
 ^https:\/\/p\d{1,2}\.douyinpic\.com\/aweme\/100x100\/aweme-avatar\/tos-cn-i-0813_[0-9a-f]{32}\.jpeg\?from=4010531038$ - reject-img
