@@ -76,7 +76,7 @@ URL-REGEX,"^https:\/\/livephoto\.us\.sinaimg\.cn\/00[A-Za-z0-9]{4}(gx|jx)[A-Za-z
 URL-REGEX,"^https:\/\/livephoto\.us\.sinaimg\.cn\/00[A-Za-z0-9]{4}(gx|jx)[A-Za-z0-9]{10}0f0f0100[A-Za-z0-9]{4}0k01\.mov\?Expires=\d{10}&ssig=[A-Za-z0-9%]{12}&KID=unistore,video$",DIRECT
 URL-REGEX,"^https:\/\/livephoto\.us\.sinaimg\.cn\/00[A-Za-z0-9]{4}(gx|jx)[A-Za-z0-9]{10}0f0f0100[A-Za-z0-9]{4}0k01\.mov\?Expires=\d{10}&ssig=[A-Za-z0-9%]{10}&KID=unistore,video$",DIRECT
 URL-REGEX,"^https:\/\/vip\.storage\.weibo\.com\/[0-9a-f]{13}_1\d{9}_[1-9]_cover\.jpg$",REJECT//微博vip等级贺图
-URL-REGEX,"^https:\/\/h5\.sinaimg\.cn\/upload\/108\/830\/2022\/[01][0-9]\/[0-3][0-9]\/vip[1-8]\.gif$",REJECT//头像旁vip等级小标
+URL-REGEX,"^https:\/\/h5\.sinaimg\.cn\/upload\/108\/830\/2022\/10\/19\/s?vip[1-8]\.gif$",REJECT//头像旁s?vip等级小标
 #URL-REGEX,"^http:\/\/t\.cn\/[0-9a-zA-Z]{8}$"
 ##视频
 DOMAIN,f.video.weibocdn.com
