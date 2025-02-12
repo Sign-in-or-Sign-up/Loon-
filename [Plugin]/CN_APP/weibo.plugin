@@ -98,5 +98,10 @@ DOMAIN,f.video.weibocdn.com,REJECT
 
 
 
+[Rewrite]
+^https:\/\/vip\.storage\.weibo\.com\/[0-9a-f]{13}_1\d{9}_[1-9]_cover\.jpg$ - reject-img
+^https:\/\/h5\.sinaimg\.cn\/upload\/108\/830\/2022\/10\/19\/s?vip[1-8]\.gif$ - reject-img
+^https:\/\/ww1\.sinaimg\.cn\/woriginal\/9d44112bjw1f1xl1c10tuj20hs0hs0tw\.jpg$ - reject-img
+
 
 
