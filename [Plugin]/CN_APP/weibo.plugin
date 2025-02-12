@@ -60,7 +60,9 @@ URL-REGEX,"^https?:\/\/wx[1-4]\.sinaimg\.cn\/or360\/[0-9a-zA-Z]{34}\.jpg$",DIREC
 URL-REGEX,"^https?:\/\/wx[1-4]\.sinaimg\.cn\/or360\/[0-9a-zA-Z]{32}\.jpg$",DIRECT
 URL-REGEX,"^https?:\/\/wx[1-4]\.sinaimg\.cn\/wap720\/[0-9a-zA-Z]{34}\.jpg$",DIRECT
 URL-REGEX,"^https?:\/\/wx[1-4]\.sinaimg\.cn\/wap720\/[0-9a-zA-Z]{32}\.jpg$",DIRECT
+URL-REGEX,"^https?:\/\/wx[1-4]\.sinaimg\.cn\/wap360\/[0-9a-zA-Z]{32}\.jpg$",DIRECT//相册
 URL-REGEX,"^https?:\/\/wx[1-4]\.sinaimg\.cn\/wap180\/[0-9a-zA-Z]{32}\.jpg$",DIRECT
+
 URL-REGEX,"^http:\/\/wx[1-4]\.sinaimg\.cn\/woriginal\/[0-9a-zA-Z]{32}\.gif$",DIRECT
 URL-REGEX,"^https:\/\/wx[1-4]\.sinaimg\.cn\/orj1080\/[0-9a-zA-Z]{32}\.gif$",DIRECT
 URL-REGEX,"^https:\/\/wx[1-4]\.sinaimg\.cn\/sti960\/[0-9a-zA-Z]{32}\.gif$",DIRECT
