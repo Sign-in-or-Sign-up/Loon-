@@ -98,7 +98,7 @@ URL-REGEX,"^https?:\/\/f\.video\.weibocdn\.com\/(o|u)0\/[A-Za-z0-9]{26}[A-Za-z0-
 URL-REGEX,"^https?:\/\/f\.video\.weibocdn\.com\/(o|u)0\/[A-Za-z0-9]{37}\.mp4\?label=mp4_(720p|1080p|hd|ld)&template=\d{3,4}x\d{3,4}\.2(4|5)\.0&ori=0&ps=[0-9a-zA-Z%]{14}&Expires=\d{10}&ssig=[A-Za-z0-9%]{14}&KID=unistore,video$",DIRECT
 URL-REGEX,"^https?:\/\/f\.video\.weibocdn\.com\/(o|u)0\/[A-Za-z0-9]{37}\.mp4\?label=mp4_(720p|1080p|hd|ld)&template=\d{3,4}x\d{3,4}\.2(4|5)\.0&ori=0&ps=[0-9a-zA-Z%]{14}&Expires=\d{10}&ssig=[A-Za-z0-9%]{12}&KID=unistore,video$",DIRECT
 URL-REGEX,"^https?:\/\/f\.video\.weibocdn\.com\/(o|u)0\/[A-Za-z0-9]{37}\.mp4\?label=mp4_(720p|1080p|hd|ld)&template=\d{3,4}x\d{3,4}\.2(4|5)\.0&ori=0&ps=[0-9a-zA-Z%]{14}&Expires=\d{10}&ssig=[A-Za-z0-9%]{10}&KID=unistore,video$",DIRECT
-URL-REGEX,"^https?:\/\/f\.video\.weibocdn\.com\/(o|u)0\/[A-Za-z0-9]{37}\.mp4\?label=mp4_(720p|1080p|1440p|2160p|hd|ld)(60)?&template=\d{3,4}x\d{3,4}\.2(3|4|5)\.0&media_id=\d{14}&tp=8x8A3El:YTkl0eM8&us=0&ori=1&bf=4&ot=(h|v)&lp=0000[0-9a-zA-Z]{5}&ps=4BhXeH&uid=4hTCmy&ab=,.*?&Expires=\d{10}&ssig=[A-Za-z0-9%]{10}&KID=unistore,video$",DIRECT
+URL-REGEX,"^https?:\/\/f\.video\.weibocdn\.com\/(o|u)0\/[A-Za-z0-9]{37}\.mp4\?label=mp4_(720p|1080p|1440p60|2160p60|hd|ld)&template=\d{3,4}x\d{3,4}\.2(3|4|5)\.0&media_id=\d{14}&tp=8x8A3El:YTkl0eM8&us=0&ori=1&bf=4&ot=(h|v)&lp=0000[0-9a-zA-Z]{5}&ps=4BhXeH&uid=4hTCmy&ab=,.*?&Expires=\d{10}&ssig=[A-Za-z0-9%]{10}&KID=unistore,video$",DIRECT
 #URL-REGEX,"^http:\/\/t\.cn\/[0-9a-zA-Z]{8}$",REJECT
 DOMAIN,f.video.weibocdn.com,REJECT
 
