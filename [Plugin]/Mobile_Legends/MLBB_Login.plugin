@@ -45,11 +45,12 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 #URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Art\/ios\/zzp2_.*?\.unity3d$",DIRECT//高级特效补充资源
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/AllLanguageCNTraditional\.unity3d$",DIRECT//检查资源
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/LoadResDelete\.unity3d\.zip$",DIRECT//检查资源
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/LoadResForceCheck\.unity3d\.zip$",DIRECT//检查资源
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/LoadResModule\.unity3d\.zip$",DIRECT//检查资源
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/LoadResModuleRes\.unity3d\.zip$",DIRECT//检查资源
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/LoadResModuleCombine_etc\.unity3d\.zip$",DIRECT//检查资源
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/LoadResModuleCrossUsage\.unity3d\.zip$",DIRECT//检查资源
-URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/LoadResForceCheck\.unity3d\.zip$",DIRECT//检查资源
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/LoadResMultiCombineBrief_etc\.unity3d\.zip$",DIRECT//检查资源
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/LoadResSplit_xxh\.unity3d\.zip$",DIRECT//检查资源
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/LoadResVersionDelete\.unity3d\.zip$",DIRECT//检查资源
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/LoadRes_xxh_Preload\.unity3d\.zip$",DIRECT//检查资源
