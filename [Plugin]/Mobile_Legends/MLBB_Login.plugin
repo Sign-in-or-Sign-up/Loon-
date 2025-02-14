@@ -102,6 +102,7 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.1\/fix_v?_?[a-z]{4,11}_173\d{7}\/[12]\/etc\/gameres\/ios\/mlf\/modules\/UIBasicInfomation\/BasicInfoManager\.bytes$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.1\/fix_v?_?[a-z]{4,11}_173\d{7}\/[12]\/etc\/gameres\/ios\/mlf\/modules\/UIClearing\/UIClearing_View\.bytes$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.1\/fix_v?_?[a-z]{4,11}_173\d{7}\/[12]\/etc\/gameres\/ios\/mlf\/ruledact\/Act_ChestFresh\/.*?\.bytes$",DIRECT//
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.1\/fix_v?_?[a-z]{4,11}_173\d{7}\/[12]\/etc\/gameres\/ios\/mlf\/ruledact\/Act_HotCalendar\/UIHotCalendar\.bytes$",DIRECT//热门日历？
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.1\/fix_v?_?[a-z]{4,11}_173\d{7}\/[12]\/etc\/gameres\/ios\/mlf\/ruledact\/Act_IKIDraw\/ActivityNew_View_YKS_Reward\.bytes$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.1\/fix_v?_?[a-z]{4,11}_173\d{7}\/[12]\/etc\/gameres\/ios\/mlf\/ruledact\/Act_SummerMain\/ActivityNew_View_SummerMainSend\.bytes$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.1\/fix_v?_?[a-z]{4,11}_173\d{7}\/[12]\/etc\/gameres\/ios\/mlf\/ruledact\/Act_SummerMain\/SummerMainDrawLine\.bytes$",DIRECT//
@@ -135,6 +136,11 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/CloneImbaOneRoadMode\/420\.1\/UI\/ios\/Atlas_CloneImbaOneRoadModeExtra_add\.unity3d$",DIRECT//乱斗迷影
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/CloneImbaOneRoadMode\/420\.1\/UI\/ios\/CloneImbaOneRoadModeuiatlas\.ini$",DIRECT//乱斗迷影
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/CloneImbaOneRoadMode\/420\.1\/AStarPath\/PVP_004_new2022Copy\.bytes$",DIRECT//乱斗迷影
+
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DisOrderMode\/\d{3}\.1\/Art/\ios/\zzp2_zhanchang_liantiao_biaoji\.bytes$",DIRECT//其他模式
+
+
+
 
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DisOrderMode\/\d{3}\.1\/ModeSize\.bytes$",DIRECT//其他模式
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DisOrderMode\/\d{3}\.1\/LoadResSingleModeMd5\.bytes$",DIRECT
