@@ -46,6 +46,7 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/AllLanguageCNTraditional\.unity3d$",DIRECT//检查资源
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/LoadResDelete\.unity3d\.zip$",DIRECT//检查资源
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/LoadResModule\.unity3d\.zip$",DIRECT//检查资源
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/LoadResModuleCrossUsage\.unity3d\.zip$",DIRECT//检查资源
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/LoadResSplit_xxh\.unity3d\.zip$",DIRECT//检查资源
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/LoadRes_xxh_Preload\.unity3d\.zip$",DIRECT//检查资源
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/module_combine_(245|319)_0\.zip$",DIRECT//功能必备(随时更新)
