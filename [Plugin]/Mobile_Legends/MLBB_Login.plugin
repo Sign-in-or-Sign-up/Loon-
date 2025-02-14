@@ -58,7 +58,6 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/LoadResSplit_xxh\.unity3d\.zip$",DIRECT//检查资源
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/LoadResVersionDelete\.unity3d\.zip$",DIRECT//检查资源
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/LoadRes_xxh_Preload\.unity3d\.zip$",DIRECT//检查资源
-URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/module_combine_/d{3}_0\.zip$",DIRECT//功能必备(随时更新)
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/module_combine_200[1-5]_0\.zip$",DIRECT//局内战斗资源(随时更新)
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/module_combine_[12]\d{9}_[0123]\.zip$",DIRECT//造型展示动画
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/module_combine_5\d{8}_0\.zip$",DIRECT//终极资源包
@@ -66,6 +65,7 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/module_combine_283_[0-3]\.zip$",DIRECT//游戏内皮肤联动等小更新？
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/module_combine_350_0\.zip$",DIRECT//功能必备
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/module_combine_327_0\.zip$",DIRECT//功能必备?
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/module_combine_\d{3}_0\.zip$",DIRECT//功能必备(随时更新)
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/module_combine_66000_1?[0-9]\.zip$",DIRECT//终极资源包
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/module_combine_6700[0-9]_1?[0-9]\.zip$",DIRECT//高级特效补充资源
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/module_combine_[268]_0\.zip$",DIRECT//局内战斗资源？
@@ -163,6 +163,7 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DayBreakMode\/\d{3}\.1\/ModeSize\.bytes$",DIRECT//其他模式
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DayBreakMode\/\d{3}\.1\/LoadResSingleModeMd5\.bytes$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/CustomRoomMode\/\d{3}\.1\/ModeSize\.bytes$",DIRECT//其他模式
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/CustomRoomMode\/\d{3}\.1\/LoadResSingleModeMd5\.bytes$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/OverDriveHeroMode\/\d{3}\.1\/ModeSize\.bytes$",DIRECT//其他模式
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/OverDriveHeroMode\/\d{3}\.1\/LoadResSingleModeMd5\.bytes$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/ScramblePointMode\/\d{3}\.1\/ModeSize\.bytes$",DIRECT//其他模式
@@ -170,6 +171,7 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/ModeDemoTestMode\/\d{3}\.1\/ModeSize\.bytes$",DIRECT//其他模式
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/ModeDemoTestMode\/\d{3}\.1\/LoadResSingleModeMd5\.bytes$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/Mapmode[1-6]_Win1_Mode\/\d{3}\.1\/ModeSize\.bytes$",DIRECT//其他模式
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/Mapmode[1-6]_Win1_Mode\/\d{3}\.1\/LoadResSingleModeMd5\.bytes$",DIRECT//其他模式
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/CommonRes\/\d{3}\.1\/ModeSize\.bytes$",DIRECT//其他模式
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/ChessPlayerRes\/\d{3}\.1\/ModeSize\.bytes$",DIRECT//其他模式
 
