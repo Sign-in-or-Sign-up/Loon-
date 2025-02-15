@@ -67,7 +67,7 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/module_combine_350_0\.zip$",DIRECT//功能必备
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/module_combine_327_0\.zip$",DIRECT//功能必备?
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/module_combine_\d{3}_[01]\.zip$",DIRECT//功能必备(随时更新)
-URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/module_combine_66000_1?[0-9]\.zip$",DIRECT//终极资源包
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/module_combine_6600[0-9]_1?[0-9]\.zip$",DIRECT//终极资源包
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/module_combine_6700[0-9]_1?[0-9]\.zip$",DIRECT//高级特效补充资源
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/module_combine_[268]_0\.zip$",DIRECT//局内战斗资源？
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Scenes\/ios\/PVP_0(32|49)_?(extlow|high|low)?_add\.unity3d$",DIRECT//终极资源包
@@ -110,6 +110,7 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.1\/fix_v?_?[a-z]{4,11}_173\d{7}\/[12]\/etc\/gameres\/ios\/mlf\/ruledact\/Act_RamadanMain\/ActivityNew_View_GoldenRamadan_Award_add\.bytes$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.1\/fix_v?_?[a-z]{4,11}_173\d{7}\/[12]\/etc\/gameres\/ios\/mlf\/ruledact\/Act_RamadanMain\/ActivityNew_View_GoldenRamadan_Box_add\.bytes$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.1\/fix_v?_?[a-z]{4,11}_173\d{7}\/[12]\/etc\/gameres\/ios\/mlf\/ruledact\/Act_RamadanMain\/ActivityNew_View_GoldenRamadan_Result_add\.bytes$",DIRECT//
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.1\/fix_v?_?[a-z]{4,11}_173\d{7}\/[12]\/etc\/gameres\/ios\/mlf\/ruledact\/Act_RamadanMain\/ActivityNew_View_GoldenRamadan_SkinChoose_add\.bytes$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.1\/fix_v?_?[a-z]{4,11}_173\d{7}\/[12]\/etc\/gameres\/ios\/mlf\/ruledact\/Act_SummerMain\/ActivityNew_View_SummerMainSend\.bytes$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.1\/fix_v?_?[a-z]{4,11}_173\d{7}\/[12]\/etc\/gameres\/ios\/mlf\/ruledact\/Act_SummerMain\/SummerMainDrawLine\.bytes$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.1\/fix_v?_?[a-z]{4,11}_173\d{7}\/[12]\/etc\/gameres\/ios\/mlf\/ruledact\/Act_ThemeRaffle\/ActivityNew_View_KishinDensetsu_PopUp_Exchange\.bytes$",DIRECT//
