@@ -110,6 +110,7 @@ DOMAIN,f.video.weibocdn.com,REJECT
 ^https:\/\/tvax[1-4]\.sinaimg\.cn\/default\/images\/default_avatar_male_180\.gif\?KID=imgbed,tva&Expires=\d{10}&ssig=[0-9a-zA-Z%]{10}$$ - reject-img
 
 ^https:\/\/vip\.storage\.weibo\.com\/[0-9a-f]{13}_1\d{9}_[1-7]_cover\.jpg$ - reject-img
+^https:\/\/h5\.sinaimg\.cn\/upload\/108\/1866\/2022\/11\/02\/vip_[1-7]\.png$ - reject-img
 ^https:\/\/h5\.sinaimg\.cn\/upload\/116\/1347\/2021\/04\/27\/vip[1-7]\.png$ - reject-img
 ^https:\/\/h5\.sinaimg\.cn\/upload\/108\/830\/2022\/10\/19\/s?vip[1-7]\.gif$ - reject-img
 ^https:\/\/h5\.sinaimg\.cn\/upload\/108\/830\/2022\/10\/19\/icon_vip_renewal\.png$ - reject-img
@@ -134,6 +135,7 @@ DOMAIN,f.video.weibocdn.com,REJECT
 ^https:\/\/h5\.sinaimg\.cn\/upload\/100\/1378\/2023\/07\/21\/discover_banner_homepi\.png$ - reject-img
 ^https:\/\/h5\.sinaimg\.cn\/upload\/100\/1378\/2023\/08\/09\/discover_banner_icons1\.png$ - reject-img
 ^https:\/\/h5\.sinaimg\.cn\/upload\/100\/1378\/2024\/03\/20\/discover_banner_svip\.png$ - reject-img
+
 
 #微博热搜数字排序
 ^https:\/\/simg\.s\.weibo\.com\/wb_search_img_search_[1-4]?[0-9]\.png$ - reject-img
