@@ -52,10 +52,12 @@ URL-REGEX,"^https?:\/\/wx[1-4]\.sinaimg\.cn\/woriginal\/[0-9a-zA-Z]{34}\.jpg$",D
 URL-REGEX,"^https?:\/\/wx[1-4]\.sinaimg\.cn\/woriginal\/[0-9a-zA-Z]{32}\.jpg$",DIRECT
 URL-REGEX,"^https?:\/\/wx[1-4]\.sinaimg\.cn\/orj1080\/[0-9a-zA-Z]{34}\.jpg$",DIRECT
 URL-REGEX,"^https?:\/\/wx[1-4]\.sinaimg\.cn\/orj1080\/[0-9a-zA-Z]{32}\.jpg$",DIRECT
+URL-REGEX,"^https?:\/\/wx[1-4]\.sinaimg\.cn\/orh1080\/[0-9a-zA-Z]{32}\.jpg$",DIRECT
 URL-REGEX,"^https?:\/\/wx[1-4]\.sinaimg\.cn\/orj960\/[0-9a-zA-Z]{34}\.jpg$",DIRECT
 URL-REGEX,"^https?:\/\/wx[1-4]\.sinaimg\.cn\/orj960\/[0-9a-zA-Z]{32}\.jpg$",DIRECT
 URL-REGEX,"^https?:\/\/wx[1-4]\.sinaimg\.cn\/orj480\/[0-9a-zA-Z]{34}\.jpg$",DIRECT
 URL-REGEX,"^https?:\/\/wx[1-4]\.sinaimg\.cn\/orj480\/[0-9a-zA-Z]{32}\.jpg$",DIRECT
+URL-REGEX,"^https?:\/\/wx[1-4]\.sinaimg\.cn\/or480\/[0-9a-zA-Z]{32}\.jpg$",DIRECT//微博
 URL-REGEX,"^https?:\/\/wx[1-4]\.sinaimg\.cn\/or360\/[0-9a-zA-Z]{34}\.jpg$",DIRECT
 URL-REGEX,"^https?:\/\/wx[1-4]\.sinaimg\.cn\/or360\/[0-9a-zA-Z]{32}\.jpg$",DIRECT
 URL-REGEX,"^https?:\/\/wx[1-4]\.sinaimg\.cn\/wap720\/[0-9a-zA-Z]{34}\.jpg$",DIRECT
