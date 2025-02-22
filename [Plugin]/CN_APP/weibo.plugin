@@ -99,6 +99,7 @@ URL-REGEX,"^https?:\/\/f\.video\.weibocdn\.com\/(o|u)0\/[A-Za-z0-9]{37}\.mp4\?la
 #URL-REGEX,"^http:\/\/t\.cn\/[0-9a-zA-Z]{8}$",REJECT
 DOMAIN,f.video.weibocdn.com,REJECT
 
+URL-REGEX,"^https:\/\/weibo\.cn\/sinaurl\?toasturl=http",DIRECT//允许外链跳转
 
 [Rewrite]
 ^https:\/\/h5\.sinaimg\.cn\/upload\/108\/1793\/2023\/08\/30\/fvvip[1-5]\.png$ - reject-img
