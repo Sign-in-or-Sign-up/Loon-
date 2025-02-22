@@ -48,6 +48,7 @@ URL-REGEX,"^https:\/\/tvax[1-4]\.sinaimg\.cn\/crop\.\d{1,3}\.\d{1,3}\.\d{2,4}\.\
 #贴内图片
 URL-REGEX,"^https?:\/\/wx[1-4]\.sinaimg\.cn\/large\/[0-9a-zA-Z]{34}\.jpg$",DIRECT
 URL-REGEX,"^https?:\/\/wx[1-4]\.sinaimg\.cn\/large\/[0-9a-zA-Z]{32}\.jpg$",DIRECT
+URL-REGEX,"^https?:\/\/wx[1-4]\.sinaimg\.cn\/hworiginal\/[0-9a-zA-Z]{32}\.jpg$",DIRECT
 URL-REGEX,"^https?:\/\/wx[1-4]\.sinaimg\.cn\/woriginal\/[0-9a-zA-Z]{34}\.jpg$",DIRECT
 URL-REGEX,"^https?:\/\/wx[1-4]\.sinaimg\.cn\/woriginal\/[0-9a-zA-Z]{32}\.jpg$",DIRECT
 URL-REGEX,"^https?:\/\/wx[1-4]\.sinaimg\.cn\/orj1080\/[0-9a-zA-Z]{34}\.jpg$",DIRECT
