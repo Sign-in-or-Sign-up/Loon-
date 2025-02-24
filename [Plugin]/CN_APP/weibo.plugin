@@ -72,6 +72,7 @@ URL-REGEX,"^http:\/\/wx[1-4]\.sinaimg\.cn\/woriginal\/[0-9a-zA-Z]{32}\.gif$",DIR
 URL-REGEX,"^https:\/\/wx[1-4]\.sinaimg\.cn\/orj1080\/[0-9a-zA-Z]{32}\.gif$",DIRECT
 URL-REGEX,"^https:\/\/wx[1-4]\.sinaimg\.cn\/sti960\/[0-9a-zA-Z]{32}\.gif$",DIRECT
 URL-REGEX,"^https:\/\/wx[1-4]\.sinaimg\.cn\/orj480\/[0-9a-zA-Z]{32}\.gif$",DIRECT
+URL-REGEX,"^https:\/\/wx[1-4]\.sinaimg\.cn\/or360\/[0-9a-zA-Z]{34}\.gif$",DIRECT
 URL-REGEX,"^https:\/\/wx[1-4]\.sinaimg\.cn\/or360\/[0-9a-zA-Z]{32}\.gif$",DIRECT
 URL-REGEX,"^https:\/\/wx[1-4]\.sinaimg\.cn\/images\/default_d_h_orj1080\.gif$",REJECT
 URL-REGEX,"^https:\/\/wx[1-4]\.sinaimg\.cn\/images\/default_d_h_orj960\.gif$",REJECT
