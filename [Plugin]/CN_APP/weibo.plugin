@@ -19,25 +19,17 @@ AND,((DOMAIN,api.weibo.cn),(DEST-PORT,443)),DIRECT
 ##消息
 AND,((DOMAIN,api.weibo.com),(DEST-PORT,443)),DIRECT
 #DOMAIN,api.weibo.com,DIRECT
-##图片
-URL-REGEX,"^https:\/\/tva[1-4]\.sinaimg\.cn\/crop\.\d{1,3}\.\d{1,3}\.\d{2,4}\.\d{2,4}\.\d{2,4}\/[0-9a-zA-Z]{34}\.jpg\?KID=imgbed,tva&Expires=\d{10}&ssig=[0-9a-zA-Z%]{16}$",DIRECT
-URL-REGEX,"^https:\/\/tva[1-4]\.sinaimg\.cn\/crop\.\d{1,3}\.\d{1,3}\.\d{2,4}\.\d{2,4}\.\d{2,4}\/[0-9a-zA-Z]{34}\.jpg\?KID=imgbed,tva&Expires=\d{10}&ssig=[0-9a-zA-Z%]{14}$",DIRECT
-URL-REGEX,"^https:\/\/tva[1-4]\.sinaimg\.cn\/crop\.\d{1,3}\.\d{1,3}\.\d{2,4}\.\d{2,4}\.\d{2,4}\/[0-9a-zA-Z]{34}\.jpg\?KID=imgbed,tva&Expires=\d{10}&ssig=[0-9a-zA-Z%]{12}$",DIRECT
-URL-REGEX,"^https:\/\/tva[1-4]\.sinaimg\.cn\/crop\.\d{1,3}\.\d{1,3}\.\d{2,4}\.\d{2,4}\.\d{2,4}\/[0-9a-zA-Z]{34}\.jpg\?KID=imgbed,tva&Expires=\d{10}&ssig=[0-9a-zA-Z%]{10}$",DIRECT
-URL-REGEX,"^https:\/\/tva[1-4]\.sinaimg\.cn\/crop\.\d{1,3}\.\d{1,3}\.\d{2,4}\.\d{2,4}\.\d{2,4}\/[0-9a-zA-Z]{32}\.jpg\?KID=imgbed,tva&Expires=\d{10}&ssig=[0-9a-zA-Z%]{14}$",DIRECT
-URL-REGEX,"^https:\/\/tva[1-4]\.sinaimg\.cn\/crop\.\d{1,3}\.\d{1,3}\.\d{2,4}\.\d{2,4}\.\d{2,4}\/[0-9a-zA-Z]{32}\.jpg\?KID=imgbed,tva&Expires=\d{10}&ssig=[0-9a-zA-Z%]{12}$",DIRECT
-URL-REGEX,"^https:\/\/tva[1-4]\.sinaimg\.cn\/crop\.\d{1,3}\.\d{1,3}\.\d{2,4}\.\d{2,4}\.\d{2,4}\/[0-9a-zA-Z]{32}\.jpg\?KID=imgbed,tva&Expires=\d{10}&ssig=[0-9a-zA-Z%]{10}$",DIRECT
 
 #用户头像
-URL-REGEX,"^https:\/\/tvax[1-4]\.sinaimg\.cn\/crop\.\d{1,3}\.\d{1,3}\.\d{2,4}\.\d{2,4}\.\d{2,4}\/[0-9a-zA-Z]{34}\.jpg\?KID=imgbed,tva&Expires=\d{10}&ssig=[0-9a-zA-Z%]{16}$",DIRECT
-URL-REGEX,"^https:\/\/tvax[1-4]\.sinaimg\.cn\/crop\.\d{1,3}\.\d{1,3}\.\d{2,4}\.\d{2,4}\.\d{2,4}\/[0-9a-zA-Z]{34}\.jpg\?KID=imgbed,tva&Expires=\d{10}&ssig=[0-9a-zA-Z%]{14}$",DIRECT
-URL-REGEX,"^https:\/\/tvax[1-4]\.sinaimg\.cn\/crop\.\d{1,3}\.\d{1,3}\.\d{2,4}\.\d{2,4}\.\d{2,4}\/[0-9a-zA-Z]{34}\.jpg\?KID=imgbed,tva&Expires=\d{10}&ssig=[0-9a-zA-Z%]{12}$",DIRECT
-URL-REGEX,"^https:\/\/tvax[1-4]\.sinaimg\.cn\/crop\.\d{1,3}\.\d{1,3}\.\d{2,4}\.\d{2,4}\.\d{2,4}\/[0-9a-zA-Z]{34}\.jpg\?KID=imgbed,tva&Expires=\d{10}&ssig=[0-9a-zA-Z%]{10}$",DIRECT
-URL-REGEX,"^https:\/\/tvax[1-4]\.sinaimg\.cn\/crop\.\d{1,3}\.\d{1,3}\.\d{2,4}\.\d{2,4}\.\d{2,4}\/[0-9a-zA-Z]{32}\.jpg\?KID=imgbed,tva&Expires=\d{10}&ssig=[0-9a-zA-Z%]{16}$",DIRECT
-URL-REGEX,"^https:\/\/tvax[1-4]\.sinaimg\.cn\/crop\.\d{1,3}\.\d{1,3}\.\d{2,4}\.\d{2,4}\.\d{2,4}\/[0-9a-zA-Z]{32}\.jpg\?KID=imgbed,tva&Expires=\d{10}&ssig=[0-9a-zA-Z%]{14}$",DIRECT
-URL-REGEX,"^https:\/\/tvax[1-4]\.sinaimg\.cn\/crop\.\d{1,3}\.\d{1,3}\.\d{2,4}\.\d{2,4}\.\d{2,4}\/[0-9a-zA-Z]{32}\.jpg\?KID=imgbed,tva&Expires=\d{10}&ssig=[0-9a-zA-Z%]{12}$",DIRECT
-URL-REGEX,"^https:\/\/tvax[1-4]\.sinaimg\.cn\/crop\.\d{1,3}\.\d{1,3}\.\d{2,4}\.\d{2,4}\.\d{2,4}\/[0-9a-zA-Z]{32}\.jpg\?KID=imgbed,tva&Expires=\d{10}&ssig=[0-9a-zA-Z%]{10}$",DIRECT
-URL-REGEX,"^https:\/\/tvax[1-4]\.sinaimg\.cn\/crop\.\d{1,3}\.\d{1,3}\.\d{2,4}\.\d{2,4}\.\d{2,4}\/[0-9a-zA-Z]{30}\.gif\?KID=imgbed,tva&Expires=\d{10}&ssig=[0-9a-zA-Z%]{10}$",DIRECT
+URL-REGEX,"^https:\/\/tvax?[1-4]\.sinaimg\.cn\/crop\.\d{1,3}\.\d{1,3}\.\d{2,4}\.\d{2,4}\.\d{2,4}\/[0-9a-zA-Z]{34}\.jpg\?KID=imgbed,tva&Expires=\d{10}&ssig=[0-9a-zA-Z%]{16}$",DIRECT
+URL-REGEX,"^https:\/\/tvax?[1-4]\.sinaimg\.cn\/crop\.\d{1,3}\.\d{1,3}\.\d{2,4}\.\d{2,4}\.\d{2,4}\/[0-9a-zA-Z]{34}\.jpg\?KID=imgbed,tva&Expires=\d{10}&ssig=[0-9a-zA-Z%]{14}$",DIRECT
+URL-REGEX,"^https:\/\/tvax?[1-4]\.sinaimg\.cn\/crop\.\d{1,3}\.\d{1,3}\.\d{2,4}\.\d{2,4}\.\d{2,4}\/[0-9a-zA-Z]{34}\.jpg\?KID=imgbed,tva&Expires=\d{10}&ssig=[0-9a-zA-Z%]{12}$",DIRECT
+URL-REGEX,"^https:\/\/tvax?[1-4]\.sinaimg\.cn\/crop\.\d{1,3}\.\d{1,3}\.\d{2,4}\.\d{2,4}\.\d{2,4}\/[0-9a-zA-Z]{34}\.jpg\?KID=imgbed,tva&Expires=\d{10}&ssig=[0-9a-zA-Z%]{10}$",DIRECT
+URL-REGEX,"^https:\/\/tvax?[1-4]\.sinaimg\.cn\/crop\.\d{1,3}\.\d{1,3}\.\d{2,4}\.\d{2,4}\.\d{2,4}\/[0-9a-zA-Z]{32}\.jpg\?KID=imgbed,tva&Expires=\d{10}&ssig=[0-9a-zA-Z%]{16}$",DIRECT
+URL-REGEX,"^https:\/\/tvax?[1-4]\.sinaimg\.cn\/crop\.\d{1,3}\.\d{1,3}\.\d{2,4}\.\d{2,4}\.\d{2,4}\/[0-9a-zA-Z]{32}\.jpg\?KID=imgbed,tva&Expires=\d{10}&ssig=[0-9a-zA-Z%]{14}$",DIRECT
+URL-REGEX,"^https:\/\/tvax?[1-4]\.sinaimg\.cn\/crop\.\d{1,3}\.\d{1,3}\.\d{2,4}\.\d{2,4}\.\d{2,4}\/[0-9a-zA-Z]{32}\.jpg\?KID=imgbed,tva&Expires=\d{10}&ssig=[0-9a-zA-Z%]{12}$",DIRECT
+URL-REGEX,"^https:\/\/tvax?[1-4]\.sinaimg\.cn\/crop\.\d{1,3}\.\d{1,3}\.\d{2,4}\.\d{2,4}\.\d{2,4}\/[0-9a-zA-Z]{32}\.jpg\?KID=imgbed,tva&Expires=\d{10}&ssig=[0-9a-zA-Z%]{10}$",DIRECT
+URL-REGEX,"^https:\/\/tvax?[1-4]\.sinaimg\.cn\/crop\.\d{1,3}\.\d{1,3}\.\d{2,4}\.\d{2,4}\.\d{2,4}\/[0-9a-zA-Z]{30}\.gif\?KID=imgbed,tva&Expires=\d{10}&ssig=[0-9a-zA-Z%]{10}$",DIRECT
 
 #URL-REGEX,"^https:\/\/tvax[1-4]\.sinaimg\.cn\/default\/images\/default_avatar_female_180\.gif\?KID=imgbed,tva&Expires=\d{10}&ssig=[0-9a-zA-Z%]{12}$",REJECT//默认头像女
 #URL-REGEX,"^https:\/\/tvax[1-4]\.sinaimg\.cn\/default\/images\/default_avatar_female_180\.gif\?KID=imgbed,tva&Expires=\d{10}&ssig=[0-9a-zA-Z%]{10}$",REJECT//默认头像女
@@ -67,6 +59,7 @@ URL-REGEX,"^https?:\/\/wx[1-4]\.sinaimg\.cn\/wap720\/[0-9a-zA-Z]{32}\.jpg$",DIRE
 URL-REGEX,"^https?:\/\/wx[1-4]\.sinaimg\.cn\/wap360\/[0-9a-zA-Z]{32}\.jpg$",DIRECT//相册
 URL-REGEX,"^https?:\/\/wx[1-4]\.sinaimg\.cn\/thumb180\/[0-9a-zA-Z]{32}\.jpg$",DIRECT//超话封面
 URL-REGEX,"^https?:\/\/wx[1-4]\.sinaimg\.cn\/wap180\/[0-9a-zA-Z]{32}\.jpg$",DIRECT
+URL-REGEX,"^https?:\/\/wx[1-4]\.sinaimg\.cn\/mw1024\/[0-9a-zA-Z]{32}\.jpg$",DIRECT//头条文章配图
 
 URL-REGEX,"^http:\/\/wx[1-4]\.sinaimg\.cn\/woriginal\/[0-9a-zA-Z]{32}\.gif$",DIRECT
 URL-REGEX,"^https:\/\/wx[1-4]\.sinaimg\.cn\/orj1080\/[0-9a-zA-Z]{32}\.gif$",DIRECT
