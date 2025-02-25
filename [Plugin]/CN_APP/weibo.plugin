@@ -114,7 +114,7 @@ URL-REGEX,"^https:\/\/weibo\.cn\/sinaurl\?toasturl=http",DIRECT//允许外链跳
 ^https:\/\/tvax[1-4]\.sinaimg\.cn\/default\/images\/default_avatar_male_180\.gif\?KID=imgbed,tva&Expires=\d{10}&ssig=[0-9a-zA-Z%]{14}$ - reject-img
 ^https:\/\/tvax[1-4]\.sinaimg\.cn\/default\/images\/default_avatar_male_180\.gif\?KID=imgbed,tva&Expires=\d{10}&ssig=[0-9a-zA-Z%]{12}$ - reject-img
 ^https:\/\/tvax[1-4]\.sinaimg\.cn\/default\/images\/default_avatar_male_180\.gif\?KID=imgbed,tva&Expires=\d{10}&ssig=[0-9a-zA-Z%]{10}$ - reject-img
-^http:\/\/wx[1-4]\.sinaimg\.cn\/images\/default_d_h_woriginal\.gif$ - reject-img
+^http:\/\/wx[1-4]\.sinaimg\.cn\/images\/default_d_h_(woriginal|orj480|or360)\.gif$ - reject-img
 
 ^https:\/\/vip\.storage\.weibo\.com\/[0-9a-f]{13}_1\d{9}_[1-7]_cover\.jpg$ - reject-img
 ^https:\/\/h5\.sinaimg\.cn\/upload\/108\/1866\/2022\/11\/02\/vip_[1-7]\.png$ - reject-img
