@@ -101,9 +101,11 @@ URL-REGEX,"^https:\/\/weibo\.cn\/sinaurl\?toasturl=http",DIRECT//允许外链跳
 
 [Rewrite]
 ^https:\/\/h5\.sinaimg\.cn\/upload\/108\/1793\/2023\/08\/30\/fvvip[1-5]\.png$ - reject-img
+^https:\/\/tvax[1-4]\.sinaimg\.cn\/default\/images\/default_avatar_female_180\.gif\?KID=imgbed,tva&Expires=\d{10}&ssig=[0-9a-zA-Z%]{16}$ - reject-img
 ^https:\/\/tvax[1-4]\.sinaimg\.cn\/default\/images\/default_avatar_female_180\.gif\?KID=imgbed,tva&Expires=\d{10}&ssig=[0-9a-zA-Z%]{14}$ - reject-img
 ^https:\/\/tvax[1-4]\.sinaimg\.cn\/default\/images\/default_avatar_female_180\.gif\?KID=imgbed,tva&Expires=\d{10}&ssig=[0-9a-zA-Z%]{12}$ - reject-img
 ^https:\/\/tvax[1-4]\.sinaimg\.cn\/default\/images\/default_avatar_female_180\.gif\?KID=imgbed,tva&Expires=\d{10}&ssig=[0-9a-zA-Z%]{10}$ - reject-img
+^https:\/\/tvax[1-4]\.sinaimg\.cn\/default\/images\/default_avatar_male_180\.gif\?KID=imgbed,tva&Expires=\d{10}&ssig=[0-9a-zA-Z%]{16}$ - reject-img
 ^https:\/\/tvax[1-4]\.sinaimg\.cn\/default\/images\/default_avatar_male_180\.gif\?KID=imgbed,tva&Expires=\d{10}&ssig=[0-9a-zA-Z%]{14}$ - reject-img
 ^https:\/\/tvax[1-4]\.sinaimg\.cn\/default\/images\/default_avatar_male_180\.gif\?KID=imgbed,tva&Expires=\d{10}&ssig=[0-9a-zA-Z%]{12}$ - reject-img
 ^https:\/\/tvax[1-4]\.sinaimg\.cn\/default\/images\/default_avatar_male_180\.gif\?KID=imgbed,tva&Expires=\d{10}&ssig=[0-9a-zA-Z%]{10}$ - reject-img
