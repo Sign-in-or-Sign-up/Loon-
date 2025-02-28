@@ -59,6 +59,7 @@ URL-REGEX,"^https?:\/\/wx[1-4]\.sinaimg\.cn\/wap720\/[0-9a-zA-Z]{32}\.jpg$",DIRE
 URL-REGEX,"^https?:\/\/wx[1-4]\.sinaimg\.cn\/wap360\/[0-9a-zA-Z]{32}\.jpg$",DIRECT//相册
 URL-REGEX,"^https?:\/\/wx[1-4]\.sinaimg\.cn\/thumb180\/[0-9a-zA-Z]{32}\.jpg$",DIRECT//超话封面
 URL-REGEX,"^https?:\/\/wx[1-4]\.sinaimg\.cn\/wap180\/[0-9a-zA-Z]{32}\.jpg$",DIRECT
+URL-REGEX,"^https?:\/\/wx[1-4]\.sinaimg\.cn\/mw1024\/[0-9a-zA-Z]{34}\.jpg$",DIRECT//头条文章配图
 URL-REGEX,"^https?:\/\/wx[1-4]\.sinaimg\.cn\/mw1024\/[0-9a-zA-Z]{32}\.jpg$",DIRECT//头条文章配图
 
 URL-REGEX,"^http:\/\/wx[1-4]\.sinaimg\.cn\/woriginal\/[0-9a-zA-Z]{32}\.gif$",DIRECT
