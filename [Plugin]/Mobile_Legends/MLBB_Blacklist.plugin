@@ -11,6 +11,9 @@
 
 [Rule]
 
+DOMAIN,prod-avatar.jsdf.moontonapp.com,DIRECT
+
+
 [MITM]
 hostname = akmpicture.youngjoygame.com
 
