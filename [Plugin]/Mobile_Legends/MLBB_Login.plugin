@@ -341,7 +341,7 @@ hostname = akmcdn.ml.youngjoygame.com,akmstatic.ml.youngjoygame.com,akmpicture.y
 ^https:\/\/p\d{1,2}\.douyinpic\.com\/aweme\/100x100\/aweme-avatar\/mosaic-legacy_\d{4,5}_\d{8,10}\.jpeg\?from=4010531038$ - reject-img
 ^https:\/\/p\d{1,2}\.douyinpic\.com\/aweme\/100x100\/aweme-avatar\/douyin-user-image-file_[0-9a-f]{32}\.jpeg\?from=4010531038$ - reject-img
 
-^https:\/\/hsstatic\.jsdf\.moontonapp\.com\/wyonly\/.*?\.jpg$ - reject-img
+^https:\/\/hsstatic\.jsdf\.moontonapp\.com\/wyonly\/.*?\.(jpg|png|unity3d)$ - reject-img
 
 [Script]
 
