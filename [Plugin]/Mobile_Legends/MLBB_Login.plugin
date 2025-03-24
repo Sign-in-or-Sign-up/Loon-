@@ -276,6 +276,7 @@ AND,((OR,((DEST-PORT,5051-5079),(DEST-PORT,5551-5579),(DEST-PORT,5651-5679))),(P
 hostname = akmcdn.ml.youngjoygame.com,akmstatic.ml.youngjoygame.com,akmpicture.youngjoygame.com,alicdn.jsdf.moontonapp.com,wsavatar.yuanzhanapp.com,wscdn.ml.youngjoygame.com,*.douyinpic.com
 
 [Rewrite]
+
 #只放行美术资源
 #^https:\/\/akmstatic\.ml\.youngjoygame\.com\/(?!act\/).*?\/[0-9a-zA-Z_-]{7,46}(_ios)?\.(jpg|png|unity3d)$ - reject-img
 
@@ -331,6 +332,9 @@ hostname = akmcdn.ml.youngjoygame.com,akmstatic.ml.youngjoygame.com,akmpicture.y
 ^https:\/\/p\d{1,2}\.douyinpic\.com\/aweme\/100x100\/aweme-avatar\/mosaic-legacy_[0-9a-f]{20}\.jpeg\?from=4010531038$ - reject-img
 ^https:\/\/p\d{1,2}\.douyinpic\.com\/aweme\/100x100\/aweme-avatar\/mosaic-legacy_\d{4,5}_\d{8,10}\.jpeg\?from=4010531038$ - reject-img
 ^https:\/\/p\d{1,2}\.douyinpic\.com\/aweme\/100x100\/aweme-avatar\/douyin-user-image-file_[0-9a-f]{32}\.jpeg\?from=4010531038$ - reject-img
+
+^https:\/\/hsstatic\.jsdf\.moontonapp\.com\/wyonly\/.*?\.jpg$ - reject-img
+
 [Script]
 
 
