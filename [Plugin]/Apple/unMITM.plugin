@@ -13,11 +13,11 @@
 #DOMAIN
 hostname = 
 #DOMAIN-SUFFIX
-hostname = -api-stream.twitter.com,-api.twitter.com,-api.snapkit.com,-dig.zjurl.cn,-discord.com,-gateway.discord.gg,-gateway-us-east1-b.discord.gg,-gateway-us-east1-c.discord.gg,-gpm-mon.dailygn.com,-gpsdk.dailygn.com,-gsdk-lq.dailygn.com,-ichannel.dailygn.com,-lf3-gameprotect.bytecdntp.com,-log.dailygn.com,-marscdnbypass-wxapp.tc.qq.com,-oec16-normal-useast5.tiktokv.us,-pull-flv-w77-sg01.tiktokcdn-us.com,-sf16-music-sign.tiktokcdn.com,-sub-store.vercel.app,-www.google.com,-*.app-measurement.com,-*.discord.media,-*.tiktokcdn-us.com,-*tiktokv.us,-*.apple.com,-*.contabo.net,-*.icloud.com,-*.itunes.com,-*.fcbox.com,-*huami.com,-*amemv.com,-*.mzstatic.com,-*snssdk.com,*
+hostname = -api.twitter.com,-api.snapkit.com,-dig.zjurl.cn,-discord.com,-gateway.discord.gg,-gateway-us-east1-b.discord.gg,-gateway-us-east1-c.discord.gg,-gpm-mon.dailygn.com,-gpsdk.dailygn.com,-gsdk-lq.dailygn.com,-ichannel.dailygn.com,-lf3-gameprotect.bytecdntp.com,-log.dailygn.com,-marscdnbypass-wxapp.tc.qq.com,-oec16-normal-useast5.tiktokv.us,-pull-flv-w77-sg01.tiktokcdn-us.com,-sf16-music-sign.tiktokcdn.com,-sub-store.vercel.app,-www.google.com,-*.app-measurement.com,-*.discord.media,-*.tiktokcdn-us.com,-*tiktokv.us,-*.apple.com,-*.contabo.net,-*.icloud.com,-*.itunes.com,-*.fcbox.com,-*huami.com,-*amemv.com,-*.mzstatic.com,-*snssdk.com,*
 
 
 ###host###
-#-api-stream.twitter.com//推特
+#api-stream.twitter.com//推特
 #-api.twitter.com//推特
 #-api.snapkit.com//tiktok
 #-bscdn.jsdf.moontonapp.com//决胜巅峰cdn
