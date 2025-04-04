@@ -260,7 +260,7 @@ DOMAIN,n98-lf-cdn-tos-ncdn.bytegecko.com,DIRECT
 DOMAIN,lf6-cdn-tos-ncdn.bytegecko.com,DIRECT
 DOMAIN,lf18-cdn-tos-ncdn.bytegecko.com,DIRECT
 DOMAIN,lf9-cdn-tos-ncdn.bytegecko.com,DIRECT
-DOMAIN,akmcdn.ml.youngjoygame.com,DIRECT
+DOMAIN,akmcdn.ml.youngjoygame.com,REJECT-DROP
 DOMAIN,alicdn.jsdf.moontonapp.com,REJECT-DROP
 DOMAIN,alicdn.web.moontonapp.com,REJECT-DROP
 DOMAIN,bscdn.jsdf.moontonapp.com,DIRECT
