@@ -67,7 +67,7 @@ hostname = -api.twitter.com,-api16-normal-useast8.tiktokv.us,-api.snapkit.com,-d
 #-*.dailygn.com//决胜巅峰
 #-*.discord.media//discord
 #*.tiktokcdn-us.com//tiktok
-#//tiktok
+#-*.tiktokv.us//tiktok
 #-*.apple.com//Apple
 #-*.mzstatic.com//appstore
 #-*.contabo.net//APPstore相关?
