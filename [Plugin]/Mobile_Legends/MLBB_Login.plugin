@@ -159,7 +159,7 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.1\/returning_res_2023\/1\/etc\/_load_res\.bytes$",DIRECT//回归玩家活动
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.1\/returning_res_2023\/1\/etc\/Art\/ios\/FX_UI_Returning2023_Act_Privilege_add\.unity3d$",DIRECT//回归玩家活动
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.1\/returning_res_2023\/1\/etc\/Art\/ios\/FX_UI_Returning2023_battle03_add\.unity3d$",DIRECT//回归玩家活动
-URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.1\/returning_res_2023\/1\/etc\/Art\/ios\/FX_UI_Returning2023_BP_reward01_add\.unity3d$",DIRECT//回归玩家活动
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.1\/returning_res_2023\/1\/etc\/Art\/ios\/FX_UI_Returning2023_BP_reward0[1-7]_add\.unity3d$",DIRECT//回归玩家活动
 
 
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DeathRacingMode\/\d{3}\.1\/LoadResSingleModeMd5\.bytes$",DIRECT//
