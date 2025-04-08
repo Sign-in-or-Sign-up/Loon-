@@ -156,6 +156,9 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch
 #URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.1\/fix_v?_?[a-z]{4,11}_173\d{7}\/[12]\/etc\/UI\/ios\/.*?\.unity3d$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.3\/fix_v?_?[a-z]{4,11}_202[5-9][01][0-9][0-3][0-9]\/1\/etc\/UI\/ios\/UI_Maininterface_Mode_MC\.unity3d$",DIRECT//魔法棋？
 
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.1\/returning_res_2023\/1\/etc\/_load_res\.bytes$",DIRECT//回归玩家活动
+
+
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DeathRacingMode\/\d{3}\.1\/LoadResSingleModeMd5\.bytes$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DeathRacingMode\/\d{3}\.1\/Art\/ios\/.*?\.unity3d$",DIRECT//创造营额外资源
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DeathRacingMode\/\d{3}\.1\/Document\/ios\/(Add|All)Language.*?_DRACE\.unity3d$",DIRECT//创造营额外资源
