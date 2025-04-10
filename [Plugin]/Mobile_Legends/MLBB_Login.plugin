@@ -86,7 +86,8 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.3\/fix_v?_?[a-z]{4,11}_202[5-9][01][0-9][0-3][0-9]\/1\/etc\/_load_res\.bytes$",DIRECT//魔法棋？
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.1\/fix_v?_?[a-z]{4,11}_17\d{8}\/[126]\/etc\/_load_res\.bytes$",DIRECT//终极资源包
-URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.1\/fix_hot_resource_202[5-9][01][0-9][0-3][0-9]_?[a-z]{4,11}\/[12]\/etc\/Art\/ios\/bluehomeTowernew_high_add\.unity3d$",DIRECT//热门资源下载，地图资源
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/d{4}\.1\/fix_hot_resource_202[5-9][01][0-9][0-3][0-9]_luhaoran\/1\/etc\/Art\/ios\/blueTowernew_high_add\.unity3d$",DIRECT//热门资源下载，地图资源
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/d{4}\.1\/fix_hot_resource_202[5-9][01][0-9][0-3][0-9]__?[a-z]{4,11}\/1\/etc\/Art\/ios\/redTowernew_high_add\.unity3d$",DIRECT//热门资源下载，地图资源
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.1\/fix_v?_?[a-z]{4,11}_17\d{8}\/[12]\/etc\/Art\/ios\/mage_skill02\.unity3d$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.1\/fix_v?_?[a-z]{4,11}_17\d{8}\/[12]\/etc\/Art\/ios\/zzp[12]_mage_skill02\.unity3d$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.1\/fix_v?_?[a-z]{4,11}_17\d{8}\/[12]\/etc\/Art\/ios\/next_46_odette_skill03_quan\.unity3d$",DIRECT//
