@@ -13,7 +13,7 @@
 #DOMAIN
 hostname = 
 #DOMAIN-SUFFIX
-hostname = -api.twitter.com,-api16-normal-useast8.tiktokv.us,-api.snapkit.com,-dig.zjurl.cn,-discord.com,-frontier-ttp2.tiktokv.us,-gateway.discord.gg,-gateway-us-east1-b.discord.gg,-gateway-us-east1-c.discord.gg,-gpm-mon.dailygn.com,-gpsdk.dailygn.com,-gsdk-lq.dailygn.com,-ichannel.dailygn.com,-lf3-gameprotect.bytecdntp.com,-log.dailygn.com,-marscdnbypass-wxapp.tc.qq.com,-oec16-normal-useast5.tiktokv.us,-p16-webcast.tiktokcdn.com,-pull-f5-tt02.tiktokcdn-us.com,-pull-f5-va01.tiktokcdn-us.com,-pull-flv-w77-sg01.tiktokcdn-us.com,-pull-w5-sg01.tiktokcdn-us.com,-pull-w5-va01.tiktokcdn-us.com,-rtc-access.bytedance.com,-sf16.tiktokcdn-us.com,-sf16-ies-music.tiktokcdn.com,-sf16-ies-music-sg.tiktokcdn.com,-sf16-ies-music-va.tiktokcdn.com,-sf16-music-sign.tiktokcdn.com,-sf16-music.tiktokcdn-eu.com,-sf19.tiktokcdn-us.com,-sf19-music.tiktokcdn-eu.com,-sub-store.vercel.app,-v16m.tiktokcdn-us.com,-v19.tiktokcdn-us.com,-v16-cla.tiktokcdn-us.com,-v19-cla.tiktokcdn-us.com,-vas-useast5.tiktokv.us,-www.google.com,-*.app-measurement.com,-*.discord.media,-*.ibyteimg.com,-*.tiktokcdn.com,-*.tiktokv.us,-*.apple.com,-*.contabo.net,-*.icloud.com,-*.itunes.com,-*.fcbox.com,-*huami.com,-*amemv.com,-*.mzstatic.com,-*snssdk.com,*
+hostname = -api.twitter.com,-api16-normal-useast8.tiktokv.us,-api.snapkit.com,-dig.zjurl.cn,-discord.com,-frontier-ttp2.tiktokv.us,-gateway.discord.gg,-gateway-us-east1-b.discord.gg,-gateway-us-east1-c.discord.gg,-gpm-mon.dailygn.com,-gpsdk.dailygn.com,-gsdk-lq.dailygn.com,-ichannel.dailygn.com,-lf3-gameprotect.bytecdntp.com,-log.dailygn.com,-marscdnbypass-wxapp.tc.qq.com,-oec16-normal-useast5.tiktokv.us,-p16-webcast.tiktokcdn.com,-pull-f5-tt02.tiktokcdn-us.com,-pull-f5-va01.tiktokcdn-us.com,-pull-flv-w77-sg01.tiktokcdn-us.com,-pull-w5-sg01.tiktokcdn-us.com,-pull-w5-va01.tiktokcdn-us.com,-rtc-access.bytedance.com,-sf16.tiktokcdn-us.com,-sf16-ies-music.tiktokcdn.com,-sf16-ies-music-sg.tiktokcdn.com,-sf16-ies-music-va.tiktokcdn.com,-sf16-music-sign.tiktokcdn.com,-sf16-music.tiktokcdn-eu.com,-sf19.tiktokcdn-us.com,-sf19-music.tiktokcdn-eu.com,-sub-store.vercel.app,-v16m.tiktokcdn-us.com,-v19.tiktokcdn-us.com,-v16-cla.tiktokcdn-us.com,-v19-cla.tiktokcdn-us.com,-vas-useast5.tiktokv.us,-www.google.com,-*.app-measurement.com,-*.discord.media,-*.ibyteimg.com,-*.tiktokcdn.com,-*.tiktokv.us,-*.apple.cn,-*.apple.com,-*.contabo.net,-*.icloud.com,-*.itunes.com,-*.fcbox.com,-*huami.com,-*amemv.com,-*.mzstatic.com,-*snssdk.com,*
 
 
 ###host###
@@ -72,6 +72,7 @@ hostname = -api.twitter.com,-api16-normal-useast8.tiktokv.us,-api.snapkit.com,-d
 #-*.tiktokcdn.com//tiktok
 #*.tiktokcdn-us.com//tiktok
 #-*.tiktokv.us//tiktok
+#//Apple
 #-*.apple.com//Apple
 #-*.mzstatic.com//appstore
 #-*.contabo.net//APPstore相关?
