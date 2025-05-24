@@ -12,8 +12,9 @@
 [Rule]
 #IP登入检测:0
 #UDP30190PORT:1
-
 #ID，印度尼西亚雅加达华为云
+AND,((IP-CIDR,110.239.91.12/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
+
 
 #东南亚印尼靠谱云雅加达机房
 #83.101.89.0/24
