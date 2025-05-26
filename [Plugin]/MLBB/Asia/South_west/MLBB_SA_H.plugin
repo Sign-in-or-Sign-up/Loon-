@@ -1,0 +1,24 @@
+#!name = Mobile Legends Asia/Sw🇸🇦H
+#!desc = MLBB西亚沙特华为云利雅得机房手动选择节点/禁入。用法说明：在游戏设置内（如点击大厅右上角，或对局内小地图旁的齿轮状⚙️图标，在“网络设置”一栏，第二行的“网络加速设置”栏目内的“网络加速”切换到关闭状态。
+#!openUrl = https://apps.apple.com/app/id1160056295
+#!author = Sign-in-or-sign-out
+#!homepage = 
+#!icon = 
+#!select = 
+#!input = 
+#!tag = 无尽对决西亚
+#!date = 2025-05-26 19:00:00
+
+[Rule]
+#IP登入检测:0
+#UDP30190PORT:
+#SA，沙特利雅得靠谱云
+#AND,((IP-CIDR,0.0.0.0/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
+
+#西亚沙特靠谱云利雅得机房
+#80.238.236.0/24
+IP-CIDR,80.238.236.36/32,PROXY
+IP-CIDR,80.238.236.228/32,PROXY
+
+#101.46.59.0/24
+IP-CIDR,101.46.59.83/32,PROXY
