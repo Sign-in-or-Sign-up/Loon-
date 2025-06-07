@@ -20,6 +20,9 @@ AND,((DOMAIN,api.weibo.cn),(DEST-PORT,443)),DIRECT
 AND,((DOMAIN,api.weibo.com),(DEST-PORT,443)),DIRECT
 #DOMAIN,api.weibo.com,DIRECT
 
+AND,((IP-CIDR,116.133.8.75/32,no-resolve),(DEST-PORT,8081)),REJECT
+AND,((IP-CIDR,123.125.107.20/32,no-resolve),(DEST-PORT,8081)),REJECT
+
 #用户头像
 URL-REGEX,"^https:\/\/tvax?[1-4]\.sinaimg\.cn\/crop\.\d{1,3}\.\d{1,3}\.\d{2,4}\.\d{2,4}\.\d{2,4}\/[0-9a-zA-Z]{34}\.(gif|jpg)\?KID=imgbed,tva&Expires=\d{10}&ssig=[0-9a-zA-Z%]{16}$",DIRECT
 URL-REGEX,"^https:\/\/tvax?[1-4]\.sinaimg\.cn\/crop\.\d{1,3}\.\d{1,3}\.\d{2,4}\.\d{2,4}\.\d{2,4}\/[0-9a-zA-Z]{34}\.(gif|jpg)\?KID=imgbed,tva&Expires=\d{10}&ssig=[0-9a-zA-Z%]{14}$",DIRECT
@@ -140,7 +143,8 @@ URL-REGEX,"^https:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=open_app&auth=,R
 ^https:\/\/tvax[1-4]\.sinaimg\.cn\/default\/images\/default_avatar_male_180\.gif\?KID=imgbed,tva&Expires=\d{10}&ssig=[0-9a-zA-Z%]{14}$ - reject-img
 ^https:\/\/tvax[1-4]\.sinaimg\.cn\/default\/images\/default_avatar_male_180\.gif\?KID=imgbed,tva&Expires=\d{10}&ssig=[0-9a-zA-Z%]{12}$ - reject-img
 ^https:\/\/tvax[1-4]\.sinaimg\.cn\/default\/images\/default_avatar_male_180\.gif\?KID=imgbed,tva&Expires=\d{10}&ssig=[0-9a-zA-Z%]{10}$ - reject-img
-^https?:\/\/wx[1-4]\.sinaimg\.cn\/images\/default_d_h_(woriginal|large|orj1080|orj960|orj480|or360)\.gif$ - reject-img
+^https?:\/\/wx[1-4]\.sinaimg\.cn\/images\/default_d_(h|w)_(woriginal|large|orj1080|orj960|orj480|or360)\.gif$ - reject-img
+
 
 ^https:\/\/vip\.storage\.weibo\.com\/[0-9a-f]{13}_\d{10}_[1-8]_cover\.jpg$ - reject-img
 ^https:\/\/h5\.sinaimg\.cn\/upload\/108\/1866\/2022\/11\/02\/vip_[1-7]\.png$ - reject-img
