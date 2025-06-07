@@ -71,6 +71,10 @@ URL-REGEX,"^https:\/\/wx[1-4]\.sinaimg\.cn\/or360\/[0-9a-zA-Z]{34}\.gif$",DIRECT
 URL-REGEX,"^https:\/\/wx[1-4]\.sinaimg\.cn\/or360\/[0-9a-zA-Z]{32}\.gif$",DIRECT
 #URL-REGEX,"^https:\/\/wx[1-4]\.sinaimg\.cn\/images\/default_d_h_orj1080\.gif$",REJECT//和谐后的灰色图
 #URL-REGEX,"^https:\/\/wx[1-4]\.sinaimg\.cn\/images\/default_d_h_orj960\.gif$",REJECT//和谐后的灰色图
+DOMAIN,wx1.sinaimg.cn,REJECT
+DOMAIN,wx2.sinaimg.cn,REJECT
+DOMAIN,wx3.sinaimg.cn,REJECT
+DOMAIN,wx4.sinaimg.cn,REJECT
 
 URL-REGEX,"^https?:\/\/g\.us\.sinaimg\.cn\/o0\/[0-9a-zA-Z]{20}01041200[0-9a-zA-Z]{4}0E010\.mp4\?(label=gif_mp4&template=\d{2,4}x\d{2,4}\.28\.0&)?ssig=[0-9a-zA-Z%]{14}&Expires=\d{10}&KID=unistore,video$",DIRECT
 URL-REGEX,"^https?:\/\/g\.us\.sinaimg\.cn\/o0\/[0-9a-zA-Z]{20}01041200[0-9a-zA-Z]{4}0E010\.mp4\?(label=gif_mp4&template=\d{2,4}x\d{2,4}\.28\.0&)?ssig=[0-9a-zA-Z%]{12}&Expires=\d{10}&KID=unistore,video$",DIRECT
