@@ -1,0 +1,26 @@
+#!name = 王者荣耀国际服🇭🇰
+#!desc = 
+#!openUrl = https://apps.apple.com/app/id1619254071
+#!author = 
+#!homepage = 
+#!icon = 
+#!select = 
+#!input = 
+#!tag = 王者荣耀
+#!date = 2025-01-07 22:00:00
+
+[Rule]
+
+DOMAIN-SUFFIX,hok-dr.intlgame.com,PROXY
+DOMAIN-SUFFIX,hok.intlgame.com,PROXY
+DOMAIN-SUFFIX,intlgame.com,PROXY
+DOMAIN-SUFFIX,sgameglobal.com,PROXY
+DOMAIN-SUFFIX,appsflyersdk.com,PROXY
+DOMAIN-KEYWORD,sgameglobal.com,PROXY
+IP-CIDR, 183.192.65.101/16,no-resolve,PROXY
+IP-CIDR, 43.132.55.55/16,no-resolve,PROXY
+
+[MITM]
+hostname = 
+
+[Script]
