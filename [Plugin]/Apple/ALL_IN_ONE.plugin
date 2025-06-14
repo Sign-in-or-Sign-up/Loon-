@@ -87,7 +87,7 @@ DOMAIN,gs.apple.com,PROXY//iOS、iPadOS、Apple tvOS、watchOS和macOS 更新
 DOMAIN,ig.apple.com,PROXY//macOS更新
 DOMAIN,mesu.apple.com,PROXY//托管软件更新目录
 DOMAIN,ns.itunes.apple.com,PROXY
-DOMAIN,iosapps.itunes.apple.com,PROXY//#自备注ipa安装包下载
+DOMAIN,iosapps.itunes.apple.com,PROXY//自备注ipa安装包下载
 DOMAIN,oscdn.apple.com,PROXY//macOS更新
 DOMAIN,osrecovery.apple.com,PROXY//macOS更新
 DOMAIN,skl.apple.com,PROXY//macOS更新
