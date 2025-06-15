@@ -98,6 +98,7 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.1\/fix_v?_?[a-z]{4,11}_17\d{8}\/[12]\/etc\/Art\/ios\/mage_skill02\.unity3d$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.1\/fix_v?_?[a-z]{4,11}_17\d{8}\/[12]\/etc\/Art\/ios\/zzp[12]_mage_skill02\.unity3d$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.1\/fix_v?_?[a-z]{4,11}_17\d{8}\/[12]\/etc\/Art\/ios\/newfrozen_attack_1\.unity3d$",DIRECT//欧若拉一技能
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.1\/fix_v?_?[a-z]{4,11}_17\d{8}\/[12]\/etc\/Art\/ios\/newfrozen_beidong_ui_chufa\.unity3d$",DIRECT//欧若拉被动触发
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.1\/fix_v?_?[a-z]{4,11}_17\d{8}\/[12]\/etc\/Art\/ios\/newfrozen_beidong\.unity3d$",DIRECT//欧若拉被动
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.1\/fix_v?_?[a-z]{4,11}_17\d{8}\/[12]\/etc\/Art\/ios\/next_46_odette_skill03_quan\.unity3d$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.1\/fix_v?_?[a-z]{4,11}_17\d{8}\/[12]\/etc\/Art\/ios\/ShaderVariantsInBattle\.unity3d$",DIRECT//
