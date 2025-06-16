@@ -183,3 +183,8 @@ URL-REGEX,"^https:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=open_app&auth=,R
 ^https:\/\/simg\.s\.weibo\.com\/wb_search_img_search_[1-4]?[0-9]\.png$ - reject-img
 ^https:\/\/simg\.s\.weibo\.com\/wb_search_img_search_50\.png$ - reject-img
 
+#微博订阅博主
+^https?:\/\/d\.sinaimg\.cn\/prd\/\d{3}\/\d{4}\/\d{4}\/\d{2}\/\d{2}\/dingyue\.jpg$ reject-img
+
+
+
