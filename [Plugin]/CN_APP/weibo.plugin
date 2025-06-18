@@ -188,5 +188,11 @@ URL-REGEX,"^https:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=open_app&auth=,R
 #微博订阅博主
 ^https?:\/\/d\.sinaimg\.cn\/prd\/\d{3}\/\d{4}\/\d{4}\/\d{2}\/\d{2}\/dingyue.*?\.(jpg|png)$ reject-img
 
+#微博付费问答
+^https:\/\/h5\.sinaimg\.cn\/upload\/2016\/12\/06\/433\/wenda_default_pic\.jpg$ reject-img
+
+#微博广告友盟故障上报
+^https:\/\/errnewlog\.umeng\.com reject
+
 
 
