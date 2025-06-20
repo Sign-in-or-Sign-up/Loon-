@@ -42,6 +42,8 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Art\/ios\/FX_RenewRech2025_Ysebao_add\.unity3d$",DIRECT//2025活动
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Art\/ios\/FX_UI_FRB_FirstChargeMainWindow_HeroList0[12]_add\.unity3d$",DIRECT//首充主窗口选英雄？
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Art\/ios\/FX_UI_FRB_FirstChargeMainWindow_State_add\.unity3d$",DIRECT//首充主窗口
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Art\/ios\/FX_UI_Newgrowthpass_m_BigGiftAward01_add\.unity3d$",DIRECT//新成长通行证大奖
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Art\/ios\/FX_UI_NewLuckyGift_jindu03_add\.unity3d$",DIRECT//幸运星？
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Art\/ios\/FX_UI_RenewRech2025_Baoxing_add\.unity3d$",DIRECT//2025活动爆星
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Art\/ios\/FX_UI_RenewRech2025_FirstChargeBg_add\.unity3d$",DIRECT//2025活动
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Art\/ios\/FX_UI_RenewRech2025_m_TopPanel_add\.unity3d$",DIRECT//2025活动
@@ -93,7 +95,8 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/module_combine_[235]\d{2}\.zip$",DIRECT//功能必备
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/module_combine_[1268](_0)?\.zip$",DIRECT//局内战斗资源
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/module_combine_\d{2}\.zip$",DIRECT//功能必备
-URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/multi_module_combine_13\.zip$",DIRECT//局内战斗资源
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/multi_module_combine_\d{23}\.zip$",DIRECT//功能必备
+#URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/multi_module_combine_13\.zip$",DIRECT//功能必备
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Scenes\/ios\/PVP_0(32|49)_?(extlow|high|low)?_add\.unity3d$",DIRECT//终极资源包
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/UI\/ios\/Atlas_Charge_Renew2025-01_add\.unity3d$",DIRECT//2025RE活动？
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/UI\/ios\/Atlas_FRB_FirstCharge_add\.unity3d$",DIRECT//2025RE活动？
@@ -101,6 +104,8 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/UI\/ios\/UI_RenewRech2025_new\.unity3d$",DIRECT//2025RE活动？
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/UI\/ios\/UI_SNK_Re_Draw_add\.unity3d$",DIRECT//SNK活动抽奖？
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/UI\/ios\/Atlas_Activity_GoldenRamadan07_add\.unity3d$",DIRECT//黄金璀璨圈
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/UI\/ios\/Atlas_ActivityGrowthPlan02_add\.unity3d$",DIRECT//活跃成长计划02
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/UI\/ios\/Atlas_ActivityGrowthPlanCI_add\.unity3d$",DIRECT//活跃成长计划C
 
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/fix_v?_?[a-z]{4,11}_202[5-9][01][0-9][0-3][0-9]\/1\/etc\/_load_res\.bytes$",DIRECT//魔法棋？
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/fix_v?_?[a-z]{4,11}_17\d{8}\/[1246]\/etc\/_load_res\.bytes$",DIRECT//终极资源包
@@ -191,6 +196,7 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/fix_v?_?[a-z]{4,11}_17\d{8}\/[12]\/etc\/gameres\/ios\/ui\/huodong\/UIPrivilegeMergeTabPage\.bytes$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/fix_v?_?[a-z]{4,11}_17\d{8}\/[12]\/etc\/gameres\/ios\/ui\/huodong\/UIProJ_LuckyDrawTabPage\.bytes$",DIRECT//焕新之选？
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/fix_v?_?[a-z]{4,11}_17\d{8}\/[12]\/etc\/gameres\/ios\/ui\/huodong\/UIProS_LuckyDrawTabPage\.bytes$",DIRECT
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/fix_v?_?[a-z]{4,11}_17\d{8}\/[12]\/etc\/gameres\/ios\/CSCallLuaFuntions\.bytes$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/fix_v?_?[a-z]{4,11}_17\d{8}\/[12]\/etc\/gameres\/ios\/ProtoGame\.bytes$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/fix_v?_?[a-z]{4,11}_17\d{8}\/[12]\/etc\/RawImg\/android\/firstloadingbg17_add\.jpg$",DIRECT//开屏图
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/fix_hot_resource_202[5-9][01][0-9][0-3][0-9]_?[a-z]{4,11}\/[12]\/etc\/_load_res\.bytes$",DIRECT//热门资源下载，地图资源
