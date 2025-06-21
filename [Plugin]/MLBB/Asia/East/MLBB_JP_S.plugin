@@ -1,5 +1,5 @@
-#!name = Mobile Legends Asia/E🇯🇵S
-#!desc = MLBB东亚日本SoftLayer东京机房手动选择节点/禁入。用法说明：在游戏设置内（如点击大厅右上角，或对局内小地图旁的齿轮状⚙️图标，在“网络设置”一栏，第二行的“网络加速设置”栏目内的“网络加速”切换到关闭状态。
+#!name = Mobile Legends Asia/E🇯🇵千代田S
+#!desc = MLBB东亚日本SoftLayer东京千代田机房手动选择节点/禁入。用法说明：在游戏设置内（如点击大厅右上角，或对局内小地图旁的齿轮状⚙️图标，在“网络设置”一栏，第二行的“网络加速设置”栏目内的“网络加速”切换到关闭状态。
 #!openUrl = https://apps.apple.com/app/id1160056295
 #!author = Sign-in-or-sign-out
 #!homepage = 
@@ -25,9 +25,16 @@ AND,((IP-CIDR,162.133.72.207/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
 AND,((IP-CIDR,162.133.97.114/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
 AND,((IP-CIDR,162.133.97.119/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
 AND,((IP-CIDR,162.133.97.120/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
+
 #东亚日本SoftLayer东京机房
+#161.202.66.0/24
+IP-CIDR,161.202.66.106/32,PROXY
+IP-CIDR,161.202.66.110/32,PROXY
+
 #162.133.72.0/24
+IP-CIDR,162.133.72.199/32,PROXY
 IP-CIDR,162.133.72.207/32,PROXY
+
 #162.133.97.0/24
 IP-CIDR,162.133.97.114/32,PROXY
 IP-CIDR,162.133.97.115/32,PROXY
