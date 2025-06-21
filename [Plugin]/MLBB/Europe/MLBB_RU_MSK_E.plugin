@@ -1,0 +1,26 @@
+#!name = Mobile Legends Europe🇷🇺莫斯科E
+#!desc = MLBB欧洲俄罗斯边缘中心莫斯科机房手动选择节点/禁入。用法说明：在游戏设置内（如点击大厅右上角，或对局内小地图旁的齿轮状⚙️图标，在“网络设置”一栏，第二行的“网络加速设置”栏目内的“网络加速”切换到关闭状态。
+#!openUrl = https://apps.apple.com/app/id1160056295
+#!author = Sign-in-or-sign-out
+#!homepage = 
+#!icon = 
+#!select = 
+#!input = 
+#!tag = 无尽对决欧洲
+#!date = 2025-06-22 01:55:00
+
+[Rule]
+#IP登入检测:0
+#UDP30190PORT:3
+#RU，俄罗斯莫斯科边缘中心
+AND,((IP-CIDR,5.189.223.228/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
+AND,((IP-CIDR,5.189.223.248/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
+#RU，俄罗斯莫斯科边缘中心
+AND,((IP-CIDR,83.229.14.11/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
+
+
+AND,((IP-CIDR,146.185.197.77/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
+
+#欧洲俄罗斯边缘中心莫斯科机房
+#5.189.223.0/24
+IP-CIDR,5.189.223.250/32,PROXY
