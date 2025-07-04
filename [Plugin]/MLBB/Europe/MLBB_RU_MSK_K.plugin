@@ -1,0 +1,29 @@
+#!name = Mobile Legends Europe🇷🇺莫斯科K
+#!desc = MLBB欧洲俄罗斯Zenlayer莫斯科靠谱云机房手动选择节点/禁入。用法说明：在游戏设置内（如点击大厅右上角，或对局内小地图旁的齿轮状⚙️图标，在“网络设置”一栏，第二行的“网络加速设置”栏目内的“网络加速”切换到关闭状态。
+#!openUrl = https://apps.apple.com/app/id1160056295
+#!author = Sign-in-or-sign-out
+#!homepage = 
+#!icon = 
+#!select = 
+#!input = 
+#!tag = 无尽对决欧洲
+#!date = 2025-07-04 19:00:00
+
+[Rule]
+#IP登入检测:3
+#AND,((IP-CIDR,0.0.0.0/32),(DEST-PORT,30021),(PROTOCOL,TCP)),REJECT-DROP
+
+#UDP30190PORT:
+#RU，俄罗斯莫斯科靠谱云
+AND,((IP-CIDR,194.26.72.9/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
+AND,((IP-CIDR,194.26.72.30/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
+AND,((IP-CIDR,194.26.72.62/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
+
+
+#欧洲俄罗斯靠谱云莫斯科机房
+#194.26.72.0/24
+IP-CIDR,194.26.72.3732,PROXY
+IP-CIDR,194.26.72.52/32,PROXY
+IP-CIDR,194.26.72.54/32,PROXY
+IP-CIDR,194.26.72.0/24,PROXY
+
