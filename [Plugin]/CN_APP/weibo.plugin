@@ -74,6 +74,7 @@ URL-REGEX,"^https:\/\/wx[1-4]\.sinaimg\.cn\/or360\/[0-9a-zA-Z]{34}\.gif$",DIRECT
 URL-REGEX,"^https:\/\/wx[1-4]\.sinaimg\.cn\/or360\/[0-9a-zA-Z]{32}\.gif$",DIRECT
 #URL-REGEX,"^https:\/\/wx[1-4]\.sinaimg\.cn\/images\/default_d_h_orj1080\.gif$",REJECT//和谐后的灰色图
 #URL-REGEX,"^https:\/\/wx[1-4]\.sinaimg\.cn\/images\/default_d_h_orj960\.gif$",REJECT//和谐后的灰色图
+URL-REGEX,"^http:\/\/wx[1-4]\.sinaimg\.cn\/bmiddle\/[0-9a-zA-Z]{32}\.jpg$",DIRECT//评论区带图
 DOMAIN,wx1.sinaimg.cn,REJECT
 DOMAIN,wx2.sinaimg.cn,REJECT
 DOMAIN,wx3.sinaimg.cn,REJECT
