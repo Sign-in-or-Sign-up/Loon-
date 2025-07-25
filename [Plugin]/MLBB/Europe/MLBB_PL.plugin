@@ -1,0 +1,32 @@
+#!name = Mobile Legends Europe🇵🇱波兰
+#!desc = MLBB欧洲波兰G-CORE华沙机房手动选择节点/禁入。用法说明：在游戏设置内（如点击大厅右上角，或对局内小地图旁的齿轮状⚙️图标，在“网络设置”一栏，第二行的“网络加速设置”栏目内的“网络加速”切换到关闭状态。
+#!openUrl = https://apps.apple.com/app/id1160056295
+#!author = Sign-in-or-sign-out
+#!homepage = 
+#!icon = 
+#!select = 
+#!input = 
+#!tag = 无尽对决欧洲
+#!date = 2025-07-25 19:00:00
+
+[Rule]
+#IP登入检测:0
+#AND,((IP-CIDR,0.0.0.0/32),(DEST-PORT,30021),(PROTOCOL,TCP)),REJECT-DROP
+
+#UDP30190PORT:3
+#PL，波兰华沙G-CORE
+
+
+#欧洲波兰G-CORE华沙机房
+#5.188.108.0/24
+#IP-CIDR,5.188.108.112/32,PROXY
+IP-CIDR,5.188.108.230/32,PROXY
+IP-CIDR,5.188.108.235/32,PROXY
+
+#5.189.221.0/24
+#IP-CIDR,5.189.221.168/32,PROXY
+
+#79.133.122.0/24
+IP-CIDR,79.133.122.126/32,PROXY
+IP-CIDR,79.133.122.128/32,PROXY
+AND,((IP-CIDR,79.133.122.0/24,no-resolve),(OR,((DEST-PORT,5001-5030),(DEST-PORT,5501-5530))),(PROTOCOL,TCP)),PROXY
