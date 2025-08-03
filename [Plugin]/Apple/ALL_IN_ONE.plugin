@@ -213,6 +213,8 @@ DOMAIN,idv.cdn-apple.com,PROXY//iPhone上的证件校验器
 DOMAIN,idv-prod1.apple.com,PROXY//iPhone上的证件校验器
 DOMAIN,humb.apple.com,PROXY//iPhone上的证件校验器
 
+#testfight
+DOMAIN,testflight.apple.com,PROXY//testfight
 
 #置后
 DOMAIN-SUFFIX,school.apple.com,PROXY//Apple校园教务管理
