@@ -1,5 +1,5 @@
 #!name = Mobile Legends Europe🇷🇺顿河畔罗斯托夫
-#!desc = MLBB欧洲俄罗斯边缘中心顿河畔罗斯托夫机房手动选择节点/禁入。用法说明：在游戏设置内（如点击大厅右上角，或对局内小地图旁的齿轮状⚙️图标，在“网络设置”一栏，第二行的“网络加速设置”栏目内的“网络加速”切换到关闭状态。
+#!desc = MLBB欧洲俄罗斯边缘中心罗斯托夫州顿河畔罗斯托夫机房手动选择节点/禁入。用法说明：在游戏设置内（如点击大厅右上角，或对局内小地图旁的齿轮状⚙️图标，在“网络设置”一栏，第二行的“网络加速设置”栏目内的“网络加速”切换到关闭状态。
 #!openUrl = https://apps.apple.com/app/id1160056295
 #!author = Sign-in-or-sign-out
 #!homepage = 
@@ -12,14 +12,14 @@
 [Rule]
 #IP登入检测:0
 #UDP30190PORT:4
-#RU，俄罗斯莫斯科边缘中心
+#RU，俄罗斯罗斯托夫州顿河畔罗斯托夫边缘中心
 AND,((IP-CIDR,146.185.197.9/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
 AND,((IP-CIDR,146.185.197.76/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
 AND,((IP-CIDR,146.185.197.77/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
 AND,((IP-CIDR,146.185.197.78/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
 AND,((IP-CIDR,146.185.197.81/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
 
-#欧洲俄罗斯边缘中心顿河畔罗斯托夫机房
+#欧洲俄罗斯边缘中心罗斯托夫州顿河畔罗斯托夫机房
 #146.185.197.0/24
 IP-CIDR,146.185.197.124/32,PROXY
 AND,((IP-CIDR,146.185.197.0/24,no-resolve),(OR,((DEST-PORT,5001-5030),(DEST-PORT,5501-5530))),(PROTOCOL,TCP)),PROXY
