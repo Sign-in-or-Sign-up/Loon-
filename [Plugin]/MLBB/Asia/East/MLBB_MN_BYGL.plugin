@@ -1,4 +1,4 @@
-#!name = Mobile Legends Asia/E🇲🇳
+#!name = Mobile Legends Asia/E🇲🇳巴彦郭勒
 #!desc = MLBB东亚蒙古GEMNET巴彦郭勒机房手动选择节点/禁入。用法说明：在游戏设置内（如点击大厅右上角，或对局内小地图旁的齿轮状⚙️图标，在“网络设置”一栏，第二行的“网络加速设置”栏目内的“网络加速”切换到关闭状态。
 #!openUrl = https://apps.apple.com/app/id1160056295
 #!author = Sign-in-or-sign-out
@@ -7,7 +7,7 @@
 #!select = 
 #!input = 
 #!tag = 无尽对决东亚
-#!date = 2024-11-02 19:00:00
+#!date = 2025-09-01 09:00:00
 
 [Rule]
 #IP登入检测:0
