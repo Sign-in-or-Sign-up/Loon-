@@ -1,0 +1,23 @@
+#!name = Mobile Legends Asia/E🇲🇳乌兰巴托
+#!desc = MLBB东亚蒙古Univision乌兰巴托机房手动选择节点/禁入。用法说明：在游戏设置内（如点击大厅右上角，或对局内小地图旁的齿轮状⚙️图标，在“网络设置”一栏，第二行的“网络加速设置”栏目内的“网络加速”切换到关闭状态。
+#!openUrl = https://apps.apple.com/app/id1160056295
+#!author = Sign-in-or-sign-out
+#!homepage = 
+#!icon = 
+#!select = 
+#!input = 
+#!tag = 无尽对决东亚
+#!date = 2025-09-01 09:00:00
+
+[Rule]
+#IP登入检测:0
+#UDP30190PORT:3
+#MN，蒙古乌兰巴托Univision
+AND,((IP-CIDR,66.181.173.212/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
+AND,((IP-CIDR,66.181.173.213/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
+AND,((IP-CIDR,66.181.173.214/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
+
+#东亚蒙古Univision乌兰巴托机房
+#66.181.173.0/24
+IP-CIDR,66.181.173.212/32,PROXY
+AND,((IP-CIDR,66.181.173.0/24,no-resolve),(OR,((DEST-PORT,5001-5030),(DEST-PORT,5501-5530))),(PROTOCOL,TCP)),PROXY
