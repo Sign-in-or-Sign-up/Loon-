@@ -7,7 +7,7 @@
 #!select = 
 #!input = 
 #!tag = 无尽对决
-#!date = 2024-11-02 19:00:00
+#!date = 2025-09-11 04:00:00
 
 [Rule]
 
@@ -18,10 +18,63 @@ DOMAIN,prod-avatar.jsdf.moontonapp.com,DIRECT
 hostname = akmpicture.youngjoygame.com
 
 [Rewrite]
-#新命名方式无法查看id后按服务器号排序
+#新命名方式无法查看id后按服务器号倒序排序
 #14848
 #格雷，纯菜逼
 ^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/14848\/63\/31\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+
+#黑名单十位数
+#1
+#小翁退熱貼//挂机狗
+^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/11177\/51\/26\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+#Monsoon//挂机狗小号
+^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/11253\/84\/91\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+#～曉實～//菜鸡
+^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/11361\/58\/24\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+#实力过强，五排干他
+^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/14263\/11\/57\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+#2
+#3
+#4
+#5
+#6
+#7
+#8
+#9
+#黑名单九位数
+#1
+#mattyy//菜鸡
+^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3222\/4\/26\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+#I D H A R O W E//ban队友常用角抢位
+^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/2783\/26\/40\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+#°黑色帽T°//乱斗太菜
+^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3234\/24\/79\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+#2
+#3
+#浩霸贏贏//嘴臭
+^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3603\/81\/10\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+#4
+#5
+#6
+#7
+#8
+#9
+#郭董//傻逼
+^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/10018\/34\/26\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+#黑名单八位数
+#1
+#2
+#诺曼·基尼托//傻逼恶意举报
+^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3038\/90\/49\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+#3
+#4
+#5
+#6
+#7
+#8
+#9
+#RedRacer909//玻璃心挂机狗
+^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3104\/74\/62\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #黑名单十位数
 #1
