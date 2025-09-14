@@ -1,4 +1,4 @@
-#!name = Mobile Legends Asia/Se🇵🇭Z
+#!name = Mobile Legends Asia/Se🇵🇭Z马尼拉
 #!desc = MLBB东南亚菲律宾Zenlayer马尼拉机房手动选择节点/禁入。用法说明：在游戏设置内（如点击大厅右上角，或对局内小地图旁的齿轮状⚙️图标，在“网络设置”一栏，第二行的“网络加速设置”栏目内的“网络加速”切换到关闭状态。
 #!openUrl = https://apps.apple.com/app/id1160056295
 #!author = Sign-in-or-sign-out
@@ -7,7 +7,7 @@
 #!select = 
 #!input = 
 #!tag = 无尽对决东南亚
-#!date = 2024-11-02 19:00:00
+#!date = 2025-09-15 03:40:00
 
 [Rule]
 #IP登入检测:4
@@ -174,7 +174,3 @@ AND,((IP-CIDR,156.59.170.0/24,no-resolve),(OR,((DEST-PORT,5001-5030),(DEST-PORT,
 #156.59.232.0/24
 IP-CIDR,156.59.232.246/32,PROXY
 AND,((IP-CIDR,156.59.232.0/24,no-resolve),(OR,((DEST-PORT,5001-5030),(DEST-PORT,5501-5530))),(PROTOCOL,TCP)),PROXY
-
-
-
-
