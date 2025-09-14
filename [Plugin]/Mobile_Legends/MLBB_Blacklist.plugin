@@ -27,6 +27,9 @@ hostname = akmpicture.youngjoygame.com
 #₊•‿•ꕤ˚，纯菜逼
 ^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3524\/30\/73\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
+#3421
+#ᏢÅᎡÅᎠϴ乂，菲猴大脑发育不良小脑完全不发育ban队友角
+^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3421\/53\/73\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #黑名单十位数
 #1
