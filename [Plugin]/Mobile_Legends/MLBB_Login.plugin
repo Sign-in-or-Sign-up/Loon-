@@ -7,7 +7,7 @@
 #!select = 
 #!input = 
 #!tag = 无尽对决
-#!date = 2024-11-02 19:00:00
+#!date = 2025-09-15 21:00:00
 
 [Rule]
 #登陆域名
@@ -30,6 +30,7 @@ URL-REGEX,"^https:\/\/akmstatic\.ml\.youngjoygame\.com\/LaylaWorkshop\/202\d{1}[
 URL-REGEX,"^https:\/\/akmstatic\.ml\.youngjoygame\.com\/MedalCG\/Medal_[1-9]\.mp4$",DIRECT
 
 DOMAIN,akmstatic.ml.youngjoygame.com,REJECT
+DOMAIN,akmstatic.ml.mproject.skystone.games,REJECT
 DOMAIN,hsstatic.jsdf.moontonapp.com,REJECT-DROP
 
 #新版本app下载预更新核对
@@ -443,6 +444,8 @@ hostname = akmcdn.ml.youngjoygame.com,akmstatic.ml.youngjoygame.com,akmpicture.y
 ^https:\/\/akmstatic\.ml\.youngjoygame\.com\/act\/Season(\d{2,3})bgpop(\d{2,3})?(_ios)?\.(jpg|unity3d)$ - reject-img
 #开屏宣传图
 ^https:\/\/akmstatic\.ml\.youngjoygame\.com\/mlbbpromo\/(6|23|49|128)\/(6|23|49|128|666|6b)-2[4-9][0-1][0-9][0-3][0-9](\w{1,16})(-\w{2,3})?-(en|por|ru|jp|es|tr|id|vn|my|ar|mm|kh|ph|\w{2})(_ios)?\.(unity3d|png|jpg|PNG|JPG)$ - reject-img
+#开屏宣传图新域名
+^https:\/\/akmstatic\.ml\.mproject\.skystone\.games\/mlbbpromo\/(6|23|49|128)\/(6|23|49|128|666|6b)-2[4-9][0-1][0-9][0-3][0-9](\w{1,16})(-\w{2,3})?-(en|por|ru|jp|es|tr|id|vn|my|ar|mm|kh|ph|\w{2})(_ios)?\.(unity3d|png|jpg|PNG|JPG)$ - reject-img
 #视频教程mp4
 ^https:\/\/akmstatic\.ml\.youngjoygame\.com\/(act|bpguide|emblem2023)\/.*?\.mp4$ - reject-video
 #esport
@@ -464,14 +467,20 @@ hostname = akmcdn.ml.youngjoygame.com,akmstatic.ml.youngjoygame.com,akmpicture.y
 
 ^https:\/\/akmstatic\.ml\.youngjoygame\.com\/(act|bpguide|emblem2023|mlbbpromo|esport|banner|KOLBanner|test|wb)\/.*? - reject-200
 ^https:\/\/akmstatic\.ml\.youngjoygame\.com\/\/announcement\/security_knowledge\/.*?_ios\.unity3d -reject-img
-#akmcn下载
+#akmcdn下载
 #^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/.*?\/(\d{3})\.1\/ModeSize\.bytes$ - reject
+
+#新域名
+^https:\/\/akmstatic\.ml\.mproject\.skystone\.games\/mlbbpromo\/.*?\/49-250915First-op-en\.(jpg|png|unity3d)$
+
+
 
 
 #疑似人机拦截
 #^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/\d{4}\/(0|1|10|11|12|13)\/\d{1,2}\/\d{5,8}_[1-4]?[0-9]\.jpg$ - reject-img
 #所有小头像不缓存
 ^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/\d{4,5}\/\d{1,2}\/\d{1,2}\/\d{6,10}_\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject
+^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/\d{4,5}\/\d{1,2}\/\d{1,2}\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject
 
 #国区头像
 ^https:\/\/p\d{1,2}\.douyinpic\.com\/aweme\/100x100\/[0-9a-f]{20}\.jpeg\?from=4010531038$ - reject-img
