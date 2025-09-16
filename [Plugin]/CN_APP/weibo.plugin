@@ -7,7 +7,7 @@
 #!select = 
 #!input = 
 #!tag = 
-#!date = 2025-02-02 12:34:56
+#!date = 2025-09-16 12:34:56
 
 [MITM]
 hostname = 
@@ -143,6 +143,7 @@ DOMAIN,locallimit.us.sinaimg.cn,REJECT
 
 
 URL-REGEX,"^https:\/\/weibo\.cn\/sinaurl\?toasturl=http",DIRECT//允许外链跳转
+URL-REGEX,"^https:\/\/weibo\.cn\/sinaurl\?u=",DIRECT//引用图片或视频等
 
 URL-REGEX,"^https:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=get_coopen_ads&c=ad&slot=coopen&auth=,REJECT//广告？
 URL-REGEX,"^https:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=open_app&auth=,REJECT//开屏广告？
