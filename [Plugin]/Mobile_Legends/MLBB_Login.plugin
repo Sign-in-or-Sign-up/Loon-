@@ -34,6 +34,7 @@ DOMAIN,akmstatic.ml.mproject.skystone.games,REJECT
 DOMAIN,hsstatic.jsdf.moontonapp.com,REJECT-DROP
 
 #新版本app下载预更新核对
+URL-REGEX,"^http:\/\/akmcdn\.ml\.youngjoygame\.com\/ios_predownload\/PredownloadCombine_\d{4}\.1-\d{4}\.1_etc\.bytes$",DIRECT//预更新
 URL-REGEX,"^http:\/\/akmcdn\.ml\.youngjoygame\.com\/ios_predownload\/LoadResModuleStartProgress_\d{4}\.1--\d{4}\.2_etc\.bytes$",DIRECT//预更新
 URL-REGEX,"^http:\/\/akmcdn\.ml\.youngjoygame\.com\/ios_res_patch5\/\d{4}\.\d{1}--\d{4}\.\d{1}armv7\.nodiff\.2019\.zip\?1",DIRECT//大版本更新
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Art\/ios\/ShaderVariants_add\.unity3d$",DIRECT//半藏新分身？
