@@ -33,6 +33,11 @@ DOMAIN,akmstatic.ml.youngjoygame.com,REJECT
 DOMAIN,akmstatic.ml.mproject.skystone.games,REJECT
 DOMAIN,hsstatic.jsdf.moontonapp.com,REJECT-DROP
 
+#语言字符
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/AddLanguageCNTraditional\.unity3d$",DIRECT//中文资源
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/AllLanguageCNTraditional\.unity3d$",DIRECT//中文资源
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/AddLanguageThai\.unity3d$",DIRECT//泰文资源
+
 #新版本app下载预更新核对
 URL-REGEX,"^http:\/\/akmcdn\.ml\.youngjoygame\.com\/ios_predownload\/PredownloadCombine_\d{4}\.1-\d{4}\.1_etc\.bytes$",DIRECT//预更新
 URL-REGEX,"^http:\/\/akmcdn\.ml\.youngjoygame\.com\/ios_predownload\/LoadResModuleStartProgress_\d{4}\.1--\d{4}\.2_etc\.bytes$",DIRECT//预更新
@@ -70,8 +75,6 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Art\/ios\/zzp2_fatcat_CitAction_sence_01_add\.unity3d$",DIRECT//高级特效补充资
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Art\/ios\/zzp2_windmagic_cityaction_quan_skin03_add\.unity3d$",DIRECT//高级特效补充资源
 #URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Art\/ios\/zzp2_.*?\.unity3d$",DIRECT//高级特效补充资源
-URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/AddLanguageCNTraditional\.unity3d$",DIRECT//中文资源
-URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/AllLanguageCNTraditional\.unity3d$",DIRECT//中文资源
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/LoadResAllModeData\.unity3d\.zip$",DIRECT//检查资源
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/LoadResDelete\.unity3d\.zip$",DIRECT//检查资源
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/LoadResForceCheck\.unity3d\.zip$",DIRECT//检查资源
@@ -409,7 +412,7 @@ DOMAIN,alicdn.web.moontonapp.com,REJECT-DROP
 DOMAIN,bscdn.jsdf.moontonapp.com,DIRECT
 DOMAIN,hscdn.jsdf.moontonapp.com,DIRECT
 DOMAIN,pldtcdn.ml.youngjoygame.com,REJECT-DROP
-DOMAIN,wscdn.ml.youngjoygame.com,REJECT
+DOMAIN,wscdn.ml.youngjoygame.com,REJECT-DROP
 #国内头像
 URL-REGEX,"^https:\/\/p\d{1,2}\.douyinpic\.com\/aweme\/1080x1080\/[0-9a-f]{20}\.jpeg\?from=4010531038$",DIRECT//高清头
 URL-REGEX,"^https:\/\/p\d{1,2}\.douyinpic\.com\/aweme\/1080x1080\/aweme-avatar\/douyin-user-file_[0-9a-f]{32}\.jpeg\?from=4010531038$",DIRECT//高清头
