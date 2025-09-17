@@ -34,9 +34,8 @@ DOMAIN,akmstatic.ml.mproject.skystone.games,REJECT
 DOMAIN,hsstatic.jsdf.moontonapp.com,REJECT-DROP
 
 #语言字符
-URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/AddLanguageCNTraditional\.unity3d$",DIRECT//中文资源
-URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/AllLanguageCNTraditional\.unity3d$",DIRECT//中文资源
-URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/AddLanguageThai\.unity3d$",DIRECT//泰文资源
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/A(dd|ll)LanguageCNTraditional\.unity3d$",DIRECT//中文资源
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/A(dd|ll)LanguageThai\.unity3d$",DIRECT//泰文资源
 
 #新版本app下载预更新核对
 URL-REGEX,"^http:\/\/akmcdn\.ml\.youngjoygame\.com\/ios_predownload\/PredownloadCombine_\d{4}\.1-\d{4}\.1_etc\.bytes$",DIRECT//预更新
