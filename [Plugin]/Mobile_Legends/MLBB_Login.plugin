@@ -382,8 +382,8 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/ChessPlayerRes\/\d{3}\.1\/LoadResSingleModeMd5\.bytes$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RoguelikeMode\/\d{1,2}\.1\/ModeSize\.bytes$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RoguelikeMode\/\d{1,2}\.1\/LoadResSingleModeMd5\.bytes$",DIRECT//
-URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/SoloMode\/\d2,3}\.1\/ModeSize\.bytes$",DIRECT//1v1模式
-URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/SoloMode\/\66\.1\/LoadResSingleModeMd5\.bytes$",DIRECT//1v1模式
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/SoloMode\/\d{2,3}\.1\/ModeSize\.bytes$",DIRECT//1v1模式
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/SoloMode\/\d{2,3}\.1\/LoadResSingleModeMd5\.bytes$",DIRECT//1v1模式
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/MCGG\/\d{3}\.1\/ModeSize\.bytes$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/MCGG\/\d{3}\.1\/LoadResSingleModeMd5\.bytes$",DIRECT//
 
