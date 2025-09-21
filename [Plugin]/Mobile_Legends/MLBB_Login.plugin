@@ -491,8 +491,8 @@ hostname = akmcdn.ml.youngjoygame.com,akmstatic.ml.youngjoygame.com,akmpicture.y
 #疑似人机拦截
 #^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/\d{4}\/(0|1|10|11|12|13)\/\d{1,2}\/\d{5,8}_[1-4]?[0-9]\.jpg$ - reject-img
 #所有小头像不缓存
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/\d{4,5}\/\d{1,2}\/\d{1,2}\/\d{6,10}_\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/\d{4,5}\/\d{1,2}\/\d{1,2}\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject
+#^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/\d{4,5}\/\d{1,2}\/\d{1,2}\/\d{6,10}_\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject
+#^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/\d{4,5}\/\d{1,2}\/\d{1,2}\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject
 
 #国区头像
 ^https:\/\/p\d{1,2}\.douyinpic\.com\/aweme\/100x100\/[0-9a-f]{20}\.jpeg\?from=4010531038$ - reject-img
