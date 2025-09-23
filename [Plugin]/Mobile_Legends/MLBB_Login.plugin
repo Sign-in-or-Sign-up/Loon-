@@ -502,7 +502,7 @@ hostname = akmcdn.ml.youngjoygame.com,akmstatic.ml.youngjoygame.com,akmpicture.y
 
 #新域名
 ^https:\/\/akmstatic\.ml\.mproject\.skystone\.games\/mlbbpromo\/.*?\/49-250915First-op-en\.(jpg|png|unity3d)$ - reject-img
-^https:\/\/akmstatic\.ml\.mproject\.skystone\.games\/mlbbpromo\/.*?\.(jpg|png|unity3d)$ - reject-img
+^https:\/\/akmstatic\.ml\.mproject\.skystone\.games\/.*?\.(jpg|png|unity3d)$ - reject-img
 
 
 
