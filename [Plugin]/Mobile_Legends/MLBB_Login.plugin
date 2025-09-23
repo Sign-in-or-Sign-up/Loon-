@@ -45,9 +45,9 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/lan\/th\/Audio\/ios\/tutorial\.2021\.bnk//泰语资源
 
 #新版本app下载预更新核对
-URL-REGEX,"^http:\/\/akmcdn\.ml\.youngjoygame\.com\/ios_predownload\/PredownloadCombine_\d{4}\.1-\d{4}\.1_etc\.bytes$",DIRECT//预更新
-URL-REGEX,"^http:\/\/akmcdn\.ml\.youngjoygame\.com\/ios_predownload\/LoadResModuleStartProgress_\d{4}\.1--\d{4}\.\d{1}_etc\.bytes$",DIRECT//预更新
-URL-REGEX,"^http:\/\/akmcdn\.ml\.youngjoygame\.com\/ios_res_patch5\/\d{4}\.\d{1}--\d{4}\.\d{1}armv7\.nodiff\.2019\.zip\?1",DIRECT//大版本更新
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_predownload\/PredownloadCombine_\d{4}\.1-\d{4}\.1_etc\.bytes$",DIRECT//预更新
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_predownload\/LoadResModuleStartProgress_\d{4}\.1--\d{4}\.\d{1}_etc\.bytes$",DIRECT//预更新
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_patch5\/\d{4}\.\d{1}--\d{4}\.\d{1}armv7\.nodiff\.2019\.zip\?1",DIRECT//大版本更新
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Art\/ios\/ShaderVariants_add\.unity3d$",DIRECT//半藏新分身？
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Art\/ios\/hero_badninja_skin_high_add\.unity3d$",DIRECT//半藏?
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Art\/ios\/guangquan_kuanjiantouDefault_Hero69_02_add\.unity3d$",DIRECT//某英雄技能指示箭头加宽？
@@ -355,6 +355,7 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/CustomRoomMode\/\d{3}\.1\/Document\/ios\/CustomRoomModifyXML\.unity3d$",DIRECT//其他模式
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/CustomRoomMode\/\d{3}\.1\/UI\/ios\/CustomRoomModeuiatlas\.ini$",DIRECT//其他模式
 
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/ImbaMode\/\d{3}\.1\/ModeSize\.bytes",DIRECT//狂欢模式
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/ImbaMode\/\d{3}\.1\/Art\/ios\/Aulus_skill03_range02_skin02_add\.unity3d$",DIRECT//狂欢模式
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/ImbaMode\/\d{3}\.1\/Art\/ios\/Aulus_skill03_range02\.unity3d$",DIRECT//狂欢模式
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/ImbaMode\/\d{3}\.1\/Art\/ios\/FX_gedoujia_Imba\.unity3d$",DIRECT//狂欢模式
@@ -363,6 +364,8 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/ImbaMode\/\d{3}\.1\/Document\/ios\/CarnivalBattle\.unity3d$",DIRECT//狂欢模式
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/ImbaMode\/\d{3}\.1\/Document\/ios\/CarnivalHeroTest\.unity3d$",DIRECT//狂欢模式
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/ImbaMode\/\d{3}\.1\/Document\/ios\/HeroSkillDes_ImbaMode\.unity3d$",DIRECT//狂欢模式
+
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/OverDriveHeroMode\/\d{3}\.1\/ModeSize\.bytes",DIRECT//超载模式
 
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DisOrderMode\/\d{3}\.1\/ModeSize\.bytes$",DIRECT//其他模式
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DisOrderMode\/\d{3}\.1\/LoadResSingleModeMd5\.bytes$",DIRECT
