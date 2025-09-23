@@ -1,5 +1,5 @@
 #!name = Mobile Legends 登陆
-#!desc = MLBB登陆手动分配节点以创建不同地区的游戏房间，未添加细分地区服插件的对局走final。极端主义可在本地添加AND,((OR,((DEST-PORT,5051-5079),(DEST-PORT,5551-5579))),(PROTOCOL,TCP)),REJECT-DROP
+#!desc = MLBB登陆手动分配节点以创建不同地区的游戏房间，未添加细分地区服插件的对局走final。极端主义可在本地添加AND,((OR,((DEST-PORT,5051-5080),(DEST-PORT,5551-5580))),(PROTOCOL,TCP)),REJECT-DROP
 #!openUrl = https://apps.apple.com/app/id1160056295
 #!author = Sign-in-or-sign-out
 #!homepage = 
@@ -170,6 +170,7 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/fix_v?_?[a-z]{4,11}_17\d{8}\/[12]\/etc\/gameres\/ios\/mlf\/modules\/ActivityNew\/ActCommon\/ActCommonHeroModel\.bytes$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/fix_v?_?[a-z]{4,11}_17\d{8}\/[12]\/etc\/gameres\/ios\/mlf\/modules\/ActivityNew\/ActCommon\/ActGameLobbyModuleCtrl\.bytes$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/fix_v?_?[a-z]{4,11}_17\d{8}\/[12]\/etc\/gameres\/ios\/mlf\/modules\/ActivityNew\/ActCommon\/ActPressItem\.bytes$",DIRECT//
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/fix_v?_?[a-z]{4,11}_17\d{8}\/[12]\/etc\/gameres\/ios\/mlf\/modules\/ActivityNew\/ActCommon\/RTUIComponent\.bytes$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/fix_v?_?[a-z]{4,11}_17\d{8}\/[12]\/etc\/gameres\/ios\/mlf\/modules\/ActivityNew\/ActivityNew_View_ActivityCommonRecordNew\.bytes$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/fix_v?_?[a-z]{4,11}_17\d{8}\/[12]\/etc\/gameres\/ios\/mlf\/modules\/ActivityNew\/ActivityNew_View_ActivityHalloweenShare\.bytes$",DIRECT//万圣节分享活动？
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/fix_v?_?[a-z]{4,11}_17\d{8}\/[12]\/etc\/gameres\/ios\/mlf\/modules\/ActivityNew\/ActivityNew_View_CommPreview\.bytes$",DIRECT//
@@ -317,6 +318,7 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DisOrderMode\/\d{3}\.1\/Art\/ios\/FX_BlockArrow_PM\.unity3d$",DIRECT//其他模式
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DisOrderMode\/\d{3}\.1\/Art\/ios\/FX_Disorder_Fog\.unity3d$",DIRECT//其他模式
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DisOrderMode\/\d{3}\.1\/Art\/ios\/FX_Disorder_Teleport\.unity3d$",DIRECT//其他模式
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DisOrderMode\/\d{3}\.1\/Art\/ios\/FX_Disorder_TeleportEnd\.unity3d$",DIRECT//其他模式
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DisOrderMode\/\d{3}\.1\/Art\/ios\/zzp[12]_disorder_ShopRange\.unity3d$",DIRECT//其他模式
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DisOrderMode\/\d{3}\.1\/Art\/ios\/zzp[12]_disorder_xuebao\.unity3d$",DIRECT//其他模式
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DisOrderMode\/\d{3}\.1\/Art\/ios\/zzp[12]_zhanchang_liantiao_biaoji\.(bytes|unity3d)$",DIRECT//其他模式
