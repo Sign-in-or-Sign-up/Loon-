@@ -263,7 +263,7 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.1\/returning_res_2023\/1\/etc\/Art\/ios\/FX_UI_Returning2023_SignIn_V3_Bg_Glow\.unity3d$",DIRECT//回归玩家活动
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.1\/returning_res_2023\/1\/etc\/Art\/ios\/zzp1_FX_UI_Returning2023_battle0[12]\.unity3d$",DIRECT//回归玩家活动
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.1\/returning_res_2023\/1\/etc\/Art\/ios\/zzp1_FX_UI_Returning2023_Button_Go\.unity3d$",DIRECT//回归玩家活动
-URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.1\/returning_res_2023\/1\/etc\/Art\/ios\/zzp1_FX_UI_Returning2023_BP_task01\.unity3d$",DIRECT//回归玩家活动
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.1\/returning_res_2023\/1\/etc\/Art\/ios\/zzp1_FX_UI_Returning2023_BP_task0[12]\.unity3d$",DIRECT//回归玩家活动
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.1\/returning_res_2023\/1\/etc\/Art\/ios\/zzp1_FX_UI_Returning2023_SignIn_V3_Bg_Glow\.unity3d$",DIRECT//回归玩家活动
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.1\/returning_res_2023\/1\/etc\/Art\/ios\/zzp1_FX_UI_Returning2023_Welcome_move\.unity3d$",DIRECT//回归玩家活动
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.1\/returning_res_2023\/1\/etc\/UI\/ios\/Atlas_NewRankingBuySkin\.unity3d$",DIRECT//回归玩家活动
