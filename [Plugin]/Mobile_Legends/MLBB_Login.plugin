@@ -484,7 +484,8 @@ hostname = akmcdn.ml.youngjoygame.com,akmstatic.ml.youngjoygame.com,akmpicture.y
 #^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/.*?\/(\d{3})\.1\/ModeSize\.bytes$ - reject
 
 #新域名
-^https:\/\/akmstatic\.ml\.mproject\.skystone\.games\/mlbbpromo\/.*?\/49-250915First-op-en\.(jpg|png|unity3d)$
+^https:\/\/akmstatic\.ml\.mproject\.skystone\.games\/mlbbpromo\/.*?\/49-250915First-op-en\.(jpg|png|unity3d)$ - reject-img
+^https:\/\/akmstatic\.ml\.mproject\.skystone\.games\/mlbbpromo\/.*?\.(jpg|png|unity3d)$ - reject-img
 
 
 
