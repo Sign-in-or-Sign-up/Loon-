@@ -443,7 +443,7 @@ URL-REGEX,"^https:\/\/p\d{1,2}\.douyinpic\.com\/aweme\/1080x1080\/aweme-avatar\/
 URL-REGEX,"^https:\/\/p\d{1,2}\.douyinpic\.com",REJECT
 
 #TCP
-AND,((OR,((DEST-PORT,5051-5079),(DEST-PORT,5551-5579),(DEST-PORT,5651-5679))),(PROTOCOL,TCP)),REJECT-DROP
+AND,((OR,((DEST-PORT,5051-5080),(DEST-PORT,5151-5180),(DEST-PORT,5551-5580),(DEST-PORT,5651-5680))),(PROTOCOL,TCP)),REJECT-DROP
 
 [MITM]
 hostname = akmcdn.ml.youngjoygame.com,akmstatic.ml.youngjoygame.com,akmpicture.youngjoygame.com,alicdn.jsdf.moontonapp.com,wsavatar.yuanzhanapp.com,wscdn.ml.youngjoygame.com,*.douyinpic.com
