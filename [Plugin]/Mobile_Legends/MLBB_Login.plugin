@@ -298,7 +298,7 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/CommonRes\/\d{3}\.1\/Art\/ios\/zhanchang_shengming1_add\.unity3d$",DIRECT/恢复
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/CommonRes\/\d{3}\.1\/Art\/ios\/zzp[12]_zhanchang_shengming1_add\.unity3d$",DIRECT/恢复
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/CommonRes\/\d{3}\.1\/Art\/ios\/zhanchang_shihua[2345]_add\.unity3d$",DIRECT//石化
-URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/CommonRes\/\d{3}\.1\/Art\/ios\/zzp1_zhanchang_shihua[2345]_add\.unity3d$",DIRECT//石化
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/CommonRes\/\d{3}\.1\/Art\/ios\/zzp[12]_zhanchang_shihua[2345]_add\.unity3d$",DIRECT//石化
 
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.1\/returning_res_2023\/1\/etc\/_load_res\.bytes$",DIRECT//回归玩家活动
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.1\/returning_res_2023\/1\/etc\/Art\/ios\/FX_UI_Returning2023_Act_Privilege_add\.unity3d$",DIRECT//回归玩家活动
