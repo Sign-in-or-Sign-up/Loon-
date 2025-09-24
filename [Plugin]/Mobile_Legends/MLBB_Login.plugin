@@ -323,9 +323,9 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.1\/returning_res_2023\/1\/etc\/UI\/ios\/Atlas_NewRankingBuySkin\.unity3d$",DIRECT//回归玩家活动
 
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DeathRacingMode\/\d{3}\.1\/LoadResSingleModeMd5\.bytes$",DIRECT//
-URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DeathRacingMode\/\d{3}\.1\/Art\/ios\/.*?\.unity3d$",DIRECT//创造营额外资源
-URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DeathRacingMode\/\d{3}\.1\/Document\/ios\/(Add|All)Language.*?_DRACE\.unity3d$",DIRECT//创造营额外资源
-URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DeathRacingMode\/\d{3}\.1\/Document\/ios\/.*?\.unity3d$",DIRECT//创造营额外资源
+#URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DeathRacingMode\/\d{3}\.1\/Art\/ios\/.*?\.unity3d$",DIRECT//创造营额外资源
+#URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DeathRacingMode\/\d{3}\.1\/Document\/ios\/(Add|All)Language.*?_DRACE\.unity3d$",DIRECT//创造营额外资源
+#URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DeathRacingMode\/\d{3}\.1\/Document\/ios\/.*?\.unity3d$",DIRECT//创造营额外资源
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DeathRacingMode\/\d{3}\.1\/UI\/ios\/DeathRacingModeuiatlas\.ini$",DIRECT//创造营额外资源
 
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/CloneImbaOneRoadMode\/420\.1\/Art\/ios\/disorder_.*?_add\.unity3d$",DIRECT//乱斗迷影
@@ -443,6 +443,7 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DisOrderMode\/\d{3}\.1\/UI\/ios\/UI_DisorderBattle\.unity3d$",DIRECT//其他模式
 
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/CustomRoomMode\/\d{3}\.1\/Art\/ios\/Fx_UI_Save_CRM\.unity3d$",DIRECT//其他模式
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/CustomRoomMode\/\d{3}\.1\/Art\/ios\/zzp1_Fx_UI_Save_CRM\.unity3d$",DIRECT//其他模式
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/CustomRoomMode\/\d{3}\.1\/Document\/ios\/AllLanguageArabic_CRM\.unity3d$",DIRECT//其他模式
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/CustomRoomMode\/\d{3}\.1\/Document\/ios\/AllLanguageBahasaMelayu_CRM\.unity3d$",DIRECT//其他模式
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/CustomRoomMode\/\d{3}\.1\/Document\/ios\/AllLanguageBangla_CRM\.unity3d$",DIRECT//其他模式
