@@ -400,6 +400,7 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DisOrderMode\/\d{3}\.1\/Document\/ios\/OneRoadBattleConfig\.unity3d$",DIRECT//其他模式
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DisOrderMode\/\d{3}\.1\/Document\/ios\/ModeSpecialBattleDisOrderModeExtra\.unity3d$",DIRECT//其他模式
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DisOrderMode\/\d{3}\.1\/Document\/ios\/ModeSpecialBattleSkill_DisOrderModeExtra\.unity3d$",DIRECT//其他模式
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DisOrderMode\/\d{3}\.1\/Document\/ios\/Monster_DisOrderModeExtra\.unity3d$",DIRECT//其他模式
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DisOrderMode\/\d{3}\.1\/Scenes\/ios\/PVP_004_CN(_low)?_add\.unity3d$",DIRECT//其他模式
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DisOrderMode\/\d{3}\.1\/Scenes\/ios\/PVP_004_new(_low)?_add\.unity3d$",DIRECT//其他模式
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DisOrderMode\/\d{3}\.1\/UI\/ios\/DisOrderModeuiatlas\.ini$",DIRECT//其他模式
