@@ -427,7 +427,7 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DeathRacingMode\/\d{3}\.1\/Document\/ios\/(Add|All)LanguageTurkish_DRACE\.unity3d$",DIRECT//创造营额外资源
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DeathRacingMode\/\d{3}\.1\/Document\/ios\/(Add|All)LanguageUrdu_DRACE\.unity3d$",DIRECT//创造营额外资源
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DeathRacingMode\/\d{3}\.1\/Document\/ios\/(Add|All)LanguageVietnamese_DRACE\.unity3d$",DIRECT//创造营额外资源
-#URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DeathRacingMode\/\d{3}\.1\/Document\/ios\/.*?\.unity3d$",DIRECT//创造营额外资源
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DeathRacingMode\/\d{3}\.1\/Document\/ios\/.*?\.unity3d$",DIRECT//创造营额外资源
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DeathRacingMode\/\d{3}\.1\/UI\/ios\/DeathRacingModeuiatlas\.ini$",DIRECT//创造营额外资源
 
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/CloneImbaOneRoadMode\/420\.1\/Art\/ios\/disorder_.*?_add\.unity3d$",DIRECT//乱斗迷影
