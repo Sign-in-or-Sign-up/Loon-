@@ -233,6 +233,7 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/fix_v?_?[a-z]{4,11}_17\d{8}\/[12]\/etc\/gameres\/ios\/mlf\/ruledact\/Act_IKIDraw\/ActivityNew_View_ProJ_PopUp_Exchange\.bytes$",DIRECT//焕新之选？
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/fix_v?_?[a-z]{4,11}_17\d{8}\/[12]\/etc\/gameres\/ios\/mlf\/ruledact\/Act_IKIDraw\/ActivityNew_View_YKS_Reward\.bytes$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/fix_v?_?[a-z]{4,11}_17\d{8}\/[12]\/etc\/gameres\/ios\/mlf\/ruledact\/Act_InviteNew\/UIInviteNewTabPage\.bytes$",DIRECT//
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/fix_v?_?[a-z]{4,11}_17\d{8}\/[12]\/etc\/gameres\/ios\/mlf\/ruledact\/Act_NewBack\/ActivityNew_View_NewBack_FriendHelpCut\.bytes$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/fix_v?_?[a-z]{4,11}_17\d{8}\/[12]\/etc\/gameres\/ios\/mlf\/ruledact\/Act_NoviceDraw\/ActivityNew_View_NewPlayerDraw_Result_add\.bytes$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/fix_v?_?[a-z]{4,11}_17\d{8}\/[12]\/etc\/gameres\/ios\/mlf\/ruledact\/Act_NoviceDraw\/NoviceDrawActivity\.bytes$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/fix_v?_?[a-z]{4,11}_17\d{8}\/[12]\/etc\/gameres\/ios\/mlf\/ruledact\/Act_RamadanAppointment\/ActivityNew_View_RamadanAppointment\.bytes$",DIRECT//
@@ -362,6 +363,8 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DisOrderMode\/\d{3}\.1\/Art\/ios\/zzp[12]_DisOrder_xuanzhong\.unity3d$",DIRECT//其他模式
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DisOrderMode\/\d{3}\.1\/Art\/ios\/zzp[12]_disorder_xuebao02\.unity3d$",DIRECT//其他模式
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DisOrderMode\/\d{3}\.1\/Art\/ios\/zzp[12]_disorder_xuebao\.unity3d$",DIRECT//其他模式
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DisOrderMode\/\d{3}\.1\/Art\/ios\/zzp[12]_fashi_attack[12]_add\.unity3d$",DIRECT//其他模式
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DisOrderMode\/\d{3}\.1\/Art\/ios\/zzp[12]_fashi_beiji_add\.unity3d$",DIRECT//其他模式
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DisOrderMode\/\d{3}\.1\/Art\/ios\/zzp[12]_FX_BlockArrow_PM\.unity3d$",DIRECT//其他模式
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DisOrderMode\/\d{3}\.1\/Art\/ios\/zzp[12]_FX_Disorder_Teleport\.unity3d$",DIRECT//其他模式
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DisOrderMode\/\d{3}\.1\/Art\/ios\/zzp[12]_FX_Disorder_TeleportEnd\.unity3d$",DIRECT//其他模式
