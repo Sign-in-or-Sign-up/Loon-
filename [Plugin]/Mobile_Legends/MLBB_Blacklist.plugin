@@ -45,7 +45,7 @@ hostname = akmpicture.youngjoygame.com
 
 #2206#
 #一生〆懸命࿐
-#^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\2206\/26\/92\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\2206\/26\/92\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #黑名单十位数
 #1
