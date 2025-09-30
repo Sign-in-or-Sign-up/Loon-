@@ -7,7 +7,7 @@
 #!select = 
 #!input = 
 #!tag = 无尽对决西亚
-#!date = 2024-11-02 19:00:00
+#!date = 2025-10-01 03:00:00
 
 [Rule]
 #IP登入检测:0
@@ -15,9 +15,11 @@
 #IQ，伊拉克卡迪西亚阿法克Hulum
 AND,((IP-CIDR,37.237.213.87/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
 AND,((IP-CIDR,37.237.213.94/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
+
 #西亚伊拉克Hulum公司卡迪西亚阿法克机房
 #37.237.213.0/24
-IP-CIDR,37.237.213.87/32,PROXY
+#IP-CIDR,37.237.213.87/32,PROXY
+IP-CIDR,37.237.213.94/32,PROXY
 
 [MITM]
 hostname = 
