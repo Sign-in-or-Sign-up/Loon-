@@ -1,0 +1,26 @@
+#!name = Mobile Legends Africa🇪🇬Z
+#!desc = MLBB非洲埃及Zenlayer开罗机房手动选择节点/禁入。用法说明：在游戏设置内（如点击大厅右上角，或对局内小地图旁的齿轮状⚙️图标，在“网络设置”一栏，第二行的“网络加速设置”栏目内的“网络加速”切换到关闭状态。
+#!openUrl = https://apps.apple.com/app/id1160056295
+#!author = Sign-in-or-sign-out
+#!homepage = 
+#!icon = 
+#!select = 
+#!input = 
+#!tag = 无尽对决非洲
+#!date = 2025-10-01 14:20:00
+
+[Rule]
+#IP登入检测:0
+#UDP30190PORT:3
+#EG，埃及开罗Zenlayer
+AND,((IP-CIDR,104.166.138.26/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
+
+#非洲埃及Zenlayer开罗机房
+#104.166.138.0/24
+IP-CIDR,104.166.138.26/32,PROXY
+IP-CIDR,104.166.138.27/32,PROXY
+
+[MITM]
+hostname = 
+
+[Script]
