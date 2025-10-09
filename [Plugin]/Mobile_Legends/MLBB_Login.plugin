@@ -724,6 +724,9 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/1034\.1\/Art\/ios\/avg_(bg|S3[0-9])_.*?_add\.unity3d$",DIRECT//赛季故事
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/1034\.1\/module_combine_554_[0-3]\.zip$",DIRECT//赛季故事
 
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/SoloMode\/\d{2,3}\.1\/Document\/ios\/AddLanguageArabic_SoloMode\.unity3d$",DIRECT//1v1模式
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/SoloMode\/\d{2,3}\.1\/Document\/ios\/.*?\.unity3d$",DIRECT//1v1模式
+
 #URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/.*?\.(bytes|ini)$",DIRECT
 
 #国内版
