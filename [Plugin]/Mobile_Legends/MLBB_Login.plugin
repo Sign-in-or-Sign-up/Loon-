@@ -774,7 +774,8 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/SoloMode\/\d{2,3}\.1\/UI\/ios\/Atlas_SoloMode_add\.unity3d$",DIRECT//1v1模式
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/SoloMode\/\d{2,3}\.1\/UI\/ios\/UI_BattleInfo_SoloMode\.unity3d$",DIRECT//1v1模式
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/SoloMode\/\d{2,3}\.1\/UI\/ios\/UI_ClientTask_SoloMode\.unity3d$",DIRECT//1v1模式
-URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/SoloMode\/\d{2,3}\.1\/UI\/ios\/.*?\.ini$",DIRECT//1v1模式
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/SoloMode\/\d{2,3}\.1\/UI\/ios\/SoloModeuiatlas\.ini$",DIRECT//1v1模式
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/SoloMode\/\d{2,3}\.1\/AStarPath\/PVP_solo_add\.bytes$",DIRECT//1v1模式
 
 #URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/.*?\.(bytes|ini)$",DIRECT
 
