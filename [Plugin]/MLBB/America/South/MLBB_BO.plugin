@@ -1,5 +1,5 @@
 #!name = Mobile Legends America/S🇧🇴
-#!desc = MLBB南美玻利维亚玻利维亚手机圣克鲁斯机房手动选择节点/禁入。用法说明：在游戏设置内（如点击大厅右上角，或对局内小地图旁的齿轮状⚙️图标，在“网络设置”一栏，第二行的“网络加速设置”栏目内的“网络加速”切换到关闭状态。
+#!desc = 感谢月海希里尔的提供当地节点以实现更新。MLBB南美玻利维亚玻利维亚手机圣克鲁斯机房手动选择节点/禁入。用法说明：在游戏设置内（如点击大厅右上角，或对局内小地图旁的齿轮状⚙️图标，在“网络设置”一栏，第二行的“网络加速设置”栏目内的“网络加速”切换到关闭状态。
 #!openUrl = https://apps.apple.com/app/id1160056295
 #!author = Sign-in-or-sign-out
 #!homepage = 
@@ -7,7 +7,7 @@
 #!select = 
 #!input = 
 #!tag = 无尽对决南美
-#!date = 2024-11-02 19:00:00
+#!date = 2025-10-11 14:00:00
 
 [Rule]
 #IP登入检测:0
@@ -17,6 +17,7 @@ AND,((IP-CIDR,190.104.20.37/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
 AND,((IP-CIDR,190.104.20.38/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
 AND,((IP-CIDR,190.104.20.52/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
 AND,((IP-CIDR,190.104.20.53/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
+
 #南美玻利维亚玻利维亚手机圣克鲁斯机房
 #190.104.20.0/24
 IP-CIDR,190.104.20.38/32,PROXY
@@ -25,3 +26,5 @@ IP-CIDR,190.104.20.40/32,PROXY
 IP-CIDR,190.104.20.50/32,PROXY
 IP-CIDR,190.104.20.52/32,PROXY
 IP-CIDR,190.104.20.53/32,PROXY
+IP-CIDR,190.104.20.54/32,PROXY
+AND,((IP-CIDR,190.104.20.0/24,no-resolve),(OR,((DEST-PORT,5001-5030),(DEST-PORT,5501-5530))),(PROTOCOL,TCP)),PROXY
