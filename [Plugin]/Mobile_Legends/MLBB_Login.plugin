@@ -807,7 +807,7 @@ URL-REGEX,"^https:\/\/(ali|bs)cdn\.jsdf\.moontonapp\.com\/\/ios_res_mini_patch5c
 URL-REGEX,"^https:\/\/(ali|bs)cdn\.jsdf\.moontonapp\.com\/\/ios_res_mini_patch5cn\/414\.2\/fix_hot_resource_20250123_qinhong\/1\/UI\/ios\/UI_Chat\.unity3d$",DIRECT//第一次安装
 URL-REGEX,"^https:\/\/(ali|bs)cdn\.jsdf\.moontonapp\.com\/\/ios_res_mini_patch5cn\/414\.2\/fix_hot_resource_20250123_qinhong\/1\/UI\/ios\/UI_TargetActivity_5\.unity3d$",DIRECT//第一次安装
 
-URL-REGEX,^http:\/\/wscdn\.ml\.youngjoygame\.com\/favicon\.ico$",DIRECT
+URL-REGEX,"^http:\/\/wscdn\.ml\.youngjoygame\.com\/favicon\.ico$",DIRECT
 URL-REGEX,"^https:\/\/wscdn\.ml\.youngjoygame\.com\/download\/IOSBackground\/BackgroundMute\.wav$",DIRECT
 
 DOMAIN,n98-lf-cdn-tos-ncdn.bytegecko.com,DIRECT
