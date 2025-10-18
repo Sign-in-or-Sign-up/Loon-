@@ -188,7 +188,7 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/fix_v?_?[a-z]{4,11}_17\d{8}\/[12]\/etc\/Art\/ios\/FX_UI_Activity_ChestFresh_.*?_common\.unity3d$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/fix_v?_?[a-z]{4,11}_17\d{8}\/[12]\/etc\/Art\/ios\/zzp[12]_FX_UI_Activity_ChestFresh_.*?_common\.unity3d$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/fix_v?_?[a-z]{4,11}_17\d{8}\/[123]\/etc\/Audio\/ios\/sfx_\d{4,6}\.2021\.bnk$",DIRECT//
-#URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/fix_v?_?[a-z]{4,11}_17\d{8}\/[123]\/etc\/Audio\/ios\/.*?\.2021\.bnk$",DIRECT//
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/fix_v?_?[a-z]{4,11}_17\d{8}\/[123]\/etc\/Audio\/ios\/.*?\.2021\.bnk$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/fix_v?_?[a-z]{4,11}_17\d{8}\/[126]\/etc\/Document\/ios\/GameResAlternative\.unity3d$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/fix_v?_?[a-z]{4,11}_17\d{8}\/[123]\/etc\/Document\/ios\/.*?\.(bytes|unity3d)$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/fix_v?_?[a-z]{4,11}_17\d{8}\/[12]\/etc\/gameres\/ios\/mlf\/modules\/Account\/SocialAccountManager\.bytes$",DIRECT//社交账户管理
