@@ -1,5 +1,5 @@
-#!name = Mobile Legends 登陆
-#!desc = MLBB登陆手动分配节点以创建不同地区的游戏房间，未添加细分地区服插件的对局走final。极端主义可在本地添加AND,((OR,((DEST-PORT,5051-5080),(DEST-PORT,5551-5580))),(PROTOCOL,TCP)),REJECT-DROP
+#!name = Mobile Legends 资源下载
+#!desc = MLBB资源下载
 #!openUrl = https://apps.apple.com/app/id1160056295
 #!author = Sign-in-or-sign-out
 #!homepage = 
@@ -7,15 +7,9 @@
 #!select = 
 #!input = 
 #!tag = 无尽对决
-#!date = 2025-09-15 21:00:00
+#!date = 2025-10-19 19:00:00
 
 [Rule]
-#登陆域名
-DOMAIN,login.ml.youngjoygame.com,PROXY
-DOMAIN,newlogin.ml.mlbangbang.com,PROXY
-DOMAIN,newlogin.ml.youngjoygame.com,PROXY
-DOMAIN,ip.ml.youngjoygame.com,PROXY
-
 #保联网
 #URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/\d{4,5}\/\d{1,2}\/\d{1,2}\/\d{6,10}_\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?(_hd)?\.jpg$",DIRECT
 URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/\d{4,5}\/\d{1,2}\/\d{1,2}\/(\d{6,10}_)?\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?_hd\.jpg$",DIRECT
