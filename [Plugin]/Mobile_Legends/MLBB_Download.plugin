@@ -242,6 +242,7 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/fix_v?_?[a-z]{4,13}_17\d{8}\/[12]\/etc\/gameres\/ios\/mlf\/modules\/UIBasicInfomation\/UIBasicInfomation_View_CollectionPage\.bytes$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/fix_v?_?[a-z]{4,13}_17\d{8}\/[12]\/etc\/gameres\/ios\/mlf\/modules\/UIClearing\/UIClearing_View\.bytes$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/fix_v?_?[a-z]{4,13}_17\d{8}\/[12]\/etc\/gameres\/ios\/mlf\/modules\/UICollection\/UICollection_Datas\.bytes$",DIRECT//
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/fix_v?_?[a-z]{4,13}_17\d{8}\/[12]\/etc\/gameres\/ios\/mlf\/modules\/.*?\/.*?\.bytes$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/fix_v?_?[a-z]{4,13}_17\d{8}\/[12]\/etc\/gameres\/ios\/mlf\/modules\/UICollection\/UICollection_View_ShowPage\.bytes$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/fix_v?_?[a-z]{4,13}_17\d{8}\/[12]\/etc\/gameres\/ios\/mlf\/ruledact\/Act_AIGCRamadan\/ActivityNew_View_AIGCRamadanStateShow\.bytes$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/fix_v?_?[a-z]{4,13}_17\d{8}\/[12]\/etc\/gameres\/ios\/mlf\/ruledact\/Act_Bangbang\/UIBangbangTabPage\.bytes$",DIRECT//
@@ -320,7 +321,7 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/fix_v?_?[a-z]{4,13}_17\d{8}\/[12]\/etc\/gameres\/ios\/ui\/huodong\/UI_24SummerRoulette_TabPage\.bytes$",DIRECT
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/fix_v?_?[a-z]{4,13}_17\d{8}\/[12]\/etc\/gameres\/ios\/ui\/uiresbar\/ResourceInfoNew\.bytes$",DIRECT
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/fix_v?_?[a-z]{4,13}_17\d{8}\/[12]\/etc\/gameres\/ios\/ui\/uiresbar\/UIResourceMgrNew\.bytes$",DIRECT
-#URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/fix_v?_?[a-z]{4,13}_17\d{8}\/[12]\/etc\/gameres\/ios\/ui\/.*?\.bytes$",DIRECT
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/fix_v?_?[a-z]{4,13}_17\d{8}\/[12]\/etc\/gameres\/ios\/ui\/.*?\.bytes$",DIRECT
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/fix_v?_?[a-z]{4,13}_17\d{8}\/[12]\/etc\/gameres\/ios\/CSCallLuaFuntions\.bytes$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/fix_v?_?[a-z]{4,13}_17\d{8}\/[12]\/etc\/gameres\/ios\/ProtoGame\.bytes$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/fix_v?_?[a-z]{4,13}_17\d{8}\/[12]\/etc\/RawImg\/android\/firstloadingbg17_add\.jpg$",DIRECT//开屏图
