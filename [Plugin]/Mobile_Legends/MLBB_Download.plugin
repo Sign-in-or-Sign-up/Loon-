@@ -64,6 +64,7 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Art\/ios\/hero_kaijiacike_Show_add\.unity3d$",DIRECT
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Art\/ios\/hero_kaijiacike_skin_high_add\.unity3d$",DIRECT
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Art\/ios\/hero_[a-zA-Z][a-z]{2,14}_skin([01][0-9])?\.unity3d$",DIRECT
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Art\/ios\/hero_.*?\.unity3d$",DIRECT
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Art\/ios\/LanResObj_zh-CHT_add\.unity3d$",DIRECT//设置中文
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Art\/ios\/LanResObj_.*?_add\.unity3d$",DIRECT//设置语言
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Art\/ios\/ML_067_redhomeTower_high_add\.unity3d$",DIRECT//地图资源
@@ -123,6 +124,7 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/UI\/ios\/Atlas_FRB_FirstCharge_add\.unity3d$",DIRECT//2025RE活动？
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/UI\/ios\/[A-Z][a-z]{4}_HQHero[A-Z][a-z]{4}[01][0-9]{2}_add\.unity3d$",DIRECT//高级造型原画
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/UI\/ios\/UI_RenewRech2025_new\.unity3d$",DIRECT//2025RE活动？
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/UI\/ios\/UI_Season_Achievement_Main\.unity3d$",DIRECT//赛季成就主活动
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/UI\/ios\/UI_SNK_Re_Draw_add\.unity3d$",DIRECT//SNK活动抽奖？
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/UI\/ios\/Atlas_Activity_GoldenRamadan07_add\.unity3d$",DIRECT//黄金璀璨圈
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/UI\/ios\/Atlas_ActivityGrowthPlan_add\.unity3d$",DIRECT//活跃成长计划02
@@ -860,13 +862,13 @@ DOMAIN,n98-lf-cdn-tos-ncdn.bytegecko.com,DIRECT
 DOMAIN,lf6-cdn-tos-ncdn.bytegecko.com,DIRECT
 DOMAIN,lf18-cdn-tos-ncdn.bytegecko.com,DIRECT
 DOMAIN,lf9-cdn-tos-ncdn.bytegecko.com,DIRECT
-DOMAIN,akmcdn.ml.youngjoygame.com,REJECT-DROP
-DOMAIN,alicdn.jsdf.moontonapp.com,REJECT-DROP
-DOMAIN,alicdn.web.moontonapp.com,REJECT-DROP
+DOMAIN,akmcdn.ml.youngjoygame.com,REJECT
+DOMAIN,alicdn.jsdf.moontonapp.com,REJECT
+DOMAIN,alicdn.web.moontonapp.com,REJECT
 DOMAIN,bscdn.jsdf.moontonapp.com,DIRECT
 DOMAIN,hscdn.jsdf.moontonapp.com,DIRECT
-DOMAIN,pldtcdn.ml.youngjoygame.com,REJECT-DROP
-DOMAIN,wscdn.ml.youngjoygame.com,REJECT-DROP
+DOMAIN,pldtcdn.ml.youngjoygame.com,REJECT
+DOMAIN,wscdn.ml.youngjoygame.com,REJECT
 #国内头像
 URL-REGEX,"^https:\/\/p\d{1,2}\.douyinpic\.com\/aweme\/1080x1080\/[0-9a-f]{20}\.jpeg\?from=4010531038$",DIRECT//高清头
 URL-REGEX,"^https:\/\/p\d{1,2}\.douyinpic\.com\/aweme\/1080x1080\/aweme-avatar\/douyin-user-file_[0-9a-f]{32}\.jpeg\?from=4010531038$",DIRECT//高清头
