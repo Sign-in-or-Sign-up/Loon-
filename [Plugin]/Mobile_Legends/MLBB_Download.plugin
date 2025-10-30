@@ -33,6 +33,7 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/A(dd|ll)LanguageCNTraditional\.unity3d$",DIRECT//繁中资源
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/A(dd|ll)LanguageIndonesian\.unity3d$",DIRECT//印尼语资源
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/A(dd|ll)LanguageThai\.unity3d$",DIRECT//泰语资源
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/A(dd|ll)LanguageVietnamese\.unity3d$",DIRECT//越南语资源
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Art\/ios\/LanResObj_zh-CHS_add\.unity3d$",DIRECT//简中资源
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Art\/ios\/LanResObj_zh-CHT_add\.unity3d$",DIRECT//繁中资源
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Art\/ios\/LanResObj_th_add\.unity3d$",DIRECT//泰语资源
@@ -81,8 +82,11 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Art\/ios\/zzp2_windmagic_cityaction_quan_skin03_add\.unity3d$",DIRECT//高级特效补充资源
 #URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Art\/ios\/zzp2_.*?\.unity3d$",DIRECT//高级特效补充资源
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Art\/ios\/hero_.*?\.unity3d$",DIRECT
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Art\/ios\/FX_UI_.*?\.unity3d$",DIRECT
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Art\/ios\/hero_.*?\.unity3d$",DIRECT
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Art\/ios\/hero_.*?\.unity3d$",DIRECT
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Art\/ios\/next.*?\.unity3d$",DIRECT
-URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Art\/ios\/zzp.*?_add\.unity3d$",DIRECT
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Art\/ios\/zzp.*?\.unity3d$",DIRECT
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Art\/ios\/.*?_add\.unity3d$",DIRECT
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Audio\/ios\/.*?\.2021\.bnk$",DIRECT
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/A(dd|ll)Language.*?\.unity3d\.zip$",DIRECT//
@@ -131,7 +135,7 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/UI\/ios\/Atlas_ActivityGrowthPlan(Bg|CI)_add\.unity3d$",DIRECT//活跃成长计划C
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/UI\/ios\/Atlas_HQHeroAtlas\d{3}_add\.unity3d$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/UI\/ios\/Atlas_.*?\.unity3d$",DIRECT//
-URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/UI\/ios\/HERO_\d{3,4}_add\.unity3d$",DIRECT//
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/UI\/ios\/HERO.*?_add\.unity3d$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/UI\/ios\/UI_Activity_25ALLSTARHotCalendar_Super_add\.unity3d$",DIRECT//2025全明星日程超级
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/UI\/ios\/UI_Activity_25ALLSTARHotCalendar_Window_add\.unity3d$",DIRECT//2025全明星日程窗口
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/UI\/ios\/UI_RenewRech2025_new\.unity3d$",DIRECT//2025RE活动？
