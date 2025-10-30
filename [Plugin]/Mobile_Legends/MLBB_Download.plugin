@@ -31,9 +31,11 @@ DOMAIN,hsstatic.jsdf.moontonapp.com,REJECT-DROP
 #语言字符
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/A(dd|ll)LanguageCNSimplified\.unity3d$",DIRECT//简中资源
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/A(dd|ll)LanguageCNTraditional\.unity3d$",DIRECT//繁中资源
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/A(dd|ll)LanguageGerman\.unity3d$",DIRECT//德语资源
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/A(dd|ll)LanguageIndonesian\.unity3d$",DIRECT//印尼语资源
-URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/A(dd|ll)LanguageThai\.unity3d$",DIRECT//泰语资源
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/A(dd|ll)LanguageKhmer\.unity3d$",DIRECT//高棉语资源
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/A(dd|ll)LanguageMongolian\.unity3d$",DIRECT//蒙古语资源
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/A(dd|ll)LanguageThai\.unity3d$",DIRECT//泰语资源
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/A(dd|ll)LanguageVietnamese\.unity3d$",DIRECT//越南语资源
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/LoadResModuleCrossUsage\.unity3d$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Art\/ios\/LanResObj_zh-CHS_add\.unity3d$",DIRECT//简中资源
@@ -41,7 +43,7 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Art\/ios\/LanResObj_th_add\.unity3d$",DIRECT//泰语资源
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/lan\/id\/Audio\/ios\/tutorial\.2021\.bnk$",DIRECT//印尼语资源
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/lan\/th\/Audio\/ios\/tutorial\.2021\.bnk$",DIRECT//泰语资源
-URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/TextAsset\/ios\/22_2299SkillRecord_add\.unity3d$",DIRECT//文字资源？
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/TextAsset\/ios\/22_229[0-9]SkillRecord_add\.unity3d$",DIRECT//文字资源？
 
 #新版本app下载预更新核对
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_predownload\/PredownloadCombine_\d{4}\.1-\d{4}\.1_etc\.bytes$",DIRECT//预更新
