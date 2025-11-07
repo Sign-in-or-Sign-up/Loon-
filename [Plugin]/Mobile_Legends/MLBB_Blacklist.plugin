@@ -28,9 +28,14 @@ hostname = akmpicture.youngjoygame.com
 #格雷，纯菜逼
 ^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/14848\/63\/31\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
+#12010
+When yahh?，脑子有病吃补血独食不给队友补
+^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/12010\/89\/9\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+
 #11889
 #**AttA**，菜
 ^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/11889\/48\/97\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+
 #3524
 #₊•‿•ꕤ˚，纯菜逼
 ^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3524\/30\/73\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
