@@ -93,6 +93,7 @@ URL-REGEX,"^https:\/\/livephoto\.us\.sinaimg\.cn\/00[A-Za-z0-9]{4}(gx|jx)[A-Za-z
 URL-REGEX,"^https:\/\/livephoto\.us\.sinaimg\.cn\/00[A-Za-z0-9]{4}(gx|jx)[A-Za-z0-9]{10}0f0f0100[A-Za-z0-9]{4}0k01\.mov\?Expires=\d{10}&ssig=[A-Za-z0-9%]{12}&KID=unistore,video$",DIRECT
 URL-REGEX,"^https:\/\/livephoto\.us\.sinaimg\.cn\/00[A-Za-z0-9]{4}(gx|jx)[A-Za-z0-9]{10}0f0f0100[A-Za-z0-9]{4}0k01\.mov\?Expires=\d{10}&ssig=[A-Za-z0-9%]{10}&KID=unistore,video$",DIRECT
 URL-REGEX,"^https:\/\/vip\.storage\.weibo\.com\/[0-9a-f]{13}_1\d{9}_[1-9]_cover\.jpg$",REJECT//微博vip等级贺图
+URL-REGEX,"^https:\/\/vip\.storage\.weibo\.com\/[0-9a-f]{13}_1\d{9}\.png$",REJECT//微博vip等级贺图
 URL-REGEX,"^https:\/\/h5\.sinaimg\.cn\/upload\/108\/830\/2022\/10\/19\/s?vip[1-8]\.gif$",REJECT//头像旁s?vip等级小标
 URL-REGEX,"^https:\/\/ww1\.sinaimg\.cn\/woriginal\/9d44112bjw1f1xl1c10tuj20hs0hs0tw\.jpg$",REJECT//国际版默认主页背景图
 #URL-REGEX,"^http:\/\/t\.cn\/[0-9a-zA-Z]{8}$",REJECT
@@ -163,6 +164,7 @@ URL-REGEX,"^https:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=open_app&auth=,R
 
 
 ^https:\/\/vip\.storage\.weibo\.com\/[0-9a-f]{13}_\d{10}_[1-8]_cover\.jpg$ - reject-img
+^https:\/\/vip\.storage\.weibo\.com\/[0-9a-f]{13}_\d{10}\.png$ - reject-img
 ^https:\/\/h5\.sinaimg\.cn\/upload\/108\/1866\/2022\/11\/02\/vip_[1-7]\.png$ - reject-img
 ^https:\/\/h5\.sinaimg\.cn\/upload\/116\/1347\/2021\/04\/27\/vip[1-7]\.png$ - reject-img
 ^https:\/\/h5\.sinaimg\.cn\/upload\/108\/830\/2022\/10\/19\/s?vip[1-7]\.gif$ - reject-img
