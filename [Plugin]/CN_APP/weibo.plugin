@@ -97,8 +97,9 @@ URL-REGEX,"^https:\/\/vip\.storage\.weibo\.com\/[0-9a-f]{13}_1\d{9}\.png$",REJEC
 URL-REGEX,"^https:\/\/h5\.sinaimg\.cn\/upload\/108\/830\/2022\/10\/19\/s?vip[1-8]\.gif$",REJECT//头像旁s?vip等级小标
 URL-REGEX,"^https:\/\/ww1\.sinaimg\.cn\/woriginal\/9d44112bjw1f1xl1c10tuj20hs0hs0tw\.jpg$",REJECT//国际版默认主页背景图
 #URL-REGEX,"^http:\/\/t\.cn\/[0-9a-zA-Z]{8}$",REJECT
-##视频
+DOMAIN,vip.storage.weibo.com,REJECT
 
+##视频
 URL-REGEX,"^https?:\/\/f\.video\.weibocdn\.com\/(o|u)0\/[A-Za-z0-9]{37}\.mp4\?label=mp4_(720p|1080p|1440p|1920p|hd|ld)(_mini|60)?&template=\d{3,4}x\d{3,4}\.2[0-6]\.0(&trans_finger=[a-f0-9]{32})?&media_id=\d{16}&tp=8x8A3El:[0-9a-zA-Z]{8}&us=0&ori=1&bf=[234]&ot=(h|v)&lp=0000[0-9a-zA-Z]{5,6}&ps=4BhXeH&uid=4hTCmy&ab=.*?&Expires=\d{10}&ssig=[A-Za-z0-9%]{12}&KID=unistore,video$",DIRECT
 URL-REGEX,"^https?:\/\/f\.video\.weibocdn\.com\/(o|u)0\/[A-Za-z0-9]{37}\.mp4\?label=mp4_(720p|1080p|1440p|1920p|hd|ld)(_mini|60)?&template=\d{3,4}x\d{3,4}\.2[0-6]\.0(&trans_finger=[a-f0-9]{32})?&media_id=\d{16}&tp=8x8A3El:[0-9a-zA-Z]{8}&us=0&ori=1&bf=[234]&ot=(h|v)&lp=0000[0-9a-zA-Z]{5,6}&ps=4BhXeH&uid=4hTCmy&ab=.*?&Expires=\d{10}&ssig=[A-Za-z0-9%]{10}&KID=unistore,video$",DIRECT
 URL-REGEX,"^https?:\/\/f\.video\.weibocdn\.com\/(o|u)0\/[A-Za-z0-9]{37}\.mp4\?label=minimal_normalise&template=\d{3,4}x\d{3,4}\.2[3-6]\.0(&trans_finger=[a-f0-9]{32})?&media_id=\d{16}&tp=8x8A3El:[0-9a-zA-Z]{8}&us=0&ori=1&bf=[24]&ot=(h|v)&lp=0000[0-9a-zA-Z]{5,6}&ps=4BhXeH&uid=4hTCmy&ab=.*?&Expires=\d{10}&ssig=[A-Za-z0-9%]{10}&KID=unistore,video$",DIRECT
@@ -163,13 +164,12 @@ URL-REGEX,"^https:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=open_app&auth=,R
 ^https?:\/\/wx[1-4]\.sinaimg\.cn\/images\/default_d_(h|w)_(woriginal|large|orj1080|orj960|orj480|or360)\.gif$ - reject-img
 
 
-^https:\/\/vip\.storage\.weibo\.com\/[0-9a-f]{13}_\d{10}_[1-8]_cover\.jpg$ - reject-img
-^https:\/\/vip\.storage\.weibo\.com\/[0-9a-f]{13}_\d{10}\.png$ - reject-img
+^https:\/\/vip\.storage\.weibo\.com - reject-img
 ^https:\/\/h5\.sinaimg\.cn\/upload\/108\/1866\/2022\/11\/02\/vip_[1-7]\.png$ - reject-img
 ^https:\/\/h5\.sinaimg\.cn\/upload\/116\/1347\/2021\/04\/27\/vip[1-7]\.png$ - reject-img
 ^https:\/\/h5\.sinaimg\.cn\/upload\/108\/830\/2022\/10\/19\/s?vip[1-7]\.gif$ - reject-img
 ^https:\/\/h5\.sinaimg\.cn\/upload\/108\/830\/2022\/10\/19\/icon_vip_renewal\.png$ - reject-img
-^https:\/\/ww1\.sinaimg\.cn\/woriginal\/9d44112bjw1f1xl1c10tuj20hs0hs0tw\.jpg$ - reject-img
+#^https:\/\/ww1\.sinaimg\.cn\/woriginal\/9d44112bjw1f1xl1c10tuj20hs0hs0tw\.jpg$ - reject-img
 ^https:\/\/h5\.sinaimg\.cn\/upload\/100\/1378\/2024\/09\/04\/ic_profile_visitor(__deep)?\.png$ - reject-img
 ^https:\/\/h5\.sinaimg\.cn\/upload\/100\/1378\/2023\/09\/21\/ic_profile_vipsetting(_deep)?\.png$ - reject-img
 ^https:\/\/h5\.sinaimg\.cn\/upload\/100\/1378\/2022\/11\/17\/ic_profile_like_(b|y)3x\.png$ - reject-img
