@@ -931,6 +931,7 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RoguelikeMode\/\d{2}\.1\/Art\/ios\/roguelike_zhanchang10_xuanfeng_buff_(hong|lan|lv)_add\.unity3d$",DIRECT//乱序争锋
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RoguelikeMode\/\d{2}\.1\/Art\/ios\/zzp1_Fx_RoguelikeMode_huifu_add\.unity3d$",DIRECT//乱序争锋
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RoguelikeMode\/\d{2}\.1\/Art\/ios\/zzp.*?\.unity3d$",DIRECT//乱序争锋
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RoguelikeMode\/\d{2}\.1\/Document\/ios\/A(dd|ll)Language(Arabic|BahasaMelayu|Bangla|BurmeseU|Burmese|CNSimplified|CNTraditional|Czech|Dutch|German|Indonesian|Italian|Khmer|Melayu|Mongolian|NEWEN|NEWHindi|Polish|Russian|Spanish|Thai|Urdu|Vietnamese)_RoguelikeMode\.unity3d$",DIRECT//乱序争锋
 
 #URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/.*?\.(bytes|ini)$",DIRECT
 
