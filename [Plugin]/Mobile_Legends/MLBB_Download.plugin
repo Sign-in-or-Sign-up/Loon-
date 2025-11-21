@@ -906,13 +906,31 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RoguelikeMode\/\d{2}\.1\/Art\/ios\/FX_UI_RoguelikeMode_Battleend_In\.unity3d$",DIRECT//乱序争锋
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RoguelikeMode\/\d{2}\.1\/Art\/ios\/FX_UI_RoguelikeMode_Battleend_Slider_(Blue|Red)\.unity3d$",DIRECT//乱序争锋
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RoguelikeMode\/\d{2}\.1\/Art\/ios\/FX_UI_RoguelikeMode_Battleend_Survival\.unity3d$",DIRECT//乱序争锋
-URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RoguelikeMode\/\d{2}\.1\/Art\/ios\/FX_UI_RoguelikeMode_Battleend_Win_(L|R}\.unity3d$",DIRECT//乱序争锋
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RoguelikeMode\/\d{2}\.1\/Art\/ios\/FX_UI_RoguelikeMode_Battleend_Win_(L|R)\.unity3d$",DIRECT//乱序争锋
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RoguelikeMode\/\d{2}\.1\/Art\/ios\/FX_UI_RoguelikeMode_BattleTask_In\.unity3d$",DIRECT//乱序争锋
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RoguelikeMode\/\d{2}\.1\/Art\/ios\/FX_UI_RoguelikeMode_Fly(0[1-5])?\.unity3d$",DIRECT//乱序争锋
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RoguelikeMode\/\d{2}\.1\/Art\/ios\/FX_UI_RoguelikeMode_Fly_R_to_L\.unity3d$",DIRECT//乱序争锋
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RoguelikeMode\/\d{2}\.1\/Art\/ios\/Fx_UI_Rougelike_RangeRing_add\.unity3d$",DIRECT//乱序争锋
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RoguelikeMode\/\d{2}\.1\/Art\/ios\/FX_UI_RouuelikeMode_BattleTips_(Blue|Red)\.unity3d$",DIRECT//乱序争锋
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RoguelikeMode\/\d{2}\.1\/Art\/ios\/FX_UI_UI_ChooseSkill_RoguelikeMode_Yellow_add\.unity3d$",DIRECT//乱序争锋
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RoguelikeMode\/\d{2}\.1\/Art\/ios\/nengliangqiang_circle\.unity3d$",DIRECT//乱序争锋
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RoguelikeMode\/\d{2}\.1\/Art\/ios\/PVP_solo_SceneEffect_add\.unity3d$",DIRECT//乱序争锋
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RoguelikeMode\/\d{2}\.1\/Art\/ios\/Roguelike_90590_skill01\.unity3d$",DIRECT//乱序争锋
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RoguelikeMode\/\d{2}\.1\/Art\/ios\/Roguelike_90640_skill01\.unity3d$",DIRECT//乱序争锋
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RoguelikeMode\/\d{2}\.1\/Art\/ios\/roguelike_Blue_buff\.unity3d$",DIRECT//乱序争锋
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RoguelikeMode\/\d{2}\.1\/Art\/ios\/roguelike_chip_skill01_fire\.unity3d$",DIRECT//乱序争锋
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RoguelikeMode\/\d{2}\.1\/Art\/ios\/roguelike_duquan2?_add\.unity3d$",DIRECT//乱序争锋
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RoguelikeMode\/\d{2}\.1\/Art\/ios\/roguelike_FX_UI_MapElement0[1-3]_add\.unity3d$",DIRECT//乱序争锋
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RoguelikeMode\/\d{2}\.1\/Art\/ios\/roguelike_(Gold|Green)_buff\.unity3d$",DIRECT//乱序争锋
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RoguelikeMode\/\d{2}\.1\/Art\/ios\/roguelike_lanseqinghua\.unity3d$",DIRECT//乱序争锋
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RoguelikeMode\/\d{2}\.1\/Art\/ios\/roguelike_lanseqinghua_buff\.unity3d$",DIRECT//乱序争锋
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RoguelikeMode\/\d{2}\.1\/Art\/ios\/roguelike_lanseqinghua_zidan\.unity3d$",DIRECT//乱序争锋
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RoguelikeMode\/\d{2}\.1\/Art\/ios\/roguelike_nengliangqiang_01\.unity3d$",DIRECT//乱序争锋
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RoguelikeMode\/\d{2}\.1\/Art\/ios\/roguelike_nengliangqiang_circle\.unity3d$",DIRECT//乱序争锋
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RoguelikeMode\/\d{2}\.1\/Art\/ios\/roguelike_Purple_buff\.unity3d$",DIRECT//乱序争锋
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RoguelikeMode\/\d{2}\.1\/Art\/ios\/roguelike_zhanchang10_xuanfeng_buff_(hong|lan|lv)_add\.unity3d$",DIRECT//乱序争锋
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RoguelikeMode\/\d{2}\.1\/Art\/ios\/zzp1_Fx_RoguelikeMode_huifu_add\.unity3d$",DIRECT//乱序争锋
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RoguelikeMode\/\d{2}\.1\/Art\/ios\/zzp.*?\.unity3d$",DIRECT//乱序争锋
 
 #URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/.*?\.(bytes|ini)$",DIRECT
 
