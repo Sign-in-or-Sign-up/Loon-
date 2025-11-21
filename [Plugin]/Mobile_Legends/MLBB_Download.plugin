@@ -983,7 +983,7 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\/\d{3}\.1\/Document\/ios\/ModeRound_RoguelikeMode\.unity3d$",DIRECT//乱序争锋
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\/\d{3}\.1\/Document\/ios\/ModeShowMessage_RoguelikeMode\.unity3d$",DIRECT//乱序争锋
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\/\d{3}\.1\/Document\/ios\/ModeSpecialBattleSkill_RoguelikeMode\.unity3d$",DIRECT//乱序争锋
-#URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\/\d{3}\.1\/Document\/ios\/.*?\.unity3d$",DIRECT//乱序争锋
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\/\d{3}\.1\/Document\/ios\/.*?\.unity3d$",DIRECT//乱序争锋
 
 
 
