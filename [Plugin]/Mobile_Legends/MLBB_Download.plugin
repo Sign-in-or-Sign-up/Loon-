@@ -903,6 +903,16 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RoguelikeMode\/\d{2}\.1\/Art\/ios\/FX_UI_ChooseSkill_RoguelikeMode_Refresh_add\.unity3d$",DIRECT//乱序争锋
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RoguelikeMode\/\d{2}\.1\/Art\/ios\/FX_UI_ChooseSkill_RoguelikeMode_select_add\.unity3d$",DIRECT//乱序争锋
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RoguelikeMode\/\d{2}\.1\/Art\/ios\/FX_UI_RoguelikeMode_Battleend_Die\.unity3d$",DIRECT//乱序争锋
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RoguelikeMode\/\d{2}\.1\/Art\/ios\/FX_UI_RoguelikeMode_Battleend_In\.unity3d$",DIRECT//乱序争锋
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RoguelikeMode\/\d{2}\.1\/Art\/ios\/FX_UI_RoguelikeMode_Battleend_Slider_(Blue|Red)\.unity3d$",DIRECT//乱序争锋
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RoguelikeMode\/\d{2}\.1\/Art\/ios\/FX_UI_RoguelikeMode_Battleend_Survival\.unity3d$",DIRECT//乱序争锋
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RoguelikeMode\/\d{2}\.1\/Art\/ios\/FX_UI_RoguelikeMode_Battleend_Win_(L|R}\.unity3d$",DIRECT//乱序争锋
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RoguelikeMode\/\d{2}\.1\/Art\/ios\/FX_UI_RoguelikeMode_BattleTask_In\.unity3d$",DIRECT//乱序争锋
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RoguelikeMode\/\d{2}\.1\/Art\/ios\/FX_UI_RoguelikeMode_Fly(0[1-5])?\.unity3d$",DIRECT//乱序争锋
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RoguelikeMode\/\d{2}\.1\/Art\/ios\/FX_UI_RoguelikeMode_Fly_R_to_L\.unity3d$",DIRECT//乱序争锋
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RoguelikeMode\/\d{2}\.1\/Art\/ios\/Fx_UI_Rougelike_RangeRing_add\.unity3d$",DIRECT//乱序争锋
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RoguelikeMode\/\d{2}\.1\/Art\/ios\/FX_UI_RouuelikeMode_BattleTips_(Blue|Red)\.unity3d$",DIRECT//乱序争锋
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RoguelikeMode\/\d{2}\.1\/Art\/ios\/FX_UI_UI_ChooseSkill_RoguelikeMode_Yellow_add\.unity3d$",DIRECT//乱序争锋
 
 #URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/.*?\.(bytes|ini)$",DIRECT
 
