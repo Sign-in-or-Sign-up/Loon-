@@ -11,10 +11,12 @@
 
 [Rule]
 #保联网
+URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/\d{4,5}\/\d{1,2}\/\d{1,2}\/(\d{6,10}_)?\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?_hd\.jpg$",DIRECT//高清头像
 #URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/\d{4,5}\/\d{1,2}\/\d{1,2}\/\d{6,10}_\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",REJECT
-URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/\d{4,5}\/\d{1,2}\/\d{1,2}\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",REJECT
-URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/\d{4,5}\/\d{1,2}\/\d{1,2}\/(\d{6,10}_)?\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?_hd\.jpg$",DIRECT
-DOMAIN,akmpicture.youngjoygame.com,REJECT
+AND,((URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/\d{4,5}\/\d{1,2}\/\d{1,2}\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$"),(URL-REGEX,"legends*")),REJECT
+#URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/\d{4,5}\/\d{1,2}\/\d{1,2}\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",REJECT
+AND,((DOMAIN,akmpicture.youngjoygame.com),(URL-REGEX,"legends*")),REJECT
+#DOMAIN,akmpicture.youngjoygame.com,REJECT
 
 #URL-REGEX,"^https:\/\/wsavatar\.yuanzhanapp\.com\/dist\/photo\/\d{4,5}\/\d{1,2}\/\d{1,2}\/\d{7,10}_\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?(_hd)?\.jpg$",DIRECT
 URL-REGEX,"^https:\/\/wsavatar\.yuanzhanapp\.com\/dist\/photo\/\d{4,5}\/\d{1,2}\/\d{1,2}\/(\d{7,10}_)?\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?_hd\.jpg$",DIRECT
