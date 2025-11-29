@@ -21,9 +21,13 @@ URL-REGEX,"^https:\/\/api\.weibo\.cn\/2\/comments\/create$",PROXY//创建评论
 URL-REGEX,"^https:\/\/api\.weibo\.cn\/2\/comments\/destroy$",DIRECT//删除评论
 URL-REGEX,"^https:\/\/api\.weibo\.cn\/2\/comments\/reply$",PROXY//创建楼中楼评论
 URL-REGEX,"^https:\/\/api\.weibo\.cn\/2\/friendships\/destroy$",DIRECT//取消关注
+URL-REGEX,"^https:\/\/api\.weibo\.cn\/2\/video\/tiny_stream_video_list\?aid=",REJECT//拦截短视频瀑布流列表
+URL-REGEX,"^https:\/\/api\.weibo\.cn\/2\/remind\/unread_count\?aid=",REJECT//拦截最新未读微博列表
 
 AND,((DOMAIN,api.weibo.cn),(DEST-PORT,443)),DIRECT
 #DOMAIN,api.weibo.cn,DIRECT
+URL-REGEX,"^https:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=verify&auth=$",DIRECT//微博国际版关注前人机验证
+DOMAIN,weibointl.api.weibo.cn,DIRECT
 ##消息
 AND,((DOMAIN,api.weibo.com),(DEST-PORT,443)),DIRECT
 #DOMAIN,api.weibo.com,DIRECT
@@ -61,6 +65,7 @@ URL-REGEX,"^https?:\/\/w(w|x)[1-4]\.sinaimg\.cn\/orj960\/[0-9a-zA-Z]{34}\.jpg$",
 URL-REGEX,"^https?:\/\/w(w|x)[1-4]\.sinaimg\.cn\/orj960\/[0-9a-zA-Z]{32}\.jpg$",DIRECT
 URL-REGEX,"^https?:\/\/w(w|x)[1-4]\.sinaimg\.cn\/orj480\/[0-9a-zA-Z]{34}\.jpg$",DIRECT
 URL-REGEX,"^https?:\/\/w(w|x)[1-4]\.sinaimg\.cn\/orj480\/[0-9a-zA-Z]{32}\.jpg$",DIRECT
+URL-REGEX,"^https?:\/\/w(w|x)[1-4]\.sinaimg\.cn\/cmw960\/[0-9a-zA-Z]{32}\.jpg$",DIRECT//美刻
 URL-REGEX,"^https?:\/\/wx[1-4]\.sinaimg\.cn\/or480\/[0-9a-zA-Z]{34}\.jpg$",DIRECT//微博
 URL-REGEX,"^https?:\/\/wx[1-4]\.sinaimg\.cn\/or480\/[0-9a-zA-Z]{32}\.jpg$",DIRECT//微博
 URL-REGEX,"^https?:\/\/wx[1-4]\.sinaimg\.cn\/orj360\/[0-9a-zA-Z]{32}\.jpg$",DIRECT//网页版预览图
