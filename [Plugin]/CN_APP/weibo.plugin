@@ -14,6 +14,14 @@ hostname =
 
 [Rule]
 #WEIBO_微博#
+URL-REGEX,"^https:\/\/api\.weibo\.cn\/2\/friendships\/create$",DIRECT//关注账号
+URL-REGEX,"^https:\/\/api\.weibo\.cn\/2\/groups\/members_add$",DIRECT//关注账号添加至分组
+URL-REGEX,"^https:\/\/api\.weibo\.cn\/2\/friendships\/destroy$",DIRECT//取消关注账号
+URL-REGEX,"^https:\/\/api\.weibo\.cn\/2\/comments\/create$",DIRECT//创建评论
+URL-REGEX,"^https:\/\/api\.weibo\.cn\/2\/comments\/destroy$",DIRECT//删除评论
+URL-REGEX,"^https:\/\/api\.weibo\.cn\/2\/comments\/reply$",DIRECT//创建楼中楼评论
+URL-REGEX,"^https:\/\/api\.weibo\.cn\/2\/friendships\/destroy$",DIRECT//取消关注
+
 AND,((DOMAIN,api.weibo.cn),(DEST-PORT,443)),DIRECT
 #DOMAIN,api.weibo.cn,DIRECT
 ##消息
