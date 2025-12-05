@@ -75,6 +75,8 @@ AND,((DOMAIN,hokgcloudv6.iegcom.com),(DEST-PORT,20000)),DIRECT
 AND,((IP-CIDR,119.28.121.50/32,no-resolve),(DEST-PORT,20000)),DIRECT
 
 #拦截了没影响
+AND,((IP-CIDR,18.199.59.216/32,no-resolve),(DEST-PORT,5010)),REJECT
+AND,((IP-CIDR,34.89.234.43/32,no-resolve),(DEST-PORT,5010)),REJECT
 AND,((IP-CIDR,162.62.125.251/32,no-resolve),(DEST-PORT,5010)),REJECT
 
 DOMAIN,ios.crashsight.wetest.net,REJECT
