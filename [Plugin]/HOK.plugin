@@ -16,6 +16,16 @@ URL-REGEX,"^https:\/\/res\.sgameglobal\.com\/Global\/Common\/UGUI\/SystemRes\/04
 URL-REGEX,"^https:\/\/static\.hok5v5\.com\/client\/upload\/hok\/avatar\/[0-9a-f]{32}\/[0-9A-Z]{32}\d{14}\.jpg$",DIRECT//玩家上传头像
 URL-REGEX,"^https://camp\.honorofkings\.com/client/upload/hok/circle/\d{19}/[0-9A-F]{32}\.jpg$",DIRECT//王者营地头像
 
+#人机头像
+AND,((USER-AGENT,"Honor%20of%20Kings*"),(URL-REGEX,"^https:\/\/ogdb-cdn\.intlgame\.cn\/google_turkey\/\d{10,13}-[0-9a-fA-F]{12}\.png$")),REJECT
+AND,((USER-AGENT,"Honor%20of%20Kings*"),(URL-REGEX,"^https:\/\/ogdb-cdn\.intlgame\.cn\/draw\/a\/\d{6}_\d{6,9}\.png$")),REJECT
+DOMAIN,ogdb-cdn.intlgame.cn,DIRECT
+
+AND,((USER-AGENT,"Honor%20of%20Kings*"),(URL-REGEX,"^https:\/\/static\.hok5v5\.com\/client\/upload\/hok\/avatar\/\d{19,20}\/[0-9A-F]{32}_100\.png$")),REJECT
+DOMAIN,static.hok5v5.com,DIRECT
+
+
+
 DOMAIN,speedsvr.ino.sgameglobal.com,DIRECT//香港测速
 IP-CIDR,43.153.233.187/32,no-resolve,DIRECT
 
@@ -51,8 +61,10 @@ AND,((IP-CIDR,43.134.243.99/32),(DEST-PORT,10035),(PROTOCOL,TCP)),DIRECT
 AND,((IP-CIDR,43.134.243.99/32),(DEST-PORT,10001-10034),(PROTOCOL,TCP)),DIRECT
 AND,((IP-ASN,132203,no-resolve),(GEOIP,SG,no-resolve),(PROTOCOL,TCP),(OR,((DEST-PORT,10001-10035),(DEST-PORT,443)))),DIRECT
 
-AND,((IP-CIDR,43.132.138.111/32,no-resolve),(DEST-PORT,20000)),DIRECT
+AND,((IP-CIDR,43.132.138.111/32,no-resolve),(DEST-PORT,20000)),REJECT
 
+AND,((IP-CIDR,43.153.233.59/32,no-resolve),(DEST-PORT,5010)),REJECT
+AND,((IP-CIDR,162.62.125.251/32,no-resolve),(DEST-PORT,5010)),REJECT
 
 
 IP-CIDR,183.192.65.101/16,no-resolve,PROXY
@@ -62,6 +74,9 @@ IP-CIDR,43.132.55.55/16,no-resolve,PROXY
 #拦截了没影响
 DOMAIN,oalstv-inapps.appsflyersdk.com,REJECT
 DOMAIN,oalstv-skadsdkless.appsflyersdk.com,REJECT
+
+#反外挂？
+AND,((DOMAIN,asia.cschannel.anticheatexpert.com),(OR,((DEST-PORT,80),(DEST-PORT,443),(DEST-PORT,10012)))),REJECT
 
 [MITM]
 hostname = 
