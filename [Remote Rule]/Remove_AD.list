@@ -1,0 +1,2 @@
+# 屏蔽广告域名，但排除正常的
+AND,((NOT,((DOMAIN-SUFFIX,tfboyaad.com))),(NOT,((DOMAIN-KEYWORD,ipad))),(NOT,((DOMAIN-KEYWORD,upload))),(NOT,((DOMAIN-KEYWORD,download))),(OR,((DOMAIN-KEYWORD,ad-),(DOMAIN-KEYWORD,ads-),(DOMAIN-KEYWORD,ads.),(DOMAIN-KEYWORD,ad.),(DOMAIN-KEYWORD,adsys),(DOMAIN-KEYWORD,adser),(DOMAIN-KEYWORD,advert),(DOMAIN-KEYWORD,adclick)))),PROXY
