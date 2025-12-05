@@ -10,6 +10,10 @@
 #!date = 2025-01-07 22:00:00
 
 [Rule]
+URL-REGEX,"^^https:\/\/res\.sgameglobal\.com\/Global\/Common\/UGUI\/SystemRes\/044_Idip\/PlayerHeadIcon\/\d{1,2}\.png\?\d{9,10}$",DIRECT//内置默认(含高级)头像
+URL-REGEX,"^https:\/\/res\.sgameglobal\.com\/Global\/Common\/UGUI\/SystemRes\/044_Idip\/PlayerHeadIcon",REJECT//其余头像
+
+URL-REGEX,"^https:\/\/static\.hok5v5\.com\/client\/upload\/hok\/avatar\/[0-9a-e]{32}\/[0-9A-Z]{46}\.jpg//玩家上传头像
 
 DOMAIN-SUFFIX,hok-dr.intlgame.com,PROXY
 DOMAIN-SUFFIX,hok.intlgame.com,PROXY
@@ -19,6 +23,14 @@ DOMAIN-SUFFIX,appsflyersdk.com,PROXY
 DOMAIN-KEYWORD,sgameglobal.com,PROXY
 IP-CIDR, 183.192.65.101/16,no-resolve,PROXY
 IP-CIDR, 43.132.55.55/16,no-resolve,PROXY
+
+AND,((IP-CIDR,5.0.0.0/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
+AND,((IP-CIDR,6.0.0.0/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
+AND,((IP-CIDR,7.0.0.0/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
+AND,((IP-CIDR,8.0.0.0/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
+
+
+
 
 [MITM]
 hostname = 
