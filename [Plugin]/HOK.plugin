@@ -14,6 +14,7 @@ URL-REGEX,"^https:\/\/res\.sgameglobal\.com\/Global\/Common\/UGUI\/SystemRes\/04
 URL-REGEX,"^https:\/\/res\.sgameglobal\.com\/Global\/Common\/UGUI\/SystemRes\/044_Idip\/PlayerHeadIcon",REJECT//其余头像
 
 URL-REGEX,"^https:\/\/static\.hok5v5\.com\/client\/upload\/hok\/avatar\/[0-9a-f]{32}\/[0-9A-Z]{32}\d{14}\.jpg$",DIRECT//玩家上传头像
+URL-REGEX,"^https://camp\.honorofkings\.com/client/upload/hok/circle/\d{19}/[0-9A-F]{32}\.jpg$",DIRECT//王者营地头像
 
 DOMAIN,speedsvr.ino.sgameglobal.com,DIRECT//香港测速
 IP-CIDR,43.153.233.187/32,no-resolve,DIRECT
@@ -24,6 +25,8 @@ IP-CIDR,52.67.80.199/32,no-resolve,REJECT
 IP-CIDR,54.94.49.207/32,no-resolve,REJECT
 IP-CIDR,54.207.190.232/32,no-resolve,REJECT
 IP-CIDR,54.233.144.94/32,no-resolve,REJECT
+
+DOMAIN,download.sgameglobal.com,DIRECT
 
 DOMAIN-SUFFIX,hok-dr.intlgame.com,PROXY
 DOMAIN-SUFFIX,hok.intlgame.com,PROXY
@@ -56,7 +59,9 @@ IP-CIDR,183.192.65.101/16,no-resolve,PROXY
 IP-CIDR,43.132.55.55/16,no-resolve,PROXY
 
 
-
+#拦截了没影响
+DOMAIN,oalstv-inapps.appsflyersdk.com,REJECT
+DOMAIN,oalstv-skadsdkless.appsflyersdk.com,REJECT
 
 [MITM]
 hostname = 
