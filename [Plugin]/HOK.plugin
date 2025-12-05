@@ -7,7 +7,7 @@
 #!select = 
 #!input = 
 #!tag = 王者荣耀
-#!date = 2025-01-07 22:00:00
+#!date = 2025-12-06 22:00:00
 
 [Rule]
 URL-REGEX,"^https:\/\/res\.sgameglobal\.com\/Global\/Common\/UGUI\/SystemRes\/044_Idip\/PlayerHeadIcon\/\d{1,2}\.png\?\d{9,10}$",DIRECT//内置默认(含高级)头像
