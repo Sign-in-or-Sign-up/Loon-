@@ -24,8 +24,11 @@ DOMAIN,ogdb-cdn.intlgame.cn,DIRECT
 AND,((USER-AGENT,"Honor%20of%20Kings*"),(URL-REGEX,"^https:\/\/static\.hok5v5\.com\/client\/upload\/hok\/avatar\/\d{19,20}\/[0-9A-F]{32}_100\.png$")),REJECT
 DOMAIN,static.hok5v5.com,DIRECT
 
-DOMAIN,speedsvr.ino.sgameglobal.com,DIRECT//香港测速
+DOMAIN,speedsvr.ino.sgameglobal.com,DIRECT//新加坡测速
 IP-CIDR,43.153.233.187/32,DIRECT,no-resolve
+
+DOMAIN,speedsvrnew.ino.sgameglobal.com,DIRECT//新加坡测速
+IP-CIDR,43.153.233.59/32,DIRECT,no-resolve
 
 DOMAIN,brspeed.ino.sgameglobal.com,REJECT//巴西测速
 IP-CIDR,43.135.208.158/32,REJECT,no-resolve
@@ -66,12 +69,12 @@ AND,((DOMAIN,hokgcloudv6.iegcom.com),(DEST-PORT,20000)),DIRECT
 AND,((IP-CIDR,119.28.121.50/32,no-resolve),(DEST-PORT,20000)),DIRECT
 
 #拦截了没影响
-AND,((IP-CIDR,43.153.233.59/32,no-resolve),(DEST-PORT,5010)),REJECT
 AND,((IP-CIDR,162.62.125.251/32,no-resolve),(DEST-PORT,5010)),REJECT
 
 #广告域名拦截了没影响
 DOMAIN,oalstv-inapps.appsflyersdk.com,REJECT
 DOMAIN,oalstv-skadsdkless.appsflyersdk.com,REJECT
+#DOMAIN-SUFFIX,appsflyersdk.com,PROXY
 
 #不知道干什么的，先拦截
 AND,((IP-CIDR,4.0.0.0/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
@@ -79,18 +82,24 @@ AND,((IP-CIDR,5.0.0.0/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
 AND,((IP-CIDR,6.0.0.0/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
 AND,((IP-CIDR,7.0.0.0/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
 
+DOMAIN,hok-dr.intlgame.com,REJECT
+DOMAIN,hok.intlgame.com,REJECT
+
+IP-CIDR,43.132.43.43/32,REJECT
+IP-CIDR,43.132.55.55/32,REJECT
 
 
 
 
 
 
-DOMAIN-SUFFIX,hok-dr.intlgame.com,PROXY
-DOMAIN-SUFFIX,hok.intlgame.com,PROXY
+
+DOMAIN-SUFFIX,iegcom.com,PROXY
 DOMAIN-SUFFIX,intlgame.com,PROXY
 DOMAIN-SUFFIX,sgameglobal.com,PROXY
-DOMAIN-SUFFIX,appsflyersdk.com,PROXY
+
 DOMAIN-KEYWORD,sgameglobal.com,PROXY
+DOMAIN-KEYWORD,HOK.com,PROXY
 
 IP-CIDR,183.192.65.101/16,PROXY,no-resolve
 IP-CIDR,43.132.55.55/16,PROXY,no-resolve
