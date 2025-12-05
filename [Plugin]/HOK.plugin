@@ -27,6 +27,9 @@ DOMAIN,ogdb-cdn.intlgame.cn,DIRECT
 AND,((USER-AGENT,"Honor%20of%20Kings*"),(URL-REGEX,"^https:\/\/static\.hok5v5\.com\/client\/upload\/hok\/avatar\/\d{19,20}\/[0-9A-F]{32}_100\.png$")),REJECT
 DOMAIN,static.hok5v5.com,DIRECT
 
+#拦截开屏
+AND,((USER-AGENT,"Honor%20of%20Kings*"),(DOMAIN,v2-down-gamelet.sgameglobal.com)),REJECT
+
 DOMAIN,speedsvr.ino.sgameglobal.com,DIRECT//新加坡测速
 IP-CIDR,43.153.233.187/32,DIRECT,no-resolve
 
@@ -74,6 +77,8 @@ AND,((IP-CIDR,119.28.121.50/32,no-resolve),(DEST-PORT,20000)),DIRECT
 #拦截了没影响
 AND,((IP-CIDR,162.62.125.251/32,no-resolve),(DEST-PORT,5010)),REJECT
 
+DOMAIN,ios.crashsight.wetest.net,REJECT
+
 #广告域名拦截了没影响
 DOMAIN,oalstv-inapps.appsflyersdk.com,REJECT
 DOMAIN,oalstv-skadsdkless.appsflyersdk.com,REJECT
@@ -85,11 +90,17 @@ AND,((IP-CIDR,5.0.0.0/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
 AND,((IP-CIDR,6.0.0.0/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
 AND,((IP-CIDR,7.0.0.0/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
 
+AND,((IP-CIDR,43.154.252.89/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
+AND,((IP-CIDR,96.99.90.111/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
+
 DOMAIN,hok-dr.intlgame.com,REJECT
 DOMAIN,hok.intlgame.com,REJECT
 
 IP-CIDR,43.132.43.43/32,REJECT
 IP-CIDR,43.132.55.55/32,REJECT
+
+DOMAIN,gromelink-pingsg.sgameglobal.com,REJECT
+DOMAIN,gate-prod.cloud-control.sgameglobal.com,REJECT
 
 
 
