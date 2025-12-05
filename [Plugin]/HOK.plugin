@@ -25,39 +25,34 @@ AND,((USER-AGENT,"Honor%20of%20Kings*"),(URL-REGEX,"^https:\/\/static\.hok5v5\.c
 DOMAIN,static.hok5v5.com,DIRECT
 
 DOMAIN,speedsvr.ino.sgameglobal.com,DIRECT//香港测速
-IP-CIDR,43.153.233.187/32,no-resolve,DIRECT
+IP-CIDR,43.153.233.187/32,DIRECT,no-resolve
 
 DOMAIN,brspeed.ino.sgameglobal.com,REJECT//巴西测速
-IP-CIDR,43.135.208.158/32,no-resolve,REJECT
-IP-CIDR,52.67.80.199/32,no-resolve,REJECT
-IP-CIDR,54.94.49.207/32,no-resolve,REJECT
-IP-CIDR,54.207.190.232/32,no-resolve,REJECT
-IP-CIDR,54.233.144.94/32,no-resolve,REJECT
+IP-CIDR,43.135.208.158/32,REJECT,no-resolve
+IP-CIDR,52.67.80.199/32,REJECT,no-resolve
+IP-CIDR,54.94.49.207/32,REJECT,no-resolve
+IP-CIDR,54.207.190.232/32,REJECT,no-resolve
+IP-CIDR,54.233.144.94/32,REJECT,no-resolve
 
 DOMAIN,download.sgameglobal.com,DIRECT
 
 DOMAIN,download.2.687247097.tcloud-sg.sgameglobal.com,DIRECT
-IP-CIDR,43.159.112.93/32,no-resolve,DIRECT
-IP-CIDR,43.159.113.93/32,no-resolve,DIRECT
+IP-CIDR,43.159.112.93/32,DIRECT,no-resolve
+IP-CIDR,43.159.113.93/32,DIRECT,no-resolve
 
 DOMAIN,download.2.687247097.hokglobalgcloud.iegcom.com,DIRECT
 IP-CIDR,43.132.138.111/32,no-resolve,DIRECT
 
-DOMAIN-SUFFIX,hok-dr.intlgame.com,PROXY
-DOMAIN-SUFFIX,hok.intlgame.com,PROXY
-DOMAIN-SUFFIX,intlgame.com,PROXY
-DOMAIN-SUFFIX,sgameglobal.com,PROXY
-DOMAIN-SUFFIX,appsflyersdk.com,PROXY
-DOMAIN-KEYWORD,sgameglobal.com,PROXY
+#反外挂？
+DOMAIN,asia.cschannel.anticheatexpert.com,REJECT
+IP-CIDR,101.32.143.64/32,REJECT,no-resolve
+IP-CIDR,101.32.143.142/32,REJECT,no-resolve
+IP-CIDR,101.32.143.232/32,REJECT,no-resolve
+IP-CIDR,101.32.143.247/32,REJECT,no-resolve
+IP-CIDR,129.226.1.157/32,REJECT,no-resolve
+IP-CIDR,129.226.2.37/32,REJECT,no-resolve
 
-#不知道干什么的，先拦截
-AND,((IP-CIDR,4.0.0.0/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
-AND,((IP-CIDR,5.0.0.0/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
-AND,((IP-CIDR,6.0.0.0/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
-AND,((IP-CIDR,7.0.0.0/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
-#AND,((IP-CIDR,8.0.0.0/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
-
-#大厅？
+#进大厅相关
 AND,((IP-CIDR,43.134.243.97/32),(DEST-PORT,10035),(PROTOCOL,TCP)),DIRECT
 AND,((IP-CIDR,43.134.243.97/32),(DEST-PORT,10001-10034),(PROTOCOL,TCP)),DIRECT
 AND,((IP-CIDR,43.134.243.98/32),(DEST-PORT,10035),(PROTOCOL,TCP)),DIRECT
@@ -67,32 +62,38 @@ AND,((IP-CIDR,43.134.243.99/32),(DEST-PORT,10001-10034),(PROTOCOL,TCP)),DIRECT
 AND,((IP-ASN,132203,no-resolve),(GEOIP,SG,no-resolve),(PROTOCOL,TCP),(OR,((DEST-PORT,10001-10035),(DEST-PORT,443)))),DIRECT
 
 AND,((IP-CIDR,43.132.138.111/32,no-resolve),(DEST-PORT,20000)),DIRECT
-
+AND,((DOMAIN,hokgcloudv6.iegcom.com),(DEST-PORT,20000)),DIRECT
 AND,((IP-CIDR,119.28.121.50/32,no-resolve),(DEST-PORT,20000)),DIRECT
 
+#拦截了没影响
 AND,((IP-CIDR,43.153.233.59/32,no-resolve),(DEST-PORT,5010)),REJECT
 AND,((IP-CIDR,162.62.125.251/32,no-resolve),(DEST-PORT,5010)),REJECT
 
-
-
-
-
-#拦截了没影响
+#广告域名拦截了没影响
 DOMAIN,oalstv-inapps.appsflyersdk.com,REJECT
 DOMAIN,oalstv-skadsdkless.appsflyersdk.com,REJECT
 
-#反外挂？
-DOMAIN,asia.cschannel.anticheatexpert.com,REJECT
-IP-CIDR,101.32.143.64/32,no-resolve,REJECT
-IP-CIDR,101.32.143.142/32,no-resolve,REJECT
-IP-CIDR,101.32.143.232/32,no-resolve,REJECT
-IP-CIDR,101.32.143.247/32,no-resolve,REJECT
-IP-CIDR,129.226.1.157/32,no-resolve,REJECT
-IP-CIDR,129.226.2.37/32,no-resolve,REJECT
+#不知道干什么的，先拦截
+AND,((IP-CIDR,4.0.0.0/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
+AND,((IP-CIDR,5.0.0.0/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
+AND,((IP-CIDR,6.0.0.0/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
+AND,((IP-CIDR,7.0.0.0/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
 
 
-IP-CIDR,183.192.65.101/16,no-resolve,PROXY
-IP-CIDR,43.132.55.55/16,no-resolve,PROXY
+
+
+
+
+
+DOMAIN-SUFFIX,hok-dr.intlgame.com,PROXY
+DOMAIN-SUFFIX,hok.intlgame.com,PROXY
+DOMAIN-SUFFIX,intlgame.com,PROXY
+DOMAIN-SUFFIX,sgameglobal.com,PROXY
+DOMAIN-SUFFIX,appsflyersdk.com,PROXY
+DOMAIN-KEYWORD,sgameglobal.com,PROXY
+
+IP-CIDR,183.192.65.101/16,PROXY,no-resolve
+IP-CIDR,43.132.55.55/16,PROXY,no-resolve
 
 [MITM]
 hostname = 
