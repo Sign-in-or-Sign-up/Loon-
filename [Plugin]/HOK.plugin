@@ -118,8 +118,9 @@ DOMAIN-SUFFIX,sgameglobal.com,PROXY
 DOMAIN-KEYWORD,sgameglobal.com,PROXY
 DOMAIN-KEYWORD,HOK.com,PROXY
 
-IP-CIDR,183.192.65.101/16,PROXY,no-resolve
-IP-CIDR,43.132.55.55/16,PROXY,no-resolve
+#上海服&巴西服ip段？
+#IP-CIDR,183.192.65.101/16,PROXY,no-resolve
+#IP-CIDR,43.132.55.55/16,PROXY,no-resolve
 
 [MITM]
 hostname = 
