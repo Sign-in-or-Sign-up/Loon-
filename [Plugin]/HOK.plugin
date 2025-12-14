@@ -24,6 +24,7 @@ AND,((USER-AGENT,"Honor%20of%20Kings*"),(URL-REGEX,"^https:\/\/ogdb-cdn\.intlgam
 AND,((USER-AGENT,"Honor%20of%20Kings*"),(URL-REGEX,"^https:\/\/ogdb-cdn\.intlgame\.cn\/draw\/a\/\d{6}_\d{6,9}\.png$")),REJECT
 DOMAIN,ogdb-cdn.intlgame.cn,DIRECT
 
+AND,((USER-AGENT,"Honor%20of%20Kings*"),(URL-REGEX,"^https:\/\/static\.hok5v5\.com\/client\/upload\/hok\/avatar\/\d{19,20}\/[0-9A-F]{67}_100\.png$")),REJECT
 AND,((USER-AGENT,"Honor%20of%20Kings*"),(URL-REGEX,"^https:\/\/static\.hok5v5\.com\/client\/upload\/hok\/avatar\/\d{19,20}\/[0-9A-F]{66}_100\.png$")),REJECT
 AND,((USER-AGENT,"Honor%20of%20Kings*"),(URL-REGEX,"^https:\/\/static\.hok5v5\.com\/client\/upload\/hok\/avatar\/\d{19,20}\/[0-9A-F]{65}_100\.png$")),REJECT
 AND,((USER-AGENT,"Honor%20of%20Kings*"),(URL-REGEX,"^https:\/\/static\.hok5v5\.com\/client\/upload\/hok\/avatar\/\d{19,20}\/[0-9A-F]{32}_100\.png$")),REJECT
@@ -90,6 +91,7 @@ AND,((IP-CIDR,96.99.70.109/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJEC
 AND,((IP-CIDR,96.99.90.111/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
 AND,((IP-CIDR,96.99.105.107/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
 AND,((IP-CIDR,96.163.68.109/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
+AND,((IP-CIDR,96.99.200.110/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
 AND,((IP-CIDR,96.163.72.107/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
 AND,((IP-CIDR,96.163.190.111/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
 AND,((IP-CIDR,96.227.8.107/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
