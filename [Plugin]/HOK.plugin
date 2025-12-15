@@ -19,6 +19,9 @@ URL-REGEX,"^https://camp\.honorofkings\.com/client/upload/hok/circle/\d{19}/[0-9
 #人机首字母头像
 AND,((USER-AGENT,"Honor%20of%20Kings*"),(URL-REGEX,"^https:\/\/lh3\.googleusercontent\.com\/a\/ACg8oc[0-9a-zA-Z_]{49,50}=s96-c$")),DIRECT
 
+AND,((USER-AGENT,"Honor%20of%20Kings*"),(URL-REGEX,"^https:\/\/yt3\.ggpht\.com\/ytc\/AL5GRJ[A-Z][A-Za-z0-9_-]{41,65}=s128$")),REJECT
+
+
 #人机头像
 AND,((USER-AGENT,"Honor%20of%20Kings*"),(URL-REGEX,"^https:\/\/ogdb-cdn\.intlgame\.cn\/google_turkey\/\d{10,13}-[0-9a-fA-F]{12}\.png$")),REJECT
 AND,((USER-AGENT,"Honor%20of%20Kings*"),(URL-REGEX,"^https:\/\/ogdb-cdn\.intlgame\.cn\/draw\/a\/\d{6}_\d{6,9}\.png$")),REJECT
