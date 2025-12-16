@@ -29,6 +29,8 @@ URL-REGEX,"^https:\/\/api\.weibo\.cn\/2\/comments\/to_me\?aid=",DIRECT//消息-�
 URL-REGEX,"^https:\/\/api\.weibo\.cn\/2\/comments\/by_me\?aid=",DIRECT//消息-评论-发出的评论
 URL-REGEX,"^https:\/\/api\.weibo\.cn\/2\/like\/to_me\?aid=",DIRECT//收到的赞
 
+URL-REGEX,"^https:\/\/api\.weibo\.cn\/2\/statuses\/container_timeline_hot\?uicode=10000495&v_f=1&v_p=91$",DIRECT//推荐-热门
+
 AND,((DOMAIN,api.weibo.cn),(DEST-PORT,443)),DIRECT
 #DOMAIN,api.weibo.cn,DIRECT
 URL-REGEX,"^https:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=verify&auth=$",DIRECT//微博国际版关注前人机验证
