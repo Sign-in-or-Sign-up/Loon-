@@ -130,13 +130,11 @@ AND,((IP-CIDR,43.152.113.56/32,no-resolve),(OR,((DEST-PORT,8080),(DEST-PORT,8085
 
 
 
-
-
 DOMAIN-SUFFIX,iegcom.com,PROXY
-DOMAIN-SUFFIX,intlgame.com,PROXY
-DOMAIN-SUFFIX,sgameglobal.com,PROXY
+#DOMAIN-SUFFIX,intlgame.com,PROXY
+#DOMAIN-SUFFIX,sgameglobal.com,PROXY
 
-DOMAIN-KEYWORD,sgameglobal.com,PROXY
+#DOMAIN-KEYWORD,sgameglobal.com,PROXY
 DOMAIN-KEYWORD,HOK.com,PROXY
 
 #上海服&巴西服ip段？
