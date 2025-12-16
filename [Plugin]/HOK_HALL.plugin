@@ -10,7 +10,7 @@
 #!date = 2025-12-06 08:00:00
 
 [Rule]
-反人机头像
+#反人机头像
 URL-REGEX,"^https:\/\/res\.sgameglobal\.com\/Global\/Common\/UGUI\/SystemRes\/044_Idip\/PlayerHeadIcon\/\d{1,2}(_big)?\.png\?-?\d{7,10}$",DIRECT//内置默认(含高级)头像&HD
 URL-REGEX,"^https:\/\/res\.sgameglobal\.com\/Global\/Common\/UGUI\/SystemRes\/044_Idip\/PlayerHeadIcon.*?",REJECT-IMG-NO-DROP//其余头像
 
@@ -20,6 +20,8 @@ URL-REGEX,"^https://camp\.honorofkings\.com/client/upload/hok/circle/\d{19}/[0-9
 #人机首字母头像
 AND,((USER-AGENT,"Honor%20of%20Kings*"),(URL-REGEX,"^https:\/\/lh3\.googleusercontent\.com\/a\/ACg8oc[0-9a-zA-Z_-]{48,54}=s96-c$")),PROXY
 AND,((USER-AGENT,"Honor%20of%20Kings*"),(URL-REGEX,"^https:\/\/yt3\.ggpht\.com\/ytc\/AL5GRJ.*?=s128$")),REJECT-IMG-NO-DROP
+#fb头像
+AND,((USER-AGENT,"Honor%20of%20Kings*"),(URL-REGEX,"^https:\/\/platform-lookaside\.fbsbx\.com\/platform\/profilepic\/\?asid=\d{15,17}&gaming_photo_type=unified_picture&ext=\d{10}&hash=AT[0-9a-zA-Z_-]{21,23}$")),PROXY
 
 #人机头像
 AND,((USER-AGENT,"Honor%20of%20Kings*"),(URL-REGEX,"^https:\/\/ogdb-cdn\.intlgame\.cn\/google_turkey\/\d{10,13}-[0-9a-fA-F]{12}\.png$")),REJECT-IMG-NO-DROP
