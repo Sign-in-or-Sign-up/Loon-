@@ -230,7 +230,7 @@ URL-REGEX,"^https:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=open_app&auth=,R
 ^https:\/\/h5\.sinaimg\.cn\/upload\/2016\/12\/06\/433\/wenda_default_pic\.jpg$ reject-img
 
 #微博广告友盟故障上报
-^https:\/\/errnewlog\.umeng\.com reject
+#^https:\/\/errnewlog\.umeng\.com reject
 
 
 
