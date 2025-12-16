@@ -18,7 +18,7 @@ URL-REGEX,"^https:\/\/static\.hok5v5\.com\/client\/upload\/hok\/avatar\/[0-9a-f]
 URL-REGEX,"^https://camp\.honorofkings\.com/client/upload/hok/circle/\d{19}/[0-9A-F]{32}\.jpg$",DIRECT//王者营地头像
 
 #人机首字母头像
-AND,((USER-AGENT,"Honor%20of%20Kings*"),(URL-REGEX,"^https:\/\/lh3\.googleusercontent\.com\/a\/ACg8oc[0-9a-zA-Z_-]{49,50}=s96-c$")),DIRECT
+AND,((USER-AGENT,"Honor%20of%20Kings*"),(URL-REGEX,"^https:\/\/lh3\.googleusercontent\.com\/a\/ACg8oc[0-9a-zA-Z_-]{49,50}=s96-c$")),PROXY
 AND,((USER-AGENT,"Honor%20of%20Kings*"),(URL-REGEX,"^https:\/\/yt3\.ggpht\.com\/ytc\/AL5GRJ.*?=s128$")),REJECT-IMG-NO-DROP
 
 #人机头像
