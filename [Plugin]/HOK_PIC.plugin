@@ -13,12 +13,7 @@
 URL-REGEX,"^https:\/\/res\.sgameglobal\.com\/Global\/Common\/UGUI\/SystemRes\/044_Idip\/PlayerHeadIcon\/\d{1,2}(_big)?\.png\?-?\d{8,10}$",REJECT-IMG-NO-DROP//内置默认(含高级)头像&HD
 URL-REGEX,"^https:\/\/res\.sgameglobal\.com\/Global\/Common\/UGUI\/SystemRes\/044_Idip\/PlayerHeadIcon.*?",DIRECT//其余头像
 
-URL-REGEX,"^https:\/\/static\.hok5v5\.com\/client\/upload\/hok\/avatar\/[0-9a-f]{32}\/[0-9A-Z]{32}\d{14}\.jpg$",REJECT//玩家上传头像
-URL-REGEX,"^https://camp\.honorofkings\.com/client/upload/hok/circle/\d{19}/[0-9A-F]{32}\.jpg$",REJECT//王者营地头像
-
-#人机首字母头像
-URL-REGEX,"^https:\/\/lh3\.googleusercontent\.com\/a\/ACg8oc[0-9a-zA-Z_-]{48,54}=s96-c$",PROXY
-URL-REGEX,"^https:\/\/yt3\.ggpht\.com\/ytc\/AL5GRJ.*?=s128$",PROXY
+URL-REGEX,"^https:\/\/static\.hok5v5\.com\/client\/upload\/hok\/avatar\/[0-9a-f]{32}\/[0-9A-Z]{32}\d{14}\.jpg$",REJECT-IMG-NO-DROP//玩家上传头像
 
 #人机头像
 URL-REGEX,"^https:\/\/ogdb-cdn\.intlgame\.cn\/google_turkey\/\d{10,13}-[0-9a-fA-F]{12}\.png$",DIRECT
@@ -31,4 +26,4 @@ URL-REGEX,"^https:\/\/static\.hok5v5\.com\/client\/upload\/hok\/avatar\/\d{19,20
 URL-REGEX,"^https:\/\/static\.hok5v5\.com\/client\/upload\/hok\/avatar\/\d{19,20}\/[0-9A-F]{32}_100\.png$",DIRECT
 URL-REGEX,"^https:\/\/static\.hok5v5\.com\/client\/upload\/hok\/avatar\/\d{19,20}\/.*?_100\.png$",DIRECT
 URL-REGEX,"^https:\/\/static\.hok5v5\.com\/client\/upload\/hok\/avatar\/\d{19,20}\/\d{6}\.png$",DIRECT
-DOMAIN,static.hok5v5.com,REJECT
+DOMAIN,static.hok5v5.com,REJECT-IMG-NO-DROP
