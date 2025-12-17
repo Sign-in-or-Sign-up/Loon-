@@ -10,15 +10,13 @@
 #!date = 2025-12-06 22:00:00
 
 [Rule]
+#人机头像
+DOMAIN,ogdb-cdn.intlgame.cn,DIRECT
+URL-REGEX,"^https:\/\/yt3\.ggpht\.com\/ytc\/AL5GRJ.*?=s128$",PROXY
+
 URL-REGEX,"^https:\/\/res\.sgameglobal\.com\/Global\/Common\/UGUI\/SystemRes\/044_Idip\/PlayerHeadIcon\/\d{1,2}(_big)?\.png\?-?\d{8,10}$",REJECT-IMG-NO-DROP//内置默认(含高级)头像&HD
-URL-REGEX,"^https:\/\/res\.sgameglobal\.com\/Global\/Common\/UGUI\/SystemRes\/044_Idip\/PlayerHeadIcon.*?",DIRECT//其余头像
 
 URL-REGEX,"^https:\/\/static\.hok5v5\.com\/client\/upload\/hok\/avatar\/[0-9a-f]{32}\/[0-9A-Z]{32}\d{14}\.jpg$",REJECT-IMG-NO-DROP//玩家上传头像
-
-#人机头像
-URL-REGEX,"^https:\/\/ogdb-cdn\.intlgame\.cn\/google_turkey\/\d{10,13}-[0-9a-fA-F]{12}\.png$",DIRECT
-URL-REGEX,"^https:\/\/ogdb-cdn\.intlgame\.cn\/draw\/a\/\d{6}_\d{6,9}\.png$",DIRECT
-DOMAIN,ogdb-cdn.intlgame.cn,REJECT
 
 URL-REGEX,"^https:\/\/static\.hok5v5\.com\/client\/upload\/hok\/avatar\/\d{19,20}\/[0-9a-zA-Z]{65,67}_100\.png$",DIRECT
 #AND,((USER-AGENT,"Honor%20of%20Kings*"),(URL-REGEX,"^https:\/\/static\.hok5v5\.com\/client\/upload\/hok\/avatar\/\d{19,20}\/[0-9a-zA-Z]{66}_100\.png$")),REJECT
