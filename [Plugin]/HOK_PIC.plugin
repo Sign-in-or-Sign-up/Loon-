@@ -25,3 +25,6 @@ URL-REGEX,"^https:\/\/static\.hok5v5\.com\/client\/upload\/hok\/avatar\/\d{19,20
 URL-REGEX,"^https:\/\/static\.hok5v5\.com\/client\/upload\/hok\/avatar\/\d{19,20}\/.*?_100\.png$",DIRECT
 URL-REGEX,"^https:\/\/static\.hok5v5\.com\/client\/upload\/hok\/avatar\/\d{19,20}\/\d{6}\.png$",DIRECT
 DOMAIN,static.hok5v5.com,REJECT-IMG-NO-DROP
+
+#fb头像
+AND,((USER-AGENT,"Honor%20of%20Kings*"),(URL-REGEX,"^https:\/\/platform-lookaside\.fbsbx\.com\/platform\/profilepic\/\?asid=\d{15,17}&gaming_photo_type=unified_picture&ext=\d{10}&hash=AT[0-9a-zA-Z_-]{21,23}$")),PROXY
