@@ -12,7 +12,7 @@
 [Rule]
 #人机头像
 DOMAIN,ogdb-cdn.intlgame.cn,DIRECT
-URL-REGEX,"^https:\/\/yt3\.ggpht\.com\/ytc\/AL5GRJ.*?=s128$",PROXY
+URL-REGEX,"^https:\/\/yt3\.ggpht\.com\/.*?=s128$",PROXY
 
 URL-REGEX,"^https:\/\/res\.sgameglobal\.com\/Global\/Common\/UGUI\/SystemRes\/044_Idip\/PlayerHeadIcon\/\d{1,2}(_big)?\.png\?-?\d{8,10}$",REJECT-IMG-NO-DROP//内置默认(含高级)头像&HD
 
