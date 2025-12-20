@@ -10,33 +10,31 @@
 #!date = 2025-12-06 22:00:00
 
 [Rule]
-URL-REGEX,"^https:\/\/res\.sgameglobal\.com\/Global\/Common\/UGUI\/SystemRes\/044_Idip\/PlayerHeadIcon\/\d{1,2}(_big)?\.png\?-?\d{9,10}$",DIRECT//内置默认(含高级)头像&HD
-URL-REGEX,"^https:\/\/res\.sgameglobal\.com\/Global\/Common\/UGUI\/SystemRes\/044_Idip\/PlayerHeadIcon",REJECT//其余头像
+#URL-REGEX,"^https:\/\/res\.sgameglobal\.com\/Global\/Common\/UGUI\/SystemRes\/044_Idip\/PlayerHeadIcon\/\d{1,2}(_big)?\.png\?-?\d{9,10}$",DIRECT//内置默认(含高级)头像&HD
+#URL-REGEX,"^https:\/\/res\.sgameglobal\.com\/Global\/Common\/UGUI\/SystemRes\/044_Idip\/PlayerHeadIcon",REJECT//其余头像
 
-URL-REGEX,"^https:\/\/static\.hok5v5\.com\/client\/upload\/hok\/avatar\/[0-9a-f]{32}\/[0-9A-Z]{32}\d{14}\.jpg$",DIRECT//玩家上传头像
-URL-REGEX,"^https://camp\.honorofkings\.com/client/upload/hok/circle/\d{19}/[0-9A-F]{32}\.jpg$",DIRECT//王者营地头像
+#URL-REGEX,"^https:\/\/static\.hok5v5\.com\/client\/upload\/hok\/avatar\/[0-9a-f]{32}\/[0-9A-Z]{32}\d{14}\.jpg$",DIRECT//玩家上传头像
+#URL-REGEX,"^https://camp\.honorofkings\.com/client/upload/hok/circle/\d{19}/[0-9A-F]{32}\.jpg$",DIRECT//王者营地头像
 
 #人机首字母头像
-AND,((USER-AGENT,"Honor%20of%20Kings*"),(URL-REGEX,"^https:\/\/lh3\.googleusercontent\.com\/a\/ACg8oc[0-9a-zA-Z_-]{49,50}=s96-c$")),DIRECT
-
-AND,((USER-AGENT,"Honor%20of%20Kings*"),(URL-REGEX,"^https:\/\/yt3\.ggpht\.com\/ytc\/AL5GRJ[A-Z][A-Za-z0-9_-]{41,65}=s128$")),REJECT
-
+#AND,((USER-AGENT,"Honor%20of%20Kings*"),(URL-REGEX,"^https:\/\/lh3\.googleusercontent\.com\/a\/ACg8oc[0-9a-zA-Z_-]{49,50}=s96-c$")),DIRECT
+#AND,((USER-AGENT,"Honor%20of%20Kings*"),(URL-REGEX,"^https:\/\/yt3\.ggpht\.com\/ytc\/AL5GRJ[A-Z][A-Za-z0-9_-]{41,65}=s128$")),REJECT
 
 #人机头像
-AND,((USER-AGENT,"Honor%20of%20Kings*"),(URL-REGEX,"^https:\/\/ogdb-cdn\.intlgame\.cn\/google_turkey\/\d{10,13}-[0-9a-fA-F]{12}\.png$")),REJECT
-AND,((USER-AGENT,"Honor%20of%20Kings*"),(URL-REGEX,"^https:\/\/ogdb-cdn\.intlgame\.cn\/draw\/a\/\d{6}_\d{6,9}\.png$")),REJECT
-DOMAIN,ogdb-cdn.intlgame.cn,DIRECT
+#AND,((USER-AGENT,"Honor%20of%20Kings*"),(URL-REGEX,"^https:\/\/ogdb-cdn\.intlgame\.cn\/google_turkey\/\d{10,13}-[0-9a-fA-F]{12}\.png$")),REJECT
+#AND,((USER-AGENT,"Honor%20of%20Kings*"),(URL-REGEX,"^https:\/\/ogdb-cdn\.intlgame\.cn\/draw\/a\/\d{6}_\d{6,9}\.png$")),REJECT
+#DOMAIN,ogdb-cdn.intlgame.cn,DIRECT
 
-AND,((USER-AGENT,"Honor%20of%20Kings*"),(URL-REGEX,"^https:\/\/static\.hok5v5\.com\/client\/upload\/hok\/avatar\/\d{19,20}\/[0-9a-zA-Z]{67}_100\.png$")),REJECT
-AND,((USER-AGENT,"Honor%20of%20Kings*"),(URL-REGEX,"^https:\/\/static\.hok5v5\.com\/client\/upload\/hok\/avatar\/\d{19,20}\/[0-9a-zA-Z]{66}_100\.png$")),REJECT
-AND,((USER-AGENT,"Honor%20of%20Kings*"),(URL-REGEX,"^https:\/\/static\.hok5v5\.com\/client\/upload\/hok\/avatar\/\d{19,20}\/[0-9a-zA-Z]{65}_100\.png$")),REJECT
-AND,((USER-AGENT,"Honor%20of%20Kings*"),(URL-REGEX,"^https:\/\/static\.hok5v5\.com\/client\/upload\/hok\/avatar\/\d{19,20}\/[0-9A-F]{32}_100\.png$")),REJECT
-AND,((USER-AGENT,"Honor%20of%20Kings*"),(URL-REGEX,"^https:\/\/static\.hok5v5\.com\/client\/upload\/hok\/avatar\/\d{19,20}\/.*?_100\.png$")),REJECT
-AND,((USER-AGENT,"Honor%20of%20Kings*"),(URL-REGEX,"^https:\/\/static\.hok5v5\.com\/client\/upload\/hok\/avatar\/\d{19,20}\/\d{6}\.png$")),REJECT
-DOMAIN,static.hok5v5.com,DIRECT
+#AND,((USER-AGENT,"Honor%20of%20Kings*"),(URL-REGEX,"^https:\/\/static\.hok5v5\.com\/client\/upload\/hok\/avatar\/\d{19,20}\/[0-9a-zA-Z]{67}_100\.png$")),REJECT
+#AND,((USER-AGENT,"Honor%20of%20Kings*"),(URL-REGEX,"^https:\/\/static\.hok5v5\.com\/client\/upload\/hok\/avatar\/\d{19,20}\/[0-9a-zA-Z]{66}_100\.png$")),REJECT
+#AND,((USER-AGENT,"Honor%20of%20Kings*"),(URL-REGEX,"^https:\/\/static\.hok5v5\.com\/client\/upload\/hok\/avatar\/\d{19,20}\/[0-9a-zA-Z]{65}_100\.png$")),REJECT
+#AND,((USER-AGENT,"Honor%20of%20Kings*"),(URL-REGEX,"^https:\/\/static\.hok5v5\.com\/client\/upload\/hok\/avatar\/\d{19,20}\/[0-9A-F]{32}_100\.png$")),REJECT
+#AND,((USER-AGENT,"Honor%20of%20Kings*"),(URL-REGEX,"^https:\/\/static\.hok5v5\.com\/client\/upload\/hok\/avatar\/\d{19,20}\/.*?_100\.png$")),REJECT
+#AND,((USER-AGENT,"Honor%20of%20Kings*"),(URL-REGEX,"^https:\/\/static\.hok5v5\.com\/client\/upload\/hok\/avatar\/\d{19,20}\/\d{6}\.png$")),REJECT
+#DOMAIN,static.hok5v5.com,DIRECT
 
 #拦截开屏
-AND,((USER-AGENT,"Honor%20of%20Kings*"),(DOMAIN,v2-down-gamelet.sgameglobal.com)),REJECT
+#AND,((USER-AGENT,"Honor%20of%20Kings*"),(DOMAIN,v2-down-gamelet.sgameglobal.com)),REJECT
 
 DOMAIN,speedsvr.ino.sgameglobal.com,DIRECT//新加坡测速
 IP-CIDR,43.153.233.187/32,DIRECT,no-resolve
@@ -53,19 +51,31 @@ IP-CIDR,54.207.190.232/32,REJECT,no-resolve
 IP-CIDR,54.233.144.94/32,REJECT,no-resolve
 
 DOMAIN,download.sgameglobal.com,DIRECT
+IP-CIDR,43.174.128.15/32,DIRECT
+IP-CIDR,43.174.128.40/32,DIRECT
+IP-CIDR,43.174.128.41/32,DIRECT
+IP-CIDR,43.174.128.42/32,DIRECT
+IP-CIDR,43.174.128.43/32,DIRECT
+IP-CIDR,43.174.128.44/32,DIRECT
+IP-CIDR,43.174.128.45/32,DIRECT
+IP-CIDR,43.175.44.26/32,DIRECT
+IP-CIDR,43.175.44.52/32,DIRECT
+IP-CIDR,43.159.113.93/32,DIRECT
+
+DOMAIN,uploadfilesvr-prod.cloud-control.sgameglobal.com,DIRECT
+IP-CIDR,43.160.146.61/32,DIRECT
 
 DOMAIN,download.2.687247097.tcloud-sg.sgameglobal.com,DIRECT
-IP-CIDR,43.159.112.93/32,DIRECT,no-resolve
-IP-CIDR,43.159.113.93/32,DIRECT,no-resolve
+IP-CIDR,43.159.112.93/32,DIRECT
+IP-CIDR,43.159.113.93/32,DIRECT
 
 DOMAIN,download.2.687247097.hokglobalgcloud.iegcom.com,DIRECT
 IP-CIDR,43.132.138.111/32,DIRECT
 
-
 #进游戏相关
-AND,((IP-CIDR,43.132.138.111/32,no-resolve),(DEST-PORT,20000)),DIRECT
-AND,((DOMAIN,hokgcloudv6.iegcom.com),(DEST-PORT,20000)),DIRECT
-AND,((IP-CIDR,119.28.121.50/32,no-resolve),(DEST-PORT,20000)),DIRECT
+#AND,((IP-CIDR,43.132.138.111/32,no-resolve),(DEST-PORT,20000)),DIRECT
+#AND,((DOMAIN,hokgcloudv6.iegcom.com),(DEST-PORT,20000)),DIRECT
+#AND,((IP-CIDR,119.28.121.50/32,no-resolve),(DEST-PORT,20000)),DIRECT
 
 #拦截了没影响
 AND,((IP-CIDR,18.199.59.216/32,no-resolve),(DEST-PORT,5010)),REJECT
@@ -87,34 +97,40 @@ AND,((IP-CIDR,7.0.0.0/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
 
 AND,((IP-CIDR,43.154.252.89/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),DIRECT
 
-AND,((IP-CIDR,96.35.14.112/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
-AND,((IP-CIDR,96.35.41.110/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
-AND,((IP-CIDR,96.35.91.110/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
-AND,((IP-CIDR,96.35.113.111/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
-AND,((IP-CIDR,96.35.156.109/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
-AND,((IP-CIDR,96.35.213.111/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
-AND,((IP-CIDR,96.99.27.109/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
+#AND,((IP-CIDR,96.35.14.112/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
+#AND,((IP-CIDR,96.35.41.110/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
+#AND,((IP-CIDR,96.35.91.110/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
+#AND,((IP-CIDR,96.35.113.111/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
+#AND,((IP-CIDR,96.35.156.109/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
+#AND,((IP-CIDR,96.35.213.111/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
+#AND,((IP-CIDR,96.99.27.109/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
+AND,((IP-CIDR,96.35.0.0/16,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
 
-AND,((IP-CIDR,96.99.70.109/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
-AND,((IP-CIDR,96.99.90.111/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
-AND,((IP-CIDR,96.99.105.107/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
-AND,((IP-CIDR,96.99.200.110/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
+#AND,((IP-CIDR,96.99.70.109/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
+#AND,((IP-CIDR,96.99.90.111/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
+#AND,((IP-CIDR,96.99.105.107/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
+#AND,((IP-CIDR,96.99.200.110/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
+AND,((IP-CIDR,96.99.0.0/16,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
 
-AND,((IP-CIDR,96.163.68.109/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
-AND,((IP-CIDR,96.163.72.107/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
-AND,((IP-CIDR,96.163.88.110/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
-AND,((IP-CIDR,96.163.168.107/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
-AND,((IP-CIDR,96.163.190.111/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
+#AND,((IP-CIDR,96.163.68.109/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
+#AND,((IP-CIDR,96.163.72.107/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
+#AND,((IP-CIDR,96.163.88.110/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
+#AND,((IP-CIDR,96.163.168.107/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
+#AND,((IP-CIDR,96.163.190.111/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
+AND,((IP-CIDR,96.163.0.0/16,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
 
-AND,((IP-CIDR,96.227.8.107/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
-AND,((IP-CIDR,96.227.105.109/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
-AND,((IP-CIDR,96.227.193.109/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
+#AND,((IP-CIDR,96.227.8.107/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
+#AND,((IP-CIDR,96.227.105.109/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
+#AND,((IP-CIDR,96.227.193.109/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
+AND,((IP-CIDR,96.227.0.0/16,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
 
-AND,((IP-ASN,20115,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
-AND,((IP-ASN,7922,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
+URL-REGEX,"^https:\/\/hok\.intlgame\.com\/v2\/minorcer\/get_status\?channelid=",DIRECT//第一次登陆放行后可进入大厅，后续可拦截吧
+URL-REGEX,"^https:\/\/hok\.intlgame\.com\/v2\/auth\/check_common_device\?channelid=",REJECT
+URL-REGEX,"^https:\/\/hok\.intlgame\.com\/v2\/auth\/device_status\?channelid=",REJECT
+URL-REGEX,"^https:\/\/hok\.intlgame\.com\/v2\/profile\/get_bind_info\?channelid=",REJECT
+DOMAIN,hok.intlgame.com,REJECT
 
 DOMAIN,hok-dr.intlgame.com,REJECT
-DOMAIN,hok.intlgame.com,REJECT
 DOMAIN,hok-lbs.intlgame.com,REJECT
 DOMAIN,atm-broker-tcp-hok.vasdgame.com,REJECT
 
