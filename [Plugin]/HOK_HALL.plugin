@@ -22,7 +22,7 @@ URL-REGEX,"^https://camp\.honorofkings\.com/client/upload/hok/circle/\d{19}/[0-9
 AND,((USER-AGENT,"Honor%20of%20Kings*"),(URL-REGEX,"^https:\/\/lh3\.googleusercontent\.com\/a\/ACg8oc[0-9a-zA-Z_-]{48,54}=s96-c$")),PROXY
 AND,((USER-AGENT,"Honor%20of%20Kings*"),(URL-REGEX,"^https:\/\/yt3\.ggpht\.com\/.*?=s128$")),REJECT-IMG-NO-DROP
 #fb头像
-AND,((USER-AGENT,"Honor%20of%20Kings*"),(URL-REGEX,"^https:\/\/platform-lookaside\.fbsbx\.com\/platform\/profilepic\/\?asid=\d{15,17}&gaming_photo_type=unified_picture&ext=\d{10}&hash=AT[0-9a-zA-Z_-]{21,23}$")),PROXY
+AND,((USER-AGENT,"Honor%20of%20Kings*"),(URL-REGEX,"^https:\/\/platform-lookaside\.fbsbx\.com\/platform\/profilepic\/\?asid=\d{15,18}&gaming_photo_type=unified_picture&ext=\d{10}&hash=AT[0-9a-zA-Z_-]{21,23}$")),PROXY
 
 #人机头像
 #AND,((USER-AGENT,"Honor%20of%20Kings*"),(URL-REGEX,"^https:\/\/ogdb-cdn\.intlgame\.cn\/google_turkey\/\d{10,13}-[0-9a-fA-F]{12}\.png$")),REJECT-IMG-NO-DROP
