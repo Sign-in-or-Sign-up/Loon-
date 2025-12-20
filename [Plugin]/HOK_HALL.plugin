@@ -14,6 +14,7 @@
 DOMAIN,ogdb-cdn.intlgame.cn,REJECT-IMG-NO-DROP
 URL-REGEX,"^https:\/\/res\.sgameglobal\.com\/Global\/Common\/UGUI\/SystemRes\/044_Idip\/PlayerHeadIcon\/\d{1,2}(_big)?\.png\?-?\d{7,10}$",DIRECT//内置默认(含高级)头像&HD
 #URL-REGEX,"^https:\/\/res\.sgameglobal\.com\/Global\/Common\/UGUI\/SystemRes\/044_Idip\/PlayerHeadIcon.*?",REJECT-IMG-NO-DROP//其余头像
+#URL-REGEX,"^https:\/\/res\.sgameglobal\.com\/Global\/Common\/UGUI\/SystemRes\/062_Nobility\/Sprite\/small\/Nobility_Icon_[12]\.png\?-?\d{8,10}",REJECT-IMG-NO-DROP//省标
 
 URL-REGEX,"^https:\/\/static\.hok5v5\.com\/client\/upload\/hok\/avatar\/[0-9a-f]{32}\/[0-9A-Z]{32}\d{14}\.jpg$",DIRECT//玩家上传头像
 URL-REGEX,"^https://camp\.honorofkings\.com/client/upload/hok/circle/\d{19}/[0-9A-F]{32}\.jpg$",DIRECT//王者营地头像
