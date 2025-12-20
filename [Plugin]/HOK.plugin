@@ -72,6 +72,8 @@ IP-CIDR,43.159.113.93/32,DIRECT
 DOMAIN,download.2.687247097.hokglobalgcloud.iegcom.com,DIRECT
 IP-CIDR,43.132.138.111/32,DIRECT
 
+AND,((IP-CIDR,43.152.113.56/32,no-resolve),(OR,((DEST-PORT,8080),(DEST-PORT,8085)))),DIRECT
+
 #进游戏相关
 #AND,((IP-CIDR,43.132.138.111/32,no-resolve),(DEST-PORT,20000)),DIRECT
 #AND,((DOMAIN,hokgcloudv6.iegcom.com),(DEST-PORT,20000)),DIRECT
@@ -124,6 +126,9 @@ AND,((IP-CIDR,96.163.0.0/16,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
 #AND,((IP-CIDR,96.227.193.109/32,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
 AND,((IP-CIDR,96.227.0.0/16,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
 
+URL-REGEX,"^https:\/\/hok\.intlgame\.com\/v2\/conf\/get_conf\?channelid=",DIRECT
+URL-REGEX,"^https:\/\/hok\.intlgame\.com\/v2\/auth\/auto_login\?channelid=",REJECT//拦截了还能自动登陆不？
+URL-REGEX,"^https:\/\/hok\.intlgame\.com\/v2\/auth\/login\?channelid=",DIRECT
 URL-REGEX,"^https:\/\/hok\.intlgame\.com\/v2\/minorcer\/get_status\?channelid=",DIRECT//第一次登陆放行后可进入大厅，后续可拦截吧
 URL-REGEX,"^https:\/\/hok\.intlgame\.com\/v2\/auth\/check_common_device\?channelid=",REJECT
 URL-REGEX,"^https:\/\/hok\.intlgame\.com\/v2\/auth\/device_status\?channelid=",REJECT
@@ -137,13 +142,26 @@ DOMAIN,atm-broker-tcp-hok.vasdgame.com,REJECT
 IP-CIDR,43.132.43.43/32,REJECT
 IP-CIDR,43.132.55.55/32,REJECT
 
+DOMAIN,gromelink-pingfi.sgameglobal.com,REJECT
+DOMAIN,gromelink-pingit.sgameglobal.com,REJECT
 DOMAIN,gromelink-pingsg.sgameglobal.com,REJECT
 DOMAIN,gate-prod.cloud-control.sgameglobal.com,REJECT
 
-AND,((IP-CIDR,43.152.113.56/32,no-resolve),(OR,((DEST-PORT,8080),(DEST-PORT,8085)))),REJECT
+DOMAIN,prod-broker.sgameglobal.com,REJECT
 
+DOMAIN,mna.sgameglobal.com,REJECT
+IP-CIDR,43.153.233.187/32,REJECT
 
-
+#语音
+DOMAIN,sg.voice.gcloudcs.com,DIRECT
+IP-CIDR,43.128.84.143/32,DIRECT
+IP-CIDR,43.156.40.86/32,DIRECT
+IP-CIDR,43.156.153.84/32,DIRECT
+IP-CIDR,43.156.160.35/32,DIRECT
+IP-CIDR,43.159.58.115/32,DIRECT
+IP-CIDR,101.32.162.200/32,DIRECT
+IP-CIDR,150.109.7.124/32,DIRECT
+IP-CIDR,150.109.21.201/32,DIRECT
 
 
 DOMAIN-SUFFIX,iegcom.com,PROXY
@@ -151,13 +169,22 @@ DOMAIN-SUFFIX,iegcom.com,PROXY
 #DOMAIN-SUFFIX,sgameglobal.com,PROXY
 
 #DOMAIN-KEYWORD,sgameglobal.com,PROXY
-DOMAIN-KEYWORD,HOK.com,PROXY
+#DOMAIN-KEYWORD,HOK.com,PROXY
 
 #上海服&巴西服ip段？
 #IP-CIDR,183.192.65.101/16,PROXY,no-resolve
 #IP-CIDR,43.132.55.55/16,PROXY,no-resolve
 
+
 [MITM]
 hostname = 
 
 [Script]
+
+
+
+
+
+
+
+
