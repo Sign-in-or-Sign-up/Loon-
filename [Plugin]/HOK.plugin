@@ -127,7 +127,7 @@ AND,((IP-CIDR,96.163.0.0/16,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
 AND,((IP-CIDR,96.227.0.0/16,no-resolve),(DEST-PORT,5008),(PROTOCOL,UDP)),REJECT
 
 URL-REGEX,"^https:\/\/hok\.intlgame\.com\/v2\/conf\/get_conf\?channelid=",DIRECT
-URL-REGEX,"^https:\/\/hok\.intlgame\.com\/v2\/auth\/auto_login\?channelid=",REJECT//拦截了还能自动登陆不？
+URL-REGEX,"^https:\/\/hok\.intlgame\.com\/v2\/auth\/auto_login\?channelid=",DIRECT//拦截了还能自动登陆不？
 URL-REGEX,"^https:\/\/hok\.intlgame\.com\/v2\/auth\/login\?channelid=",DIRECT
 URL-REGEX,"^https:\/\/hok\.intlgame\.com\/v2\/minorcer\/get_status\?channelid=",DIRECT//第一次登陆放行后可进入大厅，后续可拦截吧
 URL-REGEX,"^https:\/\/hok\.intlgame\.com\/v2\/auth\/check_common_device\?channelid=",REJECT
