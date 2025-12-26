@@ -1043,7 +1043,9 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RogueMobaMode\/\d{3}\.1\/Art\/ios\/zzp1_FX_UI_OmgShopChoose\.unity3d$",DIRECT//四位一体
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RogueMobaMode\/\d{3}\.1\/Art\/ios\/zzp2_FX_UI_MatchRoom_RM\.unity3d$",DIRECT//四位一体
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RogueMobaMode\/\d{3}\.1\/Document\/ios\/AddLanguageCNSimplified_RM\.unity3d$",DIRECT//四位一体
-URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RogueMobaMode\/\d{3}\.1\/Document\/ios\/AddLanguage.*?_RM\.unity3d$",DIRECT//四位一体
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RogueMobaMode\/\d{3}\.1\/Document\/ios\/AddLanguageNEWHindi_RM\.unity3d$",DIRECT//四位一体
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RogueMobaMode\/\d{3}\.1\/Document\/ios\/AllLanguageArabic_RM\.unity3d$",DIRECT//四位一体
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RogueMobaMode\/\d{3}\.1\/Document\/ios\/AllLanguage.*?_RM\.unity3d$",DIRECT//四位一体
 
 #URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/.*?\.(bytes|ini)$",DIRECT
 
