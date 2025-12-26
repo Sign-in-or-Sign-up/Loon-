@@ -1079,7 +1079,34 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RogueMobaMode\/\d{3}\.1\/Document\/ios\/AllLanguageVietnamese_RM\.unity3d$",DIRECT//四位一体
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RogueMobaMode\/\d{3}\.1\/Document\/ios\/AllLanguageZHCN_RM\.unity3d$",DIRECT//四位一体
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RogueMobaMode\/\d{3}\.1\/Document\/ios\/CommonText_RogueMobaModeExtra\.unity3d$",DIRECT//四位一体
-URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RogueMobaMode\/\d{3}\.1\/Document\/ios\/.*?\.unity3d$",DIRECT//四位一体
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RogueMobaMode\/\d{3}\.1\/Document\/ios\/NumDescribition_RM\.unity3d$",DIRECT//四位一体
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RogueMobaMode\/\d{3}\.1\/Document\/ios\/Omg3Plus1BattleConfig\.unity3d$",DIRECT//四位一体
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RogueMobaMode\/\d{3}\.1\/Document\/ios\/Omg3Plus1CustomJson\.unity3d$",DIRECT//四位一体
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RogueMobaMode\/\d{3}\.1\/Document\/ios\/OmgAdditionTrigger\.unity3d$",DIRECT//四位一体
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RogueMobaMode\/\d{3}\.1\/Document\/ios\/OmgAnimationModify\.unity3d$",DIRECT//四位一体
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RogueMobaMode\/\d{3}\.1\/Document\/ios\/OmgBattleConfig\.unity3d$",DIRECT//四位一体
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RogueMobaMode\/\d{3}\.1\/Document\/ios\/OmgBindPointModify\.unity3d$",DIRECT//四位一体
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RogueMobaMode\/\d{3}\.1\/Document\/ios\/OmgBulletBindPointModify\.unity3d$",DIRECT//四位一体
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RogueMobaMode\/\d{3}\.1\/Document\/ios\/OmgSkillAnimationHeroConnect\.unity3d$",DIRECT//四位一体
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RogueMobaMode\/\d{3}\.1\/Document\/ios\/OmgSkillHeroConnect\.unity3d$",DIRECT//四位一体
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RogueMobaMode\/\d{3}\.1\/Document\/ios\/OmgSkillPositionConnect\.unity3d$",DIRECT//四位一体
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RogueMobaMode\/\d{3}\.1\/Document\/ios\/OmgSkillRecommend_RM\.unity3d$",DIRECT//四位一体
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RogueMobaMode\/\d{3}\.1\/Document\/ios\/OmgSkill_RM\.unity3d$",DIRECT//四位一体
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RogueMobaMode\/\d{3}\.1\/Document\/ios\/OmgSkinHeroConnect\.unity3d$",DIRECT//四位一体
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RogueMobaMode\/\d{3}\.1\/Document\/ios\/RogueMobaBattleConfig\.unity3d$",DIRECT//四位一体
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RogueMobaMode\/\d{3}\.1\/Document\/ios\/RogueMobaBattleConfig_bytes\.unity3d$",DIRECT//四位一体
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RogueMobaMode\/\d{3}\.1\/Document\/ios\/RogueMobaGuideConfig\.unity3d$",DIRECT//四位一体
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RogueMobaMode\/\d{3}\.1\/Document\/ios\/RogueMobaJsonConfig\.unity3d$",DIRECT//四位一体
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RogueMobaMode\/\d{3}\.1\/Document\/ios\/RogueMobaModeExtra\.unity3d$",DIRECT//四位一体
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RogueMobaMode\/\d{3}\.1\/Document\/ios\/RogueMobaModifyCSV\.unity3d$",DIRECT//四位一体
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RogueMobaMode\/\d{3}\.1\/Document\/ios\/RogueSkillGroup_RM\.unity3d$",DIRECT//四位一体
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RogueMobaMode\/\d{3}\.1\/Document\/ios\/RogueSkill_RM\.unity3d$",DIRECT//四位一体
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RogueMobaMode\/\d{3}\.1\/Document\/ios\/RogueSort_RM\.unity3d$",DIRECT//四位一体
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RogueMobaMode\/\d{3}\.1\/Document\/ios\/RogueTag_RM\.unity3d$",DIRECT//四位一体
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RogueMobaMode\/\d{3}\.1\/Document\/ios\/UILanguage_RM\.unity3d$",DIRECT//四位一体
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RogueMobaMode\/\d{3}\.1\/Document\/ios\/UILanguage_RogueMobaMode\.unity3d$",DIRECT//四位一体
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RogueMobaMode\/\d{3}\.1\/UI\/ios\/.*?\.unity3d$",DIRECT//四位一体
+
 
 #URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/.*?\.(bytes|ini)$",DIRECT
 
