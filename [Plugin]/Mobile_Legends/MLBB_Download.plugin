@@ -1031,8 +1031,8 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RoguelikeMode\/\d{2}\.1\/AStarPath\/PVP_005_2025\.bytes$",DIRECT//乱序争锋
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RoguelikeMode\/\d{2}\.1\/AStarPath\/PVP_2002_2025\.bytes$",DIRECT//乱序争锋
 
-URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RoguelikeMode\/\d{3}\.1\/Art\/ios\/FX_UI_CloseHint\.unity3d$",DIRECT//四位一体
-URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RoguelikeMode\/\d{3}\.1\/Art\/ios\/.*?\.unity3d$",DIRECT//四位一体
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RogueMobaMode\/\d{3}\.1\/Art\/ios\/FX_UI_CloseHint\.unity3d$",DIRECT//四位一体
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RogueMobaMode\/\d{3}\.1\/Art\/ios\/.*?\.unity3d$",DIRECT//四位一体
 
 
 #URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/.*?\.(bytes|ini)$",DIRECT
