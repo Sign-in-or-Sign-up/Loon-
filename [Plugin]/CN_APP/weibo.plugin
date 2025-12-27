@@ -17,9 +17,9 @@ hostname =
 URL-REGEX,"^https:\/\/api\.weibo\.cn\/2\/friendships\/create$",DIRECT//关注账号
 URL-REGEX,"^https:\/\/api\.weibo\.cn\/2\/groups\/members_add$",DIRECT//关注账号添加至分组
 URL-REGEX,"^https:\/\/api\.weibo\.cn\/2\/friendships\/destroy$",DIRECT//取消关注账号
-URL-REGEX,"^https:\/\/api\.weibo\.cn\/2\/comments\/create$",PROXY//创建评论
+URL-REGEX,"^https:\/\/api\.weibo\.cn\/2\/comments\/create$",PROXY//创建评论(并转发)
 URL-REGEX,"^https:\/\/api\.weibo\.cn\/2\/comments\/destroy$",DIRECT//删除评论
-URL-REGEX,"^https:\/\/api\.weibo\.cn\/2\/comments\/reply$",PROXY//创建楼中楼评论
+URL-REGEX,"^https:\/\/api\.weibo\.cn\/2\/comments\/reply$",PROXY//创建楼中楼评论(并转发）
 URL-REGEX,"^https:\/\/api\.weibo\.cn\/2\/friendships\/destroy$",DIRECT//取消关注
 URL-REGEX,"^https:\/\/api\.weibo\.cn\/2\/video\/tiny_stream_video_list\?aid=",REJECT//拦截短视频瀑布流列表？
 URL-REGEX,"^https:\/\/api\.weibo\.cn\/2\/remind\/unread_count\?aid=",REJECT//拦截最新未读微博列表？未读消息刷新？
@@ -28,6 +28,9 @@ URL-REGEX,"^https:\/\/api\.weibo\.cn\/2\/statuses\/mentions\?aid=",DIRECT//消�
 URL-REGEX,"^https:\/\/api\.weibo\.cn\/2\/comments\/to_me\?aid=",DIRECT//消息-评论-收到的评论&关注人的
 URL-REGEX,"^https:\/\/api\.weibo\.cn\/2\/comments\/by_me\?aid=",DIRECT//消息-评论-发出的评论
 URL-REGEX,"^https:\/\/api\.weibo\.cn\/2\/like\/to_me\?aid=",DIRECT//收到的赞
+
+URL-REGEX,"^https:\/\/api\.weibo\.cn\/2\/statuses\/repost?aid=",PROXY//转发微博
+URL-REGEX,"^https:\/\/api\.weibo\.cn\/2\/statuses\/statuses/hot_repost_timeline?_status_id=",DIRECT//热门转发
 
 URL-REGEX,"^https:\/\/api\.weibo\.cn\/2\/statuses\/container_timeline_hot\?uicode=10000495&v_f=1&v_p=91$",REJECT-DICT-NO-DROP//推荐-热门
 
