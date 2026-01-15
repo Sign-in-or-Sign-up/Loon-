@@ -11,6 +11,7 @@
 
 [Rule]
 #登陆域名
+DOMAIN,global-login.ml.youngjoygame.com,PROXY
 DOMAIN,login.ml.youngjoygame.com,PROXY
 DOMAIN,newlogin.ml.mlbangbang.com,PROXY
 DOMAIN,newlogin.ml.youngjoygame.com,PROXY
