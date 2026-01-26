@@ -76,6 +76,7 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/LoadResMultiCombineDetailSplit_astc\.unity3d$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/LoadResMultiCombineDetailSplit_etc\.unity3d$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/LoadResModule\.unity3d$",DIRECT//检查资源更新
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/LoadResSplit_new_xxh\.unity3d$",DIRECT//检查资源更新
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/LoadResSplit_new_xxh\.unity3d\.zip$",DIRECT//检查资源更新
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/LoadResZipInfo_etc\.unity3d$",DIRECT//检查资源更新
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/LoadResZipInfo_etc\.unity3d\.zip$",DIRECT//检查资源更新
@@ -189,11 +190,14 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/UI\/ios\/Atlas_ActivityGrowthPlan(Bg|CI)_add\.unity3d$",DIRECT//活跃成长计划C
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/UI\/ios\/Atlas_HQHeroAtlas\d{3}_add\.unity3d$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/UI\/ios\/DynamicHeroCardSpine_101713_temp_add\.unity3d$",DIRECT//
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/UI\/ios\/DynamicHeroCardSpine_101713_add\.unity3d$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/UI\/ios\/UI_Activity_25ALLSTARHotCalendar_Super_add\.unity3d$",DIRECT//2025全明星日程超级
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/UI\/ios\/UI_Activity_25ALLSTARHotCalendar_Window_add\.unity3d$",DIRECT//2025全明星日程窗口
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/UI\/ios\/Ul_Activity_ChestFresh_DrawResult2_26zhaiyue_add\.unity3d$",DIRECT//斋月?翱月?
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/UI\/ios\/UI_RenewRech2025_new\.unity3d$",DIRECT//2025RE活动？
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/UI\/ios\/UI_Season_Achievement_Main\.unity3d$",DIRECT//赛季成就主活动
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/UI\/ios\/UI_SNK_Re_Draw_add\.unity3d$",DIRECT//SNK活动抽奖？
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/UI\/ios\/Ul_TeamCharge_DrawResult_addq\.unity3d$",DIRECT//组队充值
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/UI\/ios\/Atlas_.*?\.unity3d$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/UI\/ios\/FX_UI.*?\.unity3d$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/UI\/ios\/HERO.*?_add\.unity3d$",DIRECT//
