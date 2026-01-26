@@ -27,7 +27,7 @@ URL-REGEX,"^https:\/\/akmstatic\.ml\.youngjoygame\.com\/LaylaWorkshop\/202\d{1}[
 URL-REGEX,"^https:\/\/akmstatic\.ml\.youngjoygame\.com\/MedalCG\/Medal_[1-9]\.mp4$",DIRECT
 
 DOMAIN,akmstatic.ml.youngjoygame.com,REJECT
-AND,((USER-AGENT,"legends*"),(DOMAIN,akmstatic.ml.mproject.skystone.games)),REJECT-IMG
+AND,((USER-AGENT,"legends*"),(DOMAIN,akmstatic.ml.mproject.skystone.games)),REJECT
 #DOMAIN,akmstatic.ml.mproject.skystone.games,REJECT
 DOMAIN,hsstatic.jsdf.moontonapp.com,REJECT-DROP
 
