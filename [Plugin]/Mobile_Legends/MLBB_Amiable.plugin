@@ -11,6 +11,21 @@
 
 [Rule]
 
+#3857#Jaxon
+URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3857\/67\/95\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+
+#8145#ʜᴢ.
+URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/8145\/31\/66\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+
+#8421#Rainmaker
+URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/8421\/44\/13\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+
+#10018#女神姊姊
+URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/10018\/15\/66\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+
+#159134#rafeala
+URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/159134\/80\/56\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+
 [MITM]
 hostname = akmpicture.youngjoygame.com
 
