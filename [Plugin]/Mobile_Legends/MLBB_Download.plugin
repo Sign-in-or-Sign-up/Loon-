@@ -27,7 +27,8 @@ URL-REGEX,"^https:\/\/akmstatic\.ml\.youngjoygame\.com\/LaylaWorkshop\/202\d{1}[
 URL-REGEX,"^https:\/\/akmstatic\.ml\.youngjoygame\.com\/MedalCG\/Medal_[1-9]\.mp4$",DIRECT
 
 DOMAIN,akmstatic.ml.youngjoygame.com,REJECT
-DOMAIN,akmstatic.ml.mproject.skystone.games,REJECT
+AND,((USER-AGENT,"legends*"),(DOMAIN,akmstatic.ml.mproject.skystone.games)),REJECT-IMG
+#DOMAIN,akmstatic.ml.mproject.skystone.games,REJECT
 DOMAIN,hsstatic.jsdf.moontonapp.com,REJECT-DROP
 
 #语言字符
@@ -40,6 +41,7 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/A(dd|ll)LanguageCNTraditional\.unity3d$",DIRECT//繁中资源
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/A(dd|ll)LanguageCzech\.unity3d$",DIRECT//捷克语资源
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/A(dd|ll)LanguageDutch\.unity3d$",DIRECT//荷兰语资源
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/A(dd|ll)LanguageEN\.unity3d$",DIRECT//英语资源
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/A(dd|ll)LanguageGerman\.unity3d$",DIRECT//德语资源
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/A(dd|ll)LanguageIndonesian\.unity3d$",DIRECT//印尼语资源
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/A(dd|ll)LanguageItalian\.unity3d$",DIRECT//意大利语资源
