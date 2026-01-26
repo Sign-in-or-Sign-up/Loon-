@@ -80,7 +80,7 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/lan\/id\/Audio\/ios\/tutorial\.2021\.bnk$",DIRECT//印尼语资源
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/lan\/ja\/Audio\/ios\/tutorial\.2021\.bnk$",DIRECT//日本语资源
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/lan\/th\/Audio\/ios\/tutorial\.2021\.bnk$",DIRECT//泰语资源
-URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/TextAsset\/ios\/\d{2,e}_\d{4,5}SkillRecord_add\.unity3d$",DIRECT//文字资源？
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/TextAsset\/ios\/\d{2,3}_\d{4,5}SkillRecord_add\.unity3d$",DIRECT//文字资源？
 
 #新版本app下载预更新核对
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_predownload\/PredownloadActivity_\d{4}\.1-\d{4}\.1_etc\.bytes$",DIRECT//预更新
