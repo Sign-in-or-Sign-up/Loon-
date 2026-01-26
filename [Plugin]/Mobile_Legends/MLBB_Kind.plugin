@@ -1,0 +1,17 @@
+#!name = Mobile Legends 友好头像
+#!desc = 放行部份友好的正常玩家头像
+#!openUrl = https://apps.apple.com/app/id1160056295
+#!author = Sign-in-or-sign-out
+#!homepage = 
+#!icon = 
+#!select = 
+#!input = 
+#!tag = 无尽对决
+#!date = 2026-01-26 19:00:00
+
+[Rule]
+
+[MITM]
+hostname = akmpicture.youngjoygame.com
+
+[Rewrite]
