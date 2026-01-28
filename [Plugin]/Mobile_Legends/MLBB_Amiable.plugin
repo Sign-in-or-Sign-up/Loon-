@@ -23,11 +23,17 @@ URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3226\/39\/90\/\
 #3227#甘寧餛飩湯
 URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3227\/19\/67\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
+#3332#Aiden
+URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3332\/67\/95\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+
 #3857#Jaxon
 URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3857\/67\/95\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #5212#隔壁克里斯
 URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/5212\/40\/18\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+
+#5213#隔壁花花
+URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/5213\/72\/86\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #5278#M级狗狗
 URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/5278\/21\/4\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
