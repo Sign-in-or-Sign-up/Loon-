@@ -96,6 +96,7 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_predownload\/P
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_predownload\/PredownloadActivity_\d{4}\.\d{1}-\d{4}\.\d{1}_etc\.bytes$",DIRECT//预更新
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_predownload\/PredownloadCombine_\d{4}\.\d{1}-\d{4}\.\d{1}_etc\.bytes$",DIRECT//预更新
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_predownload\/LoadResModuleStartProgress_\d{4}\.\d{1}--\d{4}\.\d{1}_etc\.bytes$",DIRECT//预更新
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_patch5\/\d{4}\.\d{1}--\d{4}\.\d{1}armv7\.nodiff\.2019\.sl\.zip\?1",DIRECT//大版本更新
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_patch5\/\d{4}\.\d{1}--\d{4}\.\d{1}armv7\.nodiff\.2019\.zip\?1",DIRECT//大版本更新
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Art\/ios\/ShaderVariants_add\.unity3d$",DIRECT//半藏新分身？
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Art\/ios\/hero_badninja_skin_high_add\.unity3d$",DIRECT//半藏?
