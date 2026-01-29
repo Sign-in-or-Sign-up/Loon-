@@ -1,0 +1,39 @@
+#!name = Mobile Legends Asia/E🇷🇺新西伯利亚
+#!desc = MLBB东亚俄罗斯边缘中心新西伯利亚机房手动选择节点/禁入。用法说明：在游戏设置内（如点击大厅右上角，或对局内小地图旁的齿轮状⚙️图标，在“网络设置”一栏，第二行的“网络加速设置”栏目内的“网络加速”切换到关闭状态。
+#!openUrl = https://apps.apple.com/app/id1160056295
+#!author = Sign-in-or-sign-out
+#!homepage = 
+#!icon = 
+#!select = 
+#!input = 
+#!tag = 无尽对决东亚
+#!date = 2026-01-29 19:00:00
+
+[Rule]
+#IP登入检测:0
+
+#UDP30190PORT:4
+#RU俄罗斯新西伯利亚边缘中心
+AND,((IP-CIDR,146.185.199.27/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
+AND,((IP-CIDR,146.185.199.96/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
+AND,((IP-CIDR,146.185.199.98/32),(DEST-PORT,30190)),REJECT-DROP
+AND,((IP-CIDR,146.185.199.99/32),(DEST-PORT,30190)),REJECT-DROP
+
+#东亚俄罗斯边缘中心新西伯利亚机房
+#146.185.199.0/24
+AND,((IP-CIDR,146.185.199.0/24,no-resolve),(OR,((DEST-PORT,5001-5030),(DEST-PORT,5501-5530))),(PROTOCOL,UDP)),REJECT
+IP-CIDR,146.185.199.88/32,PROXY
+IP-CIDR,146.185.199.89/32,PROXY
+
+IP-CIDR,146.185.199.90/32,PROXY
+IP-CIDR,146.185.199.91/32,PROXY
+IP-CIDR,146.185.199.95/32,PROXY
+IP-CIDR,146.185.199.98/32,PROXY
+IP-CIDR,146.185.199.99/32,PROXY
+AND,((IP-CIDR,146.185.199.0/24,no-resolve),(OR,((DEST-PORT,5001-5030),(DEST-PORT,5501-5530))),(PROTOCOL,TCP)),PROXY
+
+[MITM]
+hostname = 
+
+[Script]
+
