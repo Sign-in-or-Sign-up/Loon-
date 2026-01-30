@@ -7,13 +7,14 @@
 #!select = 
 #!input = 
 #!tag = 无尽对决北美
-#!date = 2024-11-02 19:00:00
+#!date = 2026-01-30 15:00:00
 
 [Rule]
 #IP登入检测:0
 #UDP30190PORT:1
 #US，美国伊利诺伊州芝加哥Zenlayer
-AND,((IP-CIDR,98.98.97.86/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
+AND,((IP-CIDR,98.98.97.86/32),(DEST-PORT,30190)),REJECT
+
 #北美美国Zenlayer伊利诺伊州芝加哥机房
 #98.98.97.0/24
 IP-CIDR,98.98.97.78/32,PROXY
