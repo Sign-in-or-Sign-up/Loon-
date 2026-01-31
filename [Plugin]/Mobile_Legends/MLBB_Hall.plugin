@@ -35,7 +35,7 @@ AND,((IP-CIDR,162.133.97.123/32),(DEST-PORT,30106)),PROXY
 #14419🇸🇬
 AND,((IP-CIDR,161.202.207.161/32),(DEST-PORT,30103)),PROXY
 
-#兜底，四位数服务器，开头1巴西，2未知，3未知，4荷兰，5美国，6未知，7日本，8新加坡，9未知，10+新加坡。
+#兜底，四位数服务器，开头1巴西，2新加坡，3未知，4荷兰，5美国，6未知，7日本，8新加坡，9未知，10+新加坡。
 AND,((GEOIP,BR,no-resolve),(DEST-PORT,30101-30107),(IP-ASN,36351,no-resolve),(PROTOCOL,TCP)),PROXY
 AND,((GEOIP,NL,no-resolve),(DEST-PORT,30101-30107),(IP-ASN,36351,no-resolve),(PROTOCOL,TCP)),PROXY
 AND,((GEOIP,US,no-resolve),(DEST-PORT,30101-30107),(IP-ASN,36351,no-resolve),(PROTOCOL,TCP)),PROXY
