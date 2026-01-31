@@ -17,11 +17,20 @@ URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3005\/83\/5\/\d
 #3083#ŸӪʚ癸燈夜行ɞ
 URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3083\/19\/83\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
+#3115#寂靜黑羽
+URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3115\/91\/91\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+
 #3226#凜兒
 URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3226\/39\/90\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #3227#甘寧餛飩湯
 URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3227\/19\/67\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+
+#3228#5th Yonko
+URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3228\/58\/71\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+
+#3233#舞舞
+URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3233\/18\/81\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #3332#Aiden
 URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3332\/67\/95\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
@@ -64,6 +73,9 @@ URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/10238\/63\/10\/
 
 #10731#甘寧蛋花湯
 URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/10731\/49\/29\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+
+#10756#☆皮皮剉☆
+URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/10756\/68\/18\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #12040#拿来吧你
 URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/12040\/58\/38\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
