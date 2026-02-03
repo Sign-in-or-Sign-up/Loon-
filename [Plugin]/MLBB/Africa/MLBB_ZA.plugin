@@ -7,13 +7,14 @@
 #!select = 
 #!input = 
 #!tag = 无尽对决非洲
-#!date = 2024-11-02 19:00:00
+#!date = 2026-02-03 09:00:00
 
 [Rule]
 #IP登入检测:0
 #UDP30190PORT
 #ZA，南非豪登省约翰内斯堡Zenlayer
-AND,((IP-CIDR,23.248.183.50/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
+AND,((IP-CIDR,23.248.183.50/32),(DEST-PORT,30190)),REJECT
+
 #非洲南非Zenlayer豪登省约翰内斯堡机房
 #23.248.183.0/24
 IP-CIDR,23.248.183.50/32,PROXY
