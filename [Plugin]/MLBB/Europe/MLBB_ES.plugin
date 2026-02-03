@@ -7,13 +7,14 @@
 #!select = 
 #!input = 
 #!tag = 无尽对决欧洲
-#!date = 2024-11-02 19:00:00
+#!date = 2026-02-03 09:00:00
 
 [Rule]
 #IP登入检测:0
 #UDP30190PORT:1
 #ES，西班牙马德里Zenlayer
-AND,((IP-CIDR,23.90.188.162/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
+AND,((IP-CIDR,23.90.188.162/32),(DEST-PORT,30190)),REJECT
+
 #欧洲西班牙Zenlayer马德里机房
 #23.90.188.0/24
 IP-CIDR,23.90.188.34/32,PROXY
