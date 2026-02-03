@@ -7,13 +7,14 @@
 #!select = 
 #!input = 
 #!tag = 无尽对决非洲
-#!date = 2024-11-02 19:00:00
+#!date = 2026-02-03 09:00:00
 
 [Rule]
 #IP登入检测:0
 #UDP30190PORT:1
 #NG，尼日利亚拉各斯Zenlayer
-AND,((IP-CIDR,104.166.144.122/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
+AND,((IP-CIDR,104.166.144.122/32),(DEST-PORT,30190)),REJECT
+
 #非洲尼日利亚Zenlayer拉各斯机房
 #104.166.144.0/24
 IP-CIDR,104.166.144.122/32,PROXY
