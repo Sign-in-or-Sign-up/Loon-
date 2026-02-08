@@ -60,6 +60,10 @@ hostname = akmpicture.youngjoygame.com
 #~Puppet~，菜
 ^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/5272\/65\/89\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
+#3819
+#打我呀笨蛋//🐸
+^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3819\/89\/2\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+
 #3603
 #浩霸贏贏//嘴臭
 ^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3603\/81\/10\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
