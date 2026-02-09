@@ -1155,6 +1155,16 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RogueMobaMode\/\d{3}\.1\/UI\/ios\/RogueMobaModeuiatlas\.ini$",DIRECT//四位一体
 
 
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/OverDriveHeroMode\/\d{3}\.1\/Art\/ios\/blue_ta_habo_zuqiu_add\.unity3d$",DIRECT//超载模式
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/OverDriveHeroMode\/\d{3}\.1\/Art\/ios\/blue_ta_habo_zuqiu_high_add\.unity3d$",DIRECT//超载模式
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/OverDriveHeroMode\/\d{3}\.1\/Art\/ios\/blue_ta_habo_zuqiu_low\.unity3d$",DIRECT//超载模式
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/OverDriveHeroMode\/\d{3}\.1\/Art\/ios\/FX_ODH_Soccer\.unity3d$",DIRECT//超载模式
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/OverDriveHeroMode\/\d{3}\.1\/Art\/ios\/red_ta_habo_zuqiu_add\.unity3d$",DIRECT//超载模式
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/OverDriveHeroMode\/\d{3}\.1\/Art\/ios\/red_ta_habo_zuqiu_high_add\.unity3d$",DIRECT//超载模式
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/OverDriveHeroMode\/\d{3}\.1\/Art\/ios\/red_ta_habo_zuqiu_low\.unity3d$",DIRECT//超载模式
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/OverDriveHeroMode\/\d{3}\.1\/Art\/ios\/UI_shandian_ODH\.unity3d$",DIRECT//超载模式
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/OverDriveHeroMode\/\d{3}\.1\/Art\/ios\/zzp1_UI_shandian_ODH\.unity3d$",DIRECT//超载模式
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/OverDriveHeroMode\/\d{3}\.1\/Art\/ios\/zzp2_FX_ODH_Soccer\.unity3d$",DIRECT//超载模式
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/OverDriveHeroMode\/\d{3}\.1\/Document\/ios\/ModeSpecialBattleSkill_OverDriveHeroModeExtra\.unity3d$",DIRECT//超载模式
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/OverDriveHeroMode\/\d{3}\.1\/Document\/ios\/Monster_OverDriveHeroModeExtra\.unity3d$",DIRECT//超载模式
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/OverDriveHeroMode\/\d{3}\.1\/Document\/ios\/OptimizePreCache_OverDriveHeroMode\.unity3d$",DIRECT//超载模式
@@ -1163,7 +1173,7 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/OverDriveHeroMode\/\d{3}\.1\/Document\/ios\/OverDriveHeroGuideConfig\.unity3d$",DIRECT//超载模式
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/OverDriveHeroMode\/\d{3}\.1\/Document\/ios\/OverDriveHeroModeExtra\.unity3d$",DIRECT//超载模式
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/OverDriveHeroMode\/\d{3}\.1\/Document\/ios\/PropertyAlternative_OverDriveHeroMode\.unity3d$",DIRECT//超载模式
-URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/OverDriveHeroMode\/\d{3}\.1\/Art\/ios\/.*?\.unity3d$",DIRECT//超载模式
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/OverDriveHeroMode\/\d{3}\.1\/Scenes\/ios\/.*?\.unity3d$",DIRECT//超载模式
 
 #URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/.*?\.(bytes|ini)$",DIRECT
 
