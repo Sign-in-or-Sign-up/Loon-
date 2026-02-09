@@ -1154,6 +1154,12 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RogueMobaMode\/\d{3}\.1\/UI\/ios\/UI_RogueSkillInfo_RM\.unity3d$",DIRECT//四位一体
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RogueMobaMode\/\d{3}\.1\/UI\/ios\/RogueMobaModeuiatlas\.ini$",DIRECT//四位一体
 
+
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/OverDriveHeroMode\/\d{3}\.1\/Document\/ios\/.*?\.unity3d$",DIRECT//超载模式
+
+
+
+
 #URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/.*?\.(bytes|ini)$",DIRECT
 
 #国内版
