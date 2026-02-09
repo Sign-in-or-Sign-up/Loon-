@@ -1155,10 +1155,15 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RogueMobaMode\/\d{3}\.1\/UI\/ios\/RogueMobaModeuiatlas\.ini$",DIRECT//四位一体
 
 
-URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/OverDriveHeroMode\/\d{3}\.1\/Document\/ios\/.*?\.unity3d$",DIRECT//超载模式
-
-
-
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/OverDriveHeroMode\/\d{3}\.1\/Document\/ios\/ModeSpecialBattleSkill_OverDriveHeroModeExtra\.unity3d$",DIRECT//超载模式
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/OverDriveHeroMode\/\d{3}\.1\/Document\/ios\/Monster_OverDriveHeroModeExtra\.unity3d$",DIRECT//超载模式
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/OverDriveHeroMode\/\d{3}\.1\/Document\/ios\/OptimizePreCache_OverDriveHeroMode\.unity3d$",DIRECT//超载模式
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/OverDriveHeroMode\/\d{3}\.1\/Document\/ios\/OverDriveHeroBattleConfig\.unity3d$",DIRECT//超载模式
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/OverDriveHeroMode\/\d{3}\.1\/Document\/ios\/OverDriveHeroBattleConfig_bytes\.unity3d$",DIRECT//超载模式
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/OverDriveHeroMode\/\d{3}\.1\/Document\/ios\/OverDriveHeroGuideConfig\.unity3d$",DIRECT//超载模式
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/OverDriveHeroMode\/\d{3}\.1\/Document\/ios\/OverDriveHeroModeExtra\.unity3d$",DIRECT//超载模式
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/OverDriveHeroMode\/\d{3}\.1\/Document\/ios\/PropertyAlternative_OverDriveHeroMode\.unity3d$",DIRECT//超载模式
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/OverDriveHeroMode\/\d{3}\.1\/Art\/ios\/.*?\.unity3d$",DIRECT//超载模式
 
 #URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/.*?\.(bytes|ini)$",DIRECT
 
