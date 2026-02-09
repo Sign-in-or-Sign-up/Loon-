@@ -52,6 +52,10 @@ hostname = akmpicture.youngjoygame.com
 #小翁退熱貼//挂机狗
 ^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/11177\/51\/26\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
+#10279
+#打我呀笨蛋//🐸
+^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/10279\/3\/94\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+
 #10018
 #郭董//傻逼
 ^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/10018\/34\/26\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
