@@ -7,13 +7,13 @@
 #!select = 
 #!input = 
 #!tag = 无尽对决中亚
-#!date = 2024-11-02 19:00:00
+#!date = 2026-02-11 22:00:00
 
 [Rule]
 #IP登入检测:0
 #UDP30190PORT:1
 #KZ，哈萨克斯坦阿拉木图G-Core
-AND,((IP-CIDR,5.189.202.58/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT
+AND,((IP-CIDR,5.189.202.58/32),(DEST-PORT,30190)),REJECT
 
 #中亚哈萨克斯坦G-Core阿拉木图机房
 #5.189.202.0/24
