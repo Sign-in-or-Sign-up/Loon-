@@ -7,14 +7,14 @@
 #!select = 
 #!input = 
 #!tag = 无尽对决欧洲
-#!date = 2024-11-02 19:00:00
+#!date = 2026-02-11 22:00:00
 
 [Rule]
 #IP登入检测:0
 
 #UDP30190PORT:1
 #NL，荷兰阿姆斯特丹Zenlayer
-AND,((IP-CIDR,104.166.188.242/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT
+AND,((IP-CIDR,104.166.188.242/32),(DEST-PORT,30190)),REJECT
 
 #欧洲荷兰Zenlayer北荷兰省阿姆斯特丹机房
 #104.166.188.0/24
