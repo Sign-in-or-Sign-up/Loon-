@@ -14,11 +14,20 @@
 #3005#葦
 URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3005\/83\/5\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
+#3010#甘寜排骨湯
+URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3010\/4\/50\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+
 #3083#ŸӪʚ癸燈夜行ɞ
 URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3083\/19\/83\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #3115#寂靜黑羽
 URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3115\/91\/91\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+
+#3171#雀躍の打工仔
+URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3171\/13\/14\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+
+#3187#じ☆ve 米比比
+URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3187\/40\/73\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #3226#凜兒
 URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3226\/39\/90\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
@@ -49,6 +58,9 @@ URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/5278\/21\/4\/\d
 
 #6307#reŋeƙơ.
 URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/6307\/47\/5\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+
+#6368#Haikyu!!
+URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/6368\/15\/98\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #8145#ʜᴢ.
 URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/8145\/31\/66\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
