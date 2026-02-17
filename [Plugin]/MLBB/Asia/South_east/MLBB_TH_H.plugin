@@ -1,0 +1,30 @@
+#!name = Mobile Legends Asia/Se🇹🇭H
+#!desc = MLBB东南亚泰国华为云曼谷机房手动选择节点/禁入。用法说明：在游戏设置内（如点击大厅右上角，或对局内小地图旁的齿轮状⚙️图标，在“网络设置”一栏，第二行的“网络加速设置”栏目内的“网络加速”切换到关闭状态。
+#!openUrl = https://apps.apple.com/app/id1160056295
+#!author = Sign-in-or-sign-out
+#!homepage = 
+#!icon = 
+#!select = 
+#!input = 
+#!tag = 无尽对决东南亚
+#!date = 2026-02-17 02:42:00
+
+[Rule]
+#IP登入检测:0
+
+#UDP30190PORT:0
+
+#东南亚泰国华为云曼谷机房
+#94.74.112.0/24
+IP-CIDR,94.74.112.61/32,PROXY
+AND,((IP-CIDR,94.74.112.0/24,no-resolve),(OR,((DEST-PORT,5001-5030),(DEST-PORT,5501-5530))),(PROTOCOL,TCP)),PROXY
+
+#159.138.237.0/24
+IP-CIDR,159.138.237.44/32,PROXY
+IP-CIDR,159.138.237.237/32,PROXY
+AND,((IP-CIDR,159.138.237.0/24,no-resolve),(OR,((DEST-PORT,5001-5030),(DEST-PORT,5501-5530))),(PROTOCOL,TCP)),PROXY
+
+[MITM]
+hostname = 
+
+[Script]
