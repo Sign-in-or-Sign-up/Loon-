@@ -1,5 +1,5 @@
-#!name = Mobile Legends Asia/E🇨🇳北京T
-#!desc = MLBB中国电信北京机房手动选择节点/禁入。
+#!name = Mobile Legends Asia/E🇨🇳上海T
+#!desc = MLBB中国电信上海机房手动选择节点/禁入。
 #!openUrl = https://apps.apple.com/app/id1671108959
 #!author = Sign-in-or-sign-out
 #!homepage = 
@@ -12,7 +12,7 @@
 [Rule]
 
 #UDP30190PORT:12
-#CN，中国北京电信
+#CN，中国上海电信
 AND,((IP-CIDR,14.103.39.89/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
 AND,((IP-CIDR,14.103.39.103/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
 AND,((IP-CIDR,14.103.39.106/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
@@ -31,7 +31,7 @@ AND,((IP-CIDR,14.103.143.160/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
 AND,((IP-CIDR,14.103.169.166/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
 AND,((IP-CIDR,14.103.173.59/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
 
-#东亚中国服北京电信机房
+#东亚中国服上海机房
 
 #14.103.19.0/24
 AND,((IP-CIDR,14.103.19.30/32,no-resolve),(OR,((DEST-PORT,14001-14008),(DEST-PORT,14501-14508))),(OR,((PROTOCOL,TCP),(PROTOCOL,UDP)))),PROXY
