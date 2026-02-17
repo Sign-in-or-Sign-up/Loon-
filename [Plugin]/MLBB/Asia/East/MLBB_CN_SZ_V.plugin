@@ -1,5 +1,5 @@
-#!name = Mobile Legends Asia/E🇨🇳北京V
-#!desc = MLBB中国火山引擎北京机房手动选择节点/禁入。
+#!name = Mobile Legends Asia/E🇨🇳深圳V
+#!desc = MLBB中国火山引擎深圳机房手动选择节点/禁入。
 #!openUrl = https://apps.apple.com/app/id1671108959
 #!author = Sign-in-or-sign-out
 #!homepage = 
@@ -12,7 +12,7 @@
 [Rule]
 
 #UDP30190PORT:5
-#CN，中国北京火山引擎
+#CN，中国深圳火山引擎
 AND,((IP-CIDR,118.145.200.5/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
 AND,((IP-CIDR,118.145.201.111/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
 AND,((IP-CIDR,118.145.202.252/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
@@ -22,7 +22,7 @@ AND,((IP-CIDR,118.145.205.11/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
 AND,((IP-CIDR,118.145.207.243/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
 AND,((IP-CIDR,118.145.208.203/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
 
-#东亚中国服火山引擎北京机房
+#东亚中国服火山引擎深圳机房
 
 #115.190.8.0/24
 AND,((IP-CIDR,115.190.8.32/32,no-resolve),(OR,((DEST-PORT,14001-14008),(DEST-PORT,14501-14508))),(OR,((PROTOCOL,TCP),(PROTOCOL,UDP)))),PROXY
