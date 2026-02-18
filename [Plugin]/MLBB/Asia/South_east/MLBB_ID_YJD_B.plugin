@@ -1,5 +1,5 @@
-#!name = Mobile Legends Asia/Se🇮🇩中爪哇B
-#!desc = MLBB东南亚印尼Byteplus中爪哇机房手动选择节点/禁入。用法说明：在游戏设置内（如点击大厅右上角，或对局内小地图旁的齿轮状⚙️图标，在“网络设置”一栏，第二行的“网络加速设置”栏目内的“网络加速”切换到关闭状态。
+#!name = Mobile Legends Asia/Se🇮🇩雅加达B
+#!desc = MLBB东南亚印尼Byteplus雅加达机房手动选择节点/禁入。用法说明：在游戏设置内（如点击大厅右上角，或对局内小地图旁的齿轮状⚙️图标，在“网络设置”一栏，第二行的“网络加速设置”栏目内的“网络加速”切换到关闭状态。
 #!openUrl = https://apps.apple.com/app/id1160056295
 #!author = Sign-in-or-sign-out
 #!homepage = 
@@ -13,24 +13,25 @@
 #IP登入检测:0
 
 #UDP30190PORT:13
-#ID，印尼中爪哇Byteplus
+#ID，印尼雅加达Byteplus
 AND,((IP-CIDR,69.5.0.54/32),(DEST-PORT,30190)),REJECT
 AND,((IP-CIDR,69.5.0.56/32),(DEST-PORT,30190)),REJECT
 AND,((IP-CIDR,69.5.0.152/32),(DEST-PORT,30190)),REJECT
 AND,((IP-CIDR,69.5.0.224/32),(DEST-PORT,30190)),REJECT
 AND,((IP-CIDR,69.5.0.249/32),(DEST-PORT,30190)),REJECT
-#ID，印尼中爪哇Byteplus
+#ID，印尼雅加达Byteplus
 AND,((IP-CIDR,69.5.1.163/32),(DEST-PORT,30190)),REJECT
-#ID，印尼中爪哇Byteplus
+#ID，印尼雅加达Byteplus
 AND,((IP-CIDR,69.5.2.4/32),(DEST-PORT,30190)),REJECT
 AND,((IP-CIDR,69.5.2.66/32),(DEST-PORT,30190)),REJECT
 AND,((IP-CIDR,69.5.2.79/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT
 AND,((IP-CIDR,69.5.2.177/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT
 AND,((IP-CIDR,69.5.2.238/32),(DEST-PORT,30190)),REJECT
-#ID，印尼中爪哇Byteplus
+#ID，印尼雅加达Byteplus
 AND,((IP-CIDR,69.5.3.13/32),(DEST-PORT,30190)),REJECT
 AND,((IP-CIDR,69.5.3.190/32),(DEST-PORT,30190)),REJECT
 
+#东南亚印尼Byteplus雅加达机房
 #69.5.0.0/24
 AND,((IP-CIDR,69.5.0.0/24,no-resolve),(OR,((DEST-PORT,5001-5030),(DEST-PORT,5501-5530))),(PROTOCOL,UDP)),REJECT
 IP-CIDR,69.5.0.0/32,PROXY
