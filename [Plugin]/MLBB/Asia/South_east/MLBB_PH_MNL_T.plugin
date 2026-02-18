@@ -1,5 +1,5 @@
-#!name = Mobile Legends Asia/Se🇵🇭马尼拉A
-#!desc = MLBB东南亚菲律宾阿里云马尼拉机房手动选择节点/禁入。用法说明：在游戏设置内（如点击大厅右上角，或对局内小地图旁的齿轮状⚙️图标，在“网络设置”一栏，第二行的“网络加速设置”栏目内的“网络加速”切换到关闭状态。
+#!name = Mobile Legends Asia/Se🇵🇭马尼拉T
+#!desc = MLBB东南亚菲律宾淘宝马尼拉机房手动选择节点/禁入。用法说明：在游戏设置内（如点击大厅右上角，或对局内小地图旁的齿轮状⚙️图标，在“网络设置”一栏，第二行的“网络加速设置”栏目内的“网络加速”切换到关闭状态。
 #!openUrl = https://apps.apple.com/app/id1160056295
 #!author = Sign-in-or-sign-out
 #!homepage = 
@@ -14,8 +14,9 @@
 AND,((IP-CIDR,163.181.71.18/32),(DEST-PORT,30021),(PROTOCOL,TCP)),REJECT-DROP
 AND,((IP-CIDR,163.181.71.30/32),(DEST-PORT,30021),(PROTOCOL,TCP)),REJECT-DROP
 AND,((IP-CIDR,163.181.71.35/32),(DEST-PORT,30021),(PROTOCOL,TCP)),REJECT-DROP
+
 #UDP30190PORT:16
-#PH，菲律宾马尼拉阿里云
+#PH，菲律宾马尼拉淘宝
 AND,((IP-CIDR,163.181.71.2/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT
 AND,((IP-CIDR,163.181.71.3/32),(DEST-PORT,30190)),REJECT
 AND,((IP-CIDR,163.181.71.4/32),(DEST-PORT,30190)),REJECT
@@ -37,7 +38,7 @@ AND,((IP-CIDR,163.181.71.51/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT
 AND,((IP-CIDR,163.181.71.80/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT
 AND,((IP-CIDR,163.181.71.83/32),(DEST-PORT,30190)),REJECT
 
-#东南亚菲律宾阿里云马尼拉机房
+#东南亚菲律宾淘宝马尼拉机房
 #155.102.198.0/24
 AND,((IP-CIDR,155.102.198.0/24,no-resolve),(OR,((DEST-PORT,5001-5030),(DEST-PORT,5501-5530))),(PROTOCOL,UDP)),REJECT
 IP-CIDR,155.102.198.157/32,PROXY
