@@ -1,4 +1,4 @@
-#!name = Mobile Legends Asia/Se🇮🇩H
+#!name = Mobile Legends Asia/Se🇮🇩雅加达H
 #!desc = MLBB东南亚印尼华为云雅加达机房手动选择节点/禁入。用法说明：在游戏设置内（如点击大厅右上角，或对局内小地图旁的齿轮状⚙️图标，在“网络设置”一栏，第二行的“网络加速设置”栏目内的“网络加速”切换到关闭状态。
 #!openUrl = https://apps.apple.com/app/id1160056295
 #!author = Sign-in-or-sign-out
@@ -13,12 +13,15 @@
 #IP登入检测:0
 #UDP30190PORT:6
 #ID，印度尼西亚雅加达华为云
+AND,((IP-CIDR,110.239.65.226/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
+#ID，印度尼西亚雅加达华为云
 AND,((IP-CIDR,110.239.68.105/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
 AND,((IP-CIDR,110.239.68.160/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
+#ID，印度尼西亚雅加达华为云
 AND,((IP-CIDR,110.239.91.12/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
+#ID，印度尼西亚雅加达华为云
 AND,((IP-CIDR,110.239.94.206/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
 #ID，印度尼西亚雅加达华为云
-AND,((IP-CIDR,110.239.65.226/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
 AND,((IP-CIDR,110.239.92.8/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
 
 #东南亚印尼靠谱云雅加达机房
