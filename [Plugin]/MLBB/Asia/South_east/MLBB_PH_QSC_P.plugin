@@ -1,5 +1,5 @@
-#!name = Mobile Legends Asia/Se🇵🇭马尼拉P
-#!desc = MLBB东南亚菲律宾PT_Omni马尼拉机房手动选择节点/禁入。用法说明：在游戏设置内（如点击大厅右上角，或对局内小地图旁的齿轮状⚙️图标，在“网络设置”一栏，第二行的“网络加速设置”栏目内的“网络加速”切换到关闭状态。
+#!name = Mobile Legends Asia/Se🇵🇭奎松城P
+#!desc = MLBB东南亚菲律宾PT_Omni奎松城机房手动选择节点/禁入。用法说明：在游戏设置内（如点击大厅右上角，或对局内小地图旁的齿轮状⚙️图标，在“网络设置”一栏，第二行的“网络加速设置”栏目内的“网络加速”切换到关闭状态。
 #!openUrl = https://apps.apple.com/app/id1160056295
 #!author = Sign-in-or-sign-out
 #!homepage = 
@@ -12,16 +12,16 @@
 [Rule]
 #IP登入检测:0
 #UDP30190PORT:5
-#PH，菲律宾马尼拉PT_Omni
+#PH，菲律宾奎松城PT_Omni
 AND,((IP-CIDR,45.196.133.3/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT
-#PH，菲律宾马尼拉PT_Omni
+#PH，菲律宾奎松城PT_Omni
 AND,((IP-CIDR,154.209.93.10/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT
 AND,((IP-CIDR,154.209.93.13/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT
 AND,((IP-CIDR,154.209.93.17/32),(DEST-PORT,30190)),REJECT
 AND,((IP-CIDR,154.209.93.20/32),(DEST-PORT,30190)),REJECT
 AND,((IP-CIDR,154.209.93.42/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT
 
-#东南亚菲律宾PT Omni马尼拉机房
+#东南亚菲律宾PT Omni奎松城机房
 #154.209.93.0/24
 AND,((IP-CIDR,154.209.93.0/24,no-resolve),(OR,((DEST-PORT,5001-5030),(DEST-PORT,5501-5530))),(PROTOCOL,UDP)),REJECT
 IP-CIDR,154.209.93.10/32,PROXY
@@ -56,4 +56,3 @@ IP-CIDR,154.209.93.49/32,PROXY
 
 IP-CIDR,154.209.93.113/32,PROXY
 AND,((IP-CIDR,154.209.93.0/24,no-resolve),(OR,((DEST-PORT,5001-5030),(DEST-PORT,5501-5530))),(PROTOCOL,TCP)),PROXY
-
