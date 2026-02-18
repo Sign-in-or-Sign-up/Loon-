@@ -1202,14 +1202,14 @@ DOMAIN,n98-lf-cdn-tos-ncdn.bytegecko.com,DIRECT
 DOMAIN,lf6-cdn-tos-ncdn.bytegecko.com,DIRECT
 DOMAIN,lf18-cdn-tos-ncdn.bytegecko.com,DIRECT
 DOMAIN,lf9-cdn-tos-ncdn.bytegecko.com,DIRECT
-DOMAIN,akmcdn.ml.youngjoygame.com,REJECT
+DOMAIN,akmcdn.ml.youngjoygame.com,REJECT-NO-DROP
 DOMAIN,alicdn.jsdf.moontonapp.com,REJECT
 DOMAIN,alicdn.web.moontonapp.com,REJECT
 DOMAIN,bscdn.jsdf.moontonapp.com,DIRECT
-DOMAIN,edge-txcdn.ml.youngjoygame.com,REJECT
+DOMAIN,edge-txcdn.ml.youngjoygame.com,REJECT-NO-DROP
 DOMAIN,hscdn.jsdf.moontonapp.com,DIRECT
-DOMAIN,pldtcdn.ml.youngjoygame.com,REJECT
-DOMAIN,wscdn.ml.youngjoygame.com,REJECT
+DOMAIN,pldtcdn.ml.youngjoygame.com,REJECT-NO-DROP
+DOMAIN,wscdn.ml.youngjoygame.com,REJECT-NO-DROP
 
 #国内头像
 URL-REGEX,"^https:\/\/p\d{1,2}\.douyinpic\.com\/aweme\/1080x1080\/[0-9a-f]{20}\.jpeg\?from=4010531038$",DIRECT//高清头
