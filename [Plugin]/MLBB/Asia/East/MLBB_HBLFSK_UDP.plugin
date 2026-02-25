@@ -1,0 +1,43 @@
+#!name = Mobile Legends Asia/E🇷🇺哈巴罗夫斯克UDP
+#!desc = MLBB东亚俄罗斯边缘中心哈巴罗夫斯克机房手动选择节点/禁入。用法说明：在游戏设置内（如点击大厅右上角，或对局内小地图旁的齿轮状⚙️图标，在“网络设置”一栏，第二行的“网络加速设置”栏目内的“网络加速”切换到关闭状态。
+#!openUrl = https://apps.apple.com/app/id1160056295
+#!author = Sign-in-or-sign-out
+#!homepage = 
+#!icon = 
+#!select = 
+#!input = 
+#!tag = 无尽对决东亚
+#!date = 2026-02-25 17:00:00
+
+[Rule]
+#IP登入检测:0
+#UDP30190PORT:1
+#RU俄罗斯哈巴罗夫斯克边缘中心
+AND,((IP-CIDR,92.223.80.65/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT
+AND,((IP-CIDR,92.223.80.211/32),(DEST-PORT,30190)),REJECT
+
+#东亚俄罗斯边缘中心哈巴罗夫斯克机房
+#5.188.37.0/24
+#IP-CIDR,5.188.37.120/32,PROXY
+AND,((IP-CIDR,5.188.37.120/32,no-resolve),(OR,((DEST-PORT,5001-5035),(DEST-PORT,5501-5535))),(PROTOCOL,UDP)),PROXY
+
+#5.188.38.0/24
+#IP-CIDR,5.188.38.125/32,PROXY
+AND,((IP-CIDR,5.188.38.125/32,no-resolve),(OR,((DEST-PORT,5001-5035),(DEST-PORT,5501-5535))),(PROTOCOL,UDP)),PROXY
+
+#5.188.39.0/24
+#IP-CIDR,5.188.39.250/32,PROXY
+AND,((IP-CIDR,5.188.39.250/32,no-resolve),(OR,((DEST-PORT,5001-5035),(DEST-PORT,5501-5535))),(PROTOCOL,UDP)),PROXY
+
+#东亚俄罗斯边缘中心哈巴罗夫斯克机房
+#92.223.80.0/24
+#IP-CIDR,92.223.80.65/32,PROXY
+AND,((IP-CIDR,92.223.80.65/32,no-resolve),(OR,((DEST-PORT,5001-5035),(DEST-PORT,5501-5535))),(PROTOCOL,UDP)),PROXY
+#IP-CIDR,92.223.80.211/32,PROXY
+AND,((IP-CIDR,92.223.80.211/32,no-resolve),(OR,((DEST-PORT,5001-5035),(DEST-PORT,5501-5535))),(PROTOCOL,UDP)),PROXY
+
+[MITM]
+hostname = 
+
+[Script]
+
