@@ -226,6 +226,7 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/ZC_\d{10}\/1\/etc\/_load_res\.bytes$",DIRECT//？
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/fix_hot_resource_202[5-9][01][0-9][0-3][0-9]_luhaoran\/1\/etc\/Art\/ios\/blueTowernew_high_add\.unity3d$",DIRECT//热门资源下载，地图资源
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/fix_hot_resource_202[5-9][01][0-9][0-3][0-9]_?[a-z]{4,11}\/1\/etc\/Art\/ios\/redhomeTowernew_high_add\.unity3d$",DIRECT//热门资源下载，地图资源
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/fix_v?_?[a-z]{4,13}[0-9]{0,1}_17\d{8}\/[123]\/etc\/Art\/ios\/beilanita_cityaction_CJ_skin08_add\.unity3d$",DIRECT//贝拉尼塔
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/fix_v?_?[a-z]{4,13}_17\d{8}\/[123]\/etc\/Art\/ios\/heroshow_tianmenqilin_add\.unity3d$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/fix_v?_?[a-z]{4,13}_17\d{8}\/[123]\/etc\/Art\/ios\/hero_snow_skin09_add\.unity3d$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/fix_v?_?[a-z]{4,13}_17\d{8}\/[123]\/etc\/Art\/ios\/hero_snow_skin09_high_add\.unity3d$",DIRECT//
