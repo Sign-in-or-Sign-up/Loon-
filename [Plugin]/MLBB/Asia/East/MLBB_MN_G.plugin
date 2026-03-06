@@ -1,5 +1,5 @@
-#!name = Mobile Legends Asia/E🇲🇳巴彦郭勒
-#!desc = MLBB东亚蒙古GEMNET巴彦郭勒机房手动选择节点/禁入。用法说明：在游戏设置内（如点击大厅右上角，或对局内小地图旁的齿轮状⚙️图标，在“网络设置”一栏，第二行的“网络加速设置”栏目内的“网络加速”切换到关闭状态。
+#!name = Mobile Legends Asia/E🇲🇳G
+#!desc = MLBB东亚蒙古GEMNET乌兰巴托机房手动选择节点/禁入。用法说明：在游戏设置内（如点击大厅右上角，或对局内小地图旁的齿轮状⚙️图标，在“网络设置”一栏，第二行的“网络加速设置”栏目内的“网络加速”切换到关闭状态。
 #!openUrl = https://apps.apple.com/app/id1160056295
 #!author = Sign-in-or-sign-out
 #!homepage = 
@@ -11,13 +11,15 @@
 
 [Rule]
 #IP登入检测:0
+
 #UDP30190PORT:4
-#MN，蒙古巴彦郭勒GEMNET
+#MN，蒙古乌兰巴托GEMNET
 AND,((IP-CIDR,180.149.72.7/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
 AND,((IP-CIDR,180.149.72.10/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
 AND,((IP-CIDR,180.149.72.11/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
 AND,((IP-CIDR,180.149.72.12/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT-DROP
-#东亚蒙古GEMNET巴彦郭勒机房
+
+#东亚蒙古GEMNET乌兰巴托机房
 #180.149.72.0/24
 IP-CIDR,180.149.72.5/32,PROXY
 IP-CIDR,180.149.72.6/32,PROXY
