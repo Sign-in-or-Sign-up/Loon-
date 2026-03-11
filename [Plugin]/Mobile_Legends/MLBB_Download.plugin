@@ -954,6 +954,7 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/CustomRoomMode\/\d{3}\.1\/Document\/ios\/MapMode8Win9\.unity3d$",DIRECT//其他模式
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/CustomRoomMode\/\d{3}\.1\/Document\/ios\/MapMode9Win10\.unity3d$",DIRECT//其他模式
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/CustomRoomMode\/\d{3}\.1\/Document\/ios\/PropertyAlternative_CustomRoomMode\.unity3d$",DIRECT//其他模式
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/CustomRoomMode\/\d{3}\.1\/Document\/ios\/PropertyAlternative_CustomRoomMode_native\.unity3d$",DIRECT//其他模式
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/CustomRoomMode\/\d{3}\.1\/Document\/ios\/UILanguage_CRM\.unity3d$",DIRECT//其他模式
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/CustomRoomMode\/\d{3}\.1\/UI\/ios\/CustomRoomModeuiatlas\.ini$",DIRECT//其他模式
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/CustomRoomMode\/\d{3}\.1\/UI\/ios\/Atlas_CustomRoomBg_CR\.(ini|unity3d)$",DIRECT//其他模式
@@ -1033,8 +1034,8 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/CommonRes\/\d{3}\.1\/LoadResSingleModeMd5\.bytes$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/ChessPlayerRes\/\d{3}\.1\/ModeSize\.bytes$",DIRECT//其他模式
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/ChessPlayerRes\/\d{3}\.1\/LoadResSingleModeMd5\.bytes$",DIRECT//
-URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RoguelikeMode\/\d{1,2}\.1\/ModeSize\.bytes$",DIRECT//乱序争锋？
-URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RoguelikeMode\/\d{1,2}\.1\/LoadResSingleModeMd5\.bytes$",DIRECT//乱序争锋？
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RoguelikeMode\/\d{1,3}\.1\/ModeSize\.bytes$",DIRECT//乱序争锋？
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/RoguelikeMode\/\d{1,3}\.1\/LoadResSingleModeMd5\.bytes$",DIRECT//乱序争锋？
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/SoloMode\/\d{2,3}\.1\/ModeSize\.bytes$",DIRECT//1v1模式
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/SoloMode\/\d{2,3}\.1\/LoadResSingleModeMd5\.bytes$",DIRECT//1v1模式
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/MCGG\/\d{3}\.1\/ModeSize\.bytes$",DIRECT//
@@ -1348,6 +1349,7 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/OverDriveHeroMode\/\d{3}\.1\/UI\/ios\/OverDriveHeroModeuiatlas\.ini$",DIRECT//超载模式
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/OverDriveHeroMode\/\d{3}\.1\/Audio\/ios\/bgm_ExcessHero\.2021\.bnk$",DIRECT//超载模式
 
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/PVE_DefenceMode\/\d{3}\.1\/ModeSize\.bytes$",DIRECT//防守模式
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/PVE_DefenceMode\/\d{3}\.1\/LoadResSingleModeMd5\.bytes$",DIRECT//防守模式
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/FrigidseaMode\/\d{3}\.1\/ModeSize\.bytes$",DIRECT//
 
