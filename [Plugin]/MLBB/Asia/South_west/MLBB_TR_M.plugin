@@ -1,0 +1,28 @@
+#!name = Mobile Legends Asia/Sw🇹🇷M
+#!desc = MLBB西亚土耳其Meteverse伊斯坦布尔机房手动选择节点/禁入。用法说明：在游戏设置内（如点击大厅右上角，或对局内小地图旁的齿轮状⚙️图标，在“网络设置”一栏，第二行的“网络加速设置”栏目内的“网络加速”切换到关闭状态。
+#!openUrl = https://apps.apple.com/app/id1160056295
+#!author = Sign-in-or-sign-out
+#!homepage = 
+#!icon = 
+#!select = 
+#!input = 
+#!tag = 无尽对决西亚
+#!date = 2026-02-13 19:00:00
+
+[Rule]
+#IP登入检测:0
+#AND,((IP-CIDR,0.0.0.0/32),(DEST-PORT,30021),(PROTOCOL,TCP)),REJECT
+
+#UDP30190PORT
+#TY，土耳其伊斯坦布尔Meteverse
+#AND,((IP-CIDR,0.0.0.0/32),(DEST-PORT,30190),(PROTOCOL,UDP)),REJECT
+
+#西亚土耳其Meteverse伊斯坦布尔机房
+#168.235.196.0/24
+AND,((IP-CIDR,168.235.196.0/24,no-resolve),(OR,((DEST-PORT,5001-5035),(DEST-PORT,5501-5535))),(PROTOCOL,UDP)),REJECT
+IP-CIDR,168.235.196.137/32,PROXY
+
+[MITM]
+hostname = 
+
+[Script]
