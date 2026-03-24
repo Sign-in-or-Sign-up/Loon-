@@ -10,7 +10,7 @@
 #!date = 2025-09-16 12:34:56
 
 [MITM]
-hostname = 
+hostname = api.weibo.cn,tvax1.sinaimg.cn,tvax2.sinaimg.cn,tvax3.sinaimg.cn,tvax4.sinaimg.cn,wx1.sinaimg.cn,wx2.sinaimg.cn,wx3.sinaimg.cn,wx4.sinaimg.cn
 
 [Rule]
 #WEIBO_微博#
