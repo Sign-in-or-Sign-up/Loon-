@@ -316,6 +316,7 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/ZC_\d{10}\/1\/etc\/Art\/ios\/julian_skill3_2_02_skin08_add\.unity3d$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/ZC_\d{10}\/1\/etc\/Art\/ios\/Wuzetian_cityaction_Bip002_Spine_skin03_add\.unity3d$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/ZC_\d{10}\/1\/etc\/Art\/ios\/Wuzetian_cityaction_Bone_112_skin03_add\.unity3d$",DIRECT//
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/ZC_\d{10}\/1\/etc\/Art\/ios\/Wuzetian_cityaction_Bone_141_skin03_add\.unity3d$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/ZC_\d{10}\/1\/etc\/Art\/ios\/Wuzetian_cityaction_phoenix_skin03_add\.unity3d$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/ZC_\d{10}\/1\/etc\/Art\/ios\/zzp1_julian_skill3_2_02_skin08_add\.unity3d$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/ZC_\d{10}\/1\/etc\/Art\/ios\/zzp2_facinan_cityaction_foot01_skin13_add\.unity3d$",DIRECT//
@@ -336,6 +337,9 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/ZC_\d{10}\/1\/etc\/Art\/ios\/zzp2_Vexana_cityaction_cam_skin09_add\.unity3d$",DIRECT//凡客莎娜collcet
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/ZC_\d{10}\/1\/etc\/Art\/ios\/zzp2_Vexana_cityaction_foot_tuowei_skin09_add\.unity3d$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/ZC_\d{10}\/1\/etc\/Art\/ios\/zzp2_Vexana_cityaction_foot_skin09_add\.unity3d$",DIRECT//凡客莎娜collcet
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/ZC_\d{10}\/1\/etc\/Art\/ios\/zzp2_Wuzetian_cityaction_Bone_103_skin03_add\.unity3d$",DIRECT//武则天
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/ZC_\d{10}\/1\/etc\/Art\/ios\/zzp2_Wuzetian_cityaction_Bone_141_skin03_add\.unity3d$",DIRECT//武则天
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/ZC_\d{10}\/1\/etc\/Art\/ios\/zzp2_Wuzetian_cityaction_phoenix_skin03_add\.unity3d$",DIRECT//武则天
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/ZC_\d{10}\/1\/etc\/Art\/ios\/hero_mike_skin12_add\.unity3d$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/ZC_\d{10}\/1\/etc\/Art\/ios\/FX_UI_Activity_GoldenRamadan_Exchange_kuang_add\.unity3d$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/ZC_\d{10}\/1\/etc\/Art\/ios\/zzp1_FX_UI_Activity_GoldenRamadan_Exchange_kuang_add\.unity3d$",DIRECT//
@@ -343,6 +347,7 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch
 #URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/fix_v?_?[a-z]{4,13}_17\d{8}\/[123]\/etc\/Audio\/ios\/.*?\.2021\.bnk$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/fix_x\/1\/etc\/Audio\/ios\/ui_GoldenMonth26\.2021\.bnk$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/ZC_\d{10}\/1\/etc\/Audio\/ios\/sfx_1077\.2021\.bnk$",DIRECT//
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/ZC_\d{10}\/1\/etc\/Audio\/ios\/sfx_1611\.2021\.bnk$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/ZC_\d{10}\/1\/etc\/Audio\/ios\/sfx_106110\.2021\.bnk$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/ZC_\d{10}\/1\/etc\/Audio\/ios\/show_108110\.2021\.bnk$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/fix_v?_?[a-z]{4,13}_17\d{8}\/[126]\/etc\/Document\/ios\/GameResAlternative\.unity3d$",DIRECT//
