@@ -20,6 +20,10 @@ hostname = akmpicture.youngjoygame.com
 [Rewrite]
 #新命名方式无法查看id后按服务器号倒序排序
 
+#19559
+#Ella.Diego*40，满钱才买大件，打架打不过，坑队友
+^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/19559\/41\/67\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+
 #16302
 #ᴶᵘⁿᵉ，缅甸跨服挂机的
 ^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/16302\/71\/36\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
@@ -27,6 +31,10 @@ hostname = akmpicture.youngjoygame.com
 #14848
 #格雷，纯菜逼
 ^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/14848\/63\/31\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+
+#14558
+#bugdiig shanaa，菜
+^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/14558\/79\/55\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #14315
 #台東黃曉明，🐸
@@ -64,6 +72,10 @@ hostname = akmpicture.youngjoygame.com
 #郭董//傻逼
 ^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/10018\/34\/26\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
+#8997
+#中国.boy，挂机
+^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/8997\/37\/98\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+
 #5272
 #~Puppet~，菜
 ^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/5272\/65\/89\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
@@ -87,6 +99,10 @@ hostname = akmpicture.youngjoygame.com
 #3421
 #ᏢÅᎡÅᎠϴ乂，菲猴大脑发育不良小脑完全不发育ban队友角
 ^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3421\/53\/73\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+
+#3371
+#Dustin Binsley，狗乱叫
+^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3371\/46\/16\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #3234
 #°黑色帽T°//乱斗太菜
