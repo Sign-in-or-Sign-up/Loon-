@@ -1137,8 +1137,12 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/FrigidseaMode\/\d{3}\.1\/Art\/ios\/effect_Frigidsea_gouzi_04\.unity3d$",DIRECT//冻海对决
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/FrigidseaMode\/\d{3}\.1\/Art\/ios\/zzp1_effect_Frigidsea_daojishi_01\.unity3d$",DIRECT//冻海对决
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/FrigidseaMode\/\d{3}\.1\/Art\/ios\/zzp2_effect_Frigidsea_daojishi_01\.unity3d$",DIRECT//冻海对决
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/FrigidseaMode\/\d{3}\.1\/UI\/ios\/Atlas_FrigidseaModeMap_Map_add\.unity3d$",DIRECT//冻海对决
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/FrigidseaMode\/\d{3}\.1\/UI\/ios\/Atlas_FrigidseaMode_Skill_add\.unity3d$",DIRECT//冻海对决
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/FrigidseaMode\/\d{3}\.1\/UI\/ios\/UI_BattleInfo_Task\.unity3d$",DIRECT//冻海对决
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/FrigidseaMode\/\d{3}\.1\/UI\/ios\/UI_GM_FrigidseaMode\.unity3d$",DIRECT//冻海对决
 
-URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/FrigidseaMode\/\d{3}\.1\/UI\/ios\/.*\.unity3d$",DIRECT//冻海对决
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/FrigidseaMode\/\d{3}\.1\/Scenes\/ios\/.*\.unity3d$",DIRECT//冻海对决
 
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DisOrderMode\/\d{3}\.1\/ModeSize\.bytes$",DIRECT//其他模式
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DisOrderMode\/\d{3}\.1\/LoadResSingleModeMd5\.bytes$",DIRECT
