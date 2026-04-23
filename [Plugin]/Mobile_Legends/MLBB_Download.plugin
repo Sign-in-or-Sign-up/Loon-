@@ -1120,7 +1120,25 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/FrigidseaMode\/\d{3}\.1\/Document\/ios\/TransRelation_FrigidseaMode\.unity3d$",DIRECT//冻海对决
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/FrigidseaMode\/\d{3}\.1\/Document\/ios\/UILanguage_FrigidseaMode\.unity3d$",DIRECT//冻海对决
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/FrigidseaMode\/\d{3}\.1\/Document\/ios\Unit_FrigidseaMode\.unity3d$",DIRECT//冻海对决
-URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/FrigidseaMode\/\d{3}\.1\/Art\/ios\/.*\.unity3d$",DIRECT//冻海对决
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/FrigidseaMode\/\d{3}\.1\/Art\/ios\/EGC3010_nextwar2eudora_skill03_lightning01_skin02_add\.unity3d$",DIRECT//冻海对决
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/FrigidseaMode\/\d{3}\.1\/Art\/ios\/EGC3010_zzp1_nextwar2eudora_skill03_lightning01_skin02_add\.unity3d$",DIRECT//冻海对决
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/FrigidseaMode\/\d{3}\.1\/Art\/ios\/EGC3010_zzp2_nextwar2eudora_skill03_lightning01_skin02_add\.unity3d$",DIRECT//冻海对决
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/FrigidseaMode\/\d{3}\.1\/Art\/ios\/EGC_2011_baoxiangguai_01_add\.unity3d$",DIRECT//冻海对决
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/FrigidseaMode\/\d{3}\.1\/Art\/ios\/EGC_arlott_skill03_yujing\.unity3d$",DIRECT//冻海对决
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/FrigidseaMode\/\d{3}\.1\/Art\/ios\/EGC_mon_baoxiangguai_add\.unity3d$",DIRECT//冻海对决
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/FrigidseaMode\/\d{3}\.1\/Art\/ios\/EGC_nextkuangzhanshi_dazhao_yujing_02_skin03_add\.unity3d$",DIRECT//冻海对决
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/FrigidseaMode\/\d{3}\.1\/Art\/ios\/EGC_zhanchang_xuanfeng_jiantou_add\.unity3d$",DIRECT//冻海对决
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/FrigidseaMode\/\d{3}\.1\/Art\/ios\/ML_maincity_healbox\.unity3d$",DIRECT//冻海对决
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/FrigidseaMode\/\d{3}\.1\/Art\/ios\/effect_EGC_gouzi_step01\.unity3d$",DIRECT//冻海对决
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/FrigidseaMode\/\d{3}\.1\/Art\/ios\/effect_Frigidsea_daojishi_01\.unity3d$",DIRECT//冻海对决
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/FrigidseaMode\/\d{3}\.1\/Art\/ios\/effect_Frigidsea_gouzi_02\.unity3d$",DIRECT//冻海对决
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/FrigidseaMode\/\d{3}\.1\/Art\/ios\/effect_Frigidsea_gouzi_03\.unity3d$",DIRECT//冻海对决
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/FrigidseaMode\/\d{3}\.1\/Art\/ios\/effect_Frigidsea_gouzi_04\.unity3d$",DIRECT//冻海对决
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/FrigidseaMode\/\d{3}\.1\/Art\/ios\/effect_Frigidsea_gouzi_04\.unity3d$",DIRECT//冻海对决
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/FrigidseaMode\/\d{3}\.1\/Art\/ios\/zzp1_effect_Frigidsea_daojishi_01\.unity3d$",DIRECT//冻海对决
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/FrigidseaMode\/\d{3}\.1\/Art\/ios\/zzp2_effect_Frigidsea_daojishi_01\.unity3d$",DIRECT//冻海对决
+
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/FrigidseaMode\/\d{3}\.1\/UI\/ios\/.*\.unity3d$",DIRECT//冻海对决
 
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DisOrderMode\/\d{3}\.1\/ModeSize\.bytes$",DIRECT//其他模式
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DisOrderMode\/\d{3}\.1\/LoadResSingleModeMd5\.bytes$",DIRECT
