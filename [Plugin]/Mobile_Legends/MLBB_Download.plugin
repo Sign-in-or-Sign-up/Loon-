@@ -1143,9 +1143,8 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/FrigidseaMode\/\d{3}\.1\/UI\/ios\/UI_GM_FrigidseaMode\.unity3d$",DIRECT//冻海对决
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/FrigidseaMode\/\d{3}\.1\/Scenes\/ios\/PVP_3010_add\.unity3d$",DIRECT//冻海对决
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/FrigidseaMode\/\d{3}\.1\/Scenes\/ios\/PVP_3010_low_add\.unity3d$",DIRECT//冻海对决
-
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/FrigidseaMode\/\d{3}\.1\/AStarPath\/PVP_FrigidseaMode_scene_test\.bytes$",DIRECT//冻海对决
-URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/FrigidseaMode\/\d{3}\.1\/AStarPath\/.*\.bytes$",DIRECT//冻海对决
+
 
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DisOrderMode\/\d{3}\.1\/ModeSize\.bytes$",DIRECT//其他模式
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/DisOrderMode\/\d{3}\.1\/LoadResSingleModeMd5\.bytes$",DIRECT
@@ -1194,9 +1193,8 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/SoloMode\/\d{2,3}\.1\/LoadResSingleModeMd5\.bytes$",DIRECT//1v1模式
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/MCGG\/\d{3}\.1\/ModeSize\.bytes$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/MCGG\/\d{3}\.1\/LoadResSingleModeMd5\.bytes$",DIRECT//
-URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/FrigidseaMode\/\d{2}\.1\/ModeSize\.bytes$",DIRECT//
-URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/FrigidseaMode\/\d{2}\.1\/LoadResSingleModeMd5\.bytes$",DIRECT//
-
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/FrigidseaMode\/\d{2}\.1\/ModeSize\.bytes$",DIRECT//冻海对决
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/FrigidseaMode\/\d{2}\.1\/LoadResSingleModeMd5\.bytes$",DIRECT//冻海对决
 
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/1034\.1\/Art\/ios\/avg_(bg|S3[0-9])_.*?_add\.unity3d$",DIRECT//赛季故事
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/1034\.1\/module_combine_554_[0-3]\.zip$",DIRECT//赛季故事
@@ -1506,6 +1504,10 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/PVE_DefenceMode\/\d{3}\.1\/ModeSize\.bytes$",DIRECT//防守模式
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/PVE_DefenceMode\/\d{3}\.1\/LoadResSingleModeMd5\.bytes$",DIRECT//防守模式
+URL-REGEX,"^http:\/\/(akm|edge-tx)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/PVE_DefenceMode\/117\.1\/Document\/ios\/PVE_DefenceMode\.unity3d$",DIRECT//防守模式
+URL-REGEX,"^http:\/\/(akm|edge-tx)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/PVE_DefenceMode\/117\.1\/Document\/ios\/.*\.unity3d$",DIRECT//防守模式
+
+
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/FrigidseaMode\/\d{3}\.1\/ModeSize\.bytes$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/FrigidseaMode\/\d{3}\.1\/LoadResSingleModeMd5\.bytes$",DIRECT//
 
