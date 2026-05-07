@@ -1636,6 +1636,7 @@ URL-REGEX,"^http:\/\/(akm|edge-tx)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 URL-REGEX,"^http:\/\/(akm|edge-tx)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/PVE_DefenceMode\/\d{3}\.1\/Art\/ios\/Aulus_skill01_hit\.unity3d$",DIRECT//深海围城
 URL-REGEX,"^http:\/\/(akm|edge-tx)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/PVE_DefenceMode\/\d{3}\.1\/AStarPath\/PVP_PVE_DefenceMode_scene\.bytes$",DIRECT//深海围城
 URL-REGEX,"^http:\/\/(akm|edge-tx)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/PVE_DefenceMode\/\d{3}\.1\/AStarPath\/PVP_3020_add\.bytes$",DIRECT//深海围城
+URL-REGEX,"^http:\/\/(akm|edge-tx)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/PVE_DefenceMode\/\d{3}\.1\/Audio\/ios\/sfx_LuanXuZhengFeng\.2021\.bnk$",DIRECT//深海围城
 URL-REGEX,"^http:\/\/(akm|edge-tx)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/PVE_DefenceMode\/\d{3}\.1\/Audio\/ios\/ui_Roguelike\.2021\.bnk$",DIRECT//深海围城
 URL-REGEX,"^http:\/\/(akm|edge-tx)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/PVE_DefenceMode\/\d{3}\.1\/Document\/ios\/PVE_DefenceMode\.unity3d$",DIRECT//深海围城
 URL-REGEX,"^http:\/\/(akm|edge-tx)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/PVE_DefenceMode\/\d{3}\.1\/Document\/ios\/Unit_PVE_DefenceMode\.unity3d$",DIRECT//深海围城
