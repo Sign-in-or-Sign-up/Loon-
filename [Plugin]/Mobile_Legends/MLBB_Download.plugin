@@ -1635,7 +1635,7 @@ URL-REGEX,"^http:\/\/(akm|edge-tx)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 URL-REGEX,"^http:\/\/(akm|edge-tx)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/PVE_DefenceMode\/\d{3}\.1\/Art\/ios\/Aulus_skill03_01\.unity3d$",DIRECT//深海围城
 URL-REGEX,"^http:\/\/(akm|edge-tx)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/PVE_DefenceMode\/\d{3}\.1\/Art\/ios\/Aulus_skill01_hit\.unity3d$",DIRECT//深海围城
 
-#URL-REGEX,"^http:\/\/(akm|edge-tx)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/PVE_DefenceMode\/\d{3}\.1\/AStarPath\/ios\/.*\.bytes$",DIRECT//深海围城
+URL-REGEX,"^http:\/\/(akm|edge-tx)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/PVE_DefenceMode\/\d{3}\.1\/AStarPath\/.*\.bytes$",DIRECT//深海围城
 
 URL-REGEX,"^http:\/\/(akm|edge-tx)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/PVE_DefenceMode\/\d{3}\.1\/Document\/ios\/PVE_DefenceMode\.unity3d$",DIRECT//深海围城
 URL-REGEX,"^http:\/\/(akm|edge-tx)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/PVE_DefenceMode\/\d{3}\.1\/Document\/ios\/Unit_PVE_DefenceMode\.unity3d$",DIRECT//深海围城
@@ -1674,7 +1674,22 @@ URL-REGEX,"^http:\/\/(akm|edge-tx)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 URL-REGEX,"^http:\/\/(akm|edge-tx)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/PVE_DefenceMode\/\d{3}\.1\/Document\/ios\/DropEquip_PVE_DefenceMode\.unity3d$",DIRECT//深海围城
 URL-REGEX,"^http:\/\/(akm|edge-tx)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/PVE_DefenceMode\/\d{3}\.1\/Document\/ios\/ConditionGroup_PVE_DefenceMode\.unity3d$",DIRECT//深海围城
 URL-REGEX,"^http:\/\/(akm|edge-tx)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/PVE_DefenceMode\/\d{3}\.1\/Document\/ios\/A(dd|ll)Language(Arabic|BahasaMelayu|Bangla|BurmeseU?|CNSimplified|CNTraditional|CN|Czech|Dutch|EN|French|German|Hindi|Hugarian|Indonesian|Italian|Japan|Khmer|Korean|Mongolian|NEWEN|NEWHindi|Polish|POR|Romanian|Russian|Spanish|Tagalog|Thai|Turkish|Urdu|Vietnamese)_PVE_DefenceMode\.unity3d$",DIRECT//深海围城
-URL-REGEX,"^http:\/\/(akm|edge-tx)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/PVE_DefenceMode\/\d{3}\.1\/UI\/ios\/.*\.unity3d$",DIRECT//深海围城
+URL-REGEX,"^http:\/\/(akm|edge-tx)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/PVE_DefenceMode\/\d{3}\.1\/UI\/ios\/UI_Skill_PVE_DefenceMode\.unity3d$",DIRECT//深海围城
+URL-REGEX,"^http:\/\/(akm|edge-tx)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/PVE_DefenceMode\/\d{3}\.1\/UI\/ios\/UI_Ranking_Pop_PVE_DefenceMode\.unity3d$",DIRECT//深海围城
+URL-REGEX,"^http:\/\/(akm|edge-tx)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/PVE_DefenceMode\/\d{3}\.1\/UI\/ios\/UI_PlayerInfo_PVE_DefenceMode\.unity3d$",DIRECT//深海围城
+URL-REGEX,"^http:\/\/(akm|edge-tx)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/PVE_DefenceMode\/\d{3}\.1\/UI\/ios\/UI_Main_PVE_DefenceMode\.unity3d$",DIRECT//深海围城
+URL-REGEX,"^http:\/\/(akm|edge-tx)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/PVE_DefenceMode\/\d{3}\.1\/UI\/ios\/UI_GM_PVE_DefenceMode\.unity3d$",DIRECT//深海围城
+URL-REGEX,"^http:\/\/(akm|edge-tx)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/PVE_DefenceMode\/\d{3}\.1\/UI\/ios\/UI_Clearing_PVE_DefenceMode\.unity3d$",DIRECT//深海围城
+URL-REGEX,"^http:\/\/(akm|edge-tx)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/PVE_DefenceMode\/\d{3}\.1\/UI\/ios\/UI_ClearingCurrent_PVE_DefenceMode\.unity3d$",DIRECT//深海围城
+URL-REGEX,"^http:\/\/(akm|edge-tx)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/PVE_DefenceMode\/\d{3}\.1\/UI\/ios\/UI_ClearingCurrent_Item_PVE_DefenceMode\.unity3d$",DIRECT//深海围城
+URL-REGEX,"^http:\/\/(akm|edge-tx)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/PVE_DefenceMode\/\d{3}\.1\/UI\/ios\/UI_ChooseSkill_PVE_DefenceMode\.unity3d$",DIRECT//深海围城
+URL-REGEX,"^http:\/\/(akm|edge-tx)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/PVE_DefenceMode\/\d{3}\.1\/UI\/ios\/UI_BattleInfo_PVE_DefenceMode\.unity3d$",DIRECT//深海围城
+URL-REGEX,"^http:\/\/(akm|edge-tx)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/PVE_DefenceMode\/\d{3}\.1\/UI\/ios\/Atlas_PVE_Defence_SkillRank_add\.unity3d$",DIRECT//深海围城
+URL-REGEX,"^http:\/\/(akm|edge-tx)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/PVE_DefenceMode\/\d{3}\.1\/UI\/ios\/Atlas_PVE_Defence_Main_add\.unity3d$",DIRECT//深海围城
+URL-REGEX,"^http:\/\/(akm|edge-tx)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/PVE_DefenceMode\/\d{3}\.1\/UI\/ios\/Atlas_PVE_Defence_Bg_add\.unity3d$",DIRECT//深海围城
+URL-REGEX,"^http:\/\/(akm|edge-tx)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/PVE_DefenceMode\/\d{3}\.1\/UI\/ios\/Atlas_PVE_Defence_Bg1_add\.unity3d$",DIRECT//深海围城
+URL-REGEX,"^http:\/\/(akm|edge-tx)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/PVE_DefenceMode\/\d{3}\.1\/UI\/ios\/Atlas_PVE_Defence_BattleWave_add\.unity3d$",DIRECT//深海围城
+URL-REGEX,"^http:\/\/(akm|edge-tx)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/PVE_DefenceMode\/\d{3}\.1\/UI\/ios\/Atlas_PVE_DefenceModeMap_Map_add\.unity3d$",DIRECT//深海围城
 
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/FrigidseaMode\/\d{3}\.1\/ModeSize\.bytes$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/FrigidseaMode\/\d{3}\.1\/LoadResSingleModeMd5\.bytes$",DIRECT//
