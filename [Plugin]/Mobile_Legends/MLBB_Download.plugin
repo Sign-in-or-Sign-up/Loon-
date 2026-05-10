@@ -1519,6 +1519,7 @@ URL-REGEX,"^http:\/\/(akm|edge-tx)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 URL-REGEX,"^http:\/\/(akm|edge-tx)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/PVE_DefenceMode\/\d{3}\.1\/Art\/ios\/zzp2_PVE_DefenceMode_AttSpeedSmall\.unity3d$",DIRECT//深海围城
 URL-REGEX,"^http:\/\/(akm|edge-tx)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/PVE_DefenceMode\/\d{3}\.1\/Art\/ios\/zzp2_PVE_DefenceMode_AttSpeedBig\.unity3d$",DIRECT//深海围城
 URL-REGEX,"^http:\/\/(akm|edge-tx)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/PVE_DefenceMode\/\d{3}\.1\/Art\/ios\/zzp2_PVED_xavier_skill03_warning02_skin03\.unity3d$",DIRECT//深海围城
+URL-REGEX,"^http:\/\/(akm|edge-tx)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/PVE_DefenceMode\/\d{3}\.1\/Art\/ios\/zzp2_PVED_xavier_skill03_warning02_skin03_add\.unity3d$",DIRECT//深海围城
 URL-REGEX,"^http:\/\/(akm|edge-tx)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/PVE_DefenceMode\/\d{3}\.1\/Art\/ios\/zzp2_PVED_xavier_skill03_fire02_skin03_add\.unity3d$",DIRECT//深海围城
 URL-REGEX,"^http:\/\/(akm|edge-tx)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/PVE_DefenceMode\/\d{3}\.1\/Art\/ios\/zzp2_PVED_xavier_skill03_bullet02_skin03_add\.unity3d$",DIRECT//深海围城
 URL-REGEX,"^http:\/\/(akm|edge-tx)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/PVE_DefenceMode\/\d{3}\.1\/Art\/ios\/zzp2_PVED_wuzetian_skill3_yujing_01\.unity3d$",DIRECT//深海围城
