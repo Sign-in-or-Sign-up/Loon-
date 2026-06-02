@@ -21,8 +21,12 @@ hostname = akmpicture.youngjoygame.com
 #新命名方式无法查看id后按服务器号倒序排序
 
 #19559
-#Ella.Diego*40，满钱才买大件，打架打不过，坑队友
+#Ella.Diego*40//满钱才买大件，打架打不过，坑队友
 ^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/19559\/41\/67\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+
+#19508
+#Leona Betsy*38//火焰爆弹当唯一输出
+^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/19508\/86\/74\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #17203
 #Ñh Mai mai，连体傻逼两个人一路打不过对面一个
@@ -32,13 +36,25 @@ hostname = akmpicture.youngjoygame.com
 #Ämí Öo，演员射手无伤害
 ^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/16802\/83\/93\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
+#16619
+#@mg khant'，菜
+^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/16619\/3\/4\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+
 #16302
 #ᴶᵘⁿᵉ，缅甸跨服挂机的
 ^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/16302\/71\/36\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
+#15467
+#Nov11，消极比赛一直回城
+^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/15467\/39\/39\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+
 #14848
 #格雷，纯菜逼
 ^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/14848\/63\/31\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+
+#14830
+#cemoy²//0/14不杀战绩
+^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/14830\/45\/1\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #14558
 #bugdiig shanaa，菜
@@ -87,6 +103,18 @@ hostname = akmpicture.youngjoygame.com
 #11177
 #小翁退熱貼//挂机狗
 ^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/11177\/51\/26\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+
+#10555
+#Rigs//菲🐒网不行就别跨来香港服，没点贡献还想炸鱼塘
+^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/10555\/57\/67\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+
+#10387
+#*PaLakanGtUuTiiin*//菜
+^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/10387\/95\/70\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+
+#10356
+#F ⃢◢ K ⃢◢⫎//菜
+^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/10356\/50\/91\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #10279
 #打我呀笨蛋//🐸
@@ -148,6 +176,10 @@ hostname = akmpicture.youngjoygame.com
 #Dustin Binsley，狗乱叫
 ^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3371\/46\/16\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
+#3318
+#areyn//菜
+^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3318\/28\/62\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+
 #3234
 #°黑色帽T°//乱斗太菜
 ^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3234\/24\/79\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
@@ -155,6 +187,10 @@ hostname = akmpicture.youngjoygame.com
 #3222
 #mattyy//菜鸡
 ^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3222\/4\/26\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+
+#3217
+#Gan034//菜
+^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3217\/21\/41\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #3127
 #moshi-anone//没印象，大概是菜
