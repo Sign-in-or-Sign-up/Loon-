@@ -20,11 +20,17 @@ URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3010\/4\/50\/\d
 #3016#ʙᴀᴏ ᴘʜᴀᴍ
 URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3016\/91\/58\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
+#3040#辣妹騎單車
+URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3040\/42\/98\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+
 #3083#ŸӪʚ癸燈夜行ɞ
 URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3083\/19\/83\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #3115#寂靜黑羽
 URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3115\/91\/91\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+
+#3119#浮花浪蕊✿
+URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3119\/89\/99\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #3152#孟川不是孟遺
 URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3152\/78\/9\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
@@ -41,6 +47,9 @@ URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3204\/31\/16\/\
 #3206#ナム様
 URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3206\/21\/75\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
+#3224#H̴a̷n̶k̶ˎˊ˗
+URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3224\/39\/64\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+
 #3226#凜兒
 URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3226\/39\/90\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
@@ -55,6 +64,9 @@ URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3233\/18\/81\/\
 
 #3332#Aiden
 URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3332\/67\/95\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+
+#3357#Yassibaby
+URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3357\/63\/40\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #3509#এ 河馬王 ༉
 URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3509\/31\/92\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
@@ -104,8 +116,14 @@ URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/10142\/44\/63\/
 #10236#雀躍の小蝸
 URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/10236\/2\/66\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
+#10237#Sona*
+URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/10237\/99\/2\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+
 #10238#飛天肥龍
 URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/10238\/63\/10\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+
+#10508#馬奇豕者豕者ε
+URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/10508\/12\/93\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #10520#⚽⚽⚽⚽⚽⚽
 URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/10520\/97\/30\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
@@ -128,8 +146,8 @@ URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/14709\/91\/29\/
 #15551#别卡我兵线
 URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/15551\/37\/62\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
-#15934#rafeala
-URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/15934\/80\/56\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+#16021#rafeala
+URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/16021\/36\/51\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 [MITM]
 hostname = akmpicture.youngjoygame.com
