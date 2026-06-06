@@ -96,6 +96,10 @@ hostname = akmpicture.youngjoygame.com
 #～曉實～//菜鸡
 ^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/11361\/58\/24\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
+#11289
+#全村の絕望//你拉黑我，我也拉黑你，雖然沒頭像
+^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/11289\/99\/56\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+
 #11253
 #Monsoon//挂机狗小号
 ^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/11253\/84\/91\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
@@ -140,6 +144,10 @@ hostname = akmpicture.youngjoygame.com
 #~Puppet~，菜
 ^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/5272\/65\/89\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
+#5244
+#Sry about mid only，翻脸缺道歉
+^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/5244\/27\/58\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+
 #4545
 #mcl guy//一个赛季几百场排位5胜率上不到神话
 ^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/4545\/4\/94\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
@@ -155,6 +163,10 @@ hostname = akmpicture.youngjoygame.com
 #3819
 #打我呀笨蛋//🐸
 ^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3819\/89\/35\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+
+#3698 
+#完璧に不完全//垃圾菜逼
+^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3698\/4\/70\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #3603
 #浩霸贏贏//嘴臭
@@ -192,6 +204,10 @@ hostname = akmpicture.youngjoygame.com
 #Gan034//菜
 ^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3217\/21\/41\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
+#3216
+#阿門//水货
+^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3216\/32\/89\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+
 #3127
 #moshi-anone//没印象，大概是菜
 ^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3127\/15\/51\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
@@ -208,9 +224,13 @@ hostname = akmpicture.youngjoygame.com
 #诺曼·基尼托//傻逼恶意举报
 ^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3038\/90\/49\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
-#3038
+#3011
 #BeeHex//胜率低不会玩
 ^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3011\/40\/87\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+
+#3010
+#☞Æ☜威哥™//和哭啊轉守為攻亂鬥的，後者沒頭像無法標記。做長期戰鬥心理準備
+^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3010\/49\/24\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #2783
 #I D H A R O W E//ban队友常用角抢位
