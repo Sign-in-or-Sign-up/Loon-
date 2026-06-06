@@ -47,6 +47,10 @@ DOMAIN,newlogin.ml.mlbangbang.com,PROXY
 DOMAIN,newlogin.ml.youngjoygame.com,PROXY
 #DOMAIN,ip.ml.youngjoygame.com,PROXY
 
+#切换帐号相关必须域名
+DOMAIN,api.moba5v5.com,PROXY
+DOMAIN,accountmtapi.mobilelegends.com,PROXY
+
 #保联网
 #URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/\d{4,5}\/\d{1,2}\/\d{1,2}\/\d{6,10}_\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?(_hd)?\.jpg$",DIRECT
 #URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/\d{4,5}\/\d{1,2}\/\d{1,2}\/(\d{6,10}_)?\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?_hd\.jpg$",DIRECT
