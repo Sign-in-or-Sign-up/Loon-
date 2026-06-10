@@ -27,7 +27,7 @@ URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3040\/42\/98\/\
 URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3083\/19\/83\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #3090#o肉丸子o
-URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3090\/56\/58\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+URL-REGEX,"^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/3090\/56\/58\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #3115#寂靜黑羽
 URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3115\/91\/91\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
