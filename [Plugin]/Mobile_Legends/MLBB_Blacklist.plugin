@@ -22,235 +22,235 @@ hostname = akmpicture.youngjoygame.com
 
 #19559
 #Ella.Diego*40//满钱才买大件，打架打不过，坑队友
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/19559\/41\/67\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/19559\/41\/67\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #19508
 #Leona Betsy*38//火焰爆弹当唯一输出
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/19508\/86\/74\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/19508\/86\/74\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #17203
 #Ñh Mai mai，连体傻逼两个人一路打不过对面一个
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/17203\/29\/57\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/17203\/29\/57\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #16802
 #Ämí Öo，演员射手无伤害
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/16802\/83\/93\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/16802\/83\/93\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #16619
 #@mg khant'，菜
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/16619\/3\/4\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/16619\/3\/4\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #16302
 #ᴶᵘⁿᵉ，缅甸跨服挂机的
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/16302\/71\/36\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/16302\/71\/36\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #15467
 #Nov11，消极比赛一直回城
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/15467\/39\/39\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/15467\/39\/39\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #14848
 #格雷，纯菜逼
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/14848\/63\/31\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/14848\/63\/31\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #14830
 #cemoy²//0/14不杀战绩
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/14830\/45\/1\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/14830\/45\/1\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #14558
 #bugdiig shanaa，菜
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/14558\/79\/55\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/14558\/79\/55\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #14315
 #台東黃曉明，🐸
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/14315\/73\/53\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/14315\/73\/53\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #14263
 #实力过强，五排干他
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/14263\/11\/57\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/14263\/11\/57\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #13993
 #赫文，大概是菜
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/13993\/2\/1\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/13993\/2\/1\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #13849
 #Yujin//据说排位口碑很差，很菜
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/13849\/38\/78\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/13849\/38\/78\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #12945
 #ြုု，菜
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/12945\/32\/36\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/12945\/32\/36\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #12010
 #When yahh?，脑子有病吃补血独食不给队友补
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/12010\/89\/9\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/12010\/89\/9\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #11889
 #**AttA**，菜
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/11889\/48\/97\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/11889\/48\/97\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #11814
 #>~¥ ViVi ¥~<，支付不起打信号提醒队友撤退的网费
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/11814\/12\/2\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/11814\/12\/2\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #11361
 #～曉實～//菜鸡
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/11361\/58\/24\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/11361\/58\/24\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #11289
 #全村の絕望//你拉黑我，我也拉黑你，雖然沒頭像
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/11289\/99\/56\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/11289\/99\/56\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #11253
 #Monsoon//挂机狗小号
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/11253\/84\/91\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/11253\/84\/91\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #11177
 #小翁退熱貼//挂机狗
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/11177\/51\/26\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/11177\/51\/26\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #10555
 #Rigs//菲🐒网不行就别跨来香港服，没点贡献还想炸鱼塘
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/10555\/57\/67\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/10555\/57\/67\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #10387
 #*PaLakanGtUuTiiin*//菜
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/10387\/95\/70\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/10387\/95\/70\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #10356
 #F ⃢◢ K ⃢◢⫎//菜
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/10356\/50\/91\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/10356\/50\/91\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #10279
 #打我呀笨蛋//🐸
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/10279\/3\/94\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/10279\/3\/94\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #10018
 #郭董//傻逼
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/10018\/34\/26\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/10018\/34\/26\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #8997
 #中国.boy，挂机
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/8997\/37\/98\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/8997\/37\/98\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #8704
 #Aie .，连体傻逼两个人一路还打不过一个
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/8704\/65\/51\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/8704\/65\/51\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #6054
 #Rocksai，乱斗射手1-14
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/6054\/47\/45\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/6054\/47\/45\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #5272
 #~Puppet~，菜
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/5272\/65\/89\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/5272\/65\/89\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #5244
 #Sry about mid only，翻脸缺道歉
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/5244\/27\/58\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/5244\/27\/58\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #4545
 #mcl guy//一个赛季几百场排位5胜率上不到神话
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/4545\/4\/94\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/4545\/4\/94\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #4493
 #Bo Gyi//对线0-7还一直在别人面前按回城
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/4493\/27\/97\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/4493\/27\/97\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #4365
 #█▬█_█pro//菜
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/4365\/16\/27\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/4365\/16\/27\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #3819
 #打我呀笨蛋//🐸
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3819\/89\/35\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/3819\/89\/35\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #3698 
 #完璧に不完全//垃圾菜逼
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3698\/4\/70\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/3698\/4\/70\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #3603
 #浩霸贏贏//嘴臭
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3603\/81\/10\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/3603\/81\/10\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #3524
 #₊•‿•ꕤ˚，纯菜逼
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3524\/30\/73\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/3524\/30\/73\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #3449
 #白逍遙，纯菜逼
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3449\/68\/49\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/3449\/68\/49\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #3421
 #ᏢÅᎡÅᎠϴ乂，菲猴大脑发育不良小脑完全不发育ban队友角
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3421\/53\/73\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/3421\/53\/73\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #3371
 #Dustin Binsley，狗乱叫
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3371\/46\/16\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/3371\/46\/16\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #3318
 #areyn//菜
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3318\/28\/62\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/3318\/28\/62\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #3234
 #°黑色帽T°//乱斗太菜
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3234\/24\/79\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/3234\/24\/79\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #3222
 #mattyy//菜鸡
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3222\/4\/26\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/3222\/4\/26\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #3217
 #Gan034//菜
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3217\/21\/41\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/3217\/21\/41\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #3216
 #阿門//水货
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3216\/32\/89\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/3216\/32\/89\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #3127
 #moshi-anone//没印象，大概是菜
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3127\/15\/51\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/3127\/15\/51\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #3126
 #0.01%//🐸
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3126\/74\/75\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/3126\/74\/75\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #3104
 #RedRacer909//玻璃心挂机狗
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3104\/74\/62\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/3104\/74\/62\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #3038
 #诺曼·基尼托//傻逼恶意举报
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3038\/90\/49\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/3038\/90\/49\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #3011
 #BeeHex//胜率低不会玩
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3011\/40\/87\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/3011\/40\/87\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #3010
 #☞Æ☜威哥™//和哭啊轉守為攻亂鬥的，後者沒頭像無法標記。做長期戰鬥心理準備
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3010\/49\/24\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/3010\/49\/24\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #2783
 #I D H A R O W E//ban队友常用角抢位
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/2783\/26\/40\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/2783\/26\/40\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #2730#
 #名字忘了，输不起骂人的青蛙
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/2730\/40\/32\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/2730\/40\/32\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #2123#
 #c h i ë r o，挂机
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/2123\/94\/62\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/2123\/94\/62\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #2107#
 #首次免費，举报粗口，默认头像网址抓错了
-#^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/2107\/30\/74\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+#^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/2107\/30\/74\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #2206#
 #一生〆懸命࿐
-^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\2206\/26\/92\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\2206\/26\/92\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 
 
