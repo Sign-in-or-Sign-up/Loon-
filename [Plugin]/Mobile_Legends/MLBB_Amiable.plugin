@@ -15,178 +15,178 @@
 URL-REGEX,"^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/3005\/83\/5\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #3010#甘寜排骨湯
-URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3010\/4\/50\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+URL-REGEX,"^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/3010\/4\/50\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #3016#ʙᴀᴏ ᴘʜᴀᴍ
-URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3016\/91\/58\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+URL-REGEX,"^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/3016\/91\/58\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #3040#辣妹騎單車
-URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3040\/42\/98\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+URL-REGEX,"^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/3040\/42\/98\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #3083#ŸӪʚ癸燈夜行ɞ
-URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3083\/19\/83\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+URL-REGEX,"^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/3083\/19\/83\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #3090#o肉丸子o
 URL-REGEX,"^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/3090\/56\/58\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #3115#寂靜黑羽
-URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3115\/91\/91\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+URL-REGEX,"^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/3115\/91\/91\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #3119#浮花浪蕊✿
-URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3119\/89\/99\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+URL-REGEX,"^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/3119\/89\/99\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #3133#ɢℓσяια.
-URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3133\/46\/69\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+URL-REGEX,"^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/3133\/46\/69\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #3152#孟川不是孟遺
-URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3152\/78\/9\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+URL-REGEX,"^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/3152\/78\/9\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #3171#雀躍の打工仔
-URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3171\/13\/14\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+URL-REGEX,"^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/3171\/13\/14\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #3187#じ☆ve 米比比
-URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3187\/40\/73\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+URL-REGEX,"^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/3187\/40\/73\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #3204#এ 白井裕司 ༉
-URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3204\/31\/16\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+URL-REGEX,"^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/3204\/31\/16\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #3206#ナム様
-URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3206\/21\/75\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+URL-REGEX,"^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/3206\/21\/75\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #3212#甘寧芋圓湯
-URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3212\/88\/63\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+URL-REGEX,"^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/3212\/88\/63\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #3224#H̴a̷n̶k̶ˎˊ˗
-URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3224\/39\/64\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+URL-REGEX,"^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/3224\/39\/64\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #3226#凜兒
-URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3226\/39\/90\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+URL-REGEX,"^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/3226\/39\/90\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #3227#甘寧餛飩湯
-URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3227\/19\/67\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+URL-REGEX,"^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/3227\/19\/67\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #3228#5th Yonko
-URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3228\/58\/71\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+URL-REGEX,"^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/3228\/58\/71\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #3231#꧁꧂
-URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3231\/64\/17\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+URL-REGEX,"^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/3231\/64\/17\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #3233#舞舞
-URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3233\/18\/81\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+URL-REGEX,"^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/3233\/18\/81\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #3236#ʚ宿醉還沒醒࿐
-URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3236\/11\/2\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+URL-REGEX,"^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/3236\/11\/2\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #3332#Aiden
-URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3332\/67\/95\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+URL-REGEX,"^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/3332\/67\/95\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #3357#Yassibaby
-URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3357\/63\/40\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+URL-REGEX,"^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/3357\/63\/40\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #3509#এ 河馬王 ༉
-URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3509\/31\/92\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+URL-REGEX,"^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/3509\/31\/92\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #3511#SHADOW OF THE GOD
-URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3511\/67\/44\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+URL-REGEX,"^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/3511\/67\/44\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #3562#SASIN tieuca小哥
-URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3562\/7\/48\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+URL-REGEX,"^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/3562\/7\/48\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #3673#LADY•Yukino ft HKN
-URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3673\/2\/63\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+URL-REGEX,"^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/3673\/2\/63\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #3830#ꈤꍏꋪꀍꀎꈤ
-URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3830\/53\/64\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+URL-REGEX,"^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/3830\/53\/64\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #3857#Jaxon
-URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/3857\/67\/95\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+URL-REGEX,"^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/3857\/67\/95\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #5212#隔壁克里斯
-URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/5212\/40\/18\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+URL-REGEX,"^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/5212\/40\/18\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #5213#隔壁花花
-URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/5213\/72\/86\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+URL-REGEX,"^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/5213\/72\/86\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #5278#M级狗狗
-URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/5278\/21\/4\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+URL-REGEX,"^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/5278\/21\/4\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #6307#reŋeƙơ.
-URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/6307\/47\/5\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+URL-REGEX,"^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/6307\/47\/5\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #6368#Haikyu!!
-URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/6368\/15\/98\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+URL-REGEX,"^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/6368\/15\/98\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #7240#不吃香菜✓
-URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/7240\/2\/87\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+URL-REGEX,"^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/7240\/2\/87\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #8145#ʜᴢ.
-URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/8145\/31\/66\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+URL-REGEX,"^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/8145\/31\/66\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #8421#Rainmaker
-URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/8421\/44\/13\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+URL-REGEX,"^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/8421\/44\/13\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #8939#韦神
-URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/8939\/48\/83\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+URL-REGEX,"^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/8939\/48\/83\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #10018#女神姊姊
-URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/10018\/15\/66\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+URL-REGEX,"^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/10018\/15\/66\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #10069#NLㅤ
-URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/10069\/32\/72\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+URL-REGEX,"^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/10069\/32\/72\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #10142#এ 拉基笑話 ༉
-URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/10142\/44\/63\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+URL-REGEX,"^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/10142\/44\/63\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #10143#Tomyandlisa
-URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/10143\/53\/41\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+URL-REGEX,"^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/10143\/53\/41\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #10236#雀躍の小蝸
-URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/10236\/2\/66\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+URL-REGEX,"^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/10236\/2\/66\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #10237#Sona*
-URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/10237\/99\/2\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+URL-REGEX,"^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/10237\/99\/2\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #10238#飛天肥龍
-URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/10238\/63\/10\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+URL-REGEX,"^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/10238\/63\/10\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #10241#小貓經常哭
-URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/10241\/3\/9\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+URL-REGEX,"^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/10241\/3\/9\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #10264#吳小波
-URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/10264\/81\/88\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+URL-REGEX,"^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/10264\/81\/88\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #10438#meos beobeo
-URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/10438\/17\/92\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+URL-REGEX,"^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/10438\/17\/92\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #10508#馬奇豕者豕者ε
-URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/10508\/12\/93\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+URL-REGEX,"^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/10508\/12\/93\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #10520#⚽⚽⚽⚽⚽⚽
-URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/10520\/97\/30\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+URL-REGEX,"^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/10520\/97\/30\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #10731#甘寧蛋花湯
-URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/10731\/49\/29\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+URL-REGEX,"^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/10731\/49\/29\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #10756#☆皮皮剉☆
-URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/10756\/68\/18\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+URL-REGEX,"^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/10756\/68\/18\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #11897#미카사ﾠ
-URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/11897\/56\/57\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+URL-REGEX,"^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/11897\/56\/57\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #12040#拿来吧你
-URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/12040\/58\/38\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+URL-REGEX,"^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/12040\/58\/38\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #14054#۶Tħɨɇmɨঌ
-URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/14054\/70\/54\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+URL-REGEX,"^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/14054\/70\/54\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #14709#Hi Im Bronze
-URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/14709\/91\/29\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+URL-REGEX,"^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/14709\/91\/29\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #15551#别卡我兵线
-URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/15551\/37\/62\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+URL-REGEX,"^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/15551\/37\/62\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 #16021#rafeala
-URL-REGEX,"^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/16021\/36\/51\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
+URL-REGEX,"^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/16021\/36\/51\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$",DIRECT
 
 [MITM]
 hostname = akmpicture.youngjoygame.com
