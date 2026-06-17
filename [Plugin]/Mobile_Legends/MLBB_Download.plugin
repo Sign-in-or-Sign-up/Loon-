@@ -91,6 +91,7 @@ URL-REGEX,"^http:\/\/(akm|edge-tx|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_ve
 URL-REGEX,"^http:\/\/(akm|edge-tx|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}(_high)?\/Document\/ios\/LoadResSplit(_high)?_xxh\.unity3d$",DIRECT//检查资源更新
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/LoadResSplit_new_xxh\.unity3d$",DIRECT//检查资源更新
 URL-REGEX,"^http:\/\/(akm|edge-tx|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}(_high)?\/Document\/ios\/LoadResSplit(_high)?_xxh\.unity3d$",DIRECT//检查资源更新
+URL-REGEX,"^http:\/\/(akm|edge-tx|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}(_high)?\/Document\/ios\/LoadResSplit(_high)?_xxh\.unity3d\.zip$",DIRECT//检查资源更新
 URL-REGEX,"^http:\/\/(akm|edge-tx|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}(_high)?\/Document\/ios\/LoadResSplit(_high)?_new_xxh\.unity3d\.zip$",DIRECT//检查资源更新
 URL-REGEX,"^http:\/\/(akm|edge-tx|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}(_high)?\/Document\/ios\/LoadResVar_Astc_Split(_high)?_xxh.unity3d\.zip$",DIRECT//检查资源更新
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/Document\/ios\/LoadResZipInfo_etc\.unity3d$",DIRECT//检查资源更新
@@ -1179,7 +1180,7 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/CloneImbaMode\/\d{3}\.1\/LoadResSingleModeMd5\.bytes$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/MagicChess\/\d{3}\.1\/ModeSize\.bytes$",DIRECT//其他模式
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/MagicChess\/\d{3}\.1\/LoadResSingleModeMd5\.bytes$",DIRECT//
-URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/CloneImbaOneRoadMode\/\d{3}\.1\/ModeSize\.bytes$",DIRECT//乱斗迷影
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/CloneImbaOneRoadMode\/\d{3}\.1(_high)?\/ModeSize\.bytes$",DIRECT//乱斗迷影
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/CloneImbaOneRoadMode\/\d{3}\.1\/LoadResSingleModeMd5\.bytes$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/AllStarMode\/\d{3}\.1\/ModeSize\.bytes$",DIRECT//其他模式
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/AllStarMode\/\d{3}\.1\/LoadResSingleModeMd5\.bytes$",DIRECT//
