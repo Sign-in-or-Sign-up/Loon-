@@ -246,6 +246,7 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/module_combine_283_[0-3]\.zip$",DIRECT//游戏内皮肤联动等小更新？
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/module_combine_350_0\.zip$",DIRECT//功能必备
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/module_combine_327_0\.zip$",DIRECT//功能必备?
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}(_high)?\/module_combine_337\.zip$",DIRECT//功能必备
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/module_combine_\d{3}_[01]\.zip$",DIRECT//功能必备(随时更新)
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/module_combine_4014\.zip$",DIRECT//地图资源？
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_version5\/\d{4}\.\d{1}\/module_combine_4024\.zip$",DIRECT//地图资源？
@@ -708,6 +709,7 @@ URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/fix_v?_?[a-z]{4,13}_17\d{8}\/[12]\/etc\/UI\/ios\/UI_Activity_BlockSystem02_add\.unity3d$",DIRECT//拉黑系统
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/fix_v?_?[a-z]{4,13}_17\d{8}\/[12]\/etc\/UI\/ios\/UI_Activity_herobattlepassmain_add\.unity3d$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/fix_v?_?[a-z]{4,13}_17\d{8}\/[12]\/etc\/UI\/ios\/UI_Activity_ErciyuanFour_Play05_add\.unity3d$",DIRECT//
+URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}(_high)?\/fix_v?_?[a-z]{4,13}_17\d{8}\/[12]\/etc\/UI\/ios\/UI_ChooseBasicMode\.unity3d$",DIRECT//
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/fix_v?_?[a-z]{4,13}_17\d{8}\/[12]\/etc\/UI\/ios\/UI_FlashSale_01_add\.unity3d$",DIRECT//闪销系统
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/fix_v?_?[a-z]{4,13}_17\d{8}\/[12]\/etc\/UI\/ios\/UI_ProJ_LuckydrawReward_add\.unity3d$",DIRECT//焕新之选
 URL-REGEX,"^http:\/\/(akm|pldt|ws)cdn\.ml\.youngjoygame\.com\/ios_res_mini_patch5\/\d{4}\.\d{1}\/fix_v?_?[a-z]{4,13}_17\d{8}\/[12]\/etc\/UI\/ios\/UI_RankChallenge_Achievement_add\.unity3d$",DIRECT//
