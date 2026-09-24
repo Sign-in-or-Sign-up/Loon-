@@ -28,6 +28,14 @@ hostname = akmpicture.youngjoygame.com
 #Leona Betsy*38//火焰爆弹当唯一输出
 ^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/19508\/86\/74\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
+#19043
+#Ban Sora，跨服挂机
+^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/19043\/97\/15\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+
+#17279
+#..?..，挂机
+^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/17279\/36\/21\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+
 #17203
 #Ñh Mai mai，连体傻逼两个人一路打不过对面一个
 ^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/17203\/29\/57\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
@@ -136,6 +144,10 @@ hostname = akmpicture.youngjoygame.com
 #Aie .，连体傻逼两个人一路还打不过一个
 ^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/8704\/65\/51\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
+#7214
+#24:Sad，日服右翼。看到中国旗打野拿铁罐断射手路经济，全程挂机
+^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/7214\/82\/52\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+
 #6054
 #Rocksai，乱斗射手1-14
 ^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/6054\/47\/45\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
@@ -160,12 +172,16 @@ hostname = akmpicture.youngjoygame.com
 #█▬█_█pro//菜
 ^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/4365\/16\/27\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
+#3920
+#~©aW¡Go§~™，挂机
+^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/3920\/38\/76\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+
 #3819
 #打我呀笨蛋//🐸
 ^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/3819\/89\/35\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #3795
-#jd 1 of 1，菲律宾歧视中国人
+#jd 1 of 1//菲律宾歧视中国人
 ^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/3795\/10\/78\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #3698 
@@ -187,6 +203,10 @@ hostname = akmpicture.youngjoygame.com
 #3421
 #ᏢÅᎡÅᎠϴ乂，菲猴大脑发育不良小脑完全不发育ban队友角
 ^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/3421\/53\/73\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+
+#3382
+#千里一醉，格兰杰纯攻速装对线安卓拉推不了塔
+^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/3382\/23\/97\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #3371
 #Dustin Binsley，狗乱叫
@@ -215,6 +235,10 @@ hostname = akmpicture.youngjoygame.com
 #3216
 #阿門//水货
 ^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/3216\/32\/89\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+
+#3202
+#RENSUI，死菲猴先抢fanny然后不会玩就挂机
+^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/3202\/50\/71\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #3127
 #moshi-anone//没印象，大概是菜
