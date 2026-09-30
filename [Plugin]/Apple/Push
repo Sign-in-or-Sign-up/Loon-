@@ -14,6 +14,7 @@
 DOMAIN,courier.push.apple.com,PROXY
 DOMAIN,init.push.apple.com,PROXY
 DOMAIN-KEYWORD,courier.push.apple.com,PROXY
+DOMAIN-KEYWORD,courier2.push.apple.com,PROXY
 #
 AND,((IP-CIDR,17.57.145.25/32,no-resolve),(OR,((DEST-PORT,443),(DEST-PORT,5223))),(PROTOCOL,TCP)),PROXY
 AND,((IP-CIDR,17.57.145.26/32,no-resolve),(OR,((DEST-PORT,443),(DEST-PORT,5223))),(PROTOCOL,TCP)),PROXY
