@@ -162,7 +162,7 @@ hostname = akmpicture.youngjoygame.com
 
 #4545
 #mcl guy//一个赛季几百场排位5胜率上不到神话
-^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/4545\/4\/94\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
+^https:\/\/(akmpicture\.youngjoygame\.com|akmpicture\.ml\.mproject\.skystone\.games)\/dist\/face\/4545\/16\/27\/\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$ - reject-img
 
 #4493
 #Bo Gyi//对线0-7还一直在别人面前按回城
