@@ -16,8 +16,11 @@ hostname = akmpicture.youngjoygame.com
 
 [Rewrite]
 
+#39开头的五位数服务器id
+request if ${url} ~= /^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/39\d{3}\/\d{1,2}\/\d{1,2}\/(\d{6,10}_)?\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$/ then redirect(302, "https://raw.githubusercontent.com/Sign-in-or-Sign-up/MLBB/main/face/39.jpg")
+
 #10以上开头的五位数服务器id
-request if ${url} ~= /^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/1\d{4}\/\d{1,2}\/\d{1,2}\/(\d{6,10}_)?\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$/ then redirect(302, "https://raw.githubusercontent.com/Sign-in-or-Sign-up/MLBB/main/face/1_.jpg")
+request if ${url} ~= /^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/1\d{4}\/\d{1,2}\/\d{1,2}\/(\d{6,10}_)?\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$/ then redirect(302, "https://raw.githubusercontent.com/Sign-in-or-Sign-up/MLBB/main/face/10.jpg")
 
 #1开头的四位数服务器id
 request if ${url} ~= /^https:\/\/akmpicture\.youngjoygame\.com\/dist\/face\/1\d{3}\/\d{1,2}\/\d{1,2}\/(\d{6,10}_)?\d{1,3}(_new_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})?\.jpg$/ then redirect(302, "https://raw.githubusercontent.com/Sign-in-or-Sign-up/MLBB/main/face/1.jpg")
