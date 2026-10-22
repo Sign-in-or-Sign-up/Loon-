@@ -45,7 +45,7 @@ AND,((IP-CIDR,161.202.222.112/32),(DEST-PORT,30021),(PROTOCOL,TCP)),PROXY
 DOMAIN,newlogin.ml.mlbangbang.com,PROXY
 DOMAIN,newlogin.ml.youngjoygame.com,PROXY
 #DOMAIN,login.ml.youngjoygame.com,PROXY
-DOMAIN,ip.ml.youngjoygame.com,PROXY
+#DOMAIN,ip.ml.youngjoygame.com,PROXY
 
 #切换帐号相关必须域名
 DOMAIN,api.moba5v5.com,PROXY
