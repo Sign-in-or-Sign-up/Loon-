@@ -91,7 +91,7 @@ URL-REGEX,"^https:\/\/p\d{1,2}\.douyinpic\.com",REJECT
 AND,((OR,((DEST-PORT,5051-5080),(DEST-PORT,5151-5180),(DEST-PORT,5551-5580),(DEST-PORT,5651-5680),(DEST-PORT,10051-10085))),(PROTOCOL,TCP)),REJECT
 
 [MITM]
-hostname = akmcdn.ml.youngjoygame.com,akmstatic.ml.youngjoygame.com,akmstatic.ml.mproject.skystone.games,akmpicture.youngjoygame.com,alicdn.jsdf.moontonapp.com,wsavatar.yuanzhanapp.com,wscdn.ml.youngjoygame.com,*.douyinpic.com
+hostname = akmcdn.ml.youngjoygame.com,akmstatic.ml.youngjoygame.com,akmstatic.ml.mproject.skystone.games,akmpicture.youngjoygame.com,akmpicture.ml.mproject.skystone.games,alicdn.jsdf.moontonapp.com,wsavatar.yuanzhanapp.com,wscdn.ml.youngjoygame.com,*.douyinpic.com
 
 [Rewrite]
 
