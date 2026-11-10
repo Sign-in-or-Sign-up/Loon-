@@ -32,7 +32,7 @@ URL-REGEX,"^https:\/\/api\.weibo\.cn\/2\/like\/to_me\?aid=",DIRECT//收到的赞
 URL-REGEX,"^https:\/\/api\.weibo\.cn\/2\/statuses\/repost?aid=",PROXY//转发微博
 URL-REGEX,"^https:\/\/api\.weibo\.cn\/2\/statuses\/statuses/hot_repost_timeline?_status_id=",DIRECT//热门转发
 
-URL-REGEX,"^https:\/\/api\.weibo\.cn\/2\/statuses\/container_timeline_hot\?uicode=10000495&v_f=1&v_p=91$",REJECT-DICT-NO-DROP//推荐-热门
+#URL-REGEX,"^https:\/\/api\.weibo\.cn\/2\/statuses\/container_timeline_hot\?uicode=10000495&v_f=1&v_p=91$",REJECT-DICT-NO-DROP//推荐-热门
 
 AND,((DOMAIN,api.weibo.cn),(DEST-PORT,443)),DIRECT
 #DOMAIN,api.weibo.cn,DIRECT
